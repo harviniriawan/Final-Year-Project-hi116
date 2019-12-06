@@ -243,6 +243,17 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     /* Pointer to executable function */
     funcPtr funcIndirect ;
 
+    /* Pointer to free array1-8. NOT PART OF BENCHMARK*/
+    varsize *array1Free;
+    varsize *array2Free;
+    varsize *array3Free;
+    varsize *array4Free;
+    varsize *array5Free;
+    varsize *array6Free;
+    varsize *array7Free;
+    varsize *array8Free;
+    n_int 	*RAMfileFree;
+
     /* Unused */
     argc = argc ;
     argv = argv ;
@@ -262,6 +273,8 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 
     /* Allocate some RAM for output file */
     RAMfile         = (n_int *)th_malloc( RAMfileSize * sizeof(n_int) + sizeof (varsize) ) ;
+    /* NOT PART OF BENCHMARK TO FREE RAMfile */
+    RAMfileFree = RAMfile;
     if ( RAMfile == NULL )
           th_exit( THE_OUT_OF_MEMORY, "Cannot Allocate Memory %s:%d", __FILE__,__LINE__ );
 
@@ -282,7 +295,6 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
      * and put array pointers in the table.
      *
      */
-
     dataPtrTable[0] = array1 = (varsize*)
         th_malloc( ARRAY_SIZE *sizeof( varsize ) ) ;
     dataPtrTable[1] = array2 = (varsize*)
@@ -310,6 +322,17 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     dataPtrTable[13] = array1 ;
     dataPtrTable[14] = array1 ;
     dataPtrTable[15] = array1 ;
+
+    /*assign malloced pointer to another arrayxFree NOT PART OF BENCHMARK*/
+    array1Free = array1;
+    array2Free = array2;
+    array3Free = array3;
+    array4Free = array4;
+    array5Free = array5;
+    array6Free = array6;
+    array7Free = array7;
+    array8Free = array8;
+
 
     if( ( array1 == NULL ) || ( array2 == NULL ) || ( array3 == NULL ) ||
         ( array4 == NULL ) || ( array5 == NULL ) || ( array6 == NULL ) ||
@@ -460,16 +483,32 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 #else
 	tcdef->CRC=0;
 #endif
+/* Adding free so that out of memory erro r doesn't occur */
+/* Not part of the benchmark */
+    th_free(inputToken);
+
+    th_free(array8Free);
+    th_free(array7Free);
+    th_free(array6Free);
+    th_free(array5Free);
+    th_free(array4Free);
+    th_free(array3Free);
+    th_free(array2Free);
+    th_free(array1Free);
+    /*th_free(RAMfileFree);*/
+
 
 	return	th_report_results(tcdef,EXPECTED_CRC);
 }
 
 
 /***************************************************************************/
+n_int benchIter;
 int main(int argc, const char* argv[] )
 {
 	/* initialise variable to 0 */
 	failTest = 0;
+    benchIter = 0;
 	/* Initialise platform*/
 	init_platform();
     /* Unused */
@@ -488,7 +527,7 @@ int main(int argc, const char* argv[] )
 				xil_printf("%8ld\n\r",*RAMfilePtr++);
 			}
 		} else {
-			xil_printf("Test is working just fine, continue");
+			xil_printf("Test is working just fine, continue, iteration: %8ld\n\r",benchIter++);
 		}
     }
     xil_printf("Test is finished\n\r");

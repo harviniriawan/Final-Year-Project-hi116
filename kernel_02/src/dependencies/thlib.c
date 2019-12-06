@@ -262,7 +262,8 @@ void th_exit( int exit_code, const char *fmt, ... )
 {
 	va_list args;
 	va_start( args, fmt );
-	al_printf( fmt, args );
+	/*al_printf( fmt, args );*/
+   xil_printf( fmt );
 	va_end( args );
 	al_exit(exit_code);
 }

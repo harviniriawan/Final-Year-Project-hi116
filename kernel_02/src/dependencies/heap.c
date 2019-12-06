@@ -108,6 +108,7 @@
 
 #include "eembc_dt.h"
 #include "heap.h"
+#include "xil_printf.h"
 
 #if	HAVE_MALLOC_H
 #include <stdlib.h>
@@ -675,8 +676,9 @@ void *i_malloc( size_t size, const char *file, int line )
 
    if (block == NULL)
       {
-         th_printf( "** ERROR:  Out Of memory! size=%ld %s:%d\n", size, file, line );
-         th_exit( 1, "--      :  Detected in %s:%d\n", file, line );
+         xil_printf( "** ERROR:  Out Of memory! size=%ld %s:%d\n", size, file, line );
+         /*th_exit( 1, "--      :  Detected in %s:%d\n", file, line );*/
+         th_exit( 1, "Failure" );
       }
 
    return block;
