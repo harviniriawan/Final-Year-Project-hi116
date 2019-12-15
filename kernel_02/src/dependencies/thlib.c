@@ -319,10 +319,10 @@ int	exit_code = Success;
 #endif
 
 /* Standard Log file Print Section */
-	report_info(tcdef);
+/* report_info(tcdef); */
 
 /* Standard Results Section */
-
+/*
 #if		CRC_CHECK
 xil_printf(  "--  Intrusive CRC     = %4x\n",tcdef->CRC);
 #elif	NON_INTRUSIVE_CRC_CHECK
@@ -346,7 +346,7 @@ dunion.v[0]	= tcdef->v3;
 dunion.v[1] = tcdef->v4;
 xil_printf(  "--  v3v4              = %f\n", dunion.d);
 #endif
-
+*/
 #if		FLOAT_SUPPORT
    if (tcdef -> duration > 0)
       {
@@ -363,6 +363,8 @@ xil_printf(  "--  v3v4              = %f\n", dunion.d);
 
       its_per_sec = fiterations / ( fduration / ticks_per_sec );
 
+      xil_printf(  "--  Iterations        = %5u\n", tcdef->iterations );
+		xil_printf(  "--  Target Duration   = %5u\n", tcdef->duration );
       xil_printf( "--  Iterations/Sec    = %12.3f\n", its_per_sec );
       xil_printf( "--  Total Run Time    = %12.3fsec\n", fduration / ticks_per_sec );
       xil_printf( "--  Time / Iter       = %18.9fsec\n", 1.0 / its_per_sec );
@@ -383,8 +385,35 @@ xil_printf(  "--  v3v4              = %f\n", dunion.d);
 	}
 
 if	(exit_code == SUCCESS )	xil_printf( ">> DONE!\n" );
-else						xil_printf( ">> Failure: %d\n", exit_code );
-
+else						{
+	xil_printf( ">> Failure: %d\n", exit_code );
+#if		CRC_CHECK
+xil_printf(  "--  Intrusive CRC     = %4x\n",tcdef->CRC);
+#elif	NON_INTRUSIVE_CRC_CHECK
+xil_printf(  "--  Non-Intrusive CRC = %4x\n",tcdef->CRC);
+#else
+xil_printf(  "--  No CRC check      = 0000\n");
+#endif
+xil_printf(  "--  Iterations        = %5u\n", tcdef->iterations );
+xil_printf(  "--  Target Duration   = %5u\n", tcdef->duration );
+#if		VERIFY_INT
+xil_printf(  "--  v1                = %d\n", tcdef->v1);
+xil_printf(  "--  v2                = %d\n", tcdef->v2);
+xil_printf(  "--  v3                = %d\n", tcdef->v3);
+xil_printf(  "--  v4                = %d\n", tcdef->v4);
+#endif
+#if		VERIFY_FLOAT && FLOAT_SUPPORT
+dunion.v[0]	= tcdef->v1;
+dunion.v[1] = tcdef->v2;
+xil_printf(  "--  v1v2              = %f\n", dunion.d);
+dunion.v[0]	= tcdef->v3;
+dunion.v[1] = tcdef->v4;
+xil_printf(  "--  v3v4              = %f\n", dunion.d);
+/* Match TH Regular output */
+xil_printf( ">> BM: %s\n", tcdef->desc );
+xil_printf( ">> ID: %s\n\n", tcdef->eembc_bm_id );
+#endif
+}
 	/*
 	 * user defined print information
 	 * outside fixed standard log so automated scripts still work
@@ -392,8 +421,10 @@ else						xil_printf( ">> Failure: %d\n", exit_code );
 	al_report_results();
 
 /* Match TH Regular output */
+	/*
 	xil_printf( ">> BM: %s\n", tcdef->desc );
 	xil_printf( ">> ID: %s\n\n", tcdef->eembc_bm_id );
+	*/
 
 	return	exit_code;
 }

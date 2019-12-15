@@ -486,7 +486,6 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 /* Adding free so that out of memory erro r doesn't occur */
 /* Not part of the benchmark */
     th_free(inputToken);
-
     th_free(array8Free);
     th_free(array7Free);
     th_free(array6Free);
@@ -495,7 +494,7 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     th_free(array3Free);
     th_free(array2Free);
     th_free(array1Free);
-    /*th_free(RAMfileFree);*/
+    th_free(RAMfileFree);
 
 
 	return	th_report_results(tcdef,EXPECTED_CRC);
@@ -516,21 +515,22 @@ int main(int argc, const char* argv[] )
     argv = argv ;
 	/* target specific inititialization */
 	al_main(argc, argv);
-    xil_printf("Start of Cachebuster...\n\r");
+    xil_printf(">>     Start of Cachebuster...\n\r");
     while (failTest == 0) {
     	failTest = t_run_test(&the_tcdef,argc,argv);
 		if (failTest != 0)
 		{
-			xil_printf("Test has failed, see logs\n\r");
+			xil_printf(">>     CRC check has failed at iteration %8ld, see logfile\n\r",benchIter);
+            xil_printf(">>     Dumping RAMfile information to the log...\n\r");
 			for (n_int i = 0 ; i < RAMfileSize ; i++)
 			{
 				xil_printf("%8ld\n\r",*RAMfilePtr++);
 			}
 		} else {
-			xil_printf("Test is working just fine, continue, iteration: %8ld\n\r",benchIter++);
+			xil_printf(">>   Test is working just fine, iteration: %8ld\n\r",benchIter++);
 		}
     }
-    xil_printf("Test is finished\n\r");
+    xil_printf(">>     Cachebuster test is finished\n\r");
     /*cleanup_platform();*/
     return failTest;
 }
