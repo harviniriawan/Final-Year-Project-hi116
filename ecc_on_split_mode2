@@ -1,0 +1,233 @@
+2019-12-15 08:36:19 [INFO] starting radiation experiment...
+2019-12-15 08:36:19 [INFO] configuring board...
+2019-12-15 08:36:34[INFO]: Serial port not receiving any data from host... Resetting the board2019-12-15 08:36:34 [INFO] configuring board...
+2019-12-15 08:38:56 [INFO] starting radiation experiment...
+2019-12-15 08:38:56 [INFO] configuring board...
+2019-12-15 08:39:10[INFO]: Serial port not receiving any data from host... Resetting the board2019-12-15 08:39:10 [INFO] configuring board...
+2019-12-15 09:00:11 [INFO] starting radiation experiment...
+2019-12-15 09:00:11 [INFO] configuring board...
+2019-12-15 09:00:49>>     Start of Cachebuster...
+2019-12-15 09:00:50--  Iterations        = 100000
+2019-12-15 09:00:50--  Target Duration   = 24769681
+2019-12-15 09:00:50--  Iterations/Sec    = 
+2019-12-15 09:00:50--  Total Run Time    = sec
+2019-12-15 09:00:50--  Time / Iter       = sec
+2019-12-15 09:00:50>> DONE!
+2019-12-15 09:00:50>>   Test is working just fine, iteration:        0
+2019-12-15 09:00:50--  Iterations        = 100000
+2019-12-15 09:00:50--  Target Duration   = 19504960
+2019-12-15 09:00:50--  Iterations/Sec    = 
+2019-12-15 09:00:50--  Total Run Time    = sec
+2019-12-15 09:00:50--  Time / Iter       = sec
+2019-12-15 09:00:50>> DONE!
+2019-12-15 09:00:50>>   Test is working just fine, iteration:        1
+2019-12-15 09:00:50--  Iterations        = 100000
+2019-12-15 09:00:50--  Target Duration   = 19150610
+2019-12-15 09:00:50--  Iterations/Sec    = 
+2019-12-15 09:00:50--  Total Run Time    = sec
+2019-12-15 09:00:50--  Time / Iter       = sec
+2019-12-15 09:00:50>> DONE!
+2019-12-15 09:00:50>>   Test is working just fine, iteration:        2
+2019-12-15 09:00:50--  Iterations        = 100000
+2019-12-15 09:00:50--  Target Duration   = 19151988
+2019-12-15 09:00:50--  Iterations/Sec    = 
+2019-12-15 09:00:50--  Total Run Time    = sec
+2019-12-15 09:00:50--  Time / Iter       = sec
+2019-12-15 09:00:50>> DONE!
+2019-12-15 09:00:50>>   Test is working just fine, iteration:        3
+2019-12-15 09:00:50--  Iterations        = 100000
+2019-12-15 09:00:50--  Target Duration   = 19195206
+2019-12-15 09:00:50--  Iterations/Sec    = 
+2019-12-15 09:00:50--  Total Run Time    = sec
+2019-12-15 09:00:50--  Time / Iter       = sec
+2019-12-15 09:00:50>> DONE!
+2019-12-15 09:00:50>>   Test is working just fine, iteration:        4
+2019-12-15 09:00:51--  Iterations        = 100000
+2019-12-15 09:00:51--  Target Duration   = 19085048
+2019-12-15 09:00:51--  Iterations/Sec    = 
+2019-12-15 09:00:51--  Total Run Time    = sec
+2019-12-15 09:00:51--  Time / Iter       = sec
+2019-12-15 09:00:51>> DONE!
+2019-12-15 09:00:51>>   Test is working just fine, iteration:        5
+2019-12-15 09:00:51--  Iterations        = 100000
+2019-12-15 09:00:51--  Target Duration   = 19152013
+2019-12-15 09:00:51--  Iterations/Sec    = 
+2019-12-15 09:00:51--  Total Run Time    = sec
+2019-12-15 09:00:51--  Time / Iter       = sec
+2019-12-15 09:00:51>> DONE!
+2019-12-15 09:00:51>>   Test is working just fine, iteration:        6
+2019-12-15 09:00:51--  Iterations        = 100000
+2019-12-15 09:00:51--  Target Duration   = 19150732
+2019-12-15 09:00:51--  Iterations/Sec    = 
+2019-12-15 09:00:51--  Total Run Time    = sec
+2019-12-15 09:00:51--  Time / Iter       = sec
+2019-12-15 09:00:51>> DONE!
+2019-12-15 09:00:51>>   Test is working just fine, iteration:        7
+2019-12-15 09:00:51--  Iterations        = 100000
+2019-12-15 09:00:51--  Target Duration   = 19084283
+2019-12-15 09:00:51--  Iterations/Sec    = 
+2019-12-15 09:00:51--  Total Run Time    = sec
+2019-12-15 09:00:51--  Time / Iter       = sec
+2019-12-15 09:00:51>> DONE!
+2019-12-15 09:00:51>>   Test is working just fine, iteration:        8
+2019-12-15 09:00:51--  Iterations        = 100000
+2019-12-15 09:00:51--  Target Duration   = 19504968
+2019-12-15 09:00:51--  Iterations/Sec    = 
+2019-12-15 09:00:51--  Total Run Time    = sec
+2019-12-15 09:00:51--  Time / Iter       = sec
+2019-12-15 09:00:51>> DONE!
+2019-12-15 09:00:51>>   Test is working just fine, iteration:        9
+2019-12-15 09:00:52--  Iterations        = 100000
+2019-12-15 09:00:52--  Target Duration   = 19355484
+2019-12-15 09:00:52--  Iterations/Sec    = 
+2019-12-15 09:00:52--  Total Run Time    = sec
+2019-12-15 09:00:52--  Time / Iter       = sec
+2019-12-15 09:00:52>> DONE!
+2019-12-15 09:00:52>>   Test is working just fine, iteration:       10
+2019-12-15 09:00:52--  Iterations        = 100000
+2019-12-15 09:00:52--  Target Duration   = 19087376
+2019-12-15 09:00:52--  Iterations/Sec    = 
+2019-12-15 09:00:52--  Total Run Time    = sec
+2019-12-15 09:00:52--  Time / Iter       = sec
+2019-12-15 09:00:52>> DONE!
+2019-12-15 09:00:52>>   Test is working just fine, iteration:       11
+2019-12-15 09:00:52--  Iterations        = 100000
+2019-12-15 09:00:52--  Target Duration   = 19355777
+2019-12-15 09:00:52--  Iterations/Sec    = 
+2019-12-15 09:00:52--  Total Run Time    = sec
+2019-12-15 09:00:52--  Time / Iter       = sec
+2019-12-15 09:00:52>> DONE!
+2019-12-15 09:00:52>>   Test is working just fine, iteration:       12
+2019-12-15 09:00:52--  Iterations        = 100000
+2019-12-15 09:00:52--  Target Duration   = 19150688
+2019-12-15 09:00:52--  Iterations/Sec    = 
+2019-12-15 09:00:52--  Total Run Time    = sec
+2019-12-15 09:00:52--  Time / Iter       = sec
+2019-12-15 09:00:52>> DONE!
+2019-12-15 09:00:52>>   Test is working just fine, iteration:       13
+2019-12-15 09:00:52--  Iterations        = 100000
+2019-12-15 09:00:52--  Target Duration   = 19355772
+2019-12-15 09:00:52--  Iterations/Sec    = 
+2019-12-15 09:00:52--  Total Run Time    = sec
+2019-12-15 09:00:52--  Time / Iter       = sec
+2019-12-15 09:00:52>> DONE!
+2019-12-15 09:00:52>>   Test is working just fine, iteration:       14
+2019-12-15 09:00:53--  Iterations        = 100000
+2019-12-15 09:00:53--  Target Duration   = 19150688
+2019-12-15 09:00:53--  Iterations/Sec    = 
+2019-12-15 09:00:53--  Total Run Time    = sec
+2019-12-15 09:00:53--  Time / Iter       = sec
+2019-12-15 09:00:53>> DONE!
+2019-12-15 09:00:53>>   Test is working just fine, iteration:       15
+2019-12-15 09:00:53--  Iterations        = 100000
+2019-12-15 09:00:53--  Target Duration   = 19084595
+2019-12-15 09:00:53--  Iterations/Sec    = 
+2019-12-15 09:00:53--  Total Run Time    = sec
+2019-12-15 09:00:53--  Time / Iter       = sec
+2019-12-15 09:00:53>> DONE!
+2019-12-15 09:00:53>>   Test is working just fine, iteration:       16
+2019-12-15 09:00:53--  Iterations        = 100000
+2019-12-15 09:00:53--  Target Duration   = 19150608
+2019-12-15 09:00:53--  Iterations/Sec    = 
+2019-12-15 09:00:53--  Total Run Time    = sec
+2019-12-15 09:00:53--  Time / Iter       = sec
+2019-12-15 09:00:53>> DONE!
+2019-12-15 09:00:53>>   Test is working just fine, iteration:       17
+2019-12-15 09:00:53--  Iterations        = 100000
+2019-12-15 09:00:53--  Target Duration   = 19084823
+2019-12-15 09:00:53--  Iterations/Sec    = 
+2019-12-15 09:00:53--  Total Run Time    = sec
+2019-12-15 09:00:53--  Time / Iter       = sec
+2019-12-15 09:00:53>> DONE!
+2019-12-15 09:00:53>>   Test is working just fine, iteration:       18
+2019-12-15 09:00:53--  Iterations        = 100000
+2019-12-15 09:00:53--  Target Duration   = 19152209
+2019-12-15 09:00:53--  Iterations/Sec    = 
+2019-12-15 09:00:53--  Total Run Time    = sec
+2019-12-15 09:00:53--  Time / Iter       = sec
+2019-12-15 09:00:53>> DONE!
+2019-12-15 09:00:53>>   Test is working just fine, iteration:       19
+2019-12-15 09:00:54--  Iterations        = 100000
+2019-12-15 09:00:54--  Target Duration   = 19151983
+2019-12-15 09:00:54--  Iterations/Sec    = 
+2019-12-15 09:00:54--  Total Run Time    = sec
+2019-12-15 09:00:54--  Time / Iter       = sec
+2019-12-15 09:00:54>> DONE!
+2019-12-15 09:00:54>>   Test is working just fine, iteration:       20
+2019-12-15 09:00:54--  Iterations        = 100000
+2019-12-15 09:00:54--  Target Duration   = 19150779
+2019-12-15 09:00:54--  Iterations/Sec    = 
+2019-12-15 09:00:54--  Total Run Time    = sec
+2019-12-15 09:00:54--  Time / Iter       = sec
+2019-12-15 09:00:54>> DONE!
+2019-12-15 09:00:54>>   Test is working just fine, iteration:       21
+2019-12-15 09:00:54--  Iterations        = 100000
+2019-12-15 09:00:54--  Target Duration   = 19152112
+2019-12-15 09:00:54--  Iterations/Sec    = 
+2019-12-15 09:00:54--  Total Run Time    = sec
+2019-12-15 09:00:54--  Time / Iter       = sec
+2019-12-15 09:00:54>> DONE!
+2019-12-15 09:00:54>>   Test is working just fine, iteration:       22
+2019-12-15 09:00:54--  Iterations        = 100000
+2019-12-15 09:00:54--  Target Duration   = 19152010
+2019-12-15 09:00:54--  Iterations/Sec    = 
+2019-12-15 09:00:54--  Total Run Time    = sec
+2019-12-15 09:00:54--  Time / Iter       = sec
+2019-12-15 09:00:54>> DONE!
+2019-12-15 09:00:54>>   Test is working just fine, iteration:       23
+2019-12-15 09:00:55--  Iterations        = 100000
+2019-12-15 09:00:55--  Target Duration   = 19150731
+2019-12-15 09:00:55--  Iterations/Sec    = 
+2019-12-15 09:00:55--  Total Run Time    = sec
+2019-12-15 09:00:55--  Time / Iter       = sec
+2019-12-15 09:00:55>> DONE!
+2019-12-15 09:00:55>>   Test is working just fine, iteration:       24
+2019-12-15 09:00:55--  Iterations        = 100000
+2019-12-15 09:00:55--  Target Duration   = 19086887
+2019-12-15 09:00:55--  Iterations/Sec    = 
+2019-12-15 09:00:55--  Total Run Time    = sec
+2019-12-15 09:00:55--  Time / Iter       = sec
+2019-12-15 09:00:55>> DONE!
+2019-12-15 09:00:55>>   Test is working just fine, iteration:       25
+2019-12-15 09:00:55--  Iterations        = 100000
+2019-12-15 09:00:55--  Target Duration   = 19084595
+2019-12-15 09:00:55--  Iterations/Sec    = 
+2019-12-15 09:00:55--  Total Run Time    = sec
+2019-12-15 09:00:55--  Time / Iter       = sec
+2019-12-15 09:00:55>> DONE!
+2019-12-15 09:00:55>>   Test is working just fine, iteration:       26
+2019-12-15 09:00:55--  Iterations        = 100000
+2019-12-15 09:00:55--  Target Duration   = 19209643
+2019-12-15 09:00:55--  Iterations/Sec    = 
+2019-12-15 09:00:55--  Total Run Time    = sec
+2019-12-15 09:00:55--  Time / Iter       = sec
+2019-12-15 09:00:55>> DONE!
+2019-12-15 09:00:55>>   Test is working just fine, iteration:       27
+2019-12-15 09:00:55--  Iterations        = 100000
+2019-12-15 09:00:55--  Target Duration   = 19209760
+2019-12-15 09:00:55--  Iterations/Sec    = 
+2019-12-15 09:00:55--  Total Run Time    = sec
+2019-12-15 09:00:55--  Time / Iter       = sec
+2019-12-15 09:00:55>> DONE!
+2019-12-15 09:00:55>>   Test is working just fine, iteration:       28
+2019-12-15 09:00:56--  Iterations        = 100000
+2019-12-15 09:00:56--  Target Duration   = 19150709
+2019-12-15 09:00:56--  Iterations/Sec    = 
+2019-12-15 09:00:56--  Total Run Time    = sec
+2019-12-15 09:00:56--  Time / Iter       = sec
+2019-12-15 09:00:56>> DONE!
+2019-12-15 09:00:56>>   Test is working just fine, iteration:       29
+2019-12-15 09:00:56--  Iterations        = 100000
+2019-12-15 09:00:56--  Target Duration   = 19151957
+2019-12-15 09:00:56--  Iterations/Sec    = 
+2019-12-15 09:00:56--  Total Run Time    = sec
+2019-12-15 09:00:56--  Time / Iter       = sec
+2019-12-15 09:00:56>> DONE!
+2019-12-15 09:00:56>>   Test is working just fine, iteration:       30
+2019-12-15 09:00:56--  Iterations        = 100000
+2019-12-15 09:00:56--  Target Duration   = 19209636
+2019-12-15 09:00:56--  Iterations/Sec    = 
+2019-12-15 09:00:56--  Total Run Time    = sec
+2019-12-15 09:00:56--  Time / Iter       = sec
+2019-12-15 09:00:56>> DONE!
+2019-12-15 09:00:56>>   Test is working just fine, iteration:       31
