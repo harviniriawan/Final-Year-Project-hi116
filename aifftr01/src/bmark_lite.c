@@ -167,7 +167,7 @@ n_int   tableCount ;        /* Number of passes through table */
 n_int   *RAMfileEOF;        /* points to end of RAM file */
 n_int   *inpSignal ;   /* Pointer to array of input signal data values */
 n_int   RAMfile_increment;  /* difference between varsize and n_int */
-n_int   RAMfileFree; /* NOT PART OF BENCHMARK to free RAMfile */
+n_int   *RAMfileFree; /* NOT PART OF BENCHMARK to free RAMfile */
 
 varsize realData_1[NUM_POINTS] ;    /* Points to real part of data */
 varsize realData_2[NUM_POINTS] ;    /* Points to real part of data */
