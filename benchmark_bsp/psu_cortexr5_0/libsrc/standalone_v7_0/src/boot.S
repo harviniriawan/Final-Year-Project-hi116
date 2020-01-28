@@ -247,11 +247,11 @@ OKToRun:
 	bic	r0, r0, #(0x1 << 5)		/* Generate abort on parity errors, with [5:3]=b 000*/
 	bic 	r0, r0, #(0x1 << 4)
 	bic	r0, r0, #(0x1 << 3)
-	#else DISABLE_ECC_CHECK
+	#elif DISABLE_ECC_CHECK
 	orr r0, r0, #(0x1 << 5)     /* Disable parity and ECC errors, [5:3]=b 100*/
 	bic r0, r0, #(0x1 << 4)
 	bic r0, r0, #(0x1 << 3)
-	#else HW_SILENT_CORR
+	#elif HW_SILENT_CORR
 	orr r0, r0, #(0x1 << 5)     /* Silently correct ECC errors, no aborts, [5:3]=b 101*/
 	bic r0, r0, #(0x1 << 4)
 	orr r0, r0, #(0x1 << 3)
