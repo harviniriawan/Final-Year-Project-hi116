@@ -358,6 +358,7 @@ extern "C" {
 
 /* C15 Register Defines */
 #define XREG_CP15_SEC_AUX_CTRL			"p15, 0, %0, c15,  c0, 0"
+#define XREG_CP15_CFLR                  "p15, 0, %0, c15,  c3, 0"
 
 
 
