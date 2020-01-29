@@ -240,22 +240,34 @@ OKToRun:
         orr     r0, r0, #(0x1 << 17)        	/* Enable RSDIS bit 17 to disable the return stack */
         orr     r0, r0, #(0x1 << 16)        	/* Clear BP bit 15 and set BP bit 16:*/
         bic     r0, r0, #(0x1 << 15)        	/* Branch always not taken and history table updates disabled*/
+#ifdef TCM_ECC_EN        
         orr     r0, r0, #(0x1 << 27)		/* Enable B1TCM ECC check */
         orr     r0, r0, #(0x1 << 26)		/* Enable B0TCM ECC check */
         orr     r0, r0, #(0x1 << 25)		/* Enable ATCM ECC check */
-    #ifdef CACHE_ECC_EN
+#elif TCM_ECC_OFF
+        bic     r0, r0, #(0x1 << 27)		/* disable B1TCM ECC check */
+        bic     r0, r0, #(0x1 << 26)		/* disable B0TCM ECC check */
+        bic     r0, r0, #(0x1 << 25)		/* disable ATCM ECC check */
+#endif
+#ifdef TCM_SILENT_CORR
+		mrc     p15, 0, r1, c15, c0, 0      /* read secondary auxilary control reg */
+		orr     r1, r1, #(0x1 << 2)         /* Disable ATCM ECC correction */
+		orr     r1, r1, #(0x1 << 3)         /* Disable BTCM ECC correction */
+		mcr     p15, 0, r1, c15, c0, 0      /* write secondary auxilary control reg */
+#endif
+#ifdef CACHE_ECC_EN
 	bic	r0, r0, #(0x1 << 5)		/* Generate abort on parity errors, with [5:3]=b 000*/
-	bic 	r0, r0, #(0x1 << 4)
+	bic r0, r0, #(0x1 << 4)
 	bic	r0, r0, #(0x1 << 3)
-	#elif DISABLE_ECC_CHECK
+#elif DISABLE_ECC_CHECK
 	orr r0, r0, #(0x1 << 5)     /* Disable parity and ECC errors, [5:3]=b 100*/
 	bic r0, r0, #(0x1 << 4)
 	bic r0, r0, #(0x1 << 3)
-	#elif HW_SILENT_CORR
+#elif HW_SILENT_CORR
 	orr r0, r0, #(0x1 << 5)     /* Silently correct ECC errors, no aborts, [5:3]=b 101*/
 	bic r0, r0, #(0x1 << 4)
 	orr r0, r0, #(0x1 << 3)
-	#endif
+#endif
 
         mcr     p15, 0, r0, c1, c0, 1       	/* Write ACTLR*/
 	dsb				    	/* Complete all outstanding explicit memory operations*/
