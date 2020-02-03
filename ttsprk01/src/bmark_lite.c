@@ -1315,7 +1315,7 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     tcdef->v3 = 0 ; 
     tcdef->v4 = 0 ; 
 
-
+/* CRC_CHECK ok */
 #if NON_INTRUSIVE_CRC_CHECK
 /* Final results iteration dependent */
 	tcdef->CRC=0;

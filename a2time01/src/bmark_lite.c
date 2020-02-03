@@ -1006,7 +1006,7 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     tcdef->v3 = 0 ; 
     tcdef->v4 = 0 ; 
 
-
+/* NON_INTRUSIVE_CRC_CHECK only on input stimuli */
 #if NON_INTRUSIVE_CRC_CHECK
 	tcdef->CRC=0;
 /* varsize is n_short or n_long, calc crc based on e_u32 */
@@ -1038,21 +1038,22 @@ int main(int argc, const char* argv[] )
     /* Benchmark Execution */
     while (failTest == 0) {
         failTest = t_run_test(&the_tcdef,argc,argv);
-        if (failTest != 0)
-        {
-            xil_printf(">>     CRC check has failed at iteration %8ld, see logfile\n\r",benchIter);
+        if (failTest == 0) xil_printf("%8ld\n\r",benchIter);
+        else {
+            xil_printf("%8ld\n\r",benchIter);
             xil_printf(">>     Dumping RAMfile information to the log...\n\r");
             for (n_int i = 0 ; i < RAMfileSize ; i++)
             {
                 xil_printf("%8ld\n\r",*RAMfilePtr++);
             }
-        } else {
-            th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */
-            th_free(inpAngleCount);
-            xil_printf(">>   Test is working just fine, iteration: %8ld\n\r",benchIter++);
         }
+
+        th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */
+        th_free(inpAngleCount);
+        benchIter++; /* Increment bench counter */
+        failTest = 0; /* Set failtest to 0 again to resume execution */
     }
-    xil_printf(">>      angle-to-time test is finished\n\r");
+    xil_printf(">>      angle-to-time test is out of the infinite loop\n\r");
     /*cleanup_platform();*/
     return failTest;
 } 

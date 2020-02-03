@@ -235,11 +235,11 @@
  *---------------------------------------------------------------------------*/
 
 #if	!defined(CRC_CHECK)
-#define CRC_CHECK				(TRUE)
+#define CRC_CHECK				(FALSE)
 #endif
 
 #if	!defined(NON_INTRUSIVE_CRC_CHECK)
-#define	NON_INTRUSIVE_CRC_CHECK	(FALSE)
+#define	NON_INTRUSIVE_CRC_CHECK	(TRUE)
 #endif
 
 #if		CRC_CHECK && NON_INTRUSIVE_CRC_CHECK

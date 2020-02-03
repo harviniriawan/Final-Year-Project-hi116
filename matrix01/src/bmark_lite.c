@@ -1199,7 +1199,7 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     tcdef->v2 = 0 ; 
     tcdef->v3 = 0 ; 
     tcdef->v4 = 0 ; 
-
+/*NON_INTRUSIVE_CRC_CHECK only on stimuli, not ok */
 #if NON_INTRUSIVE_CRC_CHECK
 /* Final results iteration dependent */
 	tcdef->CRC=0;

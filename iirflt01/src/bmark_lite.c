@@ -1148,7 +1148,7 @@ binaryOutHi3: 0
 
 #if NON_INTRUSIVE_CRC_CHECK
 	tcdef->CRC	= 0;
-
+/* NON_INTRUSIVE_CRC_CHECK ok */
 #if	DATA_SIZE == 1
 /* VC optimizer bug
 	tcdef->CRC	= Calc_crc32(signalOutLow1,tcdef->CRC);

@@ -700,7 +700,7 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     tcdef->v2 = 0 ; 
     tcdef->v3 = 0 ; 
     tcdef->v4 = 0 ; 
-
+/* NON_INTRUSIVE_CRC_CHECK ok */
 #if NON_INTRUSIVE_CRC_CHECK
 	tcdef->CRC=0;
 	tcdef->CRC = Calc_crc32((e_u32)arctanX1,tcdef->CRC);
