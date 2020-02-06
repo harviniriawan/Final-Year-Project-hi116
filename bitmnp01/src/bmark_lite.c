@@ -1430,17 +1430,19 @@ int main(int argc, const char* argv[] )
         failTest = t_run_test(&the_tcdef,argc,argv);
         if (failTest != 0)
         {
-            xil_printf(">>     CRC check has failed at iteration %8ld, see logfile\n\r",benchIter);
+            
             xil_printf(">>     Dumping RAMfile information to the log...\n\r");
             for (n_int i = 0 ; i < RAMfileSize ; i++)
             {
-                xil_printf("%8ld\n\r",*RAMfilePtr++);
+                xil_printf("%8d\n\r",*RAMfilePtr++);
             }
         } else {
             th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */ 
             th_free(inpNumber);
             th_free(inpMode);
-            xil_printf(">>   Test is working just fine, iteration: %8ld\n\r",benchIter++);
+            xil_printf("%20d\n\r",benchIter++);
+
+            
         }
     }
     xil_printf(">>      Bit Manipulation test is finished\n\r");

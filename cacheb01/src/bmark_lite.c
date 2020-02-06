@@ -202,6 +202,17 @@ varsize arg4 ;
 varsize arg5 ;
 varsize arg6 ;
 
+varsize *array1Free;
+varsize *array2Free;
+varsize *array3Free;
+varsize *array4Free;
+varsize *array5Free;
+varsize *array6Free;
+varsize *array7Free;
+varsize *array8Free;
+
+n_int   *RAMfileFree;
+
 /*********************************************************************************
 * FUNC	: int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 * DESC  : This is the functions that carries out the algorithm. This function
@@ -242,17 +253,6 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
     n_int i ;
     /* Pointer to executable function */
     funcPtr funcIndirect ;
-
-    /* Pointer to free array1-8. NOT PART OF BENCHMARK*/
-    varsize *array1Free;
-    varsize *array2Free;
-    varsize *array3Free;
-    varsize *array4Free;
-    varsize *array5Free;
-    varsize *array6Free;
-    varsize *array7Free;
-    varsize *array8Free;
-    n_int 	*RAMfileFree;
 
     /* Unused */
     argc = argc ;
@@ -483,20 +483,6 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 #else
 	tcdef->CRC=0;
 #endif
-/* Adding free so that out of memory error doesn't occur */
-/* Not part of the benchmark */
-    th_free(inputToken);
-    th_free(array8Free);
-    th_free(array7Free);
-    th_free(array6Free);
-    th_free(array5Free);
-    th_free(array4Free);
-    th_free(array3Free);
-    th_free(array2Free);
-    th_free(array1Free);
-    th_free(RAMfileFree);
-
-
 	return	th_report_results(tcdef,EXPECTED_CRC);
 }
 
@@ -520,14 +506,25 @@ int main(int argc, const char* argv[] )
     	failTest = t_run_test(&the_tcdef,argc,argv);
 		if (failTest != 0)
 		{
-			xil_printf(">>     CRC check has failed at iteration %8ld, see logfile\n\r",benchIter);
+			
             xil_printf(">>     Dumping RAMfile information to the log...\n\r");
 			for (n_int i = 0 ; i < RAMfileSize ; i++)
 			{
-				xil_printf("%8ld\n\r",*RAMfilePtr++);
+				xil_printf("%8d\n\r",*RAMfilePtr++);
 			}
 		} else {
-			xil_printf(">>   Test is working just fine, iteration: %8ld\n\r",benchIter++);
+                th_free(inputToken);
+                th_free(array8Free);
+                th_free(array7Free);
+                th_free(array6Free);
+                th_free(array5Free);
+                th_free(array4Free);
+                th_free(array3Free);
+                th_free(array2Free);
+                th_free(array1Free);
+                th_free(RAMfileFree);
+                xil_printf("%20d\n\r",benchIter++);
+			
 		}
     }
     xil_printf(">>     Cachebuster test is finished\n\r");

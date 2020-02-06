@@ -362,29 +362,32 @@ xil_printf(  "--  v3v4              = %f\n", dunion.d);
       ticks_per_sec = th_ticks_per_sec();
 
       its_per_sec = fiterations / ( fduration / ticks_per_sec );
-
+      /*
       xil_printf(  "--  Iterations        = %5u\n", tcdef->iterations );
 		xil_printf(  "--  Target Duration   = %5u\n", tcdef->duration );
       xil_printf( "--  Iterations/Sec    = %12.3f\n", its_per_sec );
       xil_printf( "--  Total Run Time    = %12.3fsec\n", fduration / ticks_per_sec );
       xil_printf( "--  Time / Iter       = %18.9fsec\n", 1.0 / its_per_sec );
+      */
+      
       }
 #endif
 
    /* Failure Section */
 #if		CRC_CHECK || NON_INTRUSIVE_CRC_CHECK
 	if( tcdef->CRC != Expected_CRC ){
-		xil_printf("--  Failure: Actual CRC %x, Expected CRC %x\n",tcdef->CRC,Expected_CRC);
+		xil_printf("FAILCRC%x %x",tcdef->CRC,Expected_CRC);
 		exit_code = Failure;
 	}
 #endif
 
 	if (tcdef->iterations != tcdef->rec_iterations) {
-		xil_printf("--  Failure: Actual iterations %x, Expected iterations %x\n",tcdef->iterations,tcdef->rec_iterations);
+		xil_printf("FAILITER%x %x",tcdef->iterations,tcdef->rec_iterations);
 		exit_code = Failure;
 	}
 
-if	(exit_code == SUCCESS )	xil_printf( ">> DONE!\n" );
+if	(exit_code == SUCCESS )	xil_printf( "PASS%x %x %d %d",tcdef->CRC,Expected_CRC,tcdef->iterations,tcdef->duration);
+/*
 else						{
 	xil_printf( ">> Failure: %d\n", exit_code );
 #if		CRC_CHECK
@@ -409,11 +412,13 @@ xil_printf(  "--  v1v2              = %f\n", dunion.d);
 dunion.v[0]	= tcdef->v3;
 dunion.v[1] = tcdef->v4;
 xil_printf(  "--  v3v4              = %f\n", dunion.d);
-/* Match TH Regular output */
 xil_printf( ">> BM: %s\n", tcdef->desc );
 xil_printf( ">> ID: %s\n\n", tcdef->eembc_bm_id );
 #endif
 }
+*/
+
+
 	/*
 	 * user defined print information
 	 * outside fixed standard log so automated scripts still work

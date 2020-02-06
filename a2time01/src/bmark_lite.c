@@ -1038,20 +1038,18 @@ int main(int argc, const char* argv[] )
     /* Benchmark Execution */
     while (failTest == 0) {
         failTest = t_run_test(&the_tcdef,argc,argv);
-        if (failTest == 0) xil_printf("%8ld\n\r",benchIter);
-        else {
-            xil_printf("%8ld\n\r",benchIter);
+        if (failTest != 0)
+        {
             xil_printf(">>     Dumping RAMfile information to the log...\n\r");
             for (n_int i = 0 ; i < RAMfileSize ; i++)
             {
-                xil_printf("%8ld\n\r",*RAMfilePtr++);
+                xil_printf("%8d\n\r",*RAMfilePtr++);
             }
+        } else {
+            th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */ 
+            th_free(inpAngleCount);
+            xil_printf("%20d\n\r",benchIter++);
         }
-
-        th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */
-        th_free(inpAngleCount);
-        benchIter++; /* Increment bench counter */
-        failTest = 0; /* Set failtest to 0 again to resume execution */
     }
     xil_printf(">>      angle-to-time test is out of the infinite loop\n\r");
     /*cleanup_platform();*/
