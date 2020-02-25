@@ -68,3 +68,20 @@ if {$argc != 4} {
 	targets -set -nocase -filter {name =~"*R5*0" && jtag_cable_name =~ "Avnet USB-to-JTAG/UART Pod V1 1234-oj1A"} -index 1
 	con
 }
+
+puts "WRITE TO PMU MASK REG_EN"
+# CCF
+mwr -force 0xffd80538 [expr 1<<9]
+# DDR
+mwr -force 0xffd80538 1
+
+# Disable OCM, XMPU and XPPU Error
+puts "WRITE TO PMU MASK REG DIS"
+mwr -force 0xFFD8053C [expr 1<<25]
+mwr -force 0xFFD8053C [expr 1<<24]
+mwr -force 0xFFD8053C [expr 1<<1]
+
+puts "WRITE TO RPU0_IEN"
+mwr -force 0xff9a011c 0x1fffe
+
+puts "DONE CONFIG"
