@@ -31,8 +31,6 @@
 /* Change for every benchmark */
 #define BENCH_START 0x2b0
 #define BENCH_END 0xfac
-/* Uncomment this define when running test with ECC */
-#define NO_ECC
 
 XScuGic GicInst;
 XIpiPsu IpiInst;
@@ -45,6 +43,7 @@ static XStatus SetupInterruptSystem(XScuGic *IntcInstancePtr,XIpiPsu *IpiInstanc
 static XStatus DoIpiTest(XIpiPsu *InstancePtr,u32 corrupted_addr, u32 bits_mask, u32 shift);
 float get_probability(u32 th);
 u32 get_number_of_ones(u32 num);
+u32 bits_to_shift(u32 mask);
 int uniform_distribution(int rangeLow, int rangeHigh);
 
 int main()
@@ -86,9 +85,6 @@ int main()
 		usleep_R5(SAMPLE_PERIOD);
 		Samp_prob = get_probability(UPPER_LIM);
 		mask = 0;
-		/* Pick which byte to corrupt, from 0 to 3 */
-		byteCorr = uniform_distribution(0,3);
-		shift = byteCorr * 8;
 		/* Pick an address to be corrupted */
 		/* Benchmark Specific */
 		corrAddr = uniform_distribution(BENCH_START,BENCH_END);
@@ -100,57 +96,30 @@ int main()
 		if (Samp_prob < THREE_BITS_ERROR_TH){
 			/* Pick bit positions to corrupt, from 0 to 3 */
 			do {
-			#ifndef NO_ECC
-				tempMask = 1;
-				pos = uniform_distribution(0,3);
-				tempMask <<= pos;
-				mask |= tempMask;
-			#else
 				tempMask = 1;
 				pos = uniform_distribution(0,31);
 				tempMask <<= pos;
 				mask |= tempMask;
-			#endif
 			} while (get_number_of_ones(mask) < 3);
 
 		} else if (Samp_prob < TWO_BITS_ERROR_TH){
 			do {
-				#ifndef NO_ECC
-					tempMask = 1;
-					pos = uniform_distribution(0,3);
-					tempMask <<= pos;
-					mask |= tempMask;
-				#else
-					tempMask = 1;
-					pos = uniform_distribution(0,31);
-					tempMask <<= pos;
-					mask |= tempMask;
-				#endif
+				tempMask = 1;
+				pos = uniform_distribution(0,31);
+				tempMask <<= pos;
+				mask |= tempMask;
+
 			} while (get_number_of_ones(mask) < 2);
 
-			/*xil_printf("Double bit corruption...\r\n");*/
-
 		} else if (Samp_prob < ONE_BITS_ERROR_TH){
-				#ifndef NO_ECC
-					tempMask = 1;
-					pos = uniform_distribution(0,3);
-					tempMask <<= pos;
-					mask |= tempMask;
-				#else
-					tempMask = 1;
-					pos = uniform_distribution(0,31);
-					tempMask <<= pos;
-					mask |= tempMask;
-				#endif
+			tempMask = 1;
+			pos = uniform_distribution(0,31);
+			tempMask <<= pos;
+			mask |= tempMask;
 		}
 
 		if (Samp_prob < ONE_BITS_ERROR_TH){
-			/* Shift the mask to the byte to be corrupted */
-			#ifndef NO_ECC
-			mask <<= shift;
-			#else
-			shift = 0xDEADBEEF;
-			#endif
+			shift = bits_to_shift(mask);
 			Status = DoIpiTest(&IpiInst, corrAddr, mask, shift);
 			if (Status != XST_SUCCESS){
 				xil_printf("WRONG!\r\n");
@@ -159,21 +128,34 @@ int main()
 		}
 	}
 
-
     cleanup_platform();
     return 0;
 
 }
 
+/* From the mask, find out which bytes are not corrupted, and shift to that byte */
+u32 bits_to_shift(u32 mask)
+{
+	u32 bits;
+	for(u32 i=0; i<4; i++)
+    {
+
+        if((mask & 0xFF) == 0x0){
+            bits = i;
+            break;
+        }
+
+        mask>>=8;
+    }
+
+    return bits*8;
+
+}
+
 u32 get_number_of_ones(u32 num)
 {
-	u32 ones = 0;
-	u32 upper;
-#ifdef NO_ECC
-	upper = 32;
-#else
-	upper = 4;
-#endif
+	u32 ones  = 0;
+	u32 upper = 32;
 
    for(u32 i=0; i<upper; i++)
     {
@@ -265,12 +247,7 @@ static XStatus DoIpiTest(XIpiPsu *InstancePtr,u32 corrupted_addr, u32 bits_mask,
 	MsgBuffer[0] = corrupted_addr;
 	MsgBuffer[1] = bits_mask;
 	MsgBuffer[2] = shift;
-/* Irrelevant if we are not using ECC scheme */
-#ifndef NO_ECC
-	MsgBuffer[3] = get_number_of_ones(bits_mask>>=shift);
-#else
-	MsgBuffer[3] = 0xDEADBEEF;
-#endif
+	MsgBuffer[3] = get_number_of_ones(bits_mask);
 
 	/**
 	 * Send a Message to TEST_TARGET and WAIT for ACK
