@@ -15,7 +15,7 @@ BEGIN PROCESSOR
  PARAMETER DRIVER_NAME = cpu_cortexr5
  PARAMETER DRIVER_VER = 1.5
  PARAMETER HW_INSTANCE = psu_cortexr5_0
- PARAMETER extra_compiler_flags = -g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -DDEBUG
+ PARAMETER extra_compiler_flags = -g -DARMR5 -DDEBUG -DDISABLE_ECC_CHECK -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16
 END
 
 

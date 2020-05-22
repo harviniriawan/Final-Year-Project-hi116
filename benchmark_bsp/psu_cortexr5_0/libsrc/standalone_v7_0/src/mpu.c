@@ -223,7 +223,7 @@ void Init_MPU(void)
 	/* 256K of OCM RAM from 0xFFFC0000 to 0xFFFFFFFF marked as normal memory */
 	Addr = 0xFFFC0000U;
 	RegSize = REGION_256K;
-	Attrib = NORM_NSHARED_WB_WA| PRIV_RW_USER_RW  ;
+	Attrib = NORM_SHARED_WB_WA| PRIV_RW_USER_RW  ;
 	Xil_SetAttribute(Addr,RegSize,RegNum, Attrib);
 
 	/* A total of 10 MPU regions are allocated with another 6 being free for users */

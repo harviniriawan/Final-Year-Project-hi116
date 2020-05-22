@@ -10,8 +10,8 @@
 /*                                                                 */
 /*******************************************************************/
 
-_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x4000;
-_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x400000;
+_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x2000;
+_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x2000;
 
 _ABORT_STACK_SIZE = DEFINED(_ABORT_STACK_SIZE) ? _ABORT_STACK_SIZE : 1024;
 _SUPERVISOR_STACK_SIZE = DEFINED(_SUPERVISOR_STACK_SIZE) ? _SUPERVISOR_STACK_SIZE : 2048;
@@ -26,7 +26,7 @@ MEMORY
    psu_ocm_ram_0_MEM_0 : ORIGIN = 0xFFFC0000, LENGTH = 0x40000
    psu_r5_0_atcm_MEM_0 : ORIGIN = 0x0, LENGTH = 0x10000
    psu_r5_0_btcm_MEM_0 : ORIGIN = 0x20000, LENGTH = 0x10000
-   psu_r5_ddr_0_MEM_0 : ORIGIN = 0x100000, LENGTH = 0x7FE00000
+   psu_r5_ddr_0_MEM_0 : ORIGIN = 0x100000, LENGTH = 0xF00000
    psu_r5_tcm_ram_0_MEM_0 : ORIGIN = 0x0, LENGTH = 0x40000
 }
 
@@ -55,7 +55,7 @@ SECTIONS
    *(.vfp11_veneer)
    *(.ARM.extab)
    *(.gnu.linkonce.armextab.*)
-} > psu_r5_ddr_0_MEM_0
+} > psu_r5_0_btcm_MEM_0
 
 .init : {
    KEEP (*(.init))
@@ -296,7 +296,5 @@ _SDA2_BASE_ = __sdata2_start + ((__sbss2_end - __sdata2_start) / 2 );
 } > psu_r5_ddr_0_MEM_0
 
 _end = .;
-__end__ = _end;
-end = _end;
 }
 

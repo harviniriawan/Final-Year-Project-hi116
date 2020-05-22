@@ -31,11 +31,8 @@
 								<option id="xilinx.gnu.compiler.misc.other.1479178436" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16" valueType="string"/>
 								<option id="xilinx.gnu.compiler.symbols.defined.1903262423" name="Defined symbols (-D)" superClass="xilinx.gnu.compiler.symbols.defined" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARMR5"/>
-									<listOptionValue builtIn="false" value="DEBUG"/>
 								</option>
-								<option id="xilinx.gnu.compiler.dircategory.includes.1724142944" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/dependencies}&quot;"/>
-								</option>
+								<option id="xilinx.gnu.compiler.dircategory.includes.1724142944" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes"/>
 								<inputType id="xilinx.gnu.arm.r5.c.compiler.input.1633989389" name="C source files" superClass="xilinx.gnu.arm.r5.c.compiler.input"/>
 							</tool>
 							<tool id="xilinx.gnu.arm.r5.cxx.toolchain.compiler.debug.882863889" name="ARM R5 g++ compiler" superClass="xilinx.gnu.arm.r5.cxx.toolchain.compiler.debug">
@@ -54,11 +51,9 @@
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
 								</option>
 								<option id="xilinx.gnu.c.linker.option.lscript.885495039" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
-								<option id="xilinx.gnu.c.link.option.ldflags.914066511" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 --specs=rdimon.specs" valueType="string"/>
-								<option id="xilinx.gnu.c.link.option.paths.1593032151" superClass="xilinx.gnu.c.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src/dependencies}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\Xilinx\SDK\2019.1\gnu\armr5\nt\gcc-arm-none-eabi\arm-none-eabi\lib\thumb\v7+fp\hard&quot;"/>
-								</option>
+								<option id="xilinx.gnu.c.link.option.ldflags.914066511" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 --specs=nano.specs" valueType="string"/>
+								<option id="xilinx.gnu.c.link.option.paths.1593032151" name="Library search path (-L)" superClass="xilinx.gnu.c.link.option.paths"/>
+								<option id="xilinx.gnu.c.link.option.nodeflibs.1001266218" name="Do not use default libraries (-nodefaultlibs)" superClass="xilinx.gnu.c.link.option.nodeflibs" value="true" valueType="boolean"/>
 								<inputType id="xilinx.gnu.linker.input.1241637609" superClass="xilinx.gnu.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>

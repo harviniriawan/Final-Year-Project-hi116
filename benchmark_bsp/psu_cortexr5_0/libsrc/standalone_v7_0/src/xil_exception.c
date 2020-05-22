@@ -62,7 +62,6 @@
 #include "xil_exception.h"
 #include "xpseudo_asm.h"
 #include "xdebug.h"
-#include "xil_printf.h"
 /************************** Constant Definitions ****************************/
 
 /**************************** Type Definitions ******************************/
@@ -260,7 +259,7 @@ void Xil_ExceptionRemoveHandler(u32 Exception_id)
 
 void Xil_SyncAbortHandler(void *CallBackRef){
 	(void) CallBackRef;
-	xil_printf("Synchronous abort \n");
+	xdbg_printf(XDBG_DEBUG_ERROR, "Synchronous abort \n");
 	while(1) {
 		;
 	}
@@ -281,7 +280,7 @@ void Xil_SyncAbortHandler(void *CallBackRef){
 ****************************************************************************/
 void Xil_SErrorAbortHandler(void *CallBackRef){
 	(void) CallBackRef;
-	xil_printf("Synchronous abort \n");
+	xdbg_printf(XDBG_DEBUG_ERROR, "Synchronous abort \n");
 	while(1) {
 		;
 	}
@@ -303,30 +302,21 @@ void Xil_SErrorAbortHandler(void *CallBackRef){
 
 void Xil_DataAbortHandler(void *CallBackRef){
 	(void) CallBackRef;
-/*#ifdef DEBUG*/
+#ifdef DEBUG
 	u32 FaultStatus;
-	u32 AuxFaultStatus;
-	u32 CFaultStatus;
 
-        xil_printf("Data abort \n");
+        xdbg_printf(XDBG_DEBUG_ERROR, "Data abort \n");
         #ifdef __GNUC__
 	FaultStatus = mfcp(XREG_CP15_DATA_FAULT_STATUS);
 	    #elif defined (__ICCARM__)
 	        mfcp(XREG_CP15_DATA_FAULT_STATUS,FaultStatus);
 	    #else
 	        { volatile register u32 Reg __asm(XREG_CP15_DATA_FAULT_STATUS);
-	        FaultStatus = Reg; 
-	    	  volatile register u32 Reg1 __asm(XREG_CP15_AUX_DATA_FAULT_STATUS);
-	    	AuxFaultStatus = Reg1;
-	    	  volatile register u32 Reg2 __asm(XREG_CP15_CFLR);
-	    	CFaultStatus = Reg2;
-	    	}
+	        FaultStatus = Reg; }
 	    #endif
-	xil_printf("Data abort with Data Fault Status Register  %lx\n",FaultStatus);
-	xil_printf("Data abort with Auxillary Data Fault Status Register  %lx\n",AuxFaultStatus);
-	xil_printf("Data abort with Correctable Fault Status Register  %lx\n",CFaultStatus);
-	xil_printf("Address of Instruction causing Data abort %lx\n",DataAbortAddr);
-/*#endif*/
+	xdbg_printf(XDBG_DEBUG_GENERAL, "Data abort with Data Fault Status Register  %lx\n",FaultStatus);
+	xdbg_printf(XDBG_DEBUG_GENERAL, "Address of Instruction causing Data abort %lx\n",DataAbortAddr);
+#endif
 	while(1) {
 		;
 	}
@@ -347,30 +337,21 @@ void Xil_DataAbortHandler(void *CallBackRef){
 ****************************************************************************/
 void Xil_PrefetchAbortHandler(void *CallBackRef){
 	(void) CallBackRef;
-/*#ifdef DEBUG*/
+#ifdef DEBUG
 	u32 FaultStatus;
-	u32 AuxFaultStatus;
-	u32 CFaultStatus;
 
-    xil_printf("Prefetch abort \n");
+    xdbg_printf(XDBG_DEBUG_ERROR, "Prefetch abort \n");
         #ifdef __GNUC__
 	FaultStatus = mfcp(XREG_CP15_INST_FAULT_STATUS);
 	    #elif defined (__ICCARM__)
 			mfcp(XREG_CP15_INST_FAULT_STATUS,FaultStatus);
 	    #else
 			{ volatile register u32 Reg __asm(XREG_CP15_INST_FAULT_STATUS);
-			FaultStatus = Reg;
-	    	  volatile register u32 Reg1 __asm(XREG_CP15_AUX_INST_FAULT_STATUS);
-	    	AuxFaultStatus = Reg1;
-	    	  volatile register u32 Reg2 __asm(XREG_CP15_CFLR);
-	    	CFaultStatus = Reg2;
-	    	}
+			FaultStatus = Reg; }
 		#endif
-	xil_printf("Prefetch abort with Instruction Fault Status Register  %lx\n",FaultStatus);
-	xil_printf("Prefetch abort with Auxillary Instruction Fault Status Register  %lx\n",AuxFaultStatus);
-	xil_printf("Data abort with Correctable Fault Status Register  %lx\n",CFaultStatus);
-	xil_printf("Address of Instruction causing Prefetch abort %lx\n",PrefetchAbortAddr);
-/*#endif*/
+	xdbg_printf(XDBG_DEBUG_GENERAL, "Prefetch abort with Instruction Fault Status Register  %lx\n",FaultStatus);
+	xdbg_printf(XDBG_DEBUG_GENERAL, "Address of Instruction causing Prefetch abort %lx\n",PrefetchAbortAddr);
+#endif
 	while(1) {
 		;
 	}
@@ -390,7 +371,7 @@ void Xil_PrefetchAbortHandler(void *CallBackRef){
 ****************************************************************************/
 void Xil_UndefinedExceptionHandler(void *CallBackRef){
 	(void) CallBackRef;
-	xil_printf("Address of the undefined instruction %lx\n",UndefinedExceptionAddr);
+	xdbg_printf(XDBG_DEBUG_GENERAL, "Address of the undefined instruction %lx\n",UndefinedExceptionAddr);
 	while(1) {
 		;
 	}

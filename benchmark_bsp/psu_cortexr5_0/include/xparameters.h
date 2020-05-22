@@ -21,8 +21,6 @@
 
 #include "xparameters_ps.h"
 
-#define XPS_BOARD_ULTRA96
-
 
 /* Number of Fabric Resets */
 #define XPAR_NUM_FABRIC_RESETS 1
@@ -895,7 +893,7 @@
 
 /******************************************************************/
 
-#define XPAR_PSU_AMS_REF_FREQMHZ 50.000001
+#define XPAR_PSU_AMS_REF_FREQMHZ 50.000000
 /* Canonical definitions for peripheral PSU_AMS */
 #define XPAR_XSYSMONPSU_0_DEVICE_ID XPAR_PSU_AMS_DEVICE_ID
 #define XPAR_XSYSMONPSU_0_BASEADDR 0xFFA50000
@@ -904,7 +902,7 @@
 
 /******************************************************************/
 
-#define XPAR_XSYSMONPSU_0_REF_FREQMHZ 50.000001
+#define XPAR_XSYSMONPSU_0_REF_FREQMHZ 50.000000
 /* Definitions for driver TTCPS */
 #define XPAR_XTTCPS_NUM_INSTANCES 12U
 

@@ -105,18 +105,44 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "xil_exception.h"
+#include "xscugic.h"
+#include "xipipsu.h"
+#include "xipipsu_hw.h"
 
-#define ALGO_GLOBALS    1
+#define ALGO_GLOBALS    1   /* Next time, we'll skip these */
 #include "algo.h"
 
 /* Estimate of allocation for NUM_TESTS*( debug test + 2 variables )*/
 #define T_BSIZE (MAX_FILESIZE+((NUM_TESTS+1)*VAR_COUNT*4))
+
+/* IPI device ID to use for this test */
+#define TEST_CHANNEL_ID XPAR_XIPIPSU_0_DEVICE_ID
+/* Test message length in words. Max is 8 words (32 bytes) */
+#define TEST_MSG_LEN    4
+/* Interrupt Controller device ID */
+#define INTC_DEVICE_ID  XPAR_SCUGIC_0_DEVICE_ID
+/* Time out parameter while polling for response */
+#define TIMEOUT_COUNT 10000
+/* Uncomment this define when running test with ECC */
+#define NO_ECC
+
+XScuGic GicInst;
+XIpiPsu IpiInst;
+
+/* Buffers to store message from the other core */
+static u32 TmpBufPtr[TEST_MSG_LEN] = { 0 };
 
 /* ======================================================================== */
 /*         F U N C T I O N   P R O T O T Y P E S                            */
 /* ======================================================================== */
 int main(int argc, const char* argv[] );
 int t_run_test(struct TCDef *tcdef, int argc, const char* argv[]);
+/*Additions to do IPI & Error Injection*/
+void IpiIntrHandler(void *XIpiPsuPtr);
+static XStatus SetupInterruptSystem(XScuGic *IntcInstancePtr,XIpiPsu *IpiInstancePtr, u32 IpiIntrId);
+/* TCM Corruption function */
+void corrupt_tcm(u32 addr,u32 mask,u32 shift);
 
 /* Define iterations */
 #if !defined(ITERATIONS) || CRC_CHECK || ITERATIONS==DEFAULT
@@ -1189,16 +1215,119 @@ binaryOutHi3: 0
 	return	th_report_results(tcdef,EXPECTED_CRC);
 } 
 
+/* Accepts 3 parameters,scratch address is fixed
+
+ 1) Address to be corrupted
+ 2) 4-bytes bit mask, tell which bit to corrupt
+ 3) Shift, depending on which byte to corrupt, shift appropriately
+ */
+void corrupt_tcm(u32 addr,u32 mask,u32 shift){
+#ifndef NO_ECC
+    asm volatile("PUSH {r0,r1,r2,r3,r4,r10}");
+
+    asm volatile("MOV r10,%0\n\t" : : "r"(addr));
+
+    asm volatile("LDR r4, = 0x2fff0\n\t");
+
+    asm volatile("LDRD r0, [r10]\n\t");
+    asm volatile("EOR r0, %0\n\t" : : "r"(mask));
+
+    asm volatile("LSR r2,r0, %0\n\t" : : "r"(shift));
+    asm volatile("LSR r3,r3,#3\n\t"); /* Divide by 8, as this is gonna be a byte offset used for STRB*/
+    asm volatile ("STRB r2,[r10,r3]\n\t");
+
+    asm volatile("MRC p15,0,r0,c1,c0\n\t"
+    "BIC r0,r0,#0x0E000000\n\t"
+    "MCR p15,0,r0,c1,c0,1\n\t"
+    "DMB\n\t"
+    "DSB\n\t"
+    "ISB\n\t");
+
+    asm volatile("LDRD r0,[r10]\n\t");
+    asm volatile("STRD r0,[r4]\n\t");
+
+    asm volatile("EOR r0, %0\n\t": : "r"(mask));
+    asm volatile("LSR r2,r0, %0\n\t" : : "r"(shift));
+    asm volatile("LSR r3,r3,#3\n\t"); /* Divide by 8, as this is gonna be a byte offset used for STRB*/
+    asm volatile ("STRB r2,[r4,r3]\n\t");
+
+    /* Store identical data to corrupt ECC, but data remains the same*/
+    /* Corrupted byte   -> Stored byte */
+    /*     0                    1
+           1                    2
+           2                    3
+           3                    0
+    */
+    asm volatile("LDRD r0, [r4]\n\t"
+
+    "ADD r3,r3,#1\n\t"
+    "LSL r2,r3,#3\n\t"
+    "ROR r0, r0, r2\n\t"
+
+    "CMP r3,#4\n\t" /* If 3rd byte is corrupted, store with no offset at byte 0*/
+    "MOVEQ r3,#0\n\t"
+    "STRB r0, [r10,r3]\n\t");
+
+    asm volatile("MRC p15,0,r0,c1,c0,1\n\t"
+    "ORR r0,r0,#0x0E000000\n\t"
+    "MCR p15,0,r0,c1,c0,1\n\t"
+    "DMB\n\t"
+    "DSB\n\t"
+    "ISB\n\t");
+    asm volatile("POP {r0,r1,r2,r3,r4,r10}");
+#else
+    asm volatile("PUSH {r0,r1,r2,r3,r4,r10}");
+    asm volatile("MOV r10,%0\n\t" : : "r"(addr));
+    asm volatile("LDRD r0, [r10]\n\t");
+    asm volatile("EOR r0, %0\n\t" : : "r"(mask));
+    asm volatile("STR r0, [r10]");
+    asm volatile("POP {r0,r1,r2,r3,r4,r10}");
+#endif
+}
 
 /***************************************************************************/
 n_int failTest;
 n_int benchIter;
 int main(int argc, const char* argv[] )
 {
+    init_platform();
+#ifdef NO_ECC
+    asm volatile("MRC p15,0,r0,c1,c0\n\t"
+    "BIC r0,r0,#0x0E000000\n\t"
+    "MCR p15,0,r0,c1,c0,1\n\t"
+    "DMB\n\t"
+    "DSB\n\t"
+    "ISB\n\t");
+
+    asm volatile("MRC p15,0,r0,c15,c0,0\n\t"
+    "ORR r0,r0,#0xC\n\t"
+    "MCR p15,0,r0,c15,c0,0\n\t"
+    "DMB\n\t"
+    "DSB\n\t"
+    "ISB\n\t");
+#endif
+
+    XIpiPsu_Config *CfgPtr;
+
+    int Status = XST_FAILURE;
+
+    /* Look Up the config data */
+    CfgPtr = XIpiPsu_LookupConfig(TEST_CHANNEL_ID);
+
+    /* Init with the Cfg Data */
+    XIpiPsu_CfgInitialize(&IpiInst, CfgPtr, CfgPtr->BaseAddress);
+
+    /* Setup the GIC */
+    SetupInterruptSystem(&GicInst, &IpiInst, (IpiInst.Config.IntId));
+
+    /* Enable reception of IPIs from all CPUs */
+    XIpiPsu_InterruptEnable(&IpiInst, XIPIPSU_ALL_MASK);
+
+    /* Clear Any existing Interrupts */
+    XIpiPsu_ClearInterruptStatus(&IpiInst, XIPIPSU_ALL_MASK);
     /* initialise variable to 0 */
     failTest = 0;
     benchIter = 0;
-    init_platform();
     /* target specific inititialization */
     al_main(argc, argv);
     xil_printf(">>     Start of IIR...\n\r");
@@ -1211,7 +1340,7 @@ int main(int argc, const char* argv[] )
             xil_printf(">>     Dumping RAMfile information to the log...\n\r");
             for (n_int i = 0 ; i < RAMfileSize ; i++)
             {
-                xil_printf("%8d\n\r",*RAMfilePtr++);
+                xil_printf("%8u\n\r",*RAMfilePtr++);
             }
         } else {
             th_free(RAMfileFree); /* Free RAMfile for next iteration so no Malloc error */ 
@@ -1279,3 +1408,82 @@ if (( RAMfilePtr+RAMfile_increment) > RAMfileEOF )
 
 } /* End of function 'WriteOut' */
 
+void IpiIntrHandler(void *XIpiPsuPtr)
+{
+
+    u32 IpiSrcMask; /**< Holds the IPI status register value */
+    u32 Index;
+
+
+    u32 SrcIndex;
+    XIpiPsu *InstancePtr = (XIpiPsu *) XIpiPsuPtr;
+
+    Xil_AssertVoid(InstancePtr!=NULL);
+
+    IpiSrcMask = XIpiPsu_GetInterruptStatus(InstancePtr);
+
+    /* Poll for each source and read response*/
+    /* Based on response, corrupt TCM accordingly*/
+    for (SrcIndex = 0U; SrcIndex < InstancePtr->Config.TargetCount;
+            SrcIndex++) {
+
+        if (IpiSrcMask & InstancePtr->Config.TargetList[SrcIndex].Mask) {
+
+            XIpiPsu_ReadMessage(InstancePtr,XPAR_XIPIPS_TARGET_PSU_CORTEXR5_1_CH0_MASK, TmpBufPtr,
+                    TEST_MSG_LEN, XIPIPSU_BUF_TYPE_MSG);
+
+            corrupt_tcm(TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2]);
+            xil_printf("TCM addr corrupted: 0x%x\r\n, Bit Mask : 0x%x ,Shift %d, bits corrupted: %d\r\n",TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2],TmpBufPtr[3]);
+
+            XIpiPsu_ClearInterruptStatus(InstancePtr,InstancePtr->Config.TargetList[SrcIndex].Mask);
+        }
+    }
+
+
+}
+
+static XStatus SetupInterruptSystem(XScuGic *IntcInstancePtr,XIpiPsu *IpiInstancePtr, u32 IpiIntrId)
+{
+    u32 Status = 0;
+    XScuGic_Config *IntcConfig; /* Config for interrupt controller */
+
+    /* Initialize the interrupt controller driver */
+    IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+    if (NULL == IntcConfig) {
+        return XST_FAILURE;
+    }
+
+    Status = XScuGic_CfgInitialize(&GicInst, IntcConfig,
+            IntcConfig->CpuBaseAddress);
+    if (Status != XST_SUCCESS) {
+        return XST_FAILURE;
+    }
+
+    /*
+     * Connect the interrupt controller interrupt handler to the
+     * hardware interrupt handling logic in the processor.
+     */
+    Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,
+            (Xil_ExceptionHandler) XScuGic_InterruptHandler, IntcInstancePtr);
+
+    /*
+     * Connect a device driver handler that will be called when an
+     * interrupt for the device occurs, the device driver handler
+     * performs the specific interrupt processing for the device
+     */
+     xil_printf("Interrupt ID for R5_0: %d\r\n",IpiIntrId);
+    Status = XScuGic_Connect(IntcInstancePtr, IpiIntrId,
+            (Xil_InterruptHandler) IpiIntrHandler, (void *) IpiInstancePtr);
+
+    if (Status != XST_SUCCESS) {
+        return XST_FAILURE;
+    }
+
+    /* Enable the interrupt for the device */
+    XScuGic_Enable(IntcInstancePtr, IpiIntrId);
+
+    /* Enable interrupts */
+    Xil_ExceptionEnable();
+
+    return XST_SUCCESS;
+}

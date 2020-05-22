@@ -87,7 +87,7 @@
 /* Define( =1 )when compiling for 32-bit variables */    
 /* ...or( =0 )when compiling for 16-bit variables */
 #ifndef DATA_SIZE
-#define DATA_SIZE 1 
+#define DATA_SIZE 0 
 #endif
 
 #if DATA_SIZE == 1            /* FLOAT variables */

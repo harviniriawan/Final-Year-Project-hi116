@@ -41,7 +41,7 @@ SECTIONS
 .vectors : {
    KEEP (*(.vectors))
    *(.boot)
-} > psu_r5_0_atcm_MEM_0
+} > psu_r5_0_btcm_MEM_0
 
 .text : {
    *(.text)
@@ -55,7 +55,7 @@ SECTIONS
    *(.vfp11_veneer)
    *(.ARM.extab)
    *(.gnu.linkonce.armextab.*)
-} > psu_r5_ddr_0_MEM_0
+} > psu_r5_0_atcm_MEM_0
 
 .init : {
    KEEP (*(.init))
