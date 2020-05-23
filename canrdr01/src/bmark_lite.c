@@ -120,6 +120,8 @@
 #define TIMEOUT_COUNT 10000
 /* Uncomment this define when running test with ECC */
 #define NO_ECC
+/* Uncomment this define to listen for injection from R5_1 */
+#define LISTEN_A53
 
 XScuGic GicInst;
 XIpiPsu IpiInst;
@@ -1149,59 +1151,58 @@ int t_run_test( struct TCDef *tcdef,int argc, const char *argv[] )
 
 	return	th_report_results(tcdef,EXPECTED_CRC);
 } 
-/* Accepts 3 parameters,scratch address is fixed
+/* Accepts 3 parameters, scratch address is fixed
+   Code inspired by a section in Cortex R Programmers' Guide:
+   TCM ECC fault injection
 
  1) Address to be corrupted
  2) 4-bytes bit mask, tell which bit to corrupt
  3) Shift, depending on which byte to corrupt, shift appropriately
- */
+    as to store byte that is not changed
+*/
 void corrupt_tcm(u32 addr,u32 mask,u32 shift){
 #ifndef NO_ECC
     asm volatile("PUSH {r0,r1,r2,r3,r4,r10}");
-
     asm volatile("MOV r10,%0\n\t" : : "r"(addr));
-
     asm volatile("LDR r4, = 0x2fff0\n\t");
-
     asm volatile("LDRD r0, [r10]\n\t");
+/*Introduce corruption to word according to mask*/
     asm volatile("EOR r0, %0\n\t" : : "r"(mask));
-
-    asm volatile("LSR r2,r0, %0\n\t" : : "r"(shift));
-    asm volatile("LSR r3,r3,#3\n\t"); /* Divide by 8, as this is gonna be a byte offset used for STRB*/
-    asm volatile ("STRB r2,[r10,r3]\n\t");
-
+    asm volatile("STRB r0, [r10]\n\t"
+                 "ROR r0, r0, #24\n\t"
+                 "STRB r0, [r10,#3]\n\t"
+                 "ROR r0, r0, #16\n\t"
+                 "STRB r0, [r10,#1]\n\t"
+                 "ROR r0,r0, #8\n\t"
+                 "STRB r0, [r10,#2]\n\t");
+/*Turn off ECC Check*/
     asm volatile("MRC p15,0,r0,c1,c0\n\t"
     "BIC r0,r0,#0x0E000000\n\t"
     "MCR p15,0,r0,c1,c0,1\n\t"
     "DMB\n\t"
     "DSB\n\t"
     "ISB\n\t");
-
+/*Load corrupted address and store to scratch location*/
     asm volatile("LDRD r0,[r10]\n\t");
     asm volatile("STRD r0,[r4]\n\t");
-
     asm volatile("EOR r0, %0\n\t": : "r"(mask));
+/* Do unaligned store to scratch to avoid ECC recomputation */
+    asm volatile("STRB r0, [r4]\n\t"
+                 "ROR r0, r0, #24\n\t"
+                 "STRB r0, [r4,#3]\n\t"
+                 "ROR r0, r0, #16\n\t"
+                 "STRB r0, [r4,#1]\n\t"
+                 "ROR r0,r0, #8\n\t"
+                 "STRB r0, [r4,#2]\n\t");
+/*Load corrected data, but with ECC bits according to corrupted data*/
+    asm volatile("LDRD r0, [r4]\n\t");
     asm volatile("LSR r2,r0, %0\n\t" : : "r"(shift));
-    asm volatile("LSR r3,r3,#3\n\t"); /* Divide by 8, as this is gonna be a byte offset used for STRB*/
-    asm volatile ("STRB r2,[r4,r3]\n\t");
-
-    /* Store identical data to corrupt ECC, but data remains the same*/
-    /* Corrupted byte   -> Stored byte */
-    /*     0                    1
-           1                    2
-           2                    3
-           3                    0
-    */
-    asm volatile("LDRD r0, [r4]\n\t"
-
-    "ADD r3,r3,#1\n\t"
-    "LSL r2,r3,#3\n\t"
-    "ROR r0, r0, r2\n\t"
-
-    "CMP r3,#4\n\t" /* If 3rd byte is corrupted, store with no offset at byte 0*/
-    "MOVEQ r3,#0\n\t"
-    "STRB r0, [r10,r3]\n\t");
-
+    asm volatile("LSR r3,r3,#3\n\t");
+/*Store byte that is uncorrupted to set up the internal registers*/
+/*This stage seems important, if not storing uncorrupted byte,
+the injection does not work*/
+    asm volatile ("STRB r2,[r10,r3]\n\t");
+/* Turn On ECC Check again */
     asm volatile("MRC p15,0,r0,c1,c0,1\n\t"
     "ORR r0,r0,#0x0E000000\n\t"
     "MCR p15,0,r0,c1,c0,1\n\t"
@@ -1210,6 +1211,7 @@ void corrupt_tcm(u32 addr,u32 mask,u32 shift){
     "ISB\n\t");
     asm volatile("POP {r0,r1,r2,r3,r4,r10}");
 #else
+/*If No ECC Check, just corrupt word according to mask as per usual*/
     asm volatile("PUSH {r0,r1,r2,r3,r4,r10}");
     asm volatile("MOV r10,%0\n\t" : : "r"(addr));
     asm volatile("LDRD r0, [r10]\n\t");
@@ -1226,6 +1228,7 @@ int main(int argc, const char* argv[] )
 {
     init_platform();
 #ifdef NO_ECC
+/*Turn off ECC Check and correction if NO_ECC*/
     asm volatile("MRC p15,0,r0,c1,c0\n\t"
     "BIC r0,r0,#0x0E000000\n\t"
     "MCR p15,0,r0,c1,c0,1\n\t"
@@ -1358,8 +1361,13 @@ void IpiIntrHandler(void *XIpiPsuPtr)
 
         if (IpiSrcMask & InstancePtr->Config.TargetList[SrcIndex].Mask) {
 
+#ifdef LISTEN_A53
+            XIpiPsu_ReadMessage(InstancePtr,XPAR_XIPIPS_TARGET_PSU_CORTEXA53_0_CH0_MASK, TmpBufPtr,
+                    TEST_MSG_LEN, XIPIPSU_BUF_TYPE_MSG);
+#else
             XIpiPsu_ReadMessage(InstancePtr,XPAR_XIPIPS_TARGET_PSU_CORTEXR5_1_CH0_MASK, TmpBufPtr,
                     TEST_MSG_LEN, XIPIPSU_BUF_TYPE_MSG);
+#endif
 
             corrupt_tcm(TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2]);
             xil_printf("TCM addr corrupted: 0x%x\r\n, Bit Mask : 0x%x ,Shift %d, bits corrupted: %d\r\n",TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2],TmpBufPtr[3]);
