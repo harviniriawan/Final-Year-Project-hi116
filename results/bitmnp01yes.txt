@@ -1,0 +1,2645 @@
+2020-05-28 08:10:08 [INFO] starting radiation experiment...
+2020-05-28 08:10:08 [INFO] Current kernel  : bitmnp01
+2020-05-28 08:10:13 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:10:13 [INFO] configuring board...
+2020-05-28 08:10:14 Current seed : 101
+2020-05-28 08:10:58 Increment seed to : 102
+2020-05-28 08:10:58 [INFO] Current Time  
+
+PPASS8A97 8A97 3000 184019622                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+TCM addr corrupted: 0x29D48
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 187115812                   2
+
+TCM addr corrupted: 0x29DB8
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114881                   3
+
+PASS8A97 8A97 3000 201992944                   4
+
+PASS8A97 8A97 3000 201992985                   5
+
+TCM addr corrupted: 0x26198
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132388                   6
+
+TCM addr corrupted: 0x250A8
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132334                   7
+
+PASS8A97 8A97 3000 201993116                   8
+
+TCM addr corrupted: 0x29088
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202107043                   9
+
+PASS8A97 8A97 3000 201992917                  10
+
+PASS8A97 8A97 3000 201992896                  11
+
+PASS8A97 8A97 3000 201993101                  12
+
+PASS8A97 8A97 3000 201993117                  13
+
+TCM addr corrupted: 0x25F80
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124179                  14
+
+PASS8A97 8A97 3000 201992988                  15
+
+PASS8A97 8A97 3000 201993045                  16
+
+TCM addr corrupted: 0x23CC0
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089944                  17
+
+PASS8A97 8A97 3000 201993026                  18
+
+PASS8A97 8A97 3000 201993021                  19
+
+PASS8A97 8A97 3000 201993262                  20
+
+TCM addr corrupted: 0x23998
+
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080886                  21
+
+PASS8A97 8A97 3000 201992987                  22
+
+TCM addr corrupted: 0x23980
+
+, Bit Mask : 0x2000001 ,Shift 8, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23980
+
+2020-05-28 08:11:50 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:11:50 [INFO] configuring board...
+2020-05-28 08:11:51 Current seed : 102
+2020-05-28 08:12:38 Increment seed to : 103
+2020-05-28 08:12:38 [INFO] Current Time  
+TCM addr corrupted: 0x246B0
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 197206421                   0
+
+PASS8A97 8A97 3000 201992954                   1
+
+TCM addr corrupted: 0x23C90
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098265                   2
+
+PASS8A97 8A97 3000 201993070                   3
+
+TCM addr corrupted: 0x279D8
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132956                   4
+
+TCM addr corrupted: 0x29650
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115185                   5
+
+TCM addr corrupted: 0x26F50
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132532                   6
+
+TCM addr corrupted: 0x26A60
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098342                   7
+
+PASS8A97 8A97 3000 201992936                   8
+
+PASS8A97 8A97 3000 201993292                   9
+
+PASS8A97 8A97 3000 201993095                  10
+
+PASS8A97 8A97 3000 201993208                  11
+
+TCM addr corrupted: 0x26FE0
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x25BB0
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202246084                  12
+
+PASS8A97 8A97 3000 201993013                  13
+
+PASS8A97 8A97 3000 201993043                  14
+
+PASS8A97 8A97 3000 201993107                  15
+
+PASS8A97 8A97 3000 201992971                  16
+
+TCM addr corrupted: 0x293F0
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123951                  17
+
+TCM addr corrupted: 0x27388
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141316                  18
+
+TCM addr corrupted: 0x236D8
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089129                  19
+
+PASS8A97 8A97 3000 201992939                  20
+
+PASS8A97 8A97 3000 201993109                  21
+
+PASS8A97 8A97 3000 201992916                  22
+
+PASS8A97 8A97 3000 201993090                  23
+
+PASS8A97 8A97 3000 201993131                  24
+
+PASS8A97 8A97 3000 201993038                  25
+
+TCM addr corrupted: 0x22E58
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114946                  26
+
+PASS8A97 8A97 3000 201993297                  27
+
+PASS8A97 8A97 3000 201992981                  28
+
+TCM addr corrupted: 0x24C68
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+2020-05-28 08:13:38 [INFO] Current Time  
+PASS8A97 8A97 3000 202097693                  29
+
+PASS8A97 8A97 3000 201992924                  30
+
+PASS8A97 8A97 3000 201993071                  31
+
+PASS8A97 8A97 3000 201993108                  32
+
+PASS8A97 8A97 3000 201992989                  33
+
+TCM addr corrupted: 0x24F90
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115670                  34
+
+PASS8A97 8A97 3000 201993032                  35
+
+PASS8A97 8A97 3000 201993028                  36
+
+PASS8A97 8A97 3000 201993027                  37
+
+PASS8A97 8A97 3000 201992995                  38
+
+PASS8A97 8A97 3000 201992985                  39
+
+PASS8A97 8A97 3000 201992957                  40
+
+PASS8A97 8A97 3000 201993162                  41
+
+PASS8A97 8A97 3000 201992893                  42
+
+TCM addr corrupted: 0x24490
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106300                  43
+
+PASS8A97 8A97 3000 201992850                  44
+
+PASS8A97 8A97 3000 201993094                  45
+
+PASS8A97 8A97 3000 201992926                  46
+
+PASS8A97 8A97 3000 201993169                  47
+
+PASS8A97 8A97 3000 201993139                  48
+
+PASS8A97 8A97 3000 201993170                  49
+
+PASS8A97 8A97 3000 201992982                  50
+
+PASS8A97 8A97 3000 201992957                  51
+
+TCM addr corrupted: 0x29D48
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080674                  52
+
+PASS8A97 8A97 3000 201993199                  53
+
+TCM addr corrupted: 0x253B8
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141702                  54
+
+PASS8A97 8A97 3000 201993267                  55
+
+PASS8A97 8A97 3000 201993031                  56
+
+PASS8A97 8A97 3000 201993086                  57
+
+PASS8A97 8A97 3000 201993098                  58
+2020-05-28 08:14:39 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993060                  59
+
+TCM addr corrupted: 0x25A28
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124284                  60
+
+PASS8A97 8A97 3000 201993399                  61
+
+PASS8A97 8A97 3000 201993111                  62
+
+TCM addr corrupted: 0x272E8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141836                  63
+
+PASS8A97 8A97 3000 201993125                  64
+
+TCM addr corrupted: 0x286D8
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098350                  65
+
+PASS8A97 8A97 3000 201993020                  66
+
+PASS8A97 8A97 3000 201992976                  67
+
+PASS8A97 8A97 3000 201993154                  68
+
+PASS8A97 8A97 3000 201993206                  69
+
+PASS8A97 8A97 3000 201992973                  70
+
+PASS8A97 8A97 3000 201992918                  71
+
+PASS8A97 8A97 3000 201993135                  72
+
+PASS8A97 8A97 3000 201993125                  73
+
+PASS8A97 8A97 3000 201993010                  74
+
+PASS8A97 8A97 3000 201993161                  75
+
+PASS8A97 8A97 3000 201993178                  76
+
+PASS8A97 8A97 3000 201993083                  77
+
+PASS8A97 8A97 3000 201993020                  78
+
+PASS8A97 8A97 3000 201993175                  79
+
+PASS8A97 8A97 3000 201993163                  80
+
+PASS8A97 8A97 3000 201993244                  81
+
+PASS8A97 8A97 3000 201993006                  82
+
+TCM addr corrupted: 0x259E0
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089629                  83
+
+PASS8A97 8A97 3000 201992781                  84
+
+PASS8A97 8A97 3000 201992937                  85
+
+PASS8A97 8A97 3000 201993005                  86
+
+PASS8A97 8A97 3000 201992987                  87
+
+PASS8A97 8A97 3000 201993016                  88
+2020-05-28 08:15:39 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993091                  89
+
+TCM addr corrupted: 0x27400
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115705                  90
+
+PASS8A97 8A97 3000 201992944                  91
+
+TCM addr corrupted: 0x29FC8
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202133050                  92
+
+PASS8A97 8A97 3000 201992934                  93
+
+PASS8A97 8A97 3000 201992944                  94
+
+PASS8A97 8A97 3000 201993032                  95
+
+PASS8A97 8A97 3000 201993152                  96
+
+PASS8A97 8A97 3000 201993070                  97
+
+PASS8A97 8A97 3000 201993236                  98
+
+PASS8A97 8A97 3000 201993108                  99
+
+PASS8A97 8A97 3000 201993111                 100
+
+TCM addr corrupted: 0x2A170
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x25A48
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202228520                 101
+
+PASS8A97 8A97 3000 201993019                 102
+
+PASS8A97 8A97 3000 201992985                 103
+
+PASS8A97 8A97 3000 201993046                 104
+
+PASS8A97 8A97 3000 201993092                 105
+
+PASS8A97 8A97 3000 201992958                 106
+
+PASS8A97 8A97 3000 201993020                 107
+
+PASS8A97 8A97 3000 201992999                 108
+
+PASS8A97 8A97 3000 201993194                 109
+
+PASS8A97 8A97 3000 201993246                 110
+
+PASS8A97 8A97 3000 201993017                 111
+
+PASS8A97 8A97 3000 201992826                 112
+
+PASS8A97 8A97 3000 201993004                 113
+
+PASS8A97 8A97 3000 201993030                 114
+
+PASS8A97 8A97 3000 201993136                 115
+
+PASS8A97 8A97 3000 201993046                 116
+
+PASS8A97 8A97 3000 201993027                 117
+
+PASS8A97 8A97 3000 201993091                 118
+
+TCM addr corrupted: 0x26B88
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+2020-05-28 08:16:40 [INFO] Current Time  
+PASS8A97 8A97 3000 202106291                 119
+
+PASS8A97 8A97 3000 201992843                 120
+
+PASS8A97 8A97 3000 201993014                 121
+
+PASS8A97 8A97 3000 201993011                 122
+
+TCM addr corrupted: 0x23B28
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115695                 123
+
+PASS8A97 8A97 3000 201992904                 124
+
+PASS8A97 8A97 3000 201993022                 125
+
+TCM addr corrupted: 0x24638
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123754                 126
+
+PASS8A97 8A97 3000 201992988                 127
+
+TCM addr corrupted: 0x29370
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080525                 128
+
+PASS8A97 8A97 3000 201993090                 129
+
+PASS8A97 8A97 3000 201993230                 130
+
+TCM addr corrupted: 0x230F0
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132895                 131
+
+TCM addr corrupted: 0x25728
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098292                 132
+
+PASS8A97 8A97 3000 201992852                 133
+
+PASS8A97 8A97 3000 201992991                 134
+
+PASS8A97 8A97 3000 201993076                 135
+
+PASS8A97 8A97 3000 201992851                 136
+
+PASS8A97 8A97 3000 201992768                 137
+
+PASS8A97 8A97 3000 201992884                 138
+
+PASS8A97 8A97 3000 201993051                 139
+
+PASS8A97 8A97 3000 201992914                 140
+
+PASS8A97 8A97 3000 201993051                 141
+
+PASS8A97 8A97 3000 201993040                 142
+
+PASS8A97 8A97 3000 201992908                 143
+
+PASS8A97 8A97 3000 201992879                 144
+
+TCM addr corrupted: 0x28D48
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132755                 145
+
+PASS8A97 8A97 3000 201992885                 146
+
+PASS8A97 8A97 3000 201992844                 147
+
+PASS8A97 8A97 3000 201993132                 148
+2020-05-28 08:17:41 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993124                 149
+
+PASS8A97 8A97 3000 201993149                 150
+
+PASS8A97 8A97 3000 201993060                 151
+
+PASS8A97 8A97 3000 201993201                 152
+
+TCM addr corrupted: 0x27BF8
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089458                 153
+
+PASS8A97 8A97 3000 201992978                 154
+
+PASS8A97 8A97 3000 201993004                 155
+
+PASS8A97 8A97 3000 201992961                 156
+
+PASS8A97 8A97 3000 201993083                 157
+
+PASS8A97 8A97 3000 201992976                 158
+
+PASS8A97 8A97 3000 201993074                 159
+
+TCM addr corrupted: 0x2A040
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202133043                 160
+
+TCM addr corrupted: 0x29A00
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124003                 161
+
+TCM addr corrupted: 0x23818
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x270D8
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202263724                 162
+
+PASS8A97 8A97 3000 201993089                 163
+
+PASS8A97 8A97 3000 201993138                 164
+
+PASS8A97 8A97 3000 201992955                 165
+
+TCM addr corrupted: 0x29DC0
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124149                 166
+
+PASS8A97 8A97 3000 201993013                 167
+
+PASS8A97 8A97 3000 201993055                 168
+
+PASS8A97 8A97 3000 201993035                 169
+
+PASS8A97 8A97 3000 201992922                 170
+
+PASS8A97 8A97 3000 201992947                 171
+
+PASS8A97 8A97 3000 201993020                 172
+
+PASS8A97 8A97 3000 201993038                 173
+
+PASS8A97 8A97 3000 201992951                 174
+
+PASS8A97 8A97 3000 201993215                 175
+
+PASS8A97 8A97 3000 201993006                 176
+
+TCM addr corrupted: 0x24760
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098058                 177
+
+PASS8A97 8A97 3000 201992872                 178
+2020-05-28 08:18:41 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992948                 179
+
+PASS8A97 8A97 3000 201993000                 180
+
+PASS8A97 8A97 3000 201993019                 181
+
+TCM addr corrupted: 0x27ED8
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106578                 182
+
+PASS8A97 8A97 3000 201992937                 183
+
+PASS8A97 8A97 3000 201992985                 184
+
+TCM addr corrupted: 0x258A8
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106998                 185
+
+PASS8A97 8A97 3000 201993192                 186
+
+PASS8A97 8A97 3000 201993183                 187
+
+PASS8A97 8A97 3000 201992816                 188
+
+PASS8A97 8A97 3000 201993161                 189
+
+PASS8A97 8A97 3000 201993168                 190
+
+PASS8A97 8A97 3000 201992924                 191
+
+PASS8A97 8A97 3000 201993013                 192
+
+PASS8A97 8A97 3000 201993080                 193
+
+PASS8A97 8A97 3000 201992969                 194
+
+PASS8A97 8A97 3000 201993139                 195
+
+PASS8A97 8A97 3000 201993185                 196
+
+PASS8A97 8A97 3000 201993052                 197
+
+PASS8A97 8A97 3000 201992989                 198
+
+TCM addr corrupted: 0x22FA0
+
+, Bit Mask : 0x880 ,Shift 16, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 22fa0
+
+Error: Timed Out polling for response
+
+2020-05-28 08:19:22 [INFO] configuring board...
+2020-05-28 08:19:23 Current seed : 103
+2020-05-28 08:20:12 Increment seed to : 104
+2020-05-28 08:20:12 [INFO] Current Time  
+PASS8A97 8A97 3000 184019640                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+PASS8A97 8A97 3000 184019394                   2
+
+PASS8A97 8A97 3000 184019394                   3
+
+TCM addr corrupted: 0x29820
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 193228177                   4
+
+PASS8A97 8A97 3000 201992948                   5
+
+PASS8A97 8A97 3000 201993200                   6
+
+TCM addr corrupted: 0x28418
+
+, Bit Mask : 0x4000400 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 28418
+
+2020-05-28 08:20:32 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:20:32 [INFO] configuring board...
+2020-05-28 08:20:33 Current seed : 104
+2020-05-28 08:21:19 Increment seed to : 105
+2020-05-28 08:21:19 [INFO] Current Time  
+PASS8A97 8A97 3000 184019657                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+TCM addr corrupted: 0x23A80
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 193980959                   2
+
+TCM addr corrupted: 0x265D8
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115365                   3
+
+PASS8A97 8A97 3000 201993041                   4
+
+PASS8A97 8A97 3000 201993010                   5
+
+PASS8A97 8A97 3000 201993179                   6
+
+PASS8A97 8A97 3000 201992971                   7
+
+TCM addr corrupted: 0x2A3C0
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124149                   8
+
+TCM addr corrupted: 0x22F40
+
+, Bit Mask : 0x1000400 ,Shift 0, bits corrupted: 2
+
+PASS8A97 8A97 3000 202132312                   9
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 22f40
+
+2020-05-28 08:21:43 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:21:43 [INFO] configuring board...
+2020-05-28 08:21:44 Current seed : 105
+2020-05-28 08:22:32 Increment seed to : 106
+2020-05-28 08:22:32 [INFO] Current Time  
+PASS8A97 8A97 3000 184019640                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+PASS8A97 8A97 3000 184019394                   2
+
+TCM addr corrupted: 0x25200
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 192456350                   3
+
+PASS8A97 8A97 3000 201993105                   4
+
+PASS8A97 8A97 3000 201993036                   5
+
+PASS8A97 8A97 3000 201993190                   6
+
+PASS8A97 8A97 3000 201993106                   7
+
+PASS8A97 8A97 3000 201993113                   8
+
+PASS8A97 8A97 3000 201993127                   9
+
+PASS8A97 8A97 3000 201993053                  10
+
+PASS8A97 8A97 3000 201993003                  11
+
+PASS8A97 8A97 3000 201992994                  12
+
+PASS8A97 8A97 3000 201993040                  13
+
+PASS8A97 8A97 3000 201993059                  14
+
+PASS8A97 8A97 3000 201992931                  15
+
+PASS8A97 8A97 3000 201993095                  16
+
+PASS8A97 8A97 3000 201993219                  17
+
+PASS8A97 8A97 3000 201993192                  18
+
+PASS8A97 8A97 3000 201992925                  19
+
+PASS8A97 8A97 3000 201992940                  20
+
+PASS8A97 8A97 3000 201993042                  21
+
+PASS8A97 8A97 3000 201993002                  22
+
+TCM addr corrupted: 0x28220
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115499                  23
+
+PASS8A97 8A97 3000 201993009                  24
+
+TCM addr corrupted: 0x28870
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115525                  25
+
+PASS8A97 8A97 3000 201993143                  26
+
+PASS8A97 8A97 3000 201993195                  27
+
+PASS8A97 8A97 3000 201992998                  28
+
+PASS8A97 8A97 3000 201992874                  29
+2020-05-28 08:23:33 [INFO] Current Time  
+
+TCM addr corrupted: 0x241E0
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141376                  30
+
+PASS8A97 8A97 3000 201993077                  31
+
+TCM addr corrupted: 0x24220
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141220                  32
+
+PASS8A97 8A97 3000 201992946                  33
+
+PASS8A97 8A97 3000 201992998                  34
+
+PASS8A97 8A97 3000 201992965                  35
+
+PASS8A97 8A97 3000 201993127                  36
+
+PASS8A97 8A97 3000 201993091                  37
+
+PASS8A97 8A97 3000 201993251                  38
+
+PASS8A97 8A97 3000 201992948                  39
+
+PASS8A97 8A97 3000 201993006                  40
+
+PASS8A97 8A97 3000 201993012                  41
+
+PASS8A97 8A97 3000 201993080                  42
+
+PASS8A97 8A97 3000 201992960                  43
+
+PASS8A97 8A97 3000 201993011                  44
+
+PASS8A97 8A97 3000 201992954                  45
+
+PASS8A97 8A97 3000 201992974                  46
+
+PASS8A97 8A97 3000 201993035                  47
+
+PASS8A97 8A97 3000 201992981                  48
+
+PASS8A97 8A97 3000 201993103                  49
+
+PASS8A97 8A97 3000 201993085                  50
+
+PASS8A97 8A97 3000 201993078                  51
+
+PASS8A97 8A97 3000 201992906                  52
+
+PASS8A97 8A97 3000 201992979                  53
+
+PASS8A97 8A97 3000 201993009                  54
+
+PASS8A97 8A97 3000 201993256                  55
+
+PASS8A97 8A97 3000 201992985                  56
+
+PASS8A97 8A97 3000 201992999                  57
+
+PASS8A97 8A97 3000 201992998                  58
+
+PASS8A97 8A97 3000 201993069                  59
+2020-05-28 08:24:35 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993071                  60
+
+TCM addr corrupted: 0x29F20
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089536                  61
+
+TCM addr corrupted: 0x250A8
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x27F40
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202220700                  62
+
+PASS8A97 8A97 3000 201992994                  63
+
+PASS8A97 8A97 3000 201993148                  64
+
+PASS8A97 8A97 3000 201992910                  65
+
+TCM addr corrupted: 0x26CD8
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080548                  66
+
+PASS8A97 8A97 3000 201993102                  67
+
+PASS8A97 8A97 3000 201992967                  68
+
+PASS8A97 8A97 3000 201992927                  69
+
+PASS8A97 8A97 3000 201992892                  70
+
+TCM addr corrupted: 0x25010
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114999                  71
+
+PASS8A97 8A97 3000 201992962                  72
+
+PASS8A97 8A97 3000 201993155                  73
+
+TCM addr corrupted: 0x264D0
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202081142                  74
+
+PASS8A97 8A97 3000 201993034                  75
+
+PASS8A97 8A97 3000 201992925                  76
+
+TCM addr corrupted: 0x24C68
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141294                  77
+
+PASS8A97 8A97 3000 201993141                  78
+
+PASS8A97 8A97 3000 201993028                  79
+
+PASS8A97 8A97 3000 201993063                  80
+
+PASS8A97 8A97 3000 201993131                  81
+
+PASS8A97 8A97 3000 201992926                  82
+
+PASS8A97 8A97 3000 201993129                  83
+
+PASS8A97 8A97 3000 201993072                  84
+
+PASS8A97 8A97 3000 201992984                  85
+
+PASS8A97 8A97 3000 201992934                  86
+
+PASS8A97 8A97 3000 201993130                  87
+
+TCM addr corrupted: 0x26D58
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132784                  88
+
+TCM addr corrupted: 0x278B8
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123848                  89
+2020-05-28 08:25:35 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993130                  90
+
+TCM addr corrupted: 0x2A390
+
+, Bit Mask : 0x18 ,Shift 8, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 2a390
+
+2020-05-28 08:25:42 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:25:42 [INFO] configuring board...
+2020-05-28 08:25:43 Current seed : 106
+2020-05-28 08:26:28 Increment seed to : 107
+TCM addr corrupted: 0x24AB0
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x251F8
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 198210743                   0
+
+TCM addr corrupted: 0x24D88
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089399                   1
+
+PASS8A97 8A97 3000 201993200                   2
+
+TCM addr corrupted: 0x25220
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+2020-05-28 08:26:36 [INFO] Current Time  
+PASS8A97 8A97 3000 202107058                   3
+
+PASS8A97 8A97 3000 201993235                   4
+
+PASS8A97 8A97 3000 201993033                   5
+
+PASS8A97 8A97 3000 201993029                   6
+
+PASS8A97 8A97 3000 201993068                   7
+
+PASS8A97 8A97 3000 201993006                   8
+
+PASS8A97 8A97 3000 201993007                   9
+
+TCM addr corrupted: 0x29AE8
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123868                  10
+
+PASS8A97 8A97 3000 201992972                  11
+
+PASS8A97 8A97 3000 201993030                  12
+
+PASS8A97 8A97 3000 201993138                  13
+
+PASS8A97 8A97 3000 201992971                  14
+
+PASS8A97 8A97 3000 201993066                  15
+
+PASS8A97 8A97 3000 201993045                  16
+
+TCM addr corrupted: 0x2A520
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202088798                  17
+
+TCM addr corrupted: 0x29110
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114861                  18
+
+PASS8A97 8A97 3000 201992980                  19
+
+TCM addr corrupted: 0x27380
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114862                  20
+
+PASS8A97 8A97 3000 201993130                  21
+
+TCM addr corrupted: 0x28AE8
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080644                  22
+
+PASS8A97 8A97 3000 201993015                  23
+
+PASS8A97 8A97 3000 201993031                  24
+
+PASS8A97 8A97 3000 201992926                  25
+
+PASS8A97 8A97 3000 201992949                  26
+
+PASS8A97 8A97 3000 201993042                  27
+
+TCM addr corrupted: 0x27978
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106637                  28
+
+PASS8A97 8A97 3000 201993044                  29
+
+PASS8A97 8A97 3000 201992948                  30
+
+PASS8A97 8A97 3000 201993101                  31
+
+PASS8A97 8A97 3000 201993076                  32
+2020-05-28 08:27:36 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992909                  33
+
+TCM addr corrupted: 0x241D0
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141706                  34
+
+TCM addr corrupted: 0x26620
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080252                  35
+
+PASS8A97 8A97 3000 201993093                  36
+
+PASS8A97 8A97 3000 201992990                  37
+
+PASS8A97 8A97 3000 201993110                  38
+
+TCM addr corrupted: 0x24E30
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106381                  39
+
+TCM addr corrupted: 0x27B18
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115162                  40
+
+TCM addr corrupted: 0x29EC8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141588                  41
+
+PASS8A97 8A97 3000 201992990                  42
+
+PASS8A97 8A97 3000 201992956                  43
+
+PASS8A97 8A97 3000 201992894                  44
+
+PASS8A97 8A97 3000 201993045                  45
+
+PASS8A97 8A97 3000 201993115                  46
+
+PASS8A97 8A97 3000 201993018                  47
+
+PASS8A97 8A97 3000 201992933                  48
+
+PASS8A97 8A97 3000 201993107                  49
+
+PASS8A97 8A97 3000 201992941                  50
+
+PASS8A97 8A97 3000 201993137                  51
+
+PASS8A97 8A97 3000 201993262                  52
+
+PASS8A97 8A97 3000 201993033                  53
+
+PASS8A97 8A97 3000 201992959                  54
+
+PASS8A97 8A97 3000 201993152                  55
+
+PASS8A97 8A97 3000 201993113                  56
+
+PASS8A97 8A97 3000 201992962                  57
+
+PASS8A97 8A97 3000 201992914                  58
+
+PASS8A97 8A97 3000 201992952                  59
+
+PASS8A97 8A97 3000 201993111                  60
+
+PASS8A97 8A97 3000 201993034                  61
+
+TCM addr corrupted: 0x27E00
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124606                  62
+
+TCM addr corrupted: 0x28208
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+2020-05-28 08:28:37 [INFO] Current Time  
+PASS8A97 8A97 3000 202141723                  63
+
+PASS8A97 8A97 3000 201992885                  64
+
+PASS8A97 8A97 3000 201992966                  65
+
+PASS8A97 8A97 3000 201992978                  66
+
+PASS8A97 8A97 3000 201992913                  67
+
+PASS8A97 8A97 3000 201992938                  68
+
+TCM addr corrupted: 0x24538
+
+, Bit Mask : 0x10018000 ,Shift 0, bits corrupted: 3
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24538
+
+2020-05-28 08:28:54 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:28:54 [INFO] configuring board...
+2020-05-28 08:28:55 Current seed : 107
+2020-05-28 08:29:42 Increment seed to : 108
+2020-05-28 08:29:42 [INFO] Current Time  
+PASS8A97 8A97 3000 184019622                   0
+
+TCM addr corrupted: 0x29FB0
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 195625407                   1
+
+TCM addr corrupted: 0x276B0
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202133147                   2
+
+PASS8A97 8A97 3000 201992937                   3
+
+PASS8A97 8A97 3000 201993086                   4
+
+PASS8A97 8A97 3000 201993088                   5
+
+PASS8A97 8A97 3000 201993091                   6
+
+PASS8A97 8A97 3000 201993035                   7
+
+PASS8A97 8A97 3000 201992970                   8
+
+PASS8A97 8A97 3000 201992984                   9
+
+TCM addr corrupted: 0x28EE8
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089082                  10
+
+PASS8A97 8A97 3000 201992977                  11
+
+PASS8A97 8A97 3000 201992974                  12
+
+PASS8A97 8A97 3000 201992960                  13
+
+TCM addr corrupted: 0x23A88
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089610                  14
+
+PASS8A97 8A97 3000 201993000                  15
+
+PASS8A97 8A97 3000 201993023                  16
+
+PASS8A97 8A97 3000 201992834                  17
+
+PASS8A97 8A97 3000 201992965                  18
+
+PASS8A97 8A97 3000 201992911                  19
+
+TCM addr corrupted: 0x28798
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114875                  20
+
+PASS8A97 8A97 3000 201992844                  21
+
+PASS8A97 8A97 3000 201993110                  22
+
+PASS8A97 8A97 3000 201993067                  23
+
+PASS8A97 8A97 3000 201993154                  24
+
+PASS8A97 8A97 3000 201993122                  25
+
+PASS8A97 8A97 3000 201992976                  26
+
+PASS8A97 8A97 3000 201992871                  27
+
+PASS8A97 8A97 3000 201992940                  28
+2020-05-28 08:30:42 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992912                  29
+
+PASS8A97 8A97 3000 201992951                  30
+
+PASS8A97 8A97 3000 201992954                  31
+
+PASS8A97 8A97 3000 201992935                  32
+
+PASS8A97 8A97 3000 201993062                  33
+
+PASS8A97 8A97 3000 201993425                  34
+
+PASS8A97 8A97 3000 201992952                  35
+
+PASS8A97 8A97 3000 201992877                  36
+
+PASS8A97 8A97 3000 201992882                  37
+
+PASS8A97 8A97 3000 201992861                  38
+
+PASS8A97 8A97 3000 201993039                  39
+
+TCM addr corrupted: 0x28308
+
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089674                  40
+
+TCM addr corrupted: 0x23E10
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123960                  41
+
+PASS8A97 8A97 3000 201992963                  42
+
+PASS8A97 8A97 3000 201992841                  43
+
+PASS8A97 8A97 3000 201992938                  44
+
+PASS8A97 8A97 3000 201993016                  45
+
+PASS8A97 8A97 3000 201992984                  46
+
+PASS8A97 8A97 3000 201993095                  47
+
+PASS8A97 8A97 3000 201993100                  48
+
+PASS8A97 8A97 3000 201992841                  49
+
+PASS8A97 8A97 3000 201993091                  50
+
+PASS8A97 8A97 3000 201993102                  51
+
+PASS8A97 8A97 3000 201992988                  52
+
+TCM addr corrupted: 0x24C58
+
+, Bit Mask : 0x4040 ,Shift 16, bits corrupted: 2
+
+PASS8A97 8A97 3000 202115256                  53
+
+TCM addr corrupted: 0x29688
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132730                  54
+
+TCM addr corrupted: 0x246A8
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202133188                  55
+
+PASS8A97 8A97 3000 201992930                  56
+
+PASS8A97 8A97 3000 201992919                  57
+
+PASS8A97 8A97 3000 201993042                  58
+2020-05-28 08:31:43 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992884                  59
+
+PASS8A97 8A97 3000 201992986                  60
+
+PASS8A97 8A97 3000 201993146                  61
+
+PASS8A97 8A97 3000 201992877                  62
+
+TCM addr corrupted: 0x28CC0
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141595                  63
+
+PASS8A97 8A97 3000 201993126                  64
+
+PASS8A97 8A97 3000 201993025                  65
+
+PASS8A97 8A97 3000 201993074                  66
+
+PASS8A97 8A97 3000 201993022                  67
+
+PASS8A97 8A97 3000 201993072                  68
+
+PASS8A97 8A97 3000 201993040                  69
+
+PASS8A97 8A97 3000 201993104                  70
+
+PASS8A97 8A97 3000 201992986                  71
+
+PASS8A97 8A97 3000 201992876                  72
+
+PASS8A97 8A97 3000 201992835                  73
+
+PASS8A97 8A97 3000 201993088                  74
+
+PASS8A97 8A97 3000 201993129                  75
+
+PASS8A97 8A97 3000 201992962                  76
+
+PASS8A97 8A97 3000 201993089                  77
+
+PASS8A97 8A97 3000 201992956                  78
+
+PASS8A97 8A97 3000 201992998                  79
+
+PASS8A97 8A97 3000 201992947                  80
+
+TCM addr corrupted: 0x26878
+
+, Bit Mask : 0x820000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 26878
+
+2020-05-28 08:32:32 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:32:32 [INFO] configuring board...
+2020-05-28 08:32:33 Current seed : 108
+2020-05-28 08:33:20 Increment seed to : 109
+2020-05-28 08:33:20 [INFO] Current Time  
+PASS8A97 8A97 3000 184019645                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+PASS8A97 8A97 3000 184019394                   2
+
+TCM addr corrupted: 0x28930
+
+, Bit Mask : 0x20400 ,Shift 0, bits corrupted: 2
+
+PASS8A97 8A97 3000 189537605                   3
+
+PASS8A97 8A97 3000 201992977                   4
+
+TCM addr corrupted: 0x26C68
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106808                   5
+
+TCM addr corrupted: 0x22E88
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132684                   6
+
+PASS8A97 8A97 3000 201993108                   7
+
+TCM addr corrupted: 0x24250
+
+, Bit Mask : 0x80002 ,Shift 8, bits corrupted: 2
+
+PASS8A97 8A97 3000 202115033                   8
+
+PASS8A97 8A97 3000 201992854                   9
+
+PASS8A97 8A97 3000 201993124                  10
+
+PASS8A97 8A97 3000 201992904                  11
+
+PASS8A97 8A97 3000 201993182                  12
+
+PASS8A97 8A97 3000 201992918                  13
+
+PASS8A97 8A97 3000 201993067                  14
+
+PASS8A97 8A97 3000 201993129                  15
+
+TCM addr corrupted: 0x25390
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132406                  16
+
+PASS8A97 8A97 3000 201993221                  17
+
+PASS8A97 8A97 3000 201992994                  18
+
+PASS8A97 8A97 3000 201993214                  19
+
+TCM addr corrupted: 0x27338
+
+, Bit Mask : 0x10002000 ,Shift 0, bits corrupted: 2
+
+PASS8A97 8A97 3000 202141005                  20
+
+TCM addr corrupted: 0x27000
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114908                  21
+
+TCM addr corrupted: 0x2A080
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132986                  22
+
+PASS8A97 8A97 3000 201992955                  23
+
+PASS8A97 8A97 3000 201993311                  24
+
+PASS8A97 8A97 3000 201992951                  25
+
+PASS8A97 8A97 3000 201993086                  26
+
+TCM addr corrupted: 0x23A00
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089207                  27
+
+PASS8A97 8A97 3000 201992911                  28
+
+PASS8A97 8A97 3000 201993126                  29
+2020-05-28 08:34:21 [INFO] Current Time  
+
+TCM addr corrupted: 0x29EE8
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141264                  30
+
+PASS8A97 8A97 3000 201992991                  31
+
+TCM addr corrupted: 0x25548
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202097671                  32
+
+TCM addr corrupted: 0x25390
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132842                  33
+
+PASS8A97 8A97 3000 201993104                  34
+
+PASS8A97 8A97 3000 201992831                  35
+
+PASS8A97 8A97 3000 201993140                  36
+
+PASS8A97 8A97 3000 201992944                  37
+
+PASS8A97 8A97 3000 201992829                  38
+
+PASS8A97 8A97 3000 201992996                  39
+
+PASS8A97 8A97 3000 201992919                  40
+
+TCM addr corrupted: 0x24418
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x29028
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202228363                  41
+
+PASS8A97 8A97 3000 201993182                  42
+
+PASS8A97 8A97 3000 201993071                  43
+
+PASS8A97 8A97 3000 201992974                  44
+
+TCM addr corrupted: 0x24A98
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115367                  45
+
+PASS8A97 8A97 3000 201993069                  46
+
+PASS8A97 8A97 3000 201993248                  47
+
+PASS8A97 8A97 3000 201992947                  48
+
+TCM addr corrupted: 0x239A0
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132606                  49
+
+PASS8A97 8A97 3000 201992913                  50
+
+PASS8A97 8A97 3000 201993123                  51
+
+PASS8A97 8A97 3000 201992979                  52
+
+PASS8A97 8A97 3000 201993029                  53
+
+TCM addr corrupted: 0x28B08
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123570                  54
+
+TCM addr corrupted: 0x26ED0
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106695                  55
+
+PASS8A97 8A97 3000 201992855                  56
+
+PASS8A97 8A97 3000 201993268                  57
+
+PASS8A97 8A97 3000 201992806                  58
+
+PASS8A97 8A97 3000 201992913                  59
+2020-05-28 08:35:22 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992976                  60
+
+PASS8A97 8A97 3000 201993094                  61
+
+PASS8A97 8A97 3000 201992997                  62
+
+PASS8A97 8A97 3000 201993099                  63
+
+PASS8A97 8A97 3000 201993072                  64
+
+TCM addr corrupted: 0x278D0
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+TCM addr corrupted: 0x275E8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202237596                  65
+
+PASS8A97 8A97 3000 201993086                  66
+
+TCM addr corrupted: 0x26E38
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115227                  67
+
+PASS8A97 8A97 3000 201993215                  68
+
+PASS8A97 8A97 3000 201993142                  69
+
+TCM addr corrupted: 0x23740
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080440                  70
+
+PASS8A97 8A97 3000 201993156                  71
+
+PASS8A97 8A97 3000 201992937                  72
+
+PASS8A97 8A97 3000 201993238                  73
+
+PASS8A97 8A97 3000 201992952                  74
+
+PASS8A97 8A97 3000 201993075                  75
+
+PASS8A97 8A97 3000 201992990                  76
+
+PASS8A97 8A97 3000 201993209                  77
+
+PASS8A97 8A97 3000 201992908                  78
+
+TCM addr corrupted: 0x285C0
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141098                  79
+
+TCM addr corrupted: 0x29BA0
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098369                  80
+
+PASS8A97 8A97 3000 201993003                  81
+
+PASS8A97 8A97 3000 201993060                  82
+
+PASS8A97 8A97 3000 201993051                  83
+
+PASS8A97 8A97 3000 201993003                  84
+
+TCM addr corrupted: 0x2A0C8
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080697                  85
+
+PASS8A97 8A97 3000 201992993                  86
+
+PASS8A97 8A97 3000 201992987                  87
+
+PASS8A97 8A97 3000 201992888                  88
+
+PASS8A97 8A97 3000 201993050                  89
+2020-05-28 08:36:23 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992977                  90
+
+PASS8A97 8A97 3000 201992947                  91
+
+PASS8A97 8A97 3000 201993079                  92
+
+TCM addr corrupted: 0x26C70
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141966                  93
+
+PASS8A97 8A97 3000 201993036                  94
+
+TCM addr corrupted: 0x26A28
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080285                  95
+
+PASS8A97 8A97 3000 201992993                  96
+
+PASS8A97 8A97 3000 201992797                  97
+
+TCM addr corrupted: 0x2A020
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+TCM addr corrupted: 0x26CE0
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x29C38
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202325094                  98
+
+PASS8A97 8A97 3000 201992940                  99
+
+PASS8A97 8A97 3000 201993193                 100
+
+PASS8A97 8A97 3000 201992888                 101
+
+PASS8A97 8A97 3000 201993172                 102
+
+PASS8A97 8A97 3000 201993070                 103
+
+PASS8A97 8A97 3000 201993026                 104
+
+PASS8A97 8A97 3000 201992986                 105
+
+PASS8A97 8A97 3000 201993118                 106
+
+PASS8A97 8A97 3000 201993000                 107
+
+TCM addr corrupted: 0x28328
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080733                 108
+
+PASS8A97 8A97 3000 201992988                 109
+
+PASS8A97 8A97 3000 201992954                 110
+
+PASS8A97 8A97 3000 201993199                 111
+
+TCM addr corrupted: 0x26708
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089695                 112
+
+PASS8A97 8A97 3000 201993171                 113
+
+PASS8A97 8A97 3000 201992968                 114
+
+PASS8A97 8A97 3000 201993024                 115
+
+TCM addr corrupted: 0x241C0
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141664                 116
+
+PASS8A97 8A97 3000 201993029                 117
+
+PASS8A97 8A97 3000 201992966                 118
+
+PASS8A97 8A97 3000 201992887                 119
+2020-05-28 08:37:23 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993102                 120
+
+PASS8A97 8A97 3000 201993006                 121
+
+TCM addr corrupted: 0x27528
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106336                 122
+
+PASS8A97 8A97 3000 201993005                 123
+
+TCM addr corrupted: 0x26E30
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202140925                 124
+
+PASS8A97 8A97 3000 201993135                 125
+
+TCM addr corrupted: 0x24AA0
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141671                 126
+
+PASS8A97 8A97 3000 201993246                 127
+
+PASS8A97 8A97 3000 201993228                 128
+
+PASS8A97 8A97 3000 201993111                 129
+
+Data abort with Data Fault Status Register  409
+
+Address of Instruction causing Data abort 2a5a4
+
+Error: Timed Out polling for response
+
+2020-05-28 08:37:43 [INFO] configuring board...
+2020-05-28 08:37:44 Current seed : 109
+2020-05-28 08:38:32 Increment seed to : 110
+2020-05-28 08:38:32 [INFO] Current Time  
+PASS8A97 8A97 3000 184019625                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+PASS8A97 8A97 3000 184019394                   2
+
+PASS8A97 8A97 3000 184019394                   3
+
+PASS8A97 8A97 3000 184019394                   4
+
+PASS8A97 8A97 3000 184019394                   5
+
+TCM addr corrupted: 0x256A0
+
+, Bit Mask : 0x80100000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 256a0
+
+2020-05-28 08:38:50 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:38:50 [INFO] configuring board...
+2020-05-28 08:38:51 Current seed : 110
+2020-05-28 08:39:38 Increment seed to : 111
+2020-05-28 08:39:38 [INFO] Current Time  
+PASS8A97 8A97 3000 184019640                   0
+
+TCM addr corrupted: 0x28618
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 198485110                   1
+
+PASS8A97 8A97 3000 201993158                   2
+
+PASS8A97 8A97 3000 201992999                   3
+
+PASS8A97 8A97 3000 201992919                   4
+
+TCM addr corrupted: 0x24BC0
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202090002                   5
+
+PASS8A97 8A97 3000 201992934                   6
+
+PASS8A97 8A97 3000 201993076                   7
+
+TCM addr corrupted: 0x266D0
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106178                   8
+
+PASS8A97 8A97 3000 201992971                   9
+
+PASS8A97 8A97 3000 201993024                  10
+
+PASS8A97 8A97 3000 201993083                  11
+
+PASS8A97 8A97 3000 201993021                  12
+
+PASS8A97 8A97 3000 201992938                  13
+
+PASS8A97 8A97 3000 201993099                  14
+
+PASS8A97 8A97 3000 201992979                  15
+
+TCM addr corrupted: 0x28A28
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089534                  16
+
+PASS8A97 8A97 3000 201993124                  17
+
+PASS8A97 8A97 3000 201993054                  18
+
+TCM addr corrupted: 0x28DE8
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+TCM addr corrupted: 0x29008
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202202888                  19
+
+TCM addr corrupted: 0x23C58
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106355                  20
+
+TCM addr corrupted: 0x255E0
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106860                  21
+
+PASS8A97 8A97 3000 201992981                  22
+
+PASS8A97 8A97 3000 201993014                  23
+
+PASS8A97 8A97 3000 201993039                  24
+
+PASS8A97 8A97 3000 201993102                  25
+
+TCM addr corrupted: 0x27238
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x24060
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202228778                  26
+
+PASS8A97 8A97 3000 201993151                  27
+
+PASS8A97 8A97 3000 201993045                  28
+2020-05-28 08:40:38 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992940                  29
+
+PASS8A97 8A97 3000 201992949                  30
+
+PASS8A97 8A97 3000 201993174                  31
+
+PASS8A97 8A97 3000 201993064                  32
+
+PASS8A97 8A97 3000 201993026                  33
+
+PASS8A97 8A97 3000 201992987                  34
+
+PASS8A97 8A97 3000 201992989                  35
+
+PASS8A97 8A97 3000 201992862                  36
+
+PASS8A97 8A97 3000 201993127                  37
+
+TCM addr corrupted: 0x29700
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098352                  38
+
+TCM addr corrupted: 0x27590
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202097872                  39
+
+TCM addr corrupted: 0x26028
+
+, Bit Mask : 0x204 ,Shift 16, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 26028
+
+2020-05-28 08:41:04 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 08:41:04 [INFO] configuring board...
+2020-05-28 08:41:05 Current seed : 111
+2020-05-28 08:41:56 Increment seed to : 112
+2020-05-28 08:41:56 [INFO] Current Time  
+PASS8A97 8A97 3000 184019622                   0
+
+PASS8A97 8A97 3000 184019394                   1
+
+PASS8A97 8A97 3000 184019394                   2
+
+PASS8A97 8A97 3000 184019394                   3
+
+PASS8A97 8A97 3000 184019394                   4
+
+TCM addr corrupted: 0x28BB8
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 188365743                   5
+
+PASS8A97 8A97 3000 201993002                   6
+
+PASS8A97 8A97 3000 201992946                   7
+
+PASS8A97 8A97 3000 201993111                   8
+
+TCM addr corrupted: 0x276C8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x27D58
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202228833                   9
+
+TCM addr corrupted: 0x290C0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106299                  10
+
+TCM addr corrupted: 0x29EA8
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x23CE8
+
+, Bit Mask : 0x11000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23ce8
+
+Error: Timed Out polling for response
+
+2020-05-28 08:42:21 [INFO] configuring board...
+2020-05-28 08:42:22 Current seed : 112
+2020-05-28 08:43:07 Increment seed to : 113
+2020-05-28 08:43:07 [INFO] Current Time  
+PASS8A97 8A97 3000 184019622                   0
+
+TCM addr corrupted: 0x29EB8
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 193699974                   1
+
+PASS8A97 8A97 3000 201992964                   2
+
+PASS8A97 8A97 3000 201993111                   3
+
+PASS8A97 8A97 3000 201992924                   4
+
+PASS8A97 8A97 3000 201992989                   5
+
+PASS8A97 8A97 3000 201993061                   6
+
+PASS8A97 8A97 3000 201992952                   7
+
+PASS8A97 8A97 3000 201993085                   8
+
+PASS8A97 8A97 3000 201992975                   9
+
+PASS8A97 8A97 3000 201992963                  10
+
+TCM addr corrupted: 0x293D0
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141208                  11
+
+PASS8A97 8A97 3000 201992978                  12
+
+TCM addr corrupted: 0x22EE0
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089719                  13
+
+PASS8A97 8A97 3000 201993091                  14
+
+TCM addr corrupted: 0x23368
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202081056                  15
+
+PASS8A97 8A97 3000 201992960                  16
+
+PASS8A97 8A97 3000 201992997                  17
+
+PASS8A97 8A97 3000 201993049                  18
+
+PASS8A97 8A97 3000 201992985                  19
+
+PASS8A97 8A97 3000 201993041                  20
+
+PASS8A97 8A97 3000 201992929                  21
+
+PASS8A97 8A97 3000 201993194                  22
+
+PASS8A97 8A97 3000 201992951                  23
+
+PASS8A97 8A97 3000 201993255                  24
+
+TCM addr corrupted: 0x23630
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202114783                  25
+
+PASS8A97 8A97 3000 201993020                  26
+
+PASS8A97 8A97 3000 201993041                  27
+
+TCM addr corrupted: 0x23488
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124146                  28
+2020-05-28 08:44:08 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993225                  29
+
+TCM addr corrupted: 0x241D8
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115125                  30
+
+TCM addr corrupted: 0x26240
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106778                  31
+
+PASS8A97 8A97 3000 201993049                  32
+
+PASS8A97 8A97 3000 201993050                  33
+
+PASS8A97 8A97 3000 201993016                  34
+
+PASS8A97 8A97 3000 201992956                  35
+
+PASS8A97 8A97 3000 201992950                  36
+
+TCM addr corrupted: 0x29CF0
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098066                  37
+
+PASS8A97 8A97 3000 201992862                  38
+
+PASS8A97 8A97 3000 201993055                  39
+
+PASS8A97 8A97 3000 201993070                  40
+
+PASS8A97 8A97 3000 201992962                  41
+
+PASS8A97 8A97 3000 201993119                  42
+
+PASS8A97 8A97 3000 201993040                  43
+
+PASS8A97 8A97 3000 201993081                  44
+
+PASS8A97 8A97 3000 201992978                  45
+
+PASS8A97 8A97 3000 201992982                  46
+
+PASS8A97 8A97 3000 201992939                  47
+
+PASS8A97 8A97 3000 201993033                  48
+
+PASS8A97 8A97 3000 201992988                  49
+
+PASS8A97 8A97 3000 201992978                  50
+
+PASS8A97 8A97 3000 201993064                  51
+
+TCM addr corrupted: 0x23268
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x262D0
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202202559                  52
+
+PASS8A97 8A97 3000 201993153                  53
+
+PASS8A97 8A97 3000 201993095                  54
+
+PASS8A97 8A97 3000 201993006                  55
+
+PASS8A97 8A97 3000 201993219                  56
+
+PASS8A97 8A97 3000 201992934                  57
+
+PASS8A97 8A97 3000 201992943                  58
+2020-05-28 08:45:08 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993074                  59
+
+PASS8A97 8A97 3000 201993037                  60
+
+PASS8A97 8A97 3000 201993078                  61
+
+PASS8A97 8A97 3000 201993040                  62
+
+PASS8A97 8A97 3000 201993003                  63
+
+PASS8A97 8A97 3000 201992968                  64
+
+PASS8A97 8A97 3000 201993002                  65
+
+PASS8A97 8A97 3000 201993168                  66
+
+PASS8A97 8A97 3000 201993087                  67
+
+PASS8A97 8A97 3000 201993180                  68
+
+PASS8A97 8A97 3000 201992964                  69
+
+PASS8A97 8A97 3000 201992868                  70
+
+PASS8A97 8A97 3000 201993011                  71
+
+PASS8A97 8A97 3000 201993028                  72
+
+PASS8A97 8A97 3000 201993043                  73
+
+PASS8A97 8A97 3000 201992902                  74
+
+PASS8A97 8A97 3000 201992986                  75
+
+PASS8A97 8A97 3000 201993030                  76
+
+PASS8A97 8A97 3000 201992817                  77
+
+PASS8A97 8A97 3000 201993080                  78
+
+PASS8A97 8A97 3000 201992995                  79
+
+TCM addr corrupted: 0x26CA0
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141267                  80
+
+PASS8A97 8A97 3000 201993081                  81
+
+TCM addr corrupted: 0x27778
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202080653                  82
+
+TCM addr corrupted: 0x279C8
+
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202088746                  83
+
+TCM addr corrupted: 0x24980
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202133164                  84
+
+PASS8A97 8A97 3000 201992992                  85
+
+TCM addr corrupted: 0x248B8
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202106592                  86
+
+TCM addr corrupted: 0x230E0
+
+, Bit Mask : 0x400040 ,Shift 8, bits corrupted: 2
+
+PASS8A97 8A97 3000 202123903                  87
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 230e0
+
+Error: Timed Out polling for response
+
+2020-05-28 08:46:06 [INFO] configuring board...
+2020-05-28 08:46:07 Current seed : 113
+2020-05-28 08:46:51 Increment seed to : 114
+2020-05-28 08:46:51 [INFO] Current Time  
+TCM addr corrupted: 0x28968
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 198101118                   0
+
+TCM addr corrupted: 0x26F30
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098124                   1
+
+PASS8A97 8A97 3000 201992904                   2
+
+PASS8A97 8A97 3000 201992908                   3
+
+PASS8A97 8A97 3000 201992952                   4
+
+PASS8A97 8A97 3000 201993071                   5
+
+TCM addr corrupted: 0x24AC8
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115300                   6
+
+PASS8A97 8A97 3000 201993135                   7
+
+TCM addr corrupted: 0x24B80
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS8A97 8A97 3000 202089115                   8
+
+TCM addr corrupted: 0x244C8
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141048                   9
+
+PASS8A97 8A97 3000 201992942                  10
+
+TCM addr corrupted: 0x27380
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115786                  11
+
+PASS8A97 8A97 3000 201993261                  12
+
+TCM addr corrupted: 0x23A18
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141817                  13
+
+PASS8A97 8A97 3000 201993224                  14
+
+PASS8A97 8A97 3000 201993048                  15
+
+TCM addr corrupted: 0x23698
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123830                  16
+
+PASS8A97 8A97 3000 201992931                  17
+
+PASS8A97 8A97 3000 201992930                  18
+
+PASS8A97 8A97 3000 201993219                  19
+
+PASS8A97 8A97 3000 201992920                  20
+
+TCM addr corrupted: 0x24C38
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115203                  21
+
+PASS8A97 8A97 3000 201992840                  22
+
+PASS8A97 8A97 3000 201993044                  23
+
+PASS8A97 8A97 3000 201992936                  24
+
+PASS8A97 8A97 3000 201993108                  25
+
+PASS8A97 8A97 3000 201993065                  26
+
+PASS8A97 8A97 3000 201992967                  27
+
+TCM addr corrupted: 0x2A448
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202132919                  28
+
+TCM addr corrupted: 0x26FB8
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x28230
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+2020-05-28 08:47:51 [INFO] Current Time  
+PASS8A97 8A97 3000 202255607                  29
+
+TCM addr corrupted: 0x25DF0
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202124146                  30
+
+PASS8A97 8A97 3000 201993008                  31
+
+PASS8A97 8A97 3000 201992951                  32
+
+PASS8A97 8A97 3000 201993080                  33
+
+PASS8A97 8A97 3000 201992868                  34
+
+PASS8A97 8A97 3000 201993153                  35
+
+PASS8A97 8A97 3000 201993006                  36
+
+PASS8A97 8A97 3000 201992949                  37
+
+TCM addr corrupted: 0x27868
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x24628
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202237355                  38
+
+PASS8A97 8A97 3000 201993060                  39
+
+PASS8A97 8A97 3000 201992960                  40
+
+PASS8A97 8A97 3000 201993079                  41
+
+PASS8A97 8A97 3000 201992995                  42
+
+PASS8A97 8A97 3000 201992909                  43
+
+PASS8A97 8A97 3000 201993150                  44
+
+PASS8A97 8A97 3000 201993001                  45
+
+PASS8A97 8A97 3000 201993111                  46
+
+PASS8A97 8A97 3000 201993061                  47
+
+PASS8A97 8A97 3000 201993147                  48
+
+PASS8A97 8A97 3000 201993045                  49
+
+PASS8A97 8A97 3000 201992984                  50
+
+PASS8A97 8A97 3000 201993074                  51
+
+PASS8A97 8A97 3000 201993076                  52
+
+PASS8A97 8A97 3000 201993060                  53
+
+PASS8A97 8A97 3000 201993027                  54
+
+PASS8A97 8A97 3000 201992904                  55
+
+PASS8A97 8A97 3000 201992934                  56
+
+PASS8A97 8A97 3000 201992897                  57
+
+PASS8A97 8A97 3000 201993122                  58
+2020-05-28 08:48:52 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201992897                  59
+
+PASS8A97 8A97 3000 201993077                  60
+
+TCM addr corrupted: 0x283D8
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202115746                  61
+
+PASS8A97 8A97 3000 201993035                  62
+
+TCM addr corrupted: 0x23048
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202098268                  63
+
+PASS8A97 8A97 3000 201993283                  64
+
+PASS8A97 8A97 3000 201992976                  65
+
+PASS8A97 8A97 3000 201992906                  66
+
+PASS8A97 8A97 3000 201993082                  67
+
+PASS8A97 8A97 3000 201992868                  68
+
+PASS8A97 8A97 3000 201992843                  69
+
+PASS8A97 8A97 3000 201992792                  70
+
+PASS8A97 8A97 3000 201993176                  71
+
+PASS8A97 8A97 3000 201993058                  72
+
+PASS8A97 8A97 3000 201993204                  73
+
+PASS8A97 8A97 3000 201993330                  74
+
+PASS8A97 8A97 3000 201993103                  75
+
+PASS8A97 8A97 3000 201993002                  76
+
+PASS8A97 8A97 3000 201993024                  77
+
+PASS8A97 8A97 3000 201993081                  78
+
+TCM addr corrupted: 0x27910
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202141696                  79
+
+PASS8A97 8A97 3000 201992927                  80
+
+PASS8A97 8A97 3000 201993120                  81
+
+PASS8A97 8A97 3000 201993175                  82
+
+PASS8A97 8A97 3000 201992931                  83
+
+PASS8A97 8A97 3000 201992959                  84
+
+PASS8A97 8A97 3000 201992998                  85
+
+PASS8A97 8A97 3000 201993060                  86
+
+TCM addr corrupted: 0x28F00
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS8A97 8A97 3000 202123831                  87
+
+PASS8A97 8A97 3000 201993120                  88
+2020-05-28 08:49:52 [INFO] Current Time  
+
+PASS8A97 8A97 3000 201993041                  89
+
+PASS8A97 8A97 3000 201992986                  90
+
+PASS8A97 8A97 3000 201993091                  91
+
+PASS8A97 8A97 3000 201992929                  92
+
+PASS8A97 8A97 3000 201993083                  93
+
+PASS8A97 8A97 3000 201992889                  94
+
+PASS8A97 8A97 3000 201993184                  95
+
+PASS8A97 8A97 3000 201993059                  96
+2020-05-28 08:50:09 [INFO] Change kernel 
+2020-05-28 08:50:10 [INFO] Kernel before change :bitmnp01
+2020-05-28 08:50:10 [INFO] Increment Kernel pointer...
+
+===========================================================================================================================
+1 bit corruption      2 bits corruption    3 bits corruption     TOTAL CORRUPTIONS
+    179                      14                    1                   194 
+===========================================================================================================================
+1 bit correction     undefined instr abort            prefetch aborts          data aborts               FAILCRC
+    179                       0                             11                      1                       0
+===========================================================================================================================
+Unexplained hangs
+       0
+
+1 prefetch aborts due to 3 bits corruption
+
+2 bits corrupted but no error ==> possibly unused address?
+	0x24c58
+	0x28930
+	0x24250
+	0x27338
+
+TOTAL RESETS: 12

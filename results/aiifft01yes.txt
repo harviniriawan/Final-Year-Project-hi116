@@ -1,0 +1,5941 @@
+2020-05-28 06:09:17 [INFO] starting radiation experiment...
+2020-05-28 06:09:17 [INFO] Current kernel  : aiifft01
+2020-05-28 06:09:17 [INFO] Current Time  
+2020-05-28 06:09:22 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:09:22 [INFO] configuring board...
+2020-05-28 06:09:23 Current seed : 48
+2020-05-28 06:10:09 Increment seed to : 49
+TCM addr corrupted: 0x23430
+
+, Bit Mask : 0x120000 ,Shift 0, bits corrupted: 2
+
+FAILCRCBDC4 7C4C>>     Dumping RAMfile information to the log...
+
+4294967235
+
+       0
+
+4294967258
+
+       0
+
+       0
+
+       0
+
+      39
+
+       1
+
+      62
+
+       0
+
+      62
+
+4294967295
+
+      40
+
+       1
+
+       1
+
+       1
+
+4294967259
+
+       0
+
+4294967235
+
+       1
+
+4294967236
+
+       1
+
+4294967260
+
+       1
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      62
+
+       1
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+4294967295
+
+4294967261
+
+4294967295
+
+       1
+
+       1
+
+      38
+
+       0
+
+      62
+
+4294967295
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+4294967295
+
+4294967259
+
+4294967295
+
+4294967237
+
+       0
+
+4294967236
+
+       0
+
+4294967259
+
+       1
+
+       1
+
+       0
+
+      39
+
+       0
+
+      62
+
+       0
+
+      61
+
+4294967295
+
+      39
+
+       1
+
+       2
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+       1
+
+4294967260
+
+       0
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      63
+
+       0
+
+      62
+
+       1
+
+      38
+
+       0
+
+       1
+
+       1
+
+4294967258
+
+       0
+
+4294967237
+
+       1
+
+4294967236
+
+       0
+
+4294967258
+
+4294967295
+
+       1
+
+       1
+
+      39
+
+       0
+
+      61
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     120
+
+     120
+
+     120
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292036
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292036
+
+  168333
+
+  168371
+
+  168427
+
+  168463
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292456
+
+       0
+
+       0
+
+   65673
+
+>>      FFT test is finished
+
+TCM addr corrupted: 0x238D8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+2020-05-28 06:10:18 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:10:18 [INFO] Current Time  
+2020-05-28 06:10:18 [INFO] configuring board...
+2020-05-28 06:10:19 Current seed : 49
+2020-05-28 06:11:03 Increment seed to : 50
+PASS7C4C 7C4C 200 125512122                   0
+
+TCM addr corrupted: 0x23D08
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 132405883                   1
+
+PASS7C4C 7C4C 200 133190622                   2
+
+PASS7C4C 7C4C 200 133189768                   3
+
+PASS7C4C 7C4C 200 133187730                   4
+
+PASS7C4C 7C4C 200 133189916                   5
+
+TCM addr corrupted: 0x23DA0
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133311346                   6
+
+TCM addr corrupted: 0x23C30
+
+, Bit Mask : 0x1800 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23c30
+
+2020-05-28 06:11:18 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:11:18 [INFO] configuring board...
+2020-05-28 06:11:19 Current seed : 50
+2020-05-28 06:12:04 Increment seed to : 51
+2020-05-28 06:12:04 [INFO] Current Time  
+PASS7C4C 7C4C 200 125509105                   0
+
+TCM addr corrupted: 0x23D08
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 131798135                   1
+
+TCM addr corrupted: 0x24620
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133312667                   2
+
+TCM addr corrupted: 0x23580
+
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133290149                   3
+
+PASS7C4C 7C4C 200 133202801                   4
+
+PASS7C4C 7C4C 200 133186331                   5
+
+PASS7C4C 7C4C 200 133188354                   6
+
+TCM addr corrupted: 0x23958
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133321228                   7
+
+PASS7C4C 7C4C 200 133186518                   8
+
+PASS7C4C 7C4C 200 133194250                   9
+
+PASS7C4C 7C4C 200 133169263                  10
+
+PASS7C4C 7C4C 200 133160340                  11
+
+PASS7C4C 7C4C 200 133165567                  12
+
+TCM addr corrupted: 0x236D0
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133257719                  13
+
+PASS7C4C 7C4C 200 133174845                  14
+
+PASS7C4C 7C4C 200 133178010                  15
+
+PASS7C4C 7C4C 200 133177720                  16
+
+PASS7C4C 7C4C 200 133169378                  17
+
+TCM addr corrupted: 0x22E78
+
+, Bit Mask : 0x12000 ,Shift 0, bits corrupted: 2
+
+PASS7C4C 7C4C 200 133297710                  18
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 22e78
+
+Error: Timed Out polling for response
+
+2020-05-28 06:12:34 [INFO] configuring board...
+2020-05-28 06:12:35 Current seed : 51
+2020-05-28 06:13:24 Increment seed to : 52
+2020-05-28 06:13:24 [INFO] Current Time  
+TCM addr corrupted: 0x241F0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 126666133                   0
+
+PASS7C4C 7C4C 200 133175187                   1
+
+PASS7C4C 7C4C 200 133153035                   2
+
+PASS7C4C 7C4C 200 133171117                   3
+
+PASS7C4C 7C4C 200 133174315                   4
+
+PASS7C4C 7C4C 200 133178669                   5
+
+PASS7C4C 7C4C 200 133173117                   6
+
+PASS7C4C 7C4C 200 133175083                   7
+
+PASS7C4C 7C4C 200 133187646                   8
+
+PASS7C4C 7C4C 200 133173950                   9
+
+PASS7C4C 7C4C 200 133175367                  10
+
+PASS7C4C 7C4C 200 133172796                  11
+
+PASS7C4C 7C4C 200 133177313                  12
+
+PASS7C4C 7C4C 200 133181350                  13
+
+PASS7C4C 7C4C 200 133184144                  14
+
+PASS7C4C 7C4C 200 133197027                  15
+
+PASS7C4C 7C4C 200 133162523                  16
+
+PASS7C4C 7C4C 200 133173868                  17
+
+PASS7C4C 7C4C 200 133193545                  18
+
+PASS7C4C 7C4C 200 133176614                  19
+
+PASS7C4C 7C4C 200 133183814                  20
+
+PASS7C4C 7C4C 200 133179441                  21
+
+PASS7C4C 7C4C 200 133191376                  22
+
+PASS7C4C 7C4C 200 133181441                  23
+
+PASS7C4C 7C4C 200 133176126                  24
+
+PASS7C4C 7C4C 200 133176214                  25
+
+PASS7C4C 7C4C 200 133174484                  26
+
+PASS7C4C 7C4C 200 133183993                  27
+
+TCM addr corrupted: 0x24410
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133284565                  28
+
+PASS7C4C 7C4C 200 133195063                  29
+
+TCM addr corrupted: 0x23370
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133288821                  30
+
+TCM addr corrupted: 0x244E8
+
+, Bit Mask : 0x801000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 244e8
+
+2020-05-28 06:14:12 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:14:12 [INFO] configuring board...
+2020-05-28 06:14:13 Current seed : 52
+2020-05-28 06:14:57 Increment seed to : 53
+2020-05-28 06:14:57 [INFO] Current Time  
+PASS7C4C 7C4C 200 125500683                   0
+
+TCM addr corrupted: 0x24A98
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 129543905                   1
+
+PASS7C4C 7C4C 200 133178698                   2
+
+PASS7C4C 7C4C 200 133178617                   3
+
+PASS7C4C 7C4C 200 133184716                   4
+
+PASS7C4C 7C4C 200 133178539                   5
+
+PASS7C4C 7C4C 200 133187093                   6
+
+PASS7C4C 7C4C 200 133168561                   7
+
+PASS7C4C 7C4C 200 133171929                   8
+
+TCM addr corrupted: 0x23870
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133352989                   9
+
+TCM addr corrupted: 0x23338
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133286974                  10
+
+PASS7C4C 7C4C 200 133184096                  11
+
+PASS7C4C 7C4C 200 133188423                  12
+
+PASS7C4C 7C4C 200 133172078                  13
+
+PASS7C4C 7C4C 200 133181461                  14
+
+PASS7C4C 7C4C 200 133179740                  15
+
+PASS7C4C 7C4C 200 133167000                  16
+
+PASS7C4C 7C4C 200 133197324                  17
+
+PASS7C4C 7C4C 200 133178050                  18
+
+PASS7C4C 7C4C 200 133178481                  19
+
+PASS7C4C 7C4C 200 133183463                  20
+
+PASS7C4C 7C4C 200 133183237                  21
+
+PASS7C4C 7C4C 200 133182813                  22
+
+PASS7C4C 7C4C 200 133189706                  23
+
+PASS7C4C 7C4C 200 133178636                  24
+
+PASS7C4C 7C4C 200 133194207                  25
+
+PASS7C4C 7C4C 200 133183774                  26
+
+PASS7C4C 7C4C 200 133173255                  27
+
+PASS7C4C 7C4C 200 133180132                  28
+
+PASS7C4C 7C4C 200 133204477                  29
+
+PASS7C4C 7C4C 200 133180419                  30
+
+PASS7C4C 7C4C 200 133169638                  31
+
+PASS7C4C 7C4C 200 133178818                  32
+
+PASS7C4C 7C4C 200 133187570                  33
+
+PASS7C4C 7C4C 200 133176208                  34
+
+PASS7C4C 7C4C 200 133168222                  35
+
+TCM addr corrupted: 0x22F18
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133315595                  36
+
+PASS7C4C 7C4C 200 133146765                  37
+
+PASS7C4C 7C4C 200 133186605                  38
+
+PASS7C4C 7C4C 200 133183160                  39
+
+PASS7C4C 7C4C 200 133175908                  40
+
+PASS7C4C 7C4C 200 133175063                  41
+
+PASS7C4C 7C4C 200 133177703                  42
+
+PASS7C4C 7C4C 200 133189160                  43
+2020-05-28 06:15:58 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133183505                  44
+
+PASS7C4C 7C4C 200 133182494                  45
+
+PASS7C4C 7C4C 200 133177212                  46
+
+PASS7C4C 7C4C 200 133167067                  47
+
+TCM addr corrupted: 0x23A90
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133321620                  48
+
+TCM addr corrupted: 0x23A80
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133305381                  49
+
+PASS7C4C 7C4C 200 133160045                  50
+
+TCM addr corrupted: 0x23F20
+
+, Bit Mask : 0x40402 ,Shift 24, bits corrupted: 3
+
+Address of the undefined instruction 23f20
+
+2020-05-28 06:16:11 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:16:11 [INFO] configuring board...
+2020-05-28 06:16:12 Current seed : 53
+2020-05-28 06:16:56 Increment seed to : 54
+PASS7C4C 7C4C 200 125513262                   0
+2020-05-28 06:16:59 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 125504731                   1
+
+PASS7C4C 7C4C 200 125503555                   2
+
+PASS7C4C 7C4C 200 125504715                   3
+
+PASS7C4C 7C4C 200 125507348                   4
+
+PASS7C4C 7C4C 200 125500078                   5
+
+PASS7C4C 7C4C 200 125497700                   6
+
+PASS7C4C 7C4C 200 125508452                   7
+
+PASS7C4C 7C4C 200 125515269                   8
+
+PASS7C4C 7C4C 200 125500634                   9
+
+PASS7C4C 7C4C 200 125503967                  10
+
+PASS7C4C 7C4C 200 125513401                  11
+
+PASS7C4C 7C4C 200 125513754                  12
+
+PASS7C4C 7C4C 200 125509104                  13
+
+TCM addr corrupted: 0x22F90
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 129863208                  14
+
+PASS7C4C 7C4C 200 133191940                  15
+
+TCM addr corrupted: 0x23B68
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133263251                  16
+
+PASS7C4C 7C4C 200 133173610                  17
+
+PASS7C4C 7C4C 200 133196014                  18
+
+PASS7C4C 7C4C 200 133195810                  19
+
+PASS7C4C 7C4C 200 133161288                  20
+
+PASS7C4C 7C4C 200 133183250                  21
+
+PASS7C4C 7C4C 200 133179885                  22
+
+PASS7C4C 7C4C 200 133178365                  23
+
+PASS7C4C 7C4C 200 133187908                  24
+
+PASS7C4C 7C4C 200 133175363                  25
+
+PASS7C4C 7C4C 200 133176094                  26
+
+PASS7C4C 7C4C 200 133168033                  27
+
+PASS7C4C 7C4C 200 133175377                  28
+
+PASS7C4C 7C4C 200 133173446                  29
+
+PASS7C4C 7C4C 200 133167587                  30
+
+PASS7C4C 7C4C 200 133186077                  31
+
+PASS7C4C 7C4C 200 133162342                  32
+
+PASS7C4C 7C4C 200 133168828                  33
+
+PASS7C4C 7C4C 200 133182174                  34
+
+PASS7C4C 7C4C 200 133176576                  35
+
+PASS7C4C 7C4C 200 133187542                  36
+
+TCM addr corrupted: 0x24AA8
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133277520                  37
+
+PASS7C4C 7C4C 200 133178758                  38
+
+PASS7C4C 7C4C 200 133181201                  39
+
+TCM addr corrupted: 0x24C60
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133282718                  40
+
+PASS7C4C 7C4C 200 133169890                  41
+
+TCM addr corrupted: 0x24790
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133265148                  42
+
+PASS7C4C 7C4C 200 133182362                  43
+
+TCM addr corrupted: 0x23568
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133278579                  44
+
+PASS7C4C 7C4C 200 133177558                  45
+
+PASS7C4C 7C4C 200 133180303                  46
+2020-05-28 06:18:00 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133201987                  47
+
+TCM addr corrupted: 0x24160
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133288183                  48
+
+PASS7C4C 7C4C 200 133169439                  49
+
+PASS7C4C 7C4C 200 133168345                  50
+
+TCM addr corrupted: 0x24340
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133280095                  51
+
+TCM addr corrupted: 0x24B78
+
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133275672                  52
+
+PASS7C4C 7C4C 200 133177671                  53
+
+TCM addr corrupted: 0x23F68
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x23000
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133456998                  54
+
+PASS7C4C 7C4C 200 133168590                  55
+
+PASS7C4C 7C4C 200 133180502                  56
+
+PASS7C4C 7C4C 200 133186464                  57
+
+PASS7C4C 7C4C 200 133185330                  58
+
+PASS7C4C 7C4C 200 133163823                  59
+
+PASS7C4C 7C4C 200 133164149                  60
+
+PASS7C4C 7C4C 200 133193990                  61
+
+PASS7C4C 7C4C 200 133181544                  62
+
+PASS7C4C 7C4C 200 133170918                  63
+
+PASS7C4C 7C4C 200 133177740                  64
+
+PASS7C4C 7C4C 200 133178686                  65
+
+PASS7C4C 7C4C 200 133168685                  66
+
+TCM addr corrupted: 0x23820
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133282363                  67
+
+PASS7C4C 7C4C 200 133184118                  68
+
+PASS7C4C 7C4C 200 133187478                  69
+
+PASS7C4C 7C4C 200 133187362                  70
+
+PASS7C4C 7C4C 200 133182001                  71
+
+PASS7C4C 7C4C 200 133177849                  72
+
+PASS7C4C 7C4C 200 133177454                  73
+
+TCM addr corrupted: 0x23AB8
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300000                  74
+
+PASS7C4C 7C4C 200 133184674                  75
+
+TCM addr corrupted: 0x231B8
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133294909                  76
+
+PASS7C4C 7C4C 200 133186617                  77
+
+PASS7C4C 7C4C 200 133178766                  78
+
+PASS7C4C 7C4C 200 133196102                  79
+
+PASS7C4C 7C4C 200 133187273                  80
+
+PASS7C4C 7C4C 200 133145439                  81
+
+TCM addr corrupted: 0x230D0
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x239B0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133419191                  82
+
+TCM addr corrupted: 0x23FD0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133281374                  83
+
+PASS7C4C 7C4C 200 133182944                  84
+
+PASS7C4C 7C4C 200 133180716                  85
+
+PASS7C4C 7C4C 200 133187856                  86
+
+PASS7C4C 7C4C 200 133174439                  87
+
+PASS7C4C 7C4C 200 133173098                  88
+
+PASS7C4C 7C4C 200 133182298                  89
+
+PASS7C4C 7C4C 200 133183196                  90
+
+PASS7C4C 7C4C 200 133174912                  91
+2020-05-28 06:19:00 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133178576                  92
+
+PASS7C4C 7C4C 200 133175155                  93
+
+PASS7C4C 7C4C 200 133178913                  94
+
+TCM addr corrupted: 0x23EC0
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133304011                  95
+
+PASS7C4C 7C4C 200 133187267                  96
+
+PASS7C4C 7C4C 200 133184935                  97
+
+PASS7C4C 7C4C 200 133170180                  98
+
+PASS7C4C 7C4C 200 133167751                  99
+
+PASS7C4C 7C4C 200 133153725                 100
+
+PASS7C4C 7C4C 200 133176006                 101
+
+TCM addr corrupted: 0x23D50
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133323692                 102
+
+PASS7C4C 7C4C 200 133179059                 103
+
+PASS7C4C 7C4C 200 133166408                 104
+
+TCM addr corrupted: 0x24198
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x240A0
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133398872                 105
+
+PASS7C4C 7C4C 200 133161484                 106
+
+PASS7C4C 7C4C 200 133193125                 107
+
+PASS7C4C 7C4C 200 133191782                 108
+
+PASS7C4C 7C4C 200 133185540                 109
+
+PASS7C4C 7C4C 200 133167224                 110
+
+PASS7C4C 7C4C 200 133190699                 111
+
+PASS7C4C 7C4C 200 133168482                 112
+
+PASS7C4C 7C4C 200 133194230                 113
+
+PASS7C4C 7C4C 200 133171993                 114
+
+TCM addr corrupted: 0x23FC8
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133341409                 115
+
+PASS7C4C 7C4C 200 133201674                 116
+
+PASS7C4C 7C4C 200 133180965                 117
+
+PASS7C4C 7C4C 200 133195266                 118
+
+PASS7C4C 7C4C 200 133171749                 119
+
+PASS7C4C 7C4C 200 133184747                 120
+
+PASS7C4C 7C4C 200 133196133                 121
+
+PASS7C4C 7C4C 200 133170012                 122
+
+TCM addr corrupted: 0x23D10
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133310497                 123
+
+TCM addr corrupted: 0x238D0
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133328446                 124
+
+TCM addr corrupted: 0x230E0
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133312821                 125
+
+PASS7C4C 7C4C 200 133195336                 126
+
+PASS7C4C 7C4C 200 133199339                 127
+
+PASS7C4C 7C4C 200 133199551                 128
+
+PASS7C4C 7C4C 200 133182296                 129
+
+PASS7C4C 7C4C 200 133175058                 130
+
+TCM addr corrupted: 0x24BF0
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133343734                 131
+
+PASS7C4C 7C4C 200 133182552                 132
+
+PASS7C4C 7C4C 200 133170656                 133
+
+PASS7C4C 7C4C 200 133189261                 134
+
+PASS7C4C 7C4C 200 133178512                 135
+
+PASS7C4C 7C4C 200 133178245                 136
+2020-05-28 06:20:01 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133177463                 137
+
+PASS7C4C 7C4C 200 133203086                 138
+
+PASS7C4C 7C4C 200 133183709                 139
+
+PASS7C4C 7C4C 200 133159363                 140
+
+PASS7C4C 7C4C 200 133188878                 141
+
+PASS7C4C 7C4C 200 133186677                 142
+
+PASS7C4C 7C4C 200 133188212                 143
+
+PASS7C4C 7C4C 200 133183555                 144
+
+TCM addr corrupted: 0x22F18
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133313943                 145
+
+TCM addr corrupted: 0x23550
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133289247                 146
+
+PASS7C4C 7C4C 200 133181729                 147
+
+PASS7C4C 7C4C 200 133186153                 148
+
+PASS7C4C 7C4C 200 133179924                 149
+
+PASS7C4C 7C4C 200 133176761                 150
+
+PASS7C4C 7C4C 200 133198828                 151
+
+PASS7C4C 7C4C 200 133180722                 152
+
+PASS7C4C 7C4C 200 133178728                 153
+
+PASS7C4C 7C4C 200 133180592                 154
+
+PASS7C4C 7C4C 200 133195223                 155
+
+PASS7C4C 7C4C 200 133181664                 156
+
+PASS7C4C 7C4C 200 133185589                 157
+
+PASS7C4C 7C4C 200 133177175                 158
+
+PASS7C4C 7C4C 200 133169587                 159
+
+PASS7C4C 7C4C 200 133170097                 160
+
+PASS7C4C 7C4C 200 133165498                 161
+
+TCM addr corrupted: 0x24AD8
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133288650                 162
+
+PASS7C4C 7C4C 200 133169455                 163
+
+PASS7C4C 7C4C 200 133181706                 164
+
+PASS7C4C 7C4C 200 133178077                 165
+
+TCM addr corrupted: 0x23048
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133314904                 166
+
+PASS7C4C 7C4C 200 133167013                 167
+
+PASS7C4C 7C4C 200 133179954                 168
+
+PASS7C4C 7C4C 200 133189245                 169
+
+PASS7C4C 7C4C 200 133169445                 170
+
+PASS7C4C 7C4C 200 133162175                 171
+
+PASS7C4C 7C4C 200 133158184                 172
+
+PASS7C4C 7C4C 200 133188674                 173
+
+PASS7C4C 7C4C 200 133171386                 174
+
+PASS7C4C 7C4C 200 133188838                 175
+
+PASS7C4C 7C4C 200 133173042                 176
+
+TCM addr corrupted: 0x23CB0
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133321588                 177
+
+PASS7C4C 7C4C 200 133197532                 178
+
+TCM addr corrupted: 0x24178
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133332447                 179
+
+TCM addr corrupted: 0x23E08
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133330623                 180
+
+PASS7C4C 7C4C 200 133177429                 181
+2020-05-28 06:21:02 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133182622                 182
+
+PASS7C4C 7C4C 200 133195119                 183
+
+PASS7C4C 7C4C 200 133203810                 184
+
+PASS7C4C 7C4C 200 133183087                 185
+
+PASS7C4C 7C4C 200 133188288                 186
+
+TCM addr corrupted: 0x23758
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133341361                 187
+
+TCM addr corrupted: 0x23A78
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133305071                 188
+
+PASS7C4C 7C4C 200 133185580                 189
+
+TCM addr corrupted: 0x23778
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133296970                 190
+
+PASS7C4C 7C4C 200 133175631                 191
+
+TCM addr corrupted: 0x23C08
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133339560                 192
+
+TCM addr corrupted: 0x24088
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133296976                 193
+
+PASS7C4C 7C4C 200 133183509                 194
+
+PASS7C4C 7C4C 200 133183070                 195
+
+PASS7C4C 7C4C 200 133178041                 196
+
+PASS7C4C 7C4C 200 133164362                 197
+
+PASS7C4C 7C4C 200 133177580                 198
+
+PASS7C4C 7C4C 200 133169088                 199
+
+PASS7C4C 7C4C 200 133174244                 200
+
+PASS7C4C 7C4C 200 133173053                 201
+
+PASS7C4C 7C4C 200 133167957                 202
+
+PASS7C4C 7C4C 200 133179406                 203
+
+TCM addr corrupted: 0x23788
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300851                 204
+
+PASS7C4C 7C4C 200 133172693                 205
+
+TCM addr corrupted: 0x23E10
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133325655                 206
+
+TCM addr corrupted: 0x23F78
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133307070                 207
+
+PASS7C4C 7C4C 200 133170092                 208
+
+PASS7C4C 7C4C 200 133166688                 209
+
+PASS7C4C 7C4C 200 133192254                 210
+
+TCM addr corrupted: 0x24140
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133324332                 211
+
+PASS7C4C 7C4C 200 133155087                 212
+
+PASS7C4C 7C4C 200 133171676                 213
+
+PASS7C4C 7C4C 200 133193484                 214
+
+PASS7C4C 7C4C 200 133188996                 215
+
+PASS7C4C 7C4C 200 133176308                 216
+
+PASS7C4C 7C4C 200 133176357                 217
+
+PASS7C4C 7C4C 200 133160214                 218
+
+PASS7C4C 7C4C 200 133184986                 219
+
+TCM addr corrupted: 0x24518
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133304101                 220
+
+PASS7C4C 7C4C 200 133157940                 221
+
+PASS7C4C 7C4C 200 133160631                 222
+
+PASS7C4C 7C4C 200 133171220                 223
+
+PASS7C4C 7C4C 200 133184059                 224
+
+PASS7C4C 7C4C 200 133181349                 225
+
+PASS7C4C 7C4C 200 133179134                 226
+2020-05-28 06:22:02 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133191945                 227
+
+PASS7C4C 7C4C 200 133179016                 228
+
+PASS7C4C 7C4C 200 133164857                 229
+
+PASS7C4C 7C4C 200 133174809                 230
+
+TCM addr corrupted: 0x237D0
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133283566                 231
+
+PASS7C4C 7C4C 200 133191323                 232
+
+TCM addr corrupted: 0x23330
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133281091                 233
+
+PASS7C4C 7C4C 200 133190634                 234
+
+PASS7C4C 7C4C 200 133184598                 235
+
+PASS7C4C 7C4C 200 133201733                 236
+
+PASS7C4C 7C4C 200 133153856                 237
+
+PASS7C4C 7C4C 200 133166488                 238
+
+PASS7C4C 7C4C 200 133185254                 239
+
+PASS7C4C 7C4C 200 133172916                 240
+
+PASS7C4C 7C4C 200 133160923                 241
+
+PASS7C4C 7C4C 200 133185461                 242
+
+PASS7C4C 7C4C 200 133177620                 243
+
+PASS7C4C 7C4C 200 133173660                 244
+
+PASS7C4C 7C4C 200 133175247                 245
+
+PASS7C4C 7C4C 200 133175751                 246
+
+PASS7C4C 7C4C 200 133170725                 247
+
+PASS7C4C 7C4C 200 133188756                 248
+
+PASS7C4C 7C4C 200 133179181                 249
+
+PASS7C4C 7C4C 200 133177327                 250
+
+PASS7C4C 7C4C 200 133179601                 251
+
+PASS7C4C 7C4C 200 133187321                 252
+
+PASS7C4C 7C4C 200 133194875                 253
+
+TCM addr corrupted: 0x23B98
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x23F78
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133430461                 254
+
+PASS7C4C 7C4C 200 133180983                 255
+
+PASS7C4C 7C4C 200 133163157                 256
+
+PASS7C4C 7C4C 200 133187734                 257
+
+PASS7C4C 7C4C 200 133189983                 258
+
+PASS7C4C 7C4C 200 133170579                 259
+
+PASS7C4C 7C4C 200 133181121                 260
+
+TCM addr corrupted: 0x24BA0
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133269662                 261
+
+PASS7C4C 7C4C 200 133160002                 262
+
+PASS7C4C 7C4C 200 133188176                 263
+
+PASS7C4C 7C4C 200 133178216                 264
+
+PASS7C4C 7C4C 200 133172188                 265
+
+PASS7C4C 7C4C 200 133170696                 266
+
+PASS7C4C 7C4C 200 133174599                 267
+
+PASS7C4C 7C4C 200 133178553                 268
+
+PASS7C4C 7C4C 200 133180748                 269
+
+PASS7C4C 7C4C 200 133178054                 270
+
+PASS7C4C 7C4C 200 133179590                 271
+2020-05-28 06:23:03 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133174139                 272
+
+PASS7C4C 7C4C 200 133174254                 273
+
+PASS7C4C 7C4C 200 133184637                 274
+
+PASS7C4C 7C4C 200 133189383                 275
+
+PASS7C4C 7C4C 200 133180673                 276
+
+TCM addr corrupted: 0x24340
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133316931                 277
+
+PASS7C4C 7C4C 200 133173334                 278
+
+PASS7C4C 7C4C 200 133168940                 279
+
+PASS7C4C 7C4C 200 133184452                 280
+
+PASS7C4C 7C4C 200 133166448                 281
+
+PASS7C4C 7C4C 200 133174937                 282
+
+PASS7C4C 7C4C 200 133168835                 283
+
+PASS7C4C 7C4C 200 133171198                 284
+
+PASS7C4C 7C4C 200 133179168                 285
+
+PASS7C4C 7C4C 200 133189138                 286
+
+TCM addr corrupted: 0x24B48
+
+, Bit Mask : 0x1040 ,Shift 16, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24b48
+
+2020-05-28 06:23:28 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:23:28 [INFO] configuring board...
+2020-05-28 06:23:29 Current seed : 54
+2020-05-28 06:24:14 Increment seed to : 55
+2020-05-28 06:24:14 [INFO] Current Time  
+PASS7C4C 7C4C 200 125501414                   0
+
+PASS7C4C 7C4C 200 125504172                   1
+
+PASS7C4C 7C4C 200 125502903                   2
+
+PASS7C4C 7C4C 200 125502979                   3
+
+PASS7C4C 7C4C 200 125510833                   4
+
+PASS7C4C 7C4C 200 125506281                   5
+
+PASS7C4C 7C4C 200 125507591                   6
+
+TCM addr corrupted: 0x23F88
+
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 127003972                   7
+
+TCM addr corrupted: 0x23B68
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133276390                   8
+
+PASS7C4C 7C4C 200 133181288                   9
+
+TCM addr corrupted: 0x24208
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133277855                  10
+
+PASS7C4C 7C4C 200 133165680                  11
+
+PASS7C4C 7C4C 200 133167500                  12
+
+PASS7C4C 7C4C 200 133173426                  13
+
+PASS7C4C 7C4C 200 133165406                  14
+
+TCM addr corrupted: 0x24970
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133279173                  15
+
+PASS7C4C 7C4C 200 133179921                  16
+
+TCM addr corrupted: 0x23458
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133272673                  17
+
+PASS7C4C 7C4C 200 133175716                  18
+
+PASS7C4C 7C4C 200 133183644                  19
+
+PASS7C4C 7C4C 200 133184081                  20
+
+PASS7C4C 7C4C 200 133173832                  21
+
+TCM addr corrupted: 0x24B90
+
+, Bit Mask : 0x1200 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24b90
+
+2020-05-28 06:24:49 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:24:49 [INFO] configuring board...
+2020-05-28 06:24:50 Current seed : 55
+2020-05-28 06:25:36 Increment seed to : 56
+2020-05-28 06:25:36 [INFO] Current Time  
+PASS7C4C 7C4C 200 125499348                   0
+
+PASS7C4C 7C4C 200 125513560                   1
+
+PASS7C4C 7C4C 200 125496295                   2
+
+PASS7C4C 7C4C 200 125508041                   3
+
+PASS7C4C 7C4C 200 125506351                   4
+
+PASS7C4C 7C4C 200 125501568                   5
+
+PASS7C4C 7C4C 200 125513461                   6
+
+PASS7C4C 7C4C 200 125499576                   7
+
+PASS7C4C 7C4C 200 125499709                   8
+
+TCM addr corrupted: 0x245E0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 128619360                   9
+
+PASS7C4C 7C4C 200 133188375                  10
+
+PASS7C4C 7C4C 200 133175377                  11
+
+PASS7C4C 7C4C 200 133183591                  12
+
+PASS7C4C 7C4C 200 133166509                  13
+
+PASS7C4C 7C4C 200 133168025                  14
+
+PASS7C4C 7C4C 200 133174475                  15
+
+PASS7C4C 7C4C 200 133186870                  16
+
+TCM addr corrupted: 0x244B8
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133267300                  17
+
+PASS7C4C 7C4C 200 133189872                  18
+
+TCM addr corrupted: 0x23B90
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133318770                  19
+
+TCM addr corrupted: 0x22F78
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133290807                  20
+
+PASS7C4C 7C4C 200 133177196                  21
+
+PASS7C4C 7C4C 200 133183018                  22
+
+PASS7C4C 7C4C 200 133178326                  23
+
+PASS7C4C 7C4C 200 133181690                  24
+
+PASS7C4C 7C4C 200 133172909                  25
+
+PASS7C4C 7C4C 200 133175394                  26
+
+PASS7C4C 7C4C 200 133169044                  27
+
+PASS7C4C 7C4C 200 133187181                  28
+
+PASS7C4C 7C4C 200 133164895                  29
+
+PASS7C4C 7C4C 200 133171934                  30
+
+PASS7C4C 7C4C 200 133173768                  31
+
+PASS7C4C 7C4C 200 133186245                  32
+
+PASS7C4C 7C4C 200 133186738                  33
+
+TCM addr corrupted: 0x23850
+
+, Bit Mask : 0x1400000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23850
+
+Error: Timed Out polling for response
+
+2020-05-28 06:26:26 [INFO] configuring board...
+2020-05-28 06:26:27 Current seed : 56
+2020-05-28 06:27:12 Increment seed to : 57
+2020-05-28 06:27:12 [INFO] Current Time  
+TCM addr corrupted: 0x24A98
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+FAILCRCD0A2 7C4C>>     Dumping RAMfile information to the log...
+
+4294967295
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+4294967295
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292020
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292020
+
+  167205
+
+  167243
+
+  167299
+
+  167335
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292440
+
+       0
+
+       0
+
+   65673
+
+ 5292440
+
+    1024
+
+4294966272
+
+       0
+
+ 5292124
+
+  167205
+
+>>      FFT test is finished
+2020-05-28 06:27:18 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:27:18 [INFO] configuring board...
+2020-05-28 06:27:19 Current seed : 57
+2020-05-28 06:28:08 Increment seed to : 58
+
+PASS7C4C 7C4C 200 125502224                   0
+
+PASS7C4C 7C4C 200 125515712                   1
+2020-05-28 06:28:12 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 125504327                   2
+
+PASS7C4C 7C4C 200 125493273                   3
+
+PASS7C4C 7C4C 200 125508059                   4
+
+PASS7C4C 7C4C 200 125511159                   5
+
+PASS7C4C 7C4C 200 125509293                   6
+
+PASS7C4C 7C4C 200 125504461                   7
+
+PASS7C4C 7C4C 200 125512407                   8
+
+PASS7C4C 7C4C 200 125504666                   9
+
+PASS7C4C 7C4C 200 125510185                  10
+
+TCM addr corrupted: 0x23600
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+FAILCRCBDC4 7C4C>>     Dumping RAMfile information to the log...
+
+4294967235
+
+       0
+
+4294967258
+
+       0
+
+       0
+
+       0
+
+      39
+
+       1
+
+      62
+
+       0
+
+      62
+
+4294967295
+
+      40
+
+       1
+
+       1
+
+       1
+
+4294967259
+
+       0
+
+4294967235
+
+       1
+
+4294967236
+
+       1
+
+4294967260
+
+       1
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      62
+
+       1
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+4294967295
+
+4294967261
+
+4294967295
+
+       1
+
+       1
+
+      38
+
+       0
+
+      62
+
+4294967295
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+4294967295
+
+4294967259
+
+4294967295
+
+4294967237
+
+       0
+
+4294967236
+
+       0
+
+4294967259
+
+       1
+
+       1
+
+       0
+
+      39
+
+       0
+
+      62
+
+       0
+
+      61
+
+4294967295
+
+      39
+
+       1
+
+       2
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+       1
+
+4294967260
+
+       0
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      63
+
+       0
+
+      62
+
+       1
+
+      38
+
+       0
+
+       1
+
+       1
+
+4294967258
+
+       0
+
+4294967237
+
+       1
+
+4294967236
+
+       0
+
+4294967258
+
+4294967295
+
+       1
+
+       1
+
+      39
+
+       0
+
+      61
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292020
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292020
+
+  167205
+
+  167243
+
+  167299
+
+  167335
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292440
+
+       0
+
+       0
+
+   65673
+
+ 5292440
+
+    1024
+
+4294966272
+
+       0
+
+>>      FFT test is finished
+2020-05-28 06:28:29 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:28:29 [INFO] configuring board...
+2020-05-28 06:28:30 Current seed : 58
+2020-05-28 06:29:15 Increment seed to : 59
+2020-05-28 06:29:15 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 125505312                   0
+
+TCM addr corrupted: 0x24190
+
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+
+FAILCRC37FE 7C4C>>     Dumping RAMfile information to the log...
+
+4294967295
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+4294967295
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+4294967295
+
+       0
+
+       0
+
+       1
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       0
+
+4294967295
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292020
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292020
+
+  167205
+
+  167243
+
+  167299
+
+  167335
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292440
+
+       0
+
+       0
+
+   65673
+
+ 5292440
+
+    1024
+
+4294966272
+
+       0
+
+ 5292124
+
+  167205
+
+  167243
+
+  167299
+
+>>      FFT test is finished
+2020-05-28 06:29:23 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:29:23 [INFO] configuring board...
+2020-05-28 06:29:24 Current seed : 59
+2020-05-28 06:30:10 Increment seed to : 60
+
+PASS7C4C 7C4C 200 125498380                   0
+
+PASS7C4C 7C4C 200 125509535                   1
+
+TCM addr corrupted: 0x23498
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x237C0
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133002889                   2
+
+TCM addr corrupted: 0x238D0
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133291622                   3
+2020-05-28 06:30:16 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133173468                   4
+
+TCM addr corrupted: 0x23008
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133327033                   5
+
+PASS7C4C 7C4C 200 133161991                   6
+
+PASS7C4C 7C4C 200 133180021                   7
+
+PASS7C4C 7C4C 200 133180268                   8
+
+PASS7C4C 7C4C 200 133183591                   9
+
+PASS7C4C 7C4C 200 133176932                  10
+
+PASS7C4C 7C4C 200 133160304                  11
+
+TCM addr corrupted: 0x23808
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133249020                  12
+
+PASS7C4C 7C4C 200 133191548                  13
+
+PASS7C4C 7C4C 200 133182508                  14
+
+PASS7C4C 7C4C 200 133190664                  15
+
+PASS7C4C 7C4C 200 133192244                  16
+
+PASS7C4C 7C4C 200 133180645                  17
+
+PASS7C4C 7C4C 200 133174006                  18
+
+PASS7C4C 7C4C 200 133192787                  19
+
+TCM addr corrupted: 0x24198
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133296857                  20
+
+PASS7C4C 7C4C 200 133186088                  21
+
+PASS7C4C 7C4C 200 133176401                  22
+
+PASS7C4C 7C4C 200 133177928                  23
+
+PASS7C4C 7C4C 200 133171082                  24
+
+PASS7C4C 7C4C 200 133182448                  25
+
+PASS7C4C 7C4C 200 133185625                  26
+
+PASS7C4C 7C4C 200 133180112                  27
+
+PASS7C4C 7C4C 200 133175473                  28
+
+TCM addr corrupted: 0x23178
+
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133263964                  29
+
+PASS7C4C 7C4C 200 133189392                  30
+
+PASS7C4C 7C4C 200 133175543                  31
+
+PASS7C4C 7C4C 200 133190012                  32
+
+PASS7C4C 7C4C 200 133190178                  33
+
+PASS7C4C 7C4C 200 133173459                  34
+
+PASS7C4C 7C4C 200 133180868                  35
+
+PASS7C4C 7C4C 200 133184056                  36
+
+PASS7C4C 7C4C 200 133193172                  37
+
+TCM addr corrupted: 0x23DA0
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133324326                  38
+
+PASS7C4C 7C4C 200 133182031                  39
+
+PASS7C4C 7C4C 200 133176746                  40
+
+PASS7C4C 7C4C 200 133150047                  41
+
+PASS7C4C 7C4C 200 133189197                  42
+
+PASS7C4C 7C4C 200 133177312                  43
+
+PASS7C4C 7C4C 200 133193030                  44
+
+PASS7C4C 7C4C 200 133179732                  45
+
+PASS7C4C 7C4C 200 133183368                  46
+
+TCM addr corrupted: 0x23DF8
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133305428                  47
+
+PASS7C4C 7C4C 200 133168863                  48
+
+TCM addr corrupted: 0x22ED8
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+2020-05-28 06:31:16 [INFO] Current Time  
+PASS7C4C 7C4C 200 133289739                  49
+
+PASS7C4C 7C4C 200 133184984                  50
+
+PASS7C4C 7C4C 200 133187154                  51
+
+TCM addr corrupted: 0x23C48
+
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133258662                  52
+
+PASS7C4C 7C4C 200 133183134                  53
+
+PASS7C4C 7C4C 200 133166692                  54
+
+PASS7C4C 7C4C 200 133188820                  55
+
+TCM addr corrupted: 0x23C60
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133294474                  56
+
+PASS7C4C 7C4C 200 133184873                  57
+
+PASS7C4C 7C4C 200 133172600                  58
+
+PASS7C4C 7C4C 200 133194697                  59
+
+PASS7C4C 7C4C 200 133177520                  60
+
+PASS7C4C 7C4C 200 133177053                  61
+
+PASS7C4C 7C4C 200 133173110                  62
+
+PASS7C4C 7C4C 200 133177147                  63
+
+PASS7C4C 7C4C 200 133158906                  64
+
+PASS7C4C 7C4C 200 133183233                  65
+
+PASS7C4C 7C4C 200 133185767                  66
+
+PASS7C4C 7C4C 200 133189021                  67
+
+PASS7C4C 7C4C 200 133185603                  68
+
+PASS7C4C 7C4C 200 133185985                  69
+
+PASS7C4C 7C4C 200 133190124                  70
+
+TCM addr corrupted: 0x23AE8
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133339023                  71
+
+PASS7C4C 7C4C 200 133178259                  72
+
+PASS7C4C 7C4C 200 133180388                  73
+
+PASS7C4C 7C4C 200 133185918                  74
+
+TCM addr corrupted: 0x242C8
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133294952                  75
+
+PASS7C4C 7C4C 200 133192740                  76
+
+PASS7C4C 7C4C 200 133163973                  77
+
+PASS7C4C 7C4C 200 133173966                  78
+
+TCM addr corrupted: 0x231D8
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133296858                  79
+
+PASS7C4C 7C4C 200 133185498                  80
+
+PASS7C4C 7C4C 200 133170434                  81
+
+TCM addr corrupted: 0x24120
+
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133269453                  82
+
+PASS7C4C 7C4C 200 133193801                  83
+
+PASS7C4C 7C4C 200 133169203                  84
+
+PASS7C4C 7C4C 200 133179577                  85
+
+PASS7C4C 7C4C 200 133189190                  86
+
+PASS7C4C 7C4C 200 133177716                  87
+
+PASS7C4C 7C4C 200 133177061                  88
+
+TCM addr corrupted: 0x23C50
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133292105                  89
+
+TCM addr corrupted: 0x24568
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133292098                  90
+
+PASS7C4C 7C4C 200 133168624                  91
+
+PASS7C4C 7C4C 200 133170090                  92
+
+PASS7C4C 7C4C 200 133163818                  93
+2020-05-28 06:32:17 [INFO] Current Time  
+
+TCM addr corrupted: 0x24310
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133321510                  94
+
+PASS7C4C 7C4C 200 133182864                  95
+
+TCM addr corrupted: 0x237D8
+
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133309765                  96
+
+TCM addr corrupted: 0x23B20
+
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133172363                  97
+
+PASS7C4C 7C4C 200 133159164                  98
+
+TCM addr corrupted: 0x24AF8
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133330629                  99
+
+PASS7C4C 7C4C 200 133173188                 100
+
+PASS7C4C 7C4C 200 133181681                 101
+
+PASS7C4C 7C4C 200 133171207                 102
+
+PASS7C4C 7C4C 200 133178152                 103
+
+TCM addr corrupted: 0x23328
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133292197                 104
+
+PASS7C4C 7C4C 200 133172151                 105
+
+PASS7C4C 7C4C 200 133190258                 106
+
+PASS7C4C 7C4C 200 133171089                 107
+
+PASS7C4C 7C4C 200 133168793                 108
+
+PASS7C4C 7C4C 200 133182469                 109
+
+PASS7C4C 7C4C 200 133181127                 110
+
+PASS7C4C 7C4C 200 133172370                 111
+
+PASS7C4C 7C4C 200 133172365                 112
+
+PASS7C4C 7C4C 200 133184500                 113
+
+PASS7C4C 7C4C 200 133199553                 114
+
+PASS7C4C 7C4C 200 133191553                 115
+
+PASS7C4C 7C4C 200 133152778                 116
+
+PASS7C4C 7C4C 200 133168468                 117
+
+PASS7C4C 7C4C 200 133168531                 118
+
+PASS7C4C 7C4C 200 133163465                 119
+
+PASS7C4C 7C4C 200 133173925                 120
+
+PASS7C4C 7C4C 200 133185181                 121
+
+PASS7C4C 7C4C 200 133165983                 122
+
+PASS7C4C 7C4C 200 133185779                 123
+
+TCM addr corrupted: 0x22F48
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133315975                 124
+
+PASS7C4C 7C4C 200 133183193                 125
+
+PASS7C4C 7C4C 200 133171459                 126
+
+PASS7C4C 7C4C 200 133178735                 127
+
+PASS7C4C 7C4C 200 133188202                 128
+
+PASS7C4C 7C4C 200 133181869                 129
+
+PASS7C4C 7C4C 200 133195194                 130
+
+PASS7C4C 7C4C 200 133180890                 131
+
+PASS7C4C 7C4C 200 133175908                 132
+
+PASS7C4C 7C4C 200 133178362                 133
+
+TCM addr corrupted: 0x23E78
+
+, Bit Mask : 0x4020 ,Shift 16, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23e78
+
+2020-05-28 06:33:16 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:33:16 [INFO] configuring board...
+2020-05-28 06:33:17 Current seed : 60
+2020-05-28 06:34:02 Increment seed to : 61
+2020-05-28 06:34:02 [INFO] Current Time  
+PASS7C4C 7C4C 200 125501404                   0
+
+TCM addr corrupted: 0x23020
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+FAILCRCBDC4 7C4C>>     Dumping RAMfile information to the log...
+
+4294967235
+
+       0
+
+4294967258
+
+       0
+
+       0
+
+       0
+
+      39
+
+       1
+
+      62
+
+       0
+
+      62
+
+4294967295
+
+      40
+
+       1
+
+       1
+
+       1
+
+4294967259
+
+       0
+
+4294967235
+
+       1
+
+4294967236
+
+       1
+
+4294967260
+
+       1
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      62
+
+       1
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+4294967295
+
+4294967261
+
+4294967295
+
+       1
+
+       1
+
+      38
+
+       0
+
+      62
+
+4294967295
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+4294967295
+
+4294967259
+
+4294967295
+
+4294967237
+
+       0
+
+4294967236
+
+       0
+
+4294967259
+
+       1
+
+       1
+
+       0
+
+      39
+
+       0
+
+      62
+
+       0
+
+      61
+
+4294967295
+
+      39
+
+       1
+
+       2
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+       1
+
+4294967260
+
+       0
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      63
+
+       0
+
+      62
+
+       1
+
+      38
+
+       0
+
+       1
+
+       1
+
+4294967258
+
+       0
+
+4294967237
+
+       1
+
+4294967236
+
+       0
+
+4294967258
+
+4294967295
+
+       1
+
+       1
+
+      39
+
+       0
+
+      61
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292020
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292020
+
+  167205
+
+  167243
+
+  167299
+
+  167335
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292440
+
+       0
+
+       0
+
+   65673
+
+ 5292440
+
+    1024
+
+4294966272
+
+       0
+
+>>      FFT test is finished
+2020-05-28 06:34:10 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:34:10 [INFO] configuring board...
+2020-05-28 06:34:11 Current seed : 61
+2020-05-28 06:34:55 Increment seed to : 62
+
+PASS7C4C 7C4C 200 125506529                   0
+
+PASS7C4C 7C4C 200 125502621                   1
+
+PASS7C4C 7C4C 200 125510947                   2
+
+PASS7C4C 7C4C 200 125510991                   3
+
+PASS7C4C 7C4C 200 125506948                   4
+2020-05-28 06:35:02 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 125501808                   5
+
+PASS7C4C 7C4C 200 125508610                   6
+
+PASS7C4C 7C4C 200 125504499                   7
+
+TCM addr corrupted: 0x247A8
+
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 130387110                   8
+
+TCM addr corrupted: 0x239E8
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133266841                   9
+
+PASS7C4C 7C4C 200 133171449                  10
+
+TCM addr corrupted: 0x24B00
+
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133317576                  11
+
+PASS7C4C 7C4C 200 133165867                  12
+
+PASS7C4C 7C4C 200 133184020                  13
+
+PASS7C4C 7C4C 200 133164650                  14
+
+TCM addr corrupted: 0x242E8
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133312659                  15
+
+PASS7C4C 7C4C 200 133185895                  16
+
+PASS7C4C 7C4C 200 133182002                  17
+
+PASS7C4C 7C4C 200 133171810                  18
+
+PASS7C4C 7C4C 200 133185004                  19
+
+PASS7C4C 7C4C 200 133180778                  20
+
+PASS7C4C 7C4C 200 133172548                  21
+
+PASS7C4C 7C4C 200 133180957                  22
+
+TCM addr corrupted: 0x24280
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133268852                  23
+
+TCM addr corrupted: 0x23390
+
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133295024                  24
+
+PASS7C4C 7C4C 200 133191777                  25
+
+TCM addr corrupted: 0x23558
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133314729                  26
+
+PASS7C4C 7C4C 200 133175905                  27
+
+PASS7C4C 7C4C 200 133188598                  28
+
+TCM addr corrupted: 0x24188
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300319                  29
+
+PASS7C4C 7C4C 200 133189046                  30
+
+PASS7C4C 7C4C 200 133181532                  31
+
+PASS7C4C 7C4C 200 133181710                  32
+
+PASS7C4C 7C4C 200 133182510                  33
+
+PASS7C4C 7C4C 200 133183234                  34
+
+PASS7C4C 7C4C 200 133179538                  35
+
+PASS7C4C 7C4C 200 133184732                  36
+
+PASS7C4C 7C4C 200 133187653                  37
+
+PASS7C4C 7C4C 200 133184749                  38
+
+PASS7C4C 7C4C 200 133170558                  39
+
+TCM addr corrupted: 0x23B40
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300475                  40
+
+PASS7C4C 7C4C 200 133174796                  41
+
+PASS7C4C 7C4C 200 133189814                  42
+
+PASS7C4C 7C4C 200 133168988                  43
+
+PASS7C4C 7C4C 200 133196912                  44
+
+PASS7C4C 7C4C 200 133171487                  45
+
+PASS7C4C 7C4C 200 133184819                  46
+
+TCM addr corrupted: 0x24A38
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133301553                  47
+
+PASS7C4C 7C4C 200 133194258                  48
+
+PASS7C4C 7C4C 200 133174977                  49
+2020-05-28 06:36:03 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133181201                  50
+
+PASS7C4C 7C4C 200 133170579                  51
+
+PASS7C4C 7C4C 200 133181333                  52
+
+PASS7C4C 7C4C 200 133193654                  53
+
+TCM addr corrupted: 0x240F0
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133281848                  54
+
+PASS7C4C 7C4C 200 133174360                  55
+
+PASS7C4C 7C4C 200 133168402                  56
+
+PASS7C4C 7C4C 200 133182072                  57
+
+PASS7C4C 7C4C 200 133179252                  58
+
+PASS7C4C 7C4C 200 133188252                  59
+
+PASS7C4C 7C4C 200 133195051                  60
+
+PASS7C4C 7C4C 200 133173501                  61
+
+PASS7C4C 7C4C 200 133191795                  62
+
+PASS7C4C 7C4C 200 133186968                  63
+
+PASS7C4C 7C4C 200 133174792                  64
+
+PASS7C4C 7C4C 200 133185542                  65
+
+TCM addr corrupted: 0x24658
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133328696                  66
+
+TCM addr corrupted: 0x23D20
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133315449                  67
+
+PASS7C4C 7C4C 200 133184506                  68
+
+PASS7C4C 7C4C 200 133162215                  69
+
+TCM addr corrupted: 0x24B18
+
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+
+TCM addr corrupted: 0x24688
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133407500                  70
+
+TCM addr corrupted: 0x240A8
+
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133278738                  71
+
+PASS7C4C 7C4C 200 133181655                  72
+
+PASS7C4C 7C4C 200 133165999                  73
+
+TCM addr corrupted: 0x23CE8
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133339705                  74
+
+PASS7C4C 7C4C 200 133167151                  75
+
+PASS7C4C 7C4C 200 133174368                  76
+
+TCM addr corrupted: 0x24898
+
+, Bit Mask : 0x10000200 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24898
+
+2020-05-28 06:36:44 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:36:44 [INFO] configuring board...
+2020-05-28 06:36:45 Current seed : 62
+2020-05-28 06:37:30 Increment seed to : 63
+2020-05-28 06:37:30 [INFO] Current Time  
+PASS7C4C 7C4C 200 125503927                   0
+
+PASS7C4C 7C4C 200 125507862                   1
+
+PASS7C4C 7C4C 200 125504616                   2
+
+PASS7C4C 7C4C 200 125504899                   3
+
+PASS7C4C 7C4C 200 125506110                   4
+
+PASS7C4C 7C4C 200 125505056                   5
+
+TCM addr corrupted: 0x233B0
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 127778055                   6
+
+PASS7C4C 7C4C 200 133174302                   7
+
+PASS7C4C 7C4C 200 133179459                   8
+
+PASS7C4C 7C4C 200 133183166                   9
+
+PASS7C4C 7C4C 200 133189419                  10
+
+PASS7C4C 7C4C 200 133169879                  11
+
+PASS7C4C 7C4C 200 133192962                  12
+
+PASS7C4C 7C4C 200 133180536                  13
+
+PASS7C4C 7C4C 200 133176132                  14
+
+PASS7C4C 7C4C 200 133186416                  15
+
+PASS7C4C 7C4C 200 133157790                  16
+
+PASS7C4C 7C4C 200 133178913                  17
+
+PASS7C4C 7C4C 200 133163417                  18
+
+PASS7C4C 7C4C 200 133164386                  19
+
+PASS7C4C 7C4C 200 133176628                  20
+
+PASS7C4C 7C4C 200 133196240                  21
+
+PASS7C4C 7C4C 200 133183992                  22
+
+PASS7C4C 7C4C 200 133179245                  23
+
+PASS7C4C 7C4C 200 133195217                  24
+
+PASS7C4C 7C4C 200 133169796                  25
+
+TCM addr corrupted: 0x24978
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133288783                  26
+
+PASS7C4C 7C4C 200 133161625                  27
+
+PASS7C4C 7C4C 200 133194162                  28
+
+PASS7C4C 7C4C 200 133170396                  29
+
+PASS7C4C 7C4C 200 133190718                  30
+
+TCM addr corrupted: 0x23888
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133314740                  31
+
+PASS7C4C 7C4C 200 133153238                  32
+
+PASS7C4C 7C4C 200 133178139                  33
+
+PASS7C4C 7C4C 200 133173006                  34
+
+PASS7C4C 7C4C 200 133179710                  35
+
+PASS7C4C 7C4C 200 133175589                  36
+
+TCM addr corrupted: 0x24098
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133305923                  37
+
+PASS7C4C 7C4C 200 133193546                  38
+
+TCM addr corrupted: 0x236A0
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133308736                  39
+
+PASS7C4C 7C4C 200 133165422                  40
+
+PASS7C4C 7C4C 200 133181547                  41
+
+PASS7C4C 7C4C 200 133186839                  42
+
+PASS7C4C 7C4C 200 133166306                  43
+
+PASS7C4C 7C4C 200 133165854                  44
+2020-05-28 06:38:31 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133177513                  45
+
+PASS7C4C 7C4C 200 133156766                  46
+
+PASS7C4C 7C4C 200 133190587                  47
+
+PASS7C4C 7C4C 200 133187501                  48
+
+TCM addr corrupted: 0x23668
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300462                  49
+
+PASS7C4C 7C4C 200 133185512                  50
+
+PASS7C4C 7C4C 200 133192352                  51
+
+PASS7C4C 7C4C 200 133174742                  52
+
+PASS7C4C 7C4C 200 133184828                  53
+
+PASS7C4C 7C4C 200 133173681                  54
+
+PASS7C4C 7C4C 200 133165977                  55
+
+TCM addr corrupted: 0x23168
+
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133306213                  56
+
+PASS7C4C 7C4C 200 133163668                  57
+
+PASS7C4C 7C4C 200 133196098                  58
+
+PASS7C4C 7C4C 200 133171379                  59
+
+PASS7C4C 7C4C 200 133178070                  60
+
+TCM addr corrupted: 0x24918
+
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133323276                  61
+
+PASS7C4C 7C4C 200 133163174                  62
+
+TCM addr corrupted: 0x23340
+
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133302994                  63
+
+PASS7C4C 7C4C 200 133173946                  64
+
+PASS7C4C 7C4C 200 133185324                  65
+
+PASS7C4C 7C4C 200 133195619                  66
+
+PASS7C4C 7C4C 200 133171802                  67
+
+PASS7C4C 7C4C 200 133185351                  68
+
+PASS7C4C 7C4C 200 133170930                  69
+
+PASS7C4C 7C4C 200 133176780                  70
+
+PASS7C4C 7C4C 200 133182949                  71
+
+PASS7C4C 7C4C 200 133168578                  72
+
+PASS7C4C 7C4C 200 133170120                  73
+
+PASS7C4C 7C4C 200 133185586                  74
+
+PASS7C4C 7C4C 200 133170427                  75
+
+PASS7C4C 7C4C 200 133191289                  76
+
+TCM addr corrupted: 0x24C70
+
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133187395                  77
+
+PASS7C4C 7C4C 200 133196957                  78
+
+PASS7C4C 7C4C 200 133184495                  79
+
+PASS7C4C 7C4C 200 133168797                  80
+
+PASS7C4C 7C4C 200 133192965                  81
+
+PASS7C4C 7C4C 200 133178091                  82
+
+PASS7C4C 7C4C 200 133180359                  83
+
+PASS7C4C 7C4C 200 133163498                  84
+
+PASS7C4C 7C4C 200 133167975                  85
+
+PASS7C4C 7C4C 200 133181776                  86
+
+PASS7C4C 7C4C 200 133172074                  87
+
+PASS7C4C 7C4C 200 133184173                  88
+
+PASS7C4C 7C4C 200 133177503                  89
+2020-05-28 06:39:31 [INFO] Current Time  
+
+TCM addr corrupted: 0x23D60
+
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133266421                  90
+
+PASS7C4C 7C4C 200 133185241                  91
+
+PASS7C4C 7C4C 200 133173282                  92
+
+PASS7C4C 7C4C 200 133178046                  93
+
+PASS7C4C 7C4C 200 133173890                  94
+
+PASS7C4C 7C4C 200 133180796                  95
+
+PASS7C4C 7C4C 200 133190559                  96
+
+PASS7C4C 7C4C 200 133183446                  97
+
+TCM addr corrupted: 0x241D8
+
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133328125                  98
+
+PASS7C4C 7C4C 200 133181119                  99
+
+TCM addr corrupted: 0x24530
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133335950                 100
+
+PASS7C4C 7C4C 200 133185370                 101
+
+TCM addr corrupted: 0x247A8
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x24468
+
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133400432                 102
+
+PASS7C4C 7C4C 200 133185132                 103
+
+PASS7C4C 7C4C 200 133182084                 104
+
+PASS7C4C 7C4C 200 133191056                 105
+
+TCM addr corrupted: 0x24908
+
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133316954                 106
+
+PASS7C4C 7C4C 200 133163602                 107
+
+TCM addr corrupted: 0x23F08
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300151                 108
+
+PASS7C4C 7C4C 200 133173435                 109
+
+TCM addr corrupted: 0x23718
+
+, Bit Mask : 0x8000400 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23718
+
+Error: Timed Out polling for response
+
+2020-05-28 06:40:01 [INFO] configuring board...
+2020-05-28 06:40:02 Current seed : 63
+2020-05-28 06:40:50 Increment seed to : 64
+2020-05-28 06:40:50 [INFO] Current Time  
+PASS7C4C 7C4C 200 125505510                   0
+
+PASS7C4C 7C4C 200 125504931                   1
+
+PASS7C4C 7C4C 200 125513509                   2
+
+PASS7C4C 7C4C 200 125505844                   3
+
+PASS7C4C 7C4C 200 125518706                   4
+
+PASS7C4C 7C4C 200 125508241                   5
+
+TCM addr corrupted: 0x23C68
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 131469232                   6
+
+TCM addr corrupted: 0x22E68
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133265059                   7
+
+PASS7C4C 7C4C 200 133172162                   8
+
+TCM addr corrupted: 0x23640
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133283501                   9
+
+PASS7C4C 7C4C 200 133178452                  10
+
+PASS7C4C 7C4C 200 133171242                  11
+
+PASS7C4C 7C4C 200 133177251                  12
+
+PASS7C4C 7C4C 200 133170352                  13
+
+PASS7C4C 7C4C 200 133168213                  14
+
+PASS7C4C 7C4C 200 133183480                  15
+
+PASS7C4C 7C4C 200 133186185                  16
+
+PASS7C4C 7C4C 200 133195648                  17
+
+PASS7C4C 7C4C 200 133180663                  18
+
+PASS7C4C 7C4C 200 133175292                  19
+
+PASS7C4C 7C4C 200 133162197                  20
+
+PASS7C4C 7C4C 200 133175939                  21
+
+PASS7C4C 7C4C 200 133187937                  22
+
+PASS7C4C 7C4C 200 133173735                  23
+
+PASS7C4C 7C4C 200 133182047                  24
+
+PASS7C4C 7C4C 200 133176591                  25
+
+PASS7C4C 7C4C 200 133186354                  26
+
+PASS7C4C 7C4C 200 133163148                  27
+
+PASS7C4C 7C4C 200 133179654                  28
+
+PASS7C4C 7C4C 200 133188397                  29
+
+PASS7C4C 7C4C 200 133157696                  30
+
+PASS7C4C 7C4C 200 133181479                  31
+
+PASS7C4C 7C4C 200 133184363                  32
+
+PASS7C4C 7C4C 200 133168065                  33
+
+TCM addr corrupted: 0x24688
+
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133303050                  34
+
+PASS7C4C 7C4C 200 133188670                  35
+
+PASS7C4C 7C4C 200 133168367                  36
+
+PASS7C4C 7C4C 200 133171725                  37
+
+TCM addr corrupted: 0x234A0
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300442                  38
+
+PASS7C4C 7C4C 200 133195922                  39
+
+PASS7C4C 7C4C 200 133198396                  40
+
+PASS7C4C 7C4C 200 133198207                  41
+
+PASS7C4C 7C4C 200 133164027                  42
+
+PASS7C4C 7C4C 200 133169639                  43
+2020-05-28 06:41:50 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133151449                  44
+
+PASS7C4C 7C4C 200 133179854                  45
+
+PASS7C4C 7C4C 200 133203506                  46
+
+PASS7C4C 7C4C 200 133173042                  47
+
+PASS7C4C 7C4C 200 133184913                  48
+
+PASS7C4C 7C4C 200 133185509                  49
+
+PASS7C4C 7C4C 200 133178008                  50
+
+PASS7C4C 7C4C 200 133203246                  51
+
+PASS7C4C 7C4C 200 133176899                  52
+
+TCM addr corrupted: 0x22FA8
+
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133288051                  53
+
+PASS7C4C 7C4C 200 133177794                  54
+
+PASS7C4C 7C4C 200 133183887                  55
+
+PASS7C4C 7C4C 200 133177996                  56
+
+PASS7C4C 7C4C 200 133157242                  57
+
+PASS7C4C 7C4C 200 133170068                  58
+
+TCM addr corrupted: 0x239B0
+
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133333441                  59
+
+PASS7C4C 7C4C 200 133181587                  60
+
+PASS7C4C 7C4C 200 133216302                  61
+
+PASS7C4C 7C4C 200 133165274                  62
+
+TCM addr corrupted: 0x23A78
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133299093                  63
+
+PASS7C4C 7C4C 200 133185942                  64
+
+PASS7C4C 7C4C 200 133186559                  65
+
+PASS7C4C 7C4C 200 133186766                  66
+
+PASS7C4C 7C4C 200 133157758                  67
+
+PASS7C4C 7C4C 200 133173660                  68
+
+PASS7C4C 7C4C 200 133191899                  69
+
+PASS7C4C 7C4C 200 133163963                  70
+
+PASS7C4C 7C4C 200 133186251                  71
+
+PASS7C4C 7C4C 200 133180732                  72
+
+PASS7C4C 7C4C 200 133162615                  73
+
+PASS7C4C 7C4C 200 133176292                  74
+
+PASS7C4C 7C4C 200 133187820                  75
+
+TCM addr corrupted: 0x23010
+
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133331510                  76
+
+PASS7C4C 7C4C 200 133167643                  77
+
+PASS7C4C 7C4C 200 133189330                  78
+
+PASS7C4C 7C4C 200 133160409                  79
+
+PASS7C4C 7C4C 200 133170804                  80
+
+PASS7C4C 7C4C 200 133200242                  81
+
+PASS7C4C 7C4C 200 133196529                  82
+
+PASS7C4C 7C4C 200 133206575                  83
+
+TCM addr corrupted: 0x23BA8
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133319207                  84
+
+PASS7C4C 7C4C 200 133178705                  85
+
+PASS7C4C 7C4C 200 133174270                  86
+
+PASS7C4C 7C4C 200 133182096                  87
+
+PASS7C4C 7C4C 200 133170085                  88
+2020-05-28 06:42:51 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 133184947                  89
+
+PASS7C4C 7C4C 200 133175582                  90
+
+PASS7C4C 7C4C 200 133179829                  91
+
+PASS7C4C 7C4C 200 133190253                  92
+
+TCM addr corrupted: 0x230B8
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133306756                  93
+
+PASS7C4C 7C4C 200 133176430                  94
+
+PASS7C4C 7C4C 200 133196032                  95
+
+PASS7C4C 7C4C 200 133177565                  96
+
+PASS7C4C 7C4C 200 133174010                  97
+
+PASS7C4C 7C4C 200 133174730                  98
+
+PASS7C4C 7C4C 200 133174541                  99
+
+PASS7C4C 7C4C 200 133160741                 100
+
+PASS7C4C 7C4C 200 133180789                 101
+
+PASS7C4C 7C4C 200 133170967                 102
+
+PASS7C4C 7C4C 200 133179156                 103
+
+PASS7C4C 7C4C 200 133192655                 104
+
+PASS7C4C 7C4C 200 133176562                 105
+
+PASS7C4C 7C4C 200 133191814                 106
+
+PASS7C4C 7C4C 200 133163632                 107
+
+TCM addr corrupted: 0x24C38
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133300452                 108
+
+PASS7C4C 7C4C 200 133188173                 109
+
+PASS7C4C 7C4C 200 133164857                 110
+
+PASS7C4C 7C4C 200 133176830                 111
+
+TCM addr corrupted: 0x23A88
+
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133299108                 112
+
+PASS7C4C 7C4C 200 133187697                 113
+
+PASS7C4C 7C4C 200 133196116                 114
+
+PASS7C4C 7C4C 200 133170372                 115
+
+TCM addr corrupted: 0x24220
+
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133321958                 116
+
+TCM addr corrupted: 0x241C0
+
+, Bit Mask : 0x30000000 ,Shift 0, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 241c0
+
+2020-05-28 06:43:33 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:43:33 [INFO] configuring board...
+2020-05-28 06:43:34 Current seed : 64
+2020-05-28 06:44:20 Increment seed to : 65
+2020-05-28 06:44:20 [INFO] Current Time  
+PASS7C4C 7C4C 200 125509448                   0
+
+PASS7C4C 7C4C 200 125494360                   1
+
+PASS7C4C 7C4C 200 125504005                   2
+
+PASS7C4C 7C4C 200 125498434                   3
+
+PASS7C4C 7C4C 200 125509359                   4
+
+PASS7C4C 7C4C 200 125500497                   5
+
+PASS7C4C 7C4C 200 125504058                   6
+
+TCM addr corrupted: 0x23318
+
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+
+FAILCRCBDC4 7C4C>>     Dumping RAMfile information to the log...
+
+4294967235
+
+       0
+
+4294967258
+
+       0
+
+       0
+
+       0
+
+      39
+
+       1
+
+      62
+
+       0
+
+      62
+
+4294967295
+
+      40
+
+       1
+
+       1
+
+       1
+
+4294967259
+
+       0
+
+4294967235
+
+       1
+
+4294967236
+
+       1
+
+4294967260
+
+       1
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      62
+
+       1
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+4294967295
+
+4294967261
+
+4294967295
+
+       1
+
+       1
+
+      38
+
+       0
+
+      62
+
+4294967295
+
+      62
+
+       0
+
+      39
+
+4294967295
+
+       1
+
+4294967295
+
+4294967259
+
+4294967295
+
+4294967237
+
+       0
+
+4294967236
+
+       0
+
+4294967259
+
+       1
+
+       1
+
+       0
+
+      39
+
+       0
+
+      62
+
+       0
+
+      61
+
+4294967295
+
+      39
+
+       1
+
+       2
+
+       0
+
+4294967260
+
+       0
+
+4294967237
+
+       0
+
+4294967236
+
+       1
+
+4294967260
+
+       0
+
+       1
+
+       0
+
+      39
+
+4294967295
+
+      63
+
+       0
+
+      62
+
+       1
+
+      38
+
+       0
+
+       1
+
+       1
+
+4294967258
+
+       0
+
+4294967237
+
+       1
+
+4294967236
+
+       0
+
+4294967258
+
+4294967295
+
+       1
+
+       1
+
+      39
+
+       0
+
+      61
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       1
+
+       0
+
+2147483648
+
+       0
+
+     779
+
+       0
+
+       1
+
+2147483648
+
+1073741824
+
+       0
+
+     768
+
+       0
+
+       1
+
+3221225472
+
+536870912
+
+       0
+
+     784
+
+       0
+
+       1
+
+3758096384
+
+268435456
+
+       0
+
+     784
+
+       0
+
+       1
+
+4160749568
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4177526784
+
+ 1048576
+
+       0
+
+     784
+
+       0
+
+       1
+
+4244635648
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4261412864
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4278190080
+
+16777216
+
+       0
+
+     784
+
+       0
+
+       1
+
+4294705152
+
+  262144
+
+       0
+
+     780
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+     436
+
+4294967292
+
+       0
+
+       4
+
+ 5292020
+
+       0
+
+       0
+
+       0
+
+       4
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292020
+
+  167205
+
+  167243
+
+  167299
+
+  167335
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+       0
+
+ 5292440
+
+       0
+
+       0
+
+   65673
+
+ 5292440
+
+    1024
+
+4294966272
+
+       0
+
+>>      FFT test is finished
+2020-05-28 06:44:35 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:44:35 [INFO] configuring board...
+2020-05-28 06:44:36 Current seed : 65
+2020-05-28 06:45:32 Increment seed to : 66
+2020-05-28 06:45:32 [INFO] Current Time  
+
+PASS7C4C 7C4C 200 125508406                   0
+
+PASS7C4C 7C4C 200 125496654                   1
+
+PASS7C4C 7C4C 200 125508159                   2
+
+PASS7C4C 7C4C 200 125505049                   3
+
+PASS7C4C 7C4C 200 125505855                   4
+
+PASS7C4C 7C4C 200 125502154                   5
+
+PASS7C4C 7C4C 200 125510826                   6
+
+PASS7C4C 7C4C 200 125505114                   7
+
+PASS7C4C 7C4C 200 125500114                   8
+
+PASS7C4C 7C4C 200 125505097                   9
+
+PASS7C4C 7C4C 200 125504258                  10
+
+PASS7C4C 7C4C 200 125502131                  11
+
+TCM addr corrupted: 0x22FF0
+
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+
+PASS7C4C 7C4C 200 128018593                  12
+
+PASS7C4C 7C4C 200 133180531                  13
+
+PASS7C4C 7C4C 200 133183323                  14
+
+PASS7C4C 7C4C 200 133171166                  15
+
+PASS7C4C 7C4C 200 133170733                  16
+
+PASS7C4C 7C4C 200 133185002                  17
+
+TCM addr corrupted: 0x24870
+
+, Bit Mask : 0x20000002 ,Shift 8, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24870
+
+2020-05-28 06:46:01 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:46:01 [INFO] configuring board...
+2020-05-28 06:46:02 Current seed : 66
+2020-05-28 06:46:47 Increment seed to : 67
+2020-05-28 06:46:47 [INFO] Current Time  
+TCM addr corrupted: 0x232F8
+
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 127716852                   0
+
+PASS7C4C 7C4C 200 133182280                   1
+
+PASS7C4C 7C4C 200 133189414                   2
+
+TCM addr corrupted: 0x24410
+
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133267802                   3
+
+PASS7C4C 7C4C 200 133177283                   4
+
+PASS7C4C 7C4C 200 133166412                   5
+
+PASS7C4C 7C4C 200 133169533                   6
+
+PASS7C4C 7C4C 200 133173063                   7
+
+PASS7C4C 7C4C 200 133175390                   8
+
+PASS7C4C 7C4C 200 133187212                   9
+
+PASS7C4C 7C4C 200 133159211                  10
+
+TCM addr corrupted: 0x248B0
+
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133314039                  11
+
+PASS7C4C 7C4C 200 133181926                  12
+
+PASS7C4C 7C4C 200 133178557                  13
+
+TCM addr corrupted: 0x23AB8
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133277022                  14
+
+PASS7C4C 7C4C 200 133185381                  15
+
+TCM addr corrupted: 0x23708
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 133287152                  16
+
+PASS7C4C 7C4C 200 133171004                  17
+
+PASS7C4C 7C4C 200 133171964                  18
+
+PASS7C4C 7C4C 200 133184264                  19
+
+PASS7C4C 7C4C 200 133198644                  20
+
+PASS7C4C 7C4C 200 133179910                  21
+
+PASS7C4C 7C4C 200 133172615                  22
+
+PASS7C4C 7C4C 200 133180411                  23
+
+PASS7C4C 7C4C 200 133187722                  24
+
+PASS7C4C 7C4C 200 133168235                  25
+
+PASS7C4C 7C4C 200 133153332                  26
+
+PASS7C4C 7C4C 200 133165803                  27
+
+PASS7C4C 7C4C 200 133182887                  28
+
+PASS7C4C 7C4C 200 133183701                  29
+
+TCM addr corrupted: 0x24B28
+
+, Bit Mask : 0x2000008 ,Shift 8, bits corrupted: 2
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 24b28
+
+2020-05-28 06:47:34 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:47:34 [INFO] configuring board...
+2020-05-28 06:47:35 Current seed : 67
+2020-05-28 06:48:21 Increment seed to : 68
+2020-05-28 06:48:21 [INFO] Current Time  
+PASS7C4C 7C4C 200 125505942                   0
+
+TCM addr corrupted: 0x24620
+
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+
+TCM addr corrupted: 0x239B8
+
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+
+PASS7C4C 7C4C 200 132576474                   1
+
+PASS7C4C 7C4C 200 133180035                   2
+
+PASS7C4C 7C4C 200 133175577                   3
+
+PASS7C4C 7C4C 200 133164147                   4
+
+PASS7C4C 7C4C 200 133184906                   5
+
+PASS7C4C 7C4C 200 133175468                   6
+
+PASS7C4C 7C4C 200 133176571                   7
+
+PASS7C4C 7C4C 200 133167657                   8
+
+PASS7C4C 7C4C 200 133177167                   9
+
+PASS7C4C 7C4C 200 133184223                  10
+
+PASS7C4C 7C4C 200 133178770                  11
+
+PASS7C4C 7C4C 200 133184194                  12
+
+PASS7C4C 7C4C 200 133178047                  13
+
+PASS7C4C 7C4C 200 133178236                  14
+
+PASS7C4C 7C4C 200 133185971                  15
+
+PASS7C4C 7C4C 200 133191089                  16
+
+TCM addr corrupted: 0x23FB8
+
+, Bit Mask : 0x20410000 ,Shift 0, bits corrupted: 3
+
+Prefetch abort with Instruction Fault Status Register  409
+
+Address of Instruction causing Prefetch abort 23fb8
+
+2020-05-28 06:48:50 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 06:48:50 [INFO] configuring board...
+2020-05-28 06:48:51 Current seed : 68
+2020-05-28 06:49:36 Increment seed to : 69
+2020-05-28 06:49:36 [INFO] Change kernel 
+2020-05-28 06:49:37 [INFO] Kernel before change :aiifft01
+2020-05-28 06:49:37 [INFO] Increment Kernel pointer...
+
+
+===========================================================================================================================
+1 bit corruption      2 bits corruption    3 bits corruption     TOTAL CORRUPTIONS
+     160                      13                    2                   175
+===========================================================================================================================
+1 bit correction     undefined instr abort            prefetch aborts          data aborts               FAILCRC
+     155                       1                           13                      0                        7
+===========================================================================================================================
+Unexplained hangs
+       0
+
+5 FAILCRC due to 1 bit errors. WEIRD!
+1 FAILCRC due to 2 bit errors
+1 prefetch abort due to 3 bits corruption
+
+TOTAL RESETS: 21

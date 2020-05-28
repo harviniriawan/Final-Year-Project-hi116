@@ -1,0 +1,433 @@
+2020-05-28 15:27:03 [INFO] starting radiation experiment...
+2020-05-28 15:27:09 [INFO] configuring board...
+2020-05-28 15:27:10 Current seed : 0
+2020-05-28 15:27:53 Increment seed to : 1
+PASSCDAC CDAC 200 145098607                   0
+PASSCDAC CDAC 200 145094209                   1
+Error: Timed Out polling for response
+2020-05-28 15:27:56 [INFO] configuring board...
+2020-05-28 15:27:57 Current seed : 1
+2020-05-28 15:28:43 Increment seed to : 2
+2020-05-28 15:28:43 [INFO] Current Time  
+PASSCDAC CDAC 200 145106711                   0
+PASSCDAC CDAC 200 145090333                   1
+PASSCDAC CDAC 200 145085045                   2
+PASSCDAC CDAC 200 145106939                   3
+PASSCDAC CDAC 200 145121100                   4
+Error: Timed Out polling for response
+2020-05-28 15:28:51 [INFO] configuring board...
+2020-05-28 15:28:52 Current seed : 2
+2020-05-28 15:29:39 Increment seed to : 3
+PASSCDAC CDAC 200 145095413                   0
+PASSCDAC CDAC 200 145097519                   1
+2020-05-28 15:29:43 [INFO] Current Time  
+PASSCDAC CDAC 200 145108831                   2
+Error: Timed Out polling for response
+2020-05-28 15:29:44 [INFO] configuring board...
+2020-05-28 15:29:45 Current seed : 3
+2020-05-28 15:30:30 Increment seed to : 4
+PASSCDAC CDAC 200 145129403                   0
+Error: Timed Out polling for response
+2020-05-28 15:30:31 [INFO] configuring board...
+2020-05-28 15:30:32 Current seed : 4
+2020-05-28 15:31:17 Increment seed to : 5
+2020-05-28 15:31:17 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 15:31:18 [INFO] configuring board...
+2020-05-28 15:31:19 Current seed : 5
+2020-05-28 15:32:03 Increment seed to : 6
+PASSCDAC CDAC 200 145127124                   0
+PASSCDAC CDAC 200 145112140                   1
+PASSCDAC CDAC 200 145110542                   2
+PASSCDAC CDAC 200 145131908                   3
+PASSCDAC CDAC 200 145113414                   4
+PASSCDAC CDAC 200 145109380                   5
+Error: Timed Out polling for response
+2020-05-28 15:32:12 [INFO] configuring board...
+2020-05-28 15:32:13 Current seed : 6
+2020-05-28 15:32:58 Increment seed to : 7
+2020-05-28 15:32:58 [INFO] Current Time  
+PASSCDAC CDAC 200 145121163                   0
+PASSCDAC CDAC 200 145098629                   1
+Error: Timed Out polling for response
+2020-05-28 15:33:02 [INFO] configuring board...
+2020-05-28 15:33:03 Current seed : 7
+2020-05-28 15:33:46 Increment seed to : 8
+PASSCDAC CDAC 200 145120850                   0
+PASSCDAC CDAC 200 145110463                   1
+Error: Timed Out polling for response
+2020-05-28 15:33:49 [INFO] configuring board...
+2020-05-28 15:33:50 Current seed : 8
+2020-05-28 15:34:34 Increment seed to : 9
+2020-05-28 15:34:34 [INFO] Current Time  
+PASSCDAC CDAC 200 145097932                   0
+PASSCDAC CDAC 200 145121546                   1
+PASSCDAC CDAC 200 145091481                   2
+PASSCDAC CDAC 200 145106662                   3
+PASSCDAC CDAC 200 145099906                   4
+PASSCDAC CDAC 200 145118966                   5
+PASSCDAC CDAC 200 145102230                   6
+PASSCDAC CDAC 200 145106624                   7
+Error: Timed Out polling for response
+2020-05-28 15:34:46 [INFO] configuring board...
+2020-05-28 15:34:47 Current seed : 9
+2020-05-28 15:35:34 Increment seed to : 10
+2020-05-28 15:35:36 [INFO] Current Time  
+PASSCDAC CDAC 200 145113428                   0
+PASSCDAC CDAC 200 145098199                   1
+PASSCDAC CDAC 200 145092763                   2
+PASSCDAC CDAC 200 145104258                   3
+PASSCDAC CDAC 200 145110049                   4
+PASSCDAC CDAC 200 145110898                   5
+PASSCDAC CDAC 200 145103633                   6
+PASSCDAC CDAC 200 145086413                   7
+PASSCDAC CDAC 200 145120148                   8
+Error: Timed Out polling for response
+2020-05-28 15:35:47 [INFO] configuring board...
+2020-05-28 15:35:48 Current seed : 10
+2020-05-28 15:36:43 Increment seed to : 11
+2020-05-28 15:36:43 [INFO] Current Time  
+PASSCDAC CDAC 200 145105320                   0
+PASSCDAC CDAC 200 145116056                   1
+PASSCDAC CDAC 200 145097501                   2
+Error: Timed Out polling for response
+2020-05-28 15:36:49 [INFO] configuring board...
+2020-05-28 15:36:50 Current seed : 11
+2020-05-28 15:37:34 Increment seed to : 12
+PASSCDAC CDAC 200 145123409                   0
+Error: Timed Out polling for response
+2020-05-28 15:37:36 [INFO] configuring board...
+2020-05-28 15:37:37 Current seed : 12
+2020-05-28 15:38:20 Increment seed to : 13
+2020-05-28 15:38:20 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 15:38:21 [INFO] configuring board...
+2020-05-28 15:38:22 Current seed : 13
+2020-05-28 15:39:06 Increment seed to : 14
+PASSCDAC CDAC 200 145108834                   0
+PASSCDAC CDAC 200 145104012                   1
+PASSCDAC CDAC 200 145131051                   2
+PASSCDAC CDAC 200 145133062                   3
+PASSCDAC CDAC 200 145117992                   4
+PASSCDAC CDAC 200 145115699                   5
+PASSCDAC CDAC 200 145108267                   6
+Error: Timed Out polling for response
+2020-05-28 15:39:17 [INFO] configuring board...
+2020-05-28 15:39:18 Current seed : 14
+2020-05-28 15:40:02 Increment seed to : 15
+2020-05-28 15:40:02 [INFO] Current Time  
+PASSCDAC CDAC 200 145109867                   0
+PASSCDAC CDAC 200 145093376                   1
+PASSCDAC CDAC 200 145120852                   2
+PASSCDAC CDAC 200 145116735                   3
+PASSCDAC CDAC 200 145116200                   4
+PASSCDAC CDAC 200 145099702                   5
+PASSCDAC CDAC 200 145094662                   6
+PASSCDAC CDAC 200 145112116                   7
+PASSCDAC CDAC 200 145100854                   8
+PASSCDAC CDAC 200 145071301                   9
+PASSCDAC CDAC 200 145116278                  10
+PASSCDAC CDAC 200 145105499                  11
+PASSCDAC CDAC 200 145107634                  12
+PASSCDAC CDAC 200 145103349                  13
+PASSCDAC CDAC 200 145111618                  14
+PASSCDAC CDAC 200 145106565                  15
+PASSCDAC CDAC 200 145103607                  16
+PASSCDAC CDAC 200 145123342                  17
+PASSCDAC CDAC 200 145103748                  18
+PASSCDAC CDAC 200 145121324                  19
+PASSCDAC CDAC 200 145111158                  20
+PASSCDAC CDAC 200 145098091                  21
+PASSCDAC CDAC 200 145132927                  22
+PASSCDAC CDAC 200 145101812                  23
+PASSCDAC CDAC 200 145114746                  24
+PASSCDAC CDAC 200 145112072                  25
+PASSCDAC CDAC 200 145107854                  26
+PASSCDAC CDAC 200 145122926                  27
+PASSCDAC CDAC 200 145097350                  28
+PASSCDAC CDAC 200 145116036                  29
+PASSCDAC CDAC 200 145123209                  30
+PASSCDAC CDAC 200 145103689                  31
+PASSCDAC CDAC 200 145113595                  32
+PASSCDAC CDAC 200 145114840                  33
+PASSCDAC CDAC 200 145119621                  34
+PASSCDAC CDAC 200 145124267                  35
+PASSCDAC CDAC 200 145119180                  36
+PASSCDAC CDAC 200 145098166                  37
+PASSCDAC CDAC 200 145117333                  38
+Error: Timed Out polling for response
+2020-05-28 15:41:00 [INFO] configuring board...
+2020-05-28 15:41:01 Current seed : 15
+2020-05-28 15:41:48 Increment seed to : 16
+2020-05-28 15:41:48 [INFO] Current Time  
+PASSCDAC CDAC 200 145121787                   0
+PASSCDAC CDAC 200 145107391                   1
+PASSCDAC CDAC 200 145115380                   2
+PASSCDAC CDAC 200 145127760                   3
+PASSCDAC CDAC 200 145115277                   4
+Error: Timed Out polling for response
+2020-05-28 15:41:56 [INFO] configuring board...
+2020-05-28 15:41:57 Current seed : 16
+2020-05-28 15:43:01 Increment seed to : 17
+2020-05-28 15:43:01 [INFO] Current Time  
+PASSCDAC CDAC 200 145103338                   0
+PASSCDAC CDAC 200 145117511                   1
+Error: Timed Out polling for response
+2020-05-28 15:43:04 [INFO] configuring board...
+2020-05-28 15:43:05 Current seed : 17
+2020-05-28 15:44:02 Increment seed to : 18
+2020-05-28 15:44:02 [INFO] Current Time  
+PASSCDAC CDAC 200 145110272                   0
+PASSCDAC CDAC 200 145102291                   1
+PASSCDAC CDAC 200 145106532                   2
+PASSCDAC CDAC 200 145099326                   3
+PASSCDAC CDAC 200 145128143                   4
+PASSCDAC CDAC 200 145109109                   5
+PASSCDAC CDAC 200 145099562                   6
+PASSCDAC CDAC 200 145092449                   7
+PASSCDAC CDAC 200 145105616                   8
+PASSCDAC CDAC 200 145116402                   9
+PASSCDAC CDAC 200 145111600                  10
+PASSCDAC CDAC 200 145100242                  11
+PASSCDAC CDAC 200 145130063                  12
+PASSCDAC CDAC 200 145103700                  13
+PASSCDAC CDAC 200 145108777                  14
+PASSCDAC CDAC 200 145081715                  15
+Error: Timed Out polling for response
+2020-05-28 15:44:27 [INFO] configuring board...
+2020-05-28 15:44:28 Current seed : 18
+2020-05-28 15:45:22 Increment seed to : 19
+2020-05-28 15:45:22 [INFO] Current Time  
+PASSCDAC CDAC 200 145108634                   0
+PASSCDAC CDAC 200 145099529                   1
+PASSCDAC CDAC 200 145103544                   2
+PASSCDAC CDAC 200 145107949                   3
+Error: Timed Out polling for response
+2020-05-28 15:45:28 [INFO] configuring board...
+2020-05-28 15:45:29 Current seed : 19
+2020-05-28 15:46:21 Increment seed to : 20
+PASSCDAC CDAC 200 145107289                   0
+2020-05-28 15:46:24 [INFO] Current Time  
+PASSCDAC CDAC 200 145107394                   1
+PASSCDAC CDAC 200 145111007                   2
+Error: Timed Out polling for response
+2020-05-28 15:46:26 [INFO] configuring board...
+2020-05-28 15:46:27 Current seed : 20
+2020-05-28 15:47:19 Increment seed to : 21
+PASSCDAC CDAC 200 145105249                   0
+PASSCDAC CDAC 200 145090643                   1
+PASSCDAC CDAC 200 145104460                   2
+2020-05-28 15:47:25 [INFO] Current Time  
+PASSCDAC CDAC 200 145097320                   3
+PASSCDAC CDAC 200 145108973                   4
+PASSCDAC CDAC 200 145099107                   5
+PASSCDAC CDAC 200 145107531                   6
+PASSCDAC CDAC 200 145106160                   7
+PASSCDAC CDAC 200 145120787                   8
+PASSCDAC CDAC 200 145128636                   9
+Error: Timed Out polling for response
+2020-05-28 15:47:35 [INFO] configuring board...
+2020-05-28 15:47:36 Current seed : 21
+2020-05-28 15:48:32 Increment seed to : 22
+2020-05-28 15:48:32 [INFO] Current Time  
+PASSCDAC CDAC 200 145124248                   0
+PASSCDAC CDAC 200 145101819                   1
+PASSCDAC CDAC 200 145101250                   2
+Error: Timed Out polling for response
+2020-05-28 15:48:37 [INFO] configuring board...
+2020-05-28 15:48:38 Current seed : 22
+2020-05-28 15:49:37 Increment seed to : 23
+2020-05-28 15:49:37 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 15:49:38 [INFO] configuring board...
+2020-05-28 15:49:39 Current seed : 23
+2020-05-28 15:50:34 Increment seed to : 24
+PASSCDAC CDAC 200 145111120                   0
+PASSCDAC CDAC 200 145105540                   1
+2020-05-28 15:50:38 [INFO] Current Time  
+PASSCDAC CDAC 200 145128187                   2
+PASSCDAC CDAC 200 145080460                   3
+PASSCDAC CDAC 200 145086377                   4
+PASSCDAC CDAC 200 145112248                   5
+PASSCDAC CDAC 200 145079566                   6
+PASSCDAC CDAC 200 145095583                   7
+Error: Timed Out polling for response
+2020-05-28 15:50:46 [INFO] configuring board...
+2020-05-28 15:50:47 Current seed : 24
+2020-05-28 15:51:42 Increment seed to : 25
+2020-05-28 15:51:42 [INFO] Current Time  
+PASSCDAC CDAC 200 145096757                   0
+PASSCDAC CDAC 200 145111773                   1
+PASSCDAC CDAC 200 145110246                   2
+PASSCDAC CDAC 200 145101749                   3
+PASSCDAC CDAC 200 145117948                   4
+PASSCDAC CDAC 200 145108082                   5
+PASSCDAC CDAC 200 145107562                   6
+Error: Timed Out polling for response
+2020-05-28 15:51:52 [INFO] configuring board...
+2020-05-28 15:51:53 Current seed : 25
+2020-05-28 15:52:45 Increment seed to : 26
+2020-05-28 15:52:45 [INFO] Current Time  
+PASSCDAC CDAC 200 145119866                   0
+Error: Timed Out polling for response
+2020-05-28 15:52:46 [INFO] configuring board...
+2020-05-28 15:52:47 Current seed : 26
+2020-05-28 15:53:39 Increment seed to : 27
+PASSCDAC CDAC 200 145116856                   0
+PASSCDAC CDAC 200 145098570                   1
+PASSCDAC CDAC 200 145097840                   2
+2020-05-28 15:53:45 [INFO] Current Time  
+PASSCDAC CDAC 200 145099211                   3
+PASSCDAC CDAC 200 145107078                   4
+PASSCDAC CDAC 200 145126124                   5
+PASSCDAC CDAC 200 145116591                   6
+PASSCDAC CDAC 200 145107845                   7
+PASSCDAC CDAC 200 145105036                   8
+PASSCDAC CDAC 200 145105070                   9
+PASSCDAC CDAC 200 145093984                  10
+PASSCDAC CDAC 200 145111023                  11
+PASSCDAC CDAC 200 145092939                  12
+PASSCDAC CDAC 200 145091423                  13
+Error: Timed Out polling for response
+2020-05-28 15:54:00 [INFO] configuring board...
+2020-05-28 15:54:01 Current seed : 27
+2020-05-28 15:54:49 Increment seed to : 28
+2020-05-28 15:54:49 [INFO] Current Time  
+PASSCDAC CDAC 200 145107110                   0
+PASSCDAC CDAC 200 145119249                   1
+PASSCDAC CDAC 200 145092705                   2
+PASSCDAC CDAC 200 145102540                   3
+PASSCDAC CDAC 200 145123093                   4
+PASSCDAC CDAC 200 145102023                   5
+PASSCDAC CDAC 200 145089665                   6
+PASSCDAC CDAC 200 145100121                   7
+PASSCDAC CDAC 200 145085909                   8
+PASSCDAC CDAC 200 145123675                   9
+PASSCDAC CDAC 200 145092624                  10
+PASSCDAC CDAC 200 145090250                  11
+PASSCDAC CDAC 200 145122021                  12
+PASSCDAC CDAC 200 145084963                  13
+PASSCDAC CDAC 200 145107355                  14
+PASSCDAC CDAC 200 145100178                  15
+PASSCDAC CDAC 200 145097267                  16
+PASSCDAC CDAC 200 145119925                  17
+PASSCDAC CDAC 200 145111502                  18
+PASSCDAC CDAC 200 145080273                  19
+PASSCDAC CDAC 200 145127716                  20
+PASSCDAC CDAC 200 145096410                  21
+PASSCDAC CDAC 200 145091130                  22
+PASSCDAC CDAC 200 145105402                  23
+PASSCDAC CDAC 200 145117368                  24
+PASSCDAC CDAC 200 145115584                  25
+PASSCDAC CDAC 200 145098943                  26
+PASSCDAC CDAC 200 145117916                  27
+PASSCDAC CDAC 200 145127229                  28
+Error: Timed Out polling for response
+2020-05-28 15:55:32 [INFO] configuring board...
+2020-05-28 15:55:33 Current seed : 28
+2020-05-28 15:56:18 Increment seed to : 29
+2020-05-28 15:56:18 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 15:56:18 [INFO] configuring board...
+2020-05-28 15:56:19 Current seed : 29
+2020-05-28 15:57:04 Increment seed to : 30
+PASSCDAC CDAC 200 145098964                   0
+PASSCDAC CDAC 200 145107131                   1
+PASSCDAC CDAC 200 145082330                   2
+PASSCDAC CDAC 200 145111492                   3
+PASSCDAC CDAC 200 145088901                   4
+PASSCDAC CDAC 200 145114155                   5
+PASSCDAC CDAC 200 145107607                   6
+PASSCDAC CDAC 200 145100384                   7
+PASSCDAC CDAC 200 145089398                   8
+2020-05-28 15:57:19 [INFO] Current Time  
+PASSCDAC CDAC 200 145113107                   9
+PASSCDAC CDAC 200 145113143                  10
+PASSCDAC CDAC 200 145102798                  11
+PASSCDAC CDAC 200 145114877                  12
+PASSCDAC CDAC 200 145110858                  13
+PASSCDAC CDAC 200 145105686                  14
+PASSCDAC CDAC 200 145120547                  15
+PASSCDAC CDAC 200 145120921                  16
+PASSCDAC CDAC 200 145110182                  17
+PASSCDAC CDAC 200 145105835                  18
+PASSCDAC CDAC 200 145105514                  19
+PASSCDAC CDAC 200 145094110                  20
+Error: Timed Out polling for response
+2020-05-28 15:57:36 [INFO] configuring board...
+2020-05-28 15:57:37 Current seed : 30
+2020-05-28 15:58:23 Increment seed to : 31
+2020-05-28 15:58:23 [INFO] Current Time  
+PASSCDAC CDAC 200 145118773                   0
+PASSCDAC CDAC 200 145094938                   1
+Error: Timed Out polling for response
+2020-05-28 15:58:26 [INFO] configuring board...
+2020-05-28 15:58:27 Current seed : 31
+2020-05-28 15:59:21 Increment seed to : 32
+PASSCDAC CDAC 200 145112585                   0
+2020-05-28 15:59:24 [INFO] Current Time  
+PASSCDAC CDAC 200 145104009                   1
+Error: Timed Out polling for response
+2020-05-28 15:59:24 [INFO] configuring board...
+2020-05-28 15:59:25 Current seed : 32
+2020-05-28 16:00:09 Increment seed to : 33
+PASSCDAC CDAC 200 145112007                   0
+PASSCDAC CDAC 200 145102890                   1
+PASSCDAC CDAC 200 145103374                   2
+PASSCDAC CDAC 200 145119925                   3
+PASSCDAC CDAC 200 145102702                   4
+Error: Timed Out polling for response
+2020-05-28 16:00:16 [INFO] configuring board...
+2020-05-28 16:00:17 Current seed : 33
+2020-05-28 16:01:01 Increment seed to : 34
+2020-05-28 16:01:01 [INFO] Current Time  
+PASSCDAC CDAC 200 145115274                   0
+PASSCDAC CDAC 200 145113062                   1
+PASSCDAC CDAC 200 145097923                   2
+Error: Timed Out polling for response
+2020-05-28 16:01:06 [INFO] configuring board...
+2020-05-28 16:01:07 Current seed : 34
+2020-05-28 16:01:52 Increment seed to : 35
+PASSCDAC CDAC 200 145114748                   0
+PASSCDAC CDAC 200 145098422                   1
+PASSCDAC CDAC 200 145096799                   2
+PASSCDAC CDAC 200 145104619                   3
+Error: Timed Out polling for response
+2020-05-28 16:01:58 [INFO] configuring board...
+2020-05-28 16:01:59 Current seed : 35
+2020-05-28 16:02:50 Increment seed to : 36
+2020-05-28 16:02:50 [INFO] Current Time  
+PASSCDAC CDAC 200 145109854                   0
+PASSCDAC CDAC 200 145117454                   1
+Error: Timed Out polling for response
+2020-05-28 16:02:53 [INFO] configuring board...
+2020-05-28 16:02:54 Current seed : 36
+2020-05-28 16:03:50 Increment seed to : 37
+2020-05-28 16:03:50 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 16:03:51 [INFO] configuring board...
+2020-05-28 16:03:52 Current seed : 37
+2020-05-28 16:04:49 Increment seed to : 38
+2020-05-28 16:04:51 [INFO] Current Time  
+PASSCDAC CDAC 200 145112100                   0
+Error: Timed Out polling for response
+2020-05-28 16:04:52 [INFO] configuring board...
+2020-05-28 16:04:53 Current seed : 38
+2020-05-28 16:05:48 Increment seed to : 39
+PASSCDAC CDAC 200 145125146                   0
+PASSCDAC CDAC 200 145091243                   1
+2020-05-28 16:05:52 [INFO] Current Time  
+PASSCDAC CDAC 200 145109467                   2
+PASSCDAC CDAC 200 145093853                   3
+PASSCDAC CDAC 200 145112065                   4
+PASSCDAC CDAC 200 145112179                   5
+Error: Timed Out polling for response
+2020-05-28 16:05:56 [INFO] configuring board...
+2020-05-28 16:05:57 Current seed : 39
+2020-05-28 16:06:54 Increment seed to : 40
+2020-05-28 16:06:54 [INFO] Current Time  
+PASSCDAC CDAC 200 145113153                   0
+PASSCDAC CDAC 200 145098613                   1
+Error: Timed Out polling for response
+2020-05-28 16:06:58 [INFO] configuring board...
+2020-05-28 16:06:59 Current seed : 40

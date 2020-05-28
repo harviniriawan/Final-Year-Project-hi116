@@ -1,0 +1,466 @@
+2020-05-28 17:12:18 [INFO] starting radiation experiment...
+2020-05-28 17:12:24 [INFO] configuring board...
+2020-05-28 17:12:25 Current seed : 0
+2020-05-28 17:13:18 Increment seed to : 1
+2020-05-28 17:13:18 [INFO] Current Time  
+PASS7C4C 7C4C 200 133185124                   0
+PASS7C4C 7C4C 200 133177106                   1
+TCM addr corrupted: 0x24188
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23BF0
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24A30
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23570
+, Bit Mask : 0x40010400 ,Shift 0, bits corrupted: 3
+2020-05-28 17:13:35 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-05-28 17:13:35 [INFO] configuring board...
+2020-05-28 17:13:36 Current seed : 1
+2020-05-28 17:14:34 Increment seed to : 2
+2020-05-28 17:14:34 [INFO] Current Time  
+PASS7C4C 7C4C 200 133185305                   0
+PASS7C4C 7C4C 200 133178731                   1
+PASS7C4C 7C4C 200 133185537                   2
+PASS7C4C 7C4C 200 133180236                   3
+PASS7C4C 7C4C 200 133191057                   4
+PASS7C4C 7C4C 200 133162387                   5
+Error: Timed Out polling for response
+2020-05-28 17:14:43 [INFO] configuring board...
+2020-05-28 17:14:44 Current seed : 2
+2020-05-28 17:15:40 Increment seed to : 3
+2020-05-28 17:15:40 [INFO] Current Time  
+PASS7C4C 7C4C 200 133184273                   0
+PASS7C4C 7C4C 200 133185853                   1
+PASS7C4C 7C4C 200 133182133                   2
+Error: Timed Out polling for response
+2020-05-28 17:15:44 [INFO] configuring board...
+2020-05-28 17:15:45 Current seed : 3
+2020-05-28 17:16:36 Increment seed to : 4
+PASS7C4C 7C4C 200 133188699                   0
+Error: Timed Out polling for response
+2020-05-28 17:16:38 [INFO] configuring board...
+2020-05-28 17:16:39 Current seed : 4
+2020-05-28 17:17:31 Increment seed to : 5
+2020-05-28 17:17:31 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 17:17:31 [INFO] configuring board...
+2020-05-28 17:17:32 Current seed : 5
+2020-05-28 17:18:32 Increment seed to : 6
+2020-05-28 17:18:32 [INFO] Current Time  
+PASS7C4C 7C4C 200 133189784                   0
+PASS7C4C 7C4C 200 133183724                   1
+PASS7C4C 7C4C 200 133179142                   2
+PASS7C4C 7C4C 200 133177569                   3
+PASS7C4C 7C4C 200 133175937                   4
+PASS7C4C 7C4C 200 133158089                   5
+PASS7C4C 7C4C 200 133184947                   6
+Error: Timed Out polling for response
+2020-05-28 17:18:41 [INFO] configuring board...
+2020-05-28 17:18:42 Current seed : 6
+2020-05-28 17:19:37 Increment seed to : 7
+2020-05-28 17:19:37 [INFO] Current Time  
+PASS7C4C 7C4C 200 133188474                   0
+PASS7C4C 7C4C 200 133175905                   1
+Error: Timed Out polling for response
+2020-05-28 17:19:40 [INFO] configuring board...
+2020-05-28 17:19:41 Current seed : 7
+2020-05-28 17:20:33 Increment seed to : 8
+PASS7C4C 7C4C 200 133188451                   0
+PASS7C4C 7C4C 200 133177065                   1
+Error: Timed Out polling for response
+2020-05-28 17:20:36 [INFO] configuring board...
+2020-05-28 17:20:37 Current seed : 8
+2020-05-28 17:21:35 Increment seed to : 9
+2020-05-28 17:21:35 [INFO] Current Time  
+PASS7C4C 7C4C 200 133187667                   0
+PASS7C4C 7C4C 200 133166220                   1
+PASS7C4C 7C4C 200 133160840                   2
+PASS7C4C 7C4C 200 133167806                   3
+PASS7C4C 7C4C 200 133181201                   4
+PASS7C4C 7C4C 200 133193222                   5
+PASS7C4C 7C4C 200 133171530                   6
+PASS7C4C 7C4C 200 133184191                   7
+Error: Timed Out polling for response
+2020-05-28 17:21:47 [INFO] configuring board...
+2020-05-28 17:21:48 Current seed : 9
+2020-05-28 17:22:53 Increment seed to : 10
+2020-05-28 17:22:53 [INFO] Current Time  
+PASS7C4C 7C4C 200 133173776                   0
+PASS7C4C 7C4C 200 133181898                   1
+PASS7C4C 7C4C 200 133186619                   2
+PASS7C4C 7C4C 200 133182911                   3
+PASS7C4C 7C4C 200 133167317                   4
+PASS7C4C 7C4C 200 133176606                   5
+PASS7C4C 7C4C 200 133187942                   6
+PASS7C4C 7C4C 200 133172306                   7
+PASS7C4C 7C4C 200 133177547                   8
+Error: Timed Out polling for response
+2020-05-28 17:23:06 [INFO] configuring board...
+2020-05-28 17:23:07 Current seed : 10
+2020-05-28 17:23:54 Increment seed to : 11
+2020-05-28 17:23:54 [INFO] Current Time  
+PASS7C4C 7C4C 200 133181595                   0
+PASS7C4C 7C4C 200 133195573                   1
+PASS7C4C 7C4C 200 133189495                   2
+PASS7C4C 7C4C 200 133181504                   3
+Error: Timed Out polling for response
+2020-05-28 17:23:59 [INFO] configuring board...
+2020-05-28 17:24:00 Current seed : 11
+2020-05-28 17:24:43 Increment seed to : 12
+PASS7C4C 7C4C 200 133175493                   0
+Error: Timed Out polling for response
+2020-05-28 17:24:45 [INFO] configuring board...
+2020-05-28 17:24:46 Current seed : 12
+2020-05-28 17:25:31 Increment seed to : 13
+2020-05-28 17:25:31 [INFO] Current Time  
+PASS7C4C 7C4C 200 133187296                   0
+Error: Timed Out polling for response
+2020-05-28 17:25:32 [INFO] configuring board...
+2020-05-28 17:25:33 Current seed : 13
+2020-05-28 17:26:18 Increment seed to : 14
+PASS7C4C 7C4C 200 133194476                   0
+PASS7C4C 7C4C 200 133196144                   1
+PASS7C4C 7C4C 200 133196275                   2
+PASS7C4C 7C4C 200 133188842                   3
+PASS7C4C 7C4C 200 133166387                   4
+PASS7C4C 7C4C 200 133173776                   5
+PASS7C4C 7C4C 200 133172340                   6
+PASS7C4C 7C4C 200 133185750                   7
+Error: Timed Out polling for response
+2020-05-28 17:26:30 [INFO] configuring board...
+2020-05-28 17:26:31 Current seed : 14
+2020-05-28 17:27:16 Increment seed to : 15
+2020-05-28 17:27:16 [INFO] Current Time  
+PASS7C4C 7C4C 200 133186305                   0
+PASS7C4C 7C4C 200 133159179                   1
+PASS7C4C 7C4C 200 133191264                   2
+PASS7C4C 7C4C 200 133172975                   3
+PASS7C4C 7C4C 200 133177548                   4
+PASS7C4C 7C4C 200 133196211                   5
+PASS7C4C 7C4C 200 133178413                   6
+PASS7C4C 7C4C 200 133186413                   7
+PASS7C4C 7C4C 200 133185283                   8
+PASS7C4C 7C4C 200 133187919                   9
+PASS7C4C 7C4C 200 133169200                  10
+PASS7C4C 7C4C 200 133191296                  11
+PASS7C4C 7C4C 200 133176961                  12
+PASS7C4C 7C4C 200 133194360                  13
+PASS7C4C 7C4C 200 133209143                  14
+PASS7C4C 7C4C 200 133175113                  15
+PASS7C4C 7C4C 200 133168566                  16
+PASS7C4C 7C4C 200 133183933                  17
+PASS7C4C 7C4C 200 133191844                  18
+PASS7C4C 7C4C 200 133169022                  19
+PASS7C4C 7C4C 200 133189726                  20
+PASS7C4C 7C4C 200 133169404                  21
+PASS7C4C 7C4C 200 133183866                  22
+PASS7C4C 7C4C 200 133181701                  23
+PASS7C4C 7C4C 200 133193496                  24
+PASS7C4C 7C4C 200 133172398                  25
+PASS7C4C 7C4C 200 133180005                  26
+PASS7C4C 7C4C 200 133186771                  27
+PASS7C4C 7C4C 200 133180150                  28
+PASS7C4C 7C4C 200 133174590                  29
+PASS7C4C 7C4C 200 133182114                  30
+PASS7C4C 7C4C 200 133161453                  31
+PASS7C4C 7C4C 200 133173830                  32
+PASS7C4C 7C4C 200 133182543                  33
+PASS7C4C 7C4C 200 133188446                  34
+PASS7C4C 7C4C 200 133194734                  35
+PASS7C4C 7C4C 200 133190945                  36
+PASS7C4C 7C4C 200 133168466                  37
+PASS7C4C 7C4C 200 133193048                  38
+PASS7C4C 7C4C 200 133174490                  39
+PASS7C4C 7C4C 200 133187183                  40
+PASS7C4C 7C4C 200 133173544                  41
+PASS7C4C 7C4C 200 133176951                  42
+Error: Timed Out polling for response
+2020-05-28 17:28:14 [INFO] configuring board...
+2020-05-28 17:28:15 Current seed : 15
+2020-05-28 17:29:00 Increment seed to : 16
+2020-05-28 17:29:00 [INFO] Current Time  
+PASS7C4C 7C4C 200 133191935                   0
+PASS7C4C 7C4C 200 133178673                   1
+PASS7C4C 7C4C 200 133184107                   2
+PASS7C4C 7C4C 200 133196565                   3
+PASS7C4C 7C4C 200 133188536                   4
+Error: Timed Out polling for response
+2020-05-28 17:29:08 [INFO] configuring board...
+2020-05-28 17:29:09 Current seed : 16
+2020-05-28 17:29:52 Increment seed to : 17
+PASS7C4C 7C4C 200 133188449                   0
+PASS7C4C 7C4C 200 133181270                   1
+Error: Timed Out polling for response
+2020-05-28 17:29:55 [INFO] configuring board...
+2020-05-28 17:29:56 Current seed : 17
+2020-05-28 17:30:39 Increment seed to : 18
+2020-05-28 17:30:39 [INFO] Current Time  
+PASS7C4C 7C4C 200 133185074                   0
+PASS7C4C 7C4C 200 133182080                   1
+PASS7C4C 7C4C 200 133180507                   2
+PASS7C4C 7C4C 200 133193925                   3
+PASS7C4C 7C4C 200 133174167                   4
+PASS7C4C 7C4C 200 133190588                   5
+PASS7C4C 7C4C 200 133155197                   6
+PASS7C4C 7C4C 200 133181405                   7
+PASS7C4C 7C4C 200 133190415                   8
+PASS7C4C 7C4C 200 133172688                   9
+PASS7C4C 7C4C 200 133172404                  10
+PASS7C4C 7C4C 200 133144349                  11
+PASS7C4C 7C4C 200 133201207                  12
+PASS7C4C 7C4C 200 133193405                  13
+PASS7C4C 7C4C 200 133160489                  14
+PASS7C4C 7C4C 200 133169910                  15
+PASS7C4C 7C4C 200 133181665                  16
+PASS7C4C 7C4C 200 133176060                  17
+Error: Timed Out polling for response
+2020-05-28 17:31:04 [INFO] configuring board...
+2020-05-28 17:31:05 Current seed : 18
+2020-05-28 17:31:48 Increment seed to : 19
+2020-05-28 17:31:48 [INFO] Current Time  
+PASS7C4C 7C4C 200 133184234                   0
+PASS7C4C 7C4C 200 133185405                   1
+PASS7C4C 7C4C 200 133189294                   2
+PASS7C4C 7C4C 200 133184043                   3
+Error: Timed Out polling for response
+2020-05-28 17:31:54 [INFO] configuring board...
+2020-05-28 17:31:55 Current seed : 19
+2020-05-28 17:32:41 Increment seed to : 20
+PASS7C4C 7C4C 200 133173342                   0
+PASS7C4C 7C4C 200 133186082                   1
+PASS7C4C 7C4C 200 133182749                   2
+Error: Timed Out polling for response
+2020-05-28 17:32:46 [INFO] configuring board...
+2020-05-28 17:32:47 Current seed : 20
+2020-05-28 17:33:40 Increment seed to : 21
+2020-05-28 17:33:40 [INFO] Current Time  
+PASS7C4C 7C4C 200 133179147                   0
+PASS7C4C 7C4C 200 133184106                   1
+PASS7C4C 7C4C 200 133188781                   2
+PASS7C4C 7C4C 200 133165431                   3
+PASS7C4C 7C4C 200 133175942                   4
+PASS7C4C 7C4C 200 133182961                   5
+PASS7C4C 7C4C 200 133186709                   6
+PASS7C4C 7C4C 200 133204145                   7
+PASS7C4C 7C4C 200 133176305                   8
+PASS7C4C 7C4C 200 133173964                   9
+PASS7C4C 7C4C 200 133181078                  10
+Error: Timed Out polling for response
+2020-05-28 17:33:55 [INFO] configuring board...
+2020-05-28 17:33:56 Current seed : 21
+2020-05-28 17:34:45 Increment seed to : 22
+2020-05-28 17:34:45 [INFO] Current Time  
+PASS7C4C 7C4C 200 133181071                   0
+PASS7C4C 7C4C 200 133174047                   1
+PASS7C4C 7C4C 200 133168260                   2
+Error: Timed Out polling for response
+2020-05-28 17:34:51 [INFO] configuring board...
+2020-05-28 17:34:52 Current seed : 22
+2020-05-28 17:35:36 Increment seed to : 23
+Error: Timed Out polling for response
+2020-05-28 17:35:37 [INFO] configuring board...
+2020-05-28 17:35:38 Current seed : 23
+2020-05-28 17:36:22 Increment seed to : 24
+2020-05-28 17:36:22 [INFO] Current Time  
+PASS7C4C 7C4C 200 133161614                   0
+PASS7C4C 7C4C 200 133176722                   1
+PASS7C4C 7C4C 200 133188517                   2
+PASS7C4C 7C4C 200 133177668                   3
+PASS7C4C 7C4C 200 133184832                   4
+PASS7C4C 7C4C 200 133178724                   5
+PASS7C4C 7C4C 200 133184408                   6
+PASS7C4C 7C4C 200 133175761                   7
+PASS7C4C 7C4C 200 133190434                   8
+Error: Timed Out polling for response
+2020-05-28 17:36:35 [INFO] configuring board...
+2020-05-28 17:36:36 Current seed : 24
+2020-05-28 17:37:31 Increment seed to : 25
+2020-05-28 17:37:31 [INFO] Current Time  
+PASS7C4C 7C4C 200 133196221                   0
+PASS7C4C 7C4C 200 133176455                   1
+PASS7C4C 7C4C 200 133187967                   2
+PASS7C4C 7C4C 200 133184569                   3
+PASS7C4C 7C4C 200 133187493                   4
+PASS7C4C 7C4C 200 133180331                   5
+PASS7C4C 7C4C 200 133176654                   6
+PASS7C4C 7C4C 200 133193561                   7
+Error: Timed Out polling for response
+2020-05-28 17:37:42 [INFO] configuring board...
+2020-05-28 17:37:43 Current seed : 25
+2020-05-28 17:38:27 Increment seed to : 26
+PASS7C4C 7C4C 200 133176408                   0
+Error: Timed Out polling for response
+2020-05-28 17:38:28 [INFO] configuring board...
+2020-05-28 17:38:29 Current seed : 26
+2020-05-28 17:39:15 Increment seed to : 27
+2020-05-28 17:39:15 [INFO] Current Time  
+PASS7C4C 7C4C 200 133190784                   0
+PASS7C4C 7C4C 200 133185088                   1
+PASS7C4C 7C4C 200 133189833                   2
+PASS7C4C 7C4C 200 133175776                   3
+PASS7C4C 7C4C 200 133173114                   4
+PASS7C4C 7C4C 200 133175431                   5
+PASS7C4C 7C4C 200 133171803                   6
+PASS7C4C 7C4C 200 133186108                   7
+PASS7C4C 7C4C 200 133193464                   8
+PASS7C4C 7C4C 200 133164649                   9
+PASS7C4C 7C4C 200 133175548                  10
+PASS7C4C 7C4C 200 133184505                  11
+PASS7C4C 7C4C 200 133183768                  12
+PASS7C4C 7C4C 200 133179442                  13
+PASS7C4C 7C4C 200 133186141                  14
+Error: Timed Out polling for response
+2020-05-28 17:39:35 [INFO] configuring board...
+2020-05-28 17:39:36 Current seed : 27
+2020-05-28 17:40:19 Increment seed to : 28
+2020-05-28 17:40:19 [INFO] Current Time  
+PASS7C4C 7C4C 200 133183807                   0
+PASS7C4C 7C4C 200 133168390                   1
+PASS7C4C 7C4C 200 133169888                   2
+PASS7C4C 7C4C 200 133169751                   3
+PASS7C4C 7C4C 200 133171219                   4
+PASS7C4C 7C4C 200 133184962                   5
+PASS7C4C 7C4C 200 133181782                   6
+PASS7C4C 7C4C 200 133177488                   7
+PASS7C4C 7C4C 200 133193565                   8
+PASS7C4C 7C4C 200 133170674                   9
+PASS7C4C 7C4C 200 133182275                  10
+PASS7C4C 7C4C 200 133174171                  11
+PASS7C4C 7C4C 200 133171470                  12
+PASS7C4C 7C4C 200 133178876                  13
+PASS7C4C 7C4C 200 133168419                  14
+PASS7C4C 7C4C 200 133182287                  15
+PASS7C4C 7C4C 200 133165458                  16
+PASS7C4C 7C4C 200 133192568                  17
+PASS7C4C 7C4C 200 133186180                  18
+PASS7C4C 7C4C 200 133185195                  19
+PASS7C4C 7C4C 200 133175721                  20
+PASS7C4C 7C4C 200 133200726                  21
+PASS7C4C 7C4C 200 133172079                  22
+PASS7C4C 7C4C 200 133196502                  23
+PASS7C4C 7C4C 200 133191894                  24
+PASS7C4C 7C4C 200 133180972                  25
+PASS7C4C 7C4C 200 133165162                  26
+PASS7C4C 7C4C 200 133202415                  27
+PASS7C4C 7C4C 200 133190228                  28
+PASS7C4C 7C4C 200 133175417                  29
+PASS7C4C 7C4C 200 133171420                  30
+Error: Timed Out polling for response
+2020-05-28 17:41:02 [INFO] configuring board...
+2020-05-28 17:41:03 Current seed : 28
+2020-05-28 17:41:50 Increment seed to : 29
+2020-05-28 17:41:50 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-05-28 17:41:51 [INFO] configuring board...
+2020-05-28 17:41:52 Current seed : 29
+2020-05-28 17:42:36 Increment seed to : 30
+PASS7C4C 7C4C 200 133179824                   0
+PASS7C4C 7C4C 200 133196743                   1
+PASS7C4C 7C4C 200 133182062                   2
+PASS7C4C 7C4C 200 133189144                   3
+PASS7C4C 7C4C 200 133177549                   4
+PASS7C4C 7C4C 200 133172700                   5
+PASS7C4C 7C4C 200 133194747                   6
+PASS7C4C 7C4C 200 133175439                   7
+PASS7C4C 7C4C 200 133181114                   8
+PASS7C4C 7C4C 200 133182949                   9
+2020-05-28 17:42:51 [INFO] Current Time  
+PASS7C4C 7C4C 200 133185825                  10
+PASS7C4C 7C4C 200 133200415                  11
+PASS7C4C 7C4C 200 133176443                  12
+PASS7C4C 7C4C 200 133185481                  13
+PASS7C4C 7C4C 200 133174846                  14
+PASS7C4C 7C4C 200 133184135                  15
+PASS7C4C 7C4C 200 133171770                  16
+PASS7C4C 7C4C 200 133177636                  17
+PASS7C4C 7C4C 200 133168215                  18
+PASS7C4C 7C4C 200 133211262                  19
+PASS7C4C 7C4C 200 133166324                  20
+PASS7C4C 7C4C 200 133179056                  21
+PASS7C4C 7C4C 200 133175821                  22
+Error: Timed Out polling for response
+2020-05-28 17:43:07 [INFO] configuring board...
+2020-05-28 17:43:08 Current seed : 30
+2020-05-28 17:43:52 Increment seed to : 31
+2020-05-28 17:43:52 [INFO] Current Time  
+PASS7C4C 7C4C 200 133193781                   0
+PASS7C4C 7C4C 200 133180882                   1
+Error: Timed Out polling for response
+2020-05-28 17:43:55 [INFO] configuring board...
+2020-05-28 17:43:56 Current seed : 31
+2020-05-28 17:44:39 Increment seed to : 32
+PASS7C4C 7C4C 200 133171163                   0
+PASS7C4C 7C4C 200 133181589                   1
+Error: Timed Out polling for response
+2020-05-28 17:44:42 [INFO] configuring board...
+2020-05-28 17:44:43 Current seed : 32
+2020-05-28 17:45:27 Increment seed to : 33
+2020-05-28 17:45:27 [INFO] Current Time  
+PASS7C4C 7C4C 200 133170009                   0
+PASS7C4C 7C4C 200 133185459                   1
+PASS7C4C 7C4C 200 133179832                   2
+PASS7C4C 7C4C 200 133187138                   3
+PASS7C4C 7C4C 200 133176018                   4
+Error: Timed Out polling for response
+2020-05-28 17:45:34 [INFO] configuring board...
+2020-05-28 17:45:35 Current seed : 33
+2020-05-28 17:46:24 Increment seed to : 34
+PASS7C4C 7C4C 200 133178665                   0
+PASS7C4C 7C4C 200 133180701                   1
+2020-05-28 17:46:27 [INFO] Current Time  
+PASS7C4C 7C4C 200 133171701                   2
+Error: Timed Out polling for response
+2020-05-28 17:46:29 [INFO] configuring board...
+2020-05-28 17:46:30 Current seed : 34
+2020-05-28 17:47:13 Increment seed to : 35
+PASS7C4C 7C4C 200 133188955                   0
+PASS7C4C 7C4C 200 133155476                   1
+PASS7C4C 7C4C 200 133158563                   2
+PASS7C4C 7C4C 200 133184604                   3
+Error: Timed Out polling for response
+2020-05-28 17:47:19 [INFO] configuring board...
+2020-05-28 17:47:20 Current seed : 35
+2020-05-28 17:48:04 Increment seed to : 36
+2020-05-28 17:48:04 [INFO] Current Time  
+PASS7C4C 7C4C 200 133170029                   0
+PASS7C4C 7C4C 200 133186429                   1
+Error: Timed Out polling for response
+2020-05-28 17:48:07 [INFO] configuring board...
+2020-05-28 17:48:08 Current seed : 36
+2020-05-28 17:48:50 Increment seed to : 37
+Error: Timed Out polling for response
+2020-05-28 17:48:52 [INFO] configuring board...
+2020-05-28 17:48:53 Current seed : 37
+2020-05-28 17:49:36 Increment seed to : 38
+2020-05-28 17:49:36 [INFO] Current Time  
+PASS7C4C 7C4C 200 133187942                   0
+Error: Timed Out polling for response
+2020-05-28 17:49:38 [INFO] configuring board...
+2020-05-28 17:49:39 Current seed : 38
+2020-05-28 17:50:27 Increment seed to : 39
+PASS7C4C 7C4C 200 133194353                   0
+PASS7C4C 7C4C 200 133173337                   1
+PASS7C4C 7C4C 200 133189885                   2
+PASS7C4C 7C4C 200 133155631                   3
+PASS7C4C 7C4C 200 133197913                   4
+PASS7C4C 7C4C 200 133155765                   5
+Error: Timed Out polling for response
+2020-05-28 17:50:36 [INFO] configuring board...
+2020-05-28 17:50:37 Current seed : 39
+2020-05-28 17:51:20 Increment seed to : 40
+2020-05-28 17:51:20 [INFO] Current Time  
+PASS7C4C 7C4C 200 133194547                   0
+PASS7C4C 7C4C 200 133170796                   1
+PASS7C4C 7C4C 200 133160678                   2
+Error: Timed Out polling for response
+2020-05-28 17:51:24 [INFO] configuring board...
+2020-05-28 17:51:25 Current seed : 40
+2020-05-28 17:52:08 Increment seed to : 41
+PASS7C4C 7C4C 200 133194192                   0
+Error: Timed Out polling for response
+2020-05-28 17:52:10 [INFO] configuring board...
+2020-05-28 17:52:11 Current seed : 41
+2020-05-28 17:52:55 Increment seed to : 42
+2020-05-28 17:52:55 [INFO] Change kernel 
+2020-05-28 17:52:56 [INFO] Kernel before change :aiifft01
+2020-05-28 17:52:56 [INFO] Increment Kernel pointer...
