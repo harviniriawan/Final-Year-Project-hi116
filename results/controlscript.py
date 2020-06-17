@@ -1,6 +1,7 @@
 import serial
 import sys
 import os
+import re
 from datetime import datetime
 import time
 import io
@@ -31,53 +32,73 @@ either pmu_on or pmu_off
 name of kernel is out of the 16 kernels
 
 """
+
+
 #########################################################################################
 # Global Variables
 #########################################################################################
+proj_p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log_outf    = None      # log file instance
 ser         = None      # serial port instance
 msg         = ""        # string that buffers messages from 
 ser_loop    = 1
-tcl_script  = 'C:\\Users\\harvi\\Final-Year-Project-hi116\\tcm_test_tcl.tcl'
-A53_inj_p   = 'C:\\Users\\harvi\\Final-Year-Project-hi116\\A53_INJ\\src\\A53_injector.c'
-logName     = sys.argv[1]
-sl_mode     = sys.argv[2]
-ecc_mode    = sys.argv[3]
-pmu         = sys.argv[4]
+tcl_script  = 'tcm_test_tcl.tcl'
+build_scr   = 'build_kernels.tcl'
+tcl_scr_p   = os.path.join(proj_p,tcl_script)
+A53_inj_p   = os.path.join(proj_p,'A53_INJ\\src\\A53_injector.c')
+build_k_p   = os.path.join(proj_p,build_scr)
 board       = None
-rseed       = 0
-with_ecc    = 'no'
-kernels_end = ['0x4b74', '0x3dec', '0x5100', '0x4ca0',\
-               '0x4748','0x3d2c','0xa578',\
-               '0x49cc','0x5a1c','0x5b18','0x6918','0x3f50',\
-               '0x46a0','0x3a70','0x42b8','0x5e98']
+rseed       = 0         # initialise random seed
 kernels     = ['a2time01','canrdr01','aifftr01','aiifft01',\
                'aifirf01', 'basefp01', 'bitmnp01',\
                'cacheb01', 'idctrn01','iirflt01', 'matrix01', 'pntrch01',\
                'puwmod01', 'rspeed01', 'tblook01','ttsprk01']
 
-curr_kernel = 3
+curr_kernel = 0
 
 num_reset = 0
-changeK = 40
+changeK = 40  # Set the time change between kernel
+mainLoop = True
 
+########################################################################################
+# User specific variable
+########################################################################################
+xsct_p        = r'C:\Xilinx\SDK\2019.1\bin\xsct.bat'
+arduino_sport = 'COM7'
+u96_sport     = 'COM10'
+file_suffix   = 'ako'
+reset_pin     = 13
+power_pin     = 12
+
+# These are the end of t_run_test() function read from the .ELF files compiled
+kernels_end = ['0x4b74', '0x3dec', '0x5100', '0x4ca0',\
+               '0x4748','0x3d2c','0xa578',\
+               '0x49cc','0x5a1c','0x5b18','0x6918','0x3f50',\
+               '0x46a0','0x3a70','0x42b8','0x5e98']
+
+#######################################################################################
+# Function declarations
+#######################################################################################
 
 def connect_arduino():
   global board
-  board = pyfirmata.Arduino('COM7') # generalise the port next time
+  global arduino_sport
+  board = pyfirmata.Arduino(arduino_sport) # generalise the port next time
 
 def push_reset():
   global board
-  board.digital[13].write(0)
+  global reset_pin
+  board.digital[reset_pin].write(0)
   time.sleep(.500)
-  board.digital[13].write(1)
+  board.digital[reset_pin].write(1)
   time.sleep(.500)
 
 def push_power(delay):
   global board
-  board.digital[12].write(0)
+  global power_pin
+  board.digital[power_pin].write(0)
   time.sleep(delay)
-  board.digital[12].write(1)
+  board.digital[power_pin].write(1)
   time.sleep(.500)
 
 def getTime():
@@ -90,22 +111,26 @@ def writeLogs(str_in):
   log_outf.flush()
   return
 
-def manageArgs():
-  numArgs = len(sys.argv)
-  print(str(sys.argv))
-  if numArgs != 6:
-    print("Not enough Arguments")
+def buildKernel():
+  global tcl_scr_p
+  global xsct_p
+  global proj_p
+  global build_k_p
+  print (proj_p)
+  ret_value=subprocess.check_call([xsct_p, build_k_p, kernels[curr_kernel], proj_p])
 
 def resetAndRunDevice():
   global rseed
   global kernels
   global curr_kernel
+  global xsct_p
+  global tcl_scr_p
+  global proj_p
   writeLogs(getTime() + " [INFO] configuring board...\n")
   push_reset()
   writeLogs(getTime() + " Current seed : " + str(rseed) + "\n")
   replace(A53_inj_p,'srand(' + str(rseed),'srand('+ str(rseed+1))
-  ret_value=subprocess.check_call([r'C:\Xilinx\SDK\2019.1\bin\xsct.bat', tcl_script, \
-                                  sl_mode, ecc_mode, pmu, kernels[curr_kernel]])
+  ret_value=subprocess.check_call([xsct_p, tcl_scr_p, kernels[curr_kernel], proj_p])
   print("Ret Value is: " +str(ret_value))
   rseed = rseed + 1
   writeLogs(getTime() + " Increment seed to : " + str(rseed) + "\n")
@@ -119,14 +144,15 @@ def openLogs(lname):
   global log_dir
   global exec_name
   filemode_inj = 'a'
-  log_outf = open(lname+with_ecc+'.txt', filemode_inj)
+  log_outf = open(lname+file_suffix+'.txt', filemode_inj)
   writeLogs(datetime.now().strftime('%Y-%m-%d %H:%M:%S') \
     + " [INFO] starting radiation experiment...\n")
   return
 
 def openSerialInterface():
   global ser
-  ser = serial.Serial(port='COM10',baudrate=115200,bytesize=serial.EIGHTBITS,\
+  global u96_sport
+  ser = serial.Serial(port=u96_sport,baudrate=115200,bytesize=serial.EIGHTBITS,\
     parity=serial.PARITY_NONE,stopbits = serial.STOPBITS_ONE, timeout=5)
   # try:
   #   print("Opening serial port...")
@@ -151,7 +177,6 @@ def readByteFromSerial():
         resetAndRunDevice()
         msg=""
       if (msg == 'WRO'):
-        print("HAHA WRONG!")
         resetAndRunDevice()
         msg=""
       try:
@@ -200,6 +225,7 @@ def changeKernel():
   global ser
   global num_reset
   global log_outf
+  global mainLoop
   ser.flush() # Flush serial port before changing kernel
   ser.reset_input_buffer()
   ser.reset_output_buffer()
@@ -216,6 +242,7 @@ def changeKernel():
   else:
     writeLogs(getTime() + " [INFO] Kernel pointer set back to 0...\n")
     curr_kernel = 0
+    mainLoop =  False
 
   # Close current log file
   log_outf.close()
@@ -259,7 +286,8 @@ def replace(file_path, pattern, subst):
 def main():
   global ser_loop
   global num_reset
-  mainLoop = True;
+  global mainLoop
+  mainLoop = True
   openLogs(kernels[curr_kernel])
   connect_arduino();
   push_power(.500);
@@ -276,6 +304,11 @@ def main():
     ser_loop = 1 # Reinit serial loop to 1
   print(getTime()+" [INFO]: Exiting script...\n")
 
-while (True):
-  main()
-  # send_email()
+
+##############################################################################################
+# Function Execution
+##############################################################################################
+
+buildKernel()
+main()
+push_power(10)
