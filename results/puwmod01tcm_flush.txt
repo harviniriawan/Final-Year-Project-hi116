@@ -1,0 +1,1631 @@
+2020-06-03 02:18:34 [INFO] starting radiation experiment...
+2020-06-03 02:18:34 [INFO] Current kernel  : puwmod01
+P        72
+2020-06-03 02:18:39 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:18:39 [INFO] configuring board...
+2020-06-03 02:18:40 Current seed : 201
+2020-06-03 02:19:24 Increment seed to : 202
+2020-06-03 02:19:24 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990379                   0
+PASSCCC1 CCC1 100000 20988965                   1
+PASSCCC1 CCC1 100000 20988710                   2
+PASSCCC1 CCC1 100000 20988584                   3
+PASSCCC1 CCC1 100000 20988584                   4
+PASSCCC1 CCC1 100000 20988584                   5
+PASSCCC1 CCC1 100000 20988584                   6
+TCM addr corrupted: 0x23CC0
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 289060768                   7
+PASSCCC1 CCC1 100000 340414914                   8
+TCM addr corrupted: 0x242D8
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340570039                   9
+TCM addr corrupted: 0x22F48
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340556302                  10
+TCM addr corrupted: 0x24080
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340546462                  11
+PASSCCC1 CCC1 100000 340405249                  12
+PASSCCC1 CCC1 100000 340405942                  13
+TCM addr corrupted: 0x23BB8
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340532983                  14
+PASSCCC1 CCC1 100000 340399397                  15
+PASSCCC1 CCC1 100000 340413095                  16
+TCM addr corrupted: 0x23E10
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340536493                  17
+PASSCCC1 CCC1 100000 340400957                  18
+TCM addr corrupted: 0x233E8
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x24590
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340611522                  19
+PASSCCC1 CCC1 100000 340419682                  20
+PASSCCC1 CCC1 100000 340411794                  21
+PASSCCC1 CCC1 100000 340418901                  22
+TCM addr corrupted: 0x231D8
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340553704                  23
+2020-06-03 02:20:26 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340404858                  24
+PASSCCC1 CCC1 100000 340412052                  25
+TCM addr corrupted: 0x24458
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340506688                  26
+TCM addr corrupted: 0x23710
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340549754                  27
+TCM addr corrupted: 0x23808
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340501773                  28
+TCM addr corrupted: 0x23D38
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340526352                  29
+TCM addr corrupted: 0x232D8
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23920
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340632985                  30
+PASSCCC1 CCC1 100000 340411490                  31
+PASSCCC1 CCC1 100000 340417512                  32
+TCM addr corrupted: 0x243E8
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340530641                  33
+PASSCCC1 CCC1 100000 340416171                  34
+PASSCCC1 CCC1 100000 340419465                  35
+PASSCCC1 CCC1 100000 340402690                  36
+PASSCCC1 CCC1 100000 340419681                  37
+PASSCCC1 CCC1 100000 340409149                  38
+PASSCCC1 CCC1 100000 340418121                  39
+TCM addr corrupted: 0x231F0
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x241C8
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340682606                  40
+TCM addr corrupted: 0x23E00
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23CD0
+, Bit Mask : 0x400008 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23cd0
+2020-06-03 02:21:26 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-06-03 02:21:26 [INFO] configuring board...
+2020-06-03 02:21:27 Current seed : 202
+2020-06-03 02:22:09 Increment seed to : 203
+PASSCCC1 CCC1 100000 20990378                   0
+PASSCCC1 CCC1 100000 20988968                   1
+PASSCCC1 CCC1 100000 20988705                   2
+PASSCCC1 CCC1 100000 20988584                   3
+PASSCCC1 CCC1 100000 20988584                   4
+PASSCCC1 CCC1 100000 20988584                   5
+PASSCCC1 CCC1 100000 20988591                   6
+PASSCCC1 CCC1 100000 20988584                   7
+PASSCCC1 CCC1 100000 20988584                   8
+TCM addr corrupted: 0x239D0
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 211722490                   9
+TCM addr corrupted: 0x24500
+, Bit Mask : 0x1004 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24500
+Error: Timed Out polling for response
+2020-06-03 02:22:20 [INFO] configuring board...
+2020-06-03 02:22:21 Current seed : 203
+2020-06-03 02:23:04 Increment seed to : 204
+2020-06-03 02:23:04 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20989837                   0
+PASSCCC1 CCC1 100000 20988881                   1
+PASSCCC1 CCC1 100000 20988584                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+TCM addr corrupted: 0x24520
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 75090257                  34
+TCM addr corrupted: 0x23108
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340577498                  35
+PASSCCC1 CCC1 100000 340429824                  36
+PASSCCC1 CCC1 100000 340436066                  37
+PASSCCC1 CCC1 100000 340436798                  38
+PASSCCC1 CCC1 100000 340442090                  39
+PASSCCC1 CCC1 100000 340428654                  40
+PASSCCC1 CCC1 100000 340426618                  41
+TCM addr corrupted: 0x24080
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340543256                  42
+PASSCCC1 CCC1 100000 340431165                  43
+PASSCCC1 CCC1 100000 340438320                  44
+TCM addr corrupted: 0x24298
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23B50
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340698686                  45
+TCM addr corrupted: 0x23BA8
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23BE0
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340626822                  46
+PASSCCC1 CCC1 100000 340438494                  47
+TCM addr corrupted: 0x244D0
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340552402                  48
+TCM addr corrupted: 0x23410
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340542576                  49
+2020-06-03 02:24:06 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340429218                  50
+TCM addr corrupted: 0x231E0
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x22E58
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340740340                  51
+TCM addr corrupted: 0x235A8
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x244F8
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340666657                  52
+PASSCCC1 CCC1 100000 340432555                  53
+PASSCCC1 CCC1 100000 340436759                  54
+PASSCCC1 CCC1 100000 340426484                  55
+PASSCCC1 CCC1 100000 340442867                  56
+PASSCCC1 CCC1 100000 340435457                  57
+PASSCCC1 CCC1 100000 340425703                  58
+TCM addr corrupted: 0x24348
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340562670                  59
+TCM addr corrupted: 0x234C0
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340588131                  60
+TCM addr corrupted: 0x240A0
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340545075                  61
+TCM addr corrupted: 0x23280
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24408
+, Bit Mask : 0x10C00 ,Shift 0, bits corrupted: 3
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24408
+Error: Timed Out polling for response
+2020-06-03 02:24:49 [INFO] configuring board...
+2020-06-03 02:24:51 Current seed : 204
+2020-06-03 02:25:36 Increment seed to : 205
+2020-06-03 02:25:36 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990422                   0
+PASSCCC1 CCC1 100000 20988909                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+PASSCCC1 CCC1 100000 20988555                  44
+PASSCCC1 CCC1 100000 20988555                  45
+PASSCCC1 CCC1 100000 20988555                  46
+PASSCCC1 CCC1 100000 20988555                  47
+PASSCCC1 CCC1 100000 20988555                  48
+PASSCCC1 CCC1 100000 20988555                  49
+PASSCCC1 CCC1 100000 20988555                  50
+PASSCCC1 CCC1 100000 20988555                  51
+PASSCCC1 CCC1 100000 20988555                  52
+PASSCCC1 CCC1 100000 20988555                  53
+PASSCCC1 CCC1 100000 20988555                  54
+PASSCCC1 CCC1 100000 20988555                  55
+PASSCCC1 CCC1 100000 20988555                  56
+PASSCCC1 CCC1 100000 20988555                  57
+PASSCCC1 CCC1 100000 20988555                  58
+PASSCCC1 CCC1 100000 20988555                  59
+PASSCCC1 CCC1 100000 20988555                  60
+PASSCCC1 CCC1 100000 20988555                  61
+PASSCCC1 CCC1 100000 20988555                  62
+PASSCCC1 CCC1 100000 20988555                  63
+PASSCCC1 CCC1 100000 20988555                  64
+PASSCCC1 CCC1 100000 20988555                  65
+PASSCCC1 CCC1 100000 20988555                  66
+PASSCCC1 CCC1 100000 20988555                  67
+PASSCCC1 CCC1 100000 20988555                  68
+PASSCCC1 CCC1 100000 20988555                  69
+PASSCCC1 CCC1 100000 20988555                  70
+PASSCCC1 CCC1 100000 20988555                  71
+PASSCCC1 CCC1 100000 20988555                  72
+PASSCCC1 CCC1 100000 20988555                  73
+PASSCCC1 CCC1 100000 20988555                  74
+PASSCCC1 CCC1 100000 20988555                  75
+PASSCCC1 CCC1 100000 20988555                  76
+PASSCCC1 CCC1 100000 20988555                  77
+PASSCCC1 CCC1 100000 20988555                  78
+PASSCCC1 CCC1 100000 20988555                  79
+PASSCCC1 CCC1 100000 20988555                  80
+PASSCCC1 CCC1 100000 20988555                  81
+PASSCCC1 CCC1 100000 20988555                  82
+PASSCCC1 CCC1 100000 20988555                  83
+PASSCCC1 CCC1 100000 20988555                  84
+PASSCCC1 CCC1 100000 20988555                  85
+PASSCCC1 CCC1 100000 20988555                  86
+PASSCCC1 CCC1 100000 20988555                  87
+PASSCCC1 CCC1 100000 20988555                  88
+PASSCCC1 CCC1 100000 20988555                  89
+PASSCCC1 CCC1 100000 20988555                  90
+PASSCCC1 CCC1 100000 20988555                  91
+PASSCCC1 CCC1 100000 20988555                  92
+PASSCCC1 CCC1 100000 20988555                  93
+PASSCCC1 CCC1 100000 20988555                  94
+PASSCCC1 CCC1 100000 20988555                  95
+PASSCCC1 CCC1 100000 20988555                  96
+PASSCCC1 CCC1 100000 20988555                  97
+PASSCCC1 CCC1 100000 20988555                  98
+PASSCCC1 CCC1 100000 20988555                  99
+PASSCCC1 CCC1 100000 20988555                 100
+PASSCCC1 CCC1 100000 20988555                 101
+PASSCCC1 CCC1 100000 20988555                 102
+PASSCCC1 CCC1 100000 20988555                 103
+PASSCCC1 CCC1 100000 20988555                 104
+PASSCCC1 CCC1 100000 20988555                 105
+PASSCCC1 CCC1 100000 20988555                 106
+PASSCCC1 CCC1 100000 20988555                 107
+PASSCCC1 CCC1 100000 20988555                 108
+PASSCCC1 CCC1 100000 20988555                 109
+PASSCCC1 CCC1 100000 20988555                 110
+PASSCCC1 CCC1 100000 20988555                 111
+PASSCCC1 CCC1 100000 20988555                 112
+PASSCCC1 CCC1 100000 20988555                 113
+PASSCCC1 CCC1 100000 20988555                 114
+PASSCCC1 CCC1 100000 20988555                 115
+PASSCCC1 CCC1 100000 20988555                 116
+PASSCCC1 CCC1 100000 20988555                 117
+PASSCCC1 CCC1 100000 20988555                 118
+PASSCCC1 CCC1 100000 20988555                 119
+PASSCCC1 CCC1 100000 20988555                 120
+PASSCCC1 CCC1 100000 20988555                 121
+PASSCCC1 CCC1 100000 20988555                 122
+PASSCCC1 CCC1 100000 20988555                 123
+PASSCCC1 CCC1 100000 20988555                 124
+PASSCCC1 CCC1 100000 20988555                 125
+PASSCCC1 CCC1 100000 20988555                 126
+PASSCCC1 CCC1 100000 20988555                 127
+PASSCCC1 CCC1 100000 20988555                 128
+PASSCCC1 CCC1 100000 20988555                 129
+PASSCCC1 CCC1 100000 20988555                 130
+PASSCCC1 CCC1 100000 20988555                 131
+PASSCCC1 CCC1 100000 20988555                 132
+PASSCCC1 CCC1 100000 20988555                 133
+PASSCCC1 CCC1 100000 20988555                 134
+PASSCCC1 CCC1 100000 20988555                 135
+PASSCCC1 CCC1 100000 20988555                 136
+PASSCCC1 CCC1 100000 20988555                 137
+PASSCCC1 CCC1 100000 20988555                 138
+PASSCCC1 CCC1 100000 20988555                 139
+PASSCCC1 CCC1 100000 20988555                 140
+PASSCCC1 CCC1 100000 20988555                 141
+PASSCCC1 CCC1 100000 20988555                 142
+PASSCCC1 CCC1 100000 20988555                 143
+PASSCCC1 CCC1 100000 20988555                 144
+PASSCCC1 CCC1 100000 20988555                 145
+PASSCCC1 CCC1 100000 20988555                 146
+PASSCCC1 CCC1 100000 20988555                 147
+PASSCCC1 CCC1 100000 20988555                 148
+PASSCCC1 CCC1 100000 20988555                 149
+PASSCCC1 CCC1 100000 20988555                 150
+PASSCCC1 CCC1 100000 20988555                 151
+PASSCCC1 CCC1 100000 20988555                 152
+PASSCCC1 CCC1 100000 20988555                 153
+PASSCCC1 CCC1 100000 20988555                 154
+PASSCCC1 CCC1 100000 20988555                 155
+PASSCCC1 CCC1 100000 20988555                 156
+PASSCCC1 CCC1 100000 20988555                 157
+PASSCCC1 CCC1 100000 20988555                 158
+PASSCCC1 CCC1 100000 20988555                 159
+PASSCCC1 CCC1 100000 20988555                 160
+PASSCCC1 CCC1 100000 20988555                 161
+PASSCCC1 CCC1 100000 20988555                 162
+PASSCCC1 CCC1 100000 20988555                 163
+PASSCCC1 CCC1 100000 20988555                 164
+PASSCCC1 CCC1 100000 20988555                 165
+PASSCCC1 CCC1 100000 20988555                 166
+PASSCCC1 CCC1 100000 20988555                 167
+PASSCCC1 CCC1 100000 20988555                 168
+PASSCCC1 CCC1 100000 20988555                 169
+PASSCCC1 CCC1 100000 20988555                 170
+PASSCCC1 CCC1 100000 20988555                 171
+PASSCCC1 CCC1 100000 20988555                 172
+PASSCCC1 CCC1 100000 20988555                 173
+PASSCCC1 CCC1 100000 20988555                 174
+PASSCCC1 CCC1 100000 20988555                 175
+PASSCCC1 CCC1 100000 20988555                 176
+PASSCCC1 CCC1 100000 20988555                 177
+PASSCCC1 CCC1 100000 20988555                 178
+TCM addr corrupted: 0x240E0
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 318106680                 179
+TCM addr corrupted: 0x23EA0
+, Bit Mask : 0x40000008 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23ea0
+Error: Timed Out polling for response
+2020-06-03 02:26:21 [INFO] configuring board...
+2020-06-03 02:26:22 Current seed : 205
+2020-06-03 02:27:09 Increment seed to : 206
+2020-06-03 02:27:09 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20988881                   1
+PASSCCC1 CCC1 100000 20988584                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+TCM addr corrupted: 0x24520
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 211807383                  12
+PASSCCC1 CCC1 100000 340423192                  13
+PASSCCC1 CCC1 100000 340423106                  14
+PASSCCC1 CCC1 100000 340410709                  15
+PASSCCC1 CCC1 100000 340415562                  16
+PASSCCC1 CCC1 100000 340418208                  17
+TCM addr corrupted: 0x23ED0
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24058
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340674804                  18
+PASSCCC1 CCC1 100000 340426876                  19
+PASSCCC1 CCC1 100000 340412660                  20
+PASSCCC1 CCC1 100000 340424752                  21
+TCM addr corrupted: 0x244A8
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340564797                  22
+PASSCCC1 CCC1 100000 340424799                  23
+TCM addr corrupted: 0x24658
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340562847                  24
+PASSCCC1 CCC1 100000 340419682                  25
+TCM addr corrupted: 0x238F8
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340569134                  26
+PASSCCC1 CCC1 100000 340423365                  27
+TCM addr corrupted: 0x23FA8
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340541174                  28
+2020-06-03 02:28:10 [INFO] Current Time  
+TCM addr corrupted: 0x23210
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340526091                  29
+PASSCCC1 CCC1 100000 340425097                  30
+TCM addr corrupted: 0x22F40
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340556215                  31
+TCM addr corrupted: 0x22FC0
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340532638                  32
+PASSCCC1 CCC1 100000 340427266                  33
+PASSCCC1 CCC1 100000 340432945                  34
+PASSCCC1 CCC1 100000 340422326                  35
+PASSCCC1 CCC1 100000 340418121                  36
+PASSCCC1 CCC1 100000 340412833                  37
+TCM addr corrupted: 0x22F80
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340516644                  38
+PASSCCC1 CCC1 100000 340420026                  39
+PASSCCC1 CCC1 100000 340410882                  40
+TCM addr corrupted: 0x23BA8
+, Bit Mask : 0x800010 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23ba8
+Error: Timed Out polling for response
+2020-06-03 02:28:55 [INFO] configuring board...
+2020-06-03 02:28:56 Current seed : 206
+2020-06-03 02:29:39 Increment seed to : 207
+2020-06-03 02:29:39 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990421                   0
+PASSCCC1 CCC1 100000 20988909                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+TCM addr corrupted: 0x23560
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 93161734                   4
+TCM addr corrupted: 0x23178
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340526350                   5
+TCM addr corrupted: 0x23AE0
+, Bit Mask : 0x8000001 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23ae0
+Error: Timed Out polling for response
+2020-06-03 02:29:46 [INFO] configuring board...
+2020-06-03 02:29:47 Current seed : 207
+2020-06-03 02:30:29 Increment seed to : 208
+PASSCCC1 CCC1 100000 20990422                   0
+PASSCCC1 CCC1 100000 20988876                   1
+PASSCCC1 CCC1 100000 20988626                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+TCM addr corrupted: 0x230F8
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 147871345                  24
+2020-06-03 02:30:39 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340448462                  25
+PASSCCC1 CCC1 100000 340448939                  26
+TCM addr corrupted: 0x23680
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340540175                  27
+PASSCCC1 CCC1 100000 340444736                  28
+PASSCCC1 CCC1 100000 340443001                  29
+TCM addr corrupted: 0x24300
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340573552                  30
+PASSCCC1 CCC1 100000 340459081                  31
+PASSCCC1 CCC1 100000 340448635                  32
+TCM addr corrupted: 0x23B70
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23488
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23240
+, Bit Mask : 0x2000880 ,Shift 16, bits corrupted: 3
+PASSCCC1 CCC1 100000 340908081                  33
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23240
+Error: Timed Out polling for response
+2020-06-03 02:31:07 [INFO] configuring board...
+2020-06-03 02:31:08 Current seed : 208
+2020-06-03 02:31:50 Increment seed to : 209
+2020-06-03 02:31:50 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990421                   0
+PASSCCC1 CCC1 100000 20988909                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+PASSCCC1 CCC1 100000 20988555                  44
+PASSCCC1 CCC1 100000 20988555                  45
+PASSCCC1 CCC1 100000 20988555                  46
+PASSCCC1 CCC1 100000 20988555                  47
+PASSCCC1 CCC1 100000 20988555                  48
+PASSCCC1 CCC1 100000 20988555                  49
+PASSCCC1 CCC1 100000 20988555                  50
+PASSCCC1 CCC1 100000 20988555                  51
+PASSCCC1 CCC1 100000 20988555                  52
+PASSCCC1 CCC1 100000 20988555                  53
+PASSCCC1 CCC1 100000 20988555                  54
+PASSCCC1 CCC1 100000 20988555                  55
+TCM addr corrupted: 0x24310
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 126405598                  56
+PASSCCC1 CCC1 100000 340461422                  57
+PASSCCC1 CCC1 100000 340446598                  58
+PASSCCC1 CCC1 100000 340445126                  59
+TCM addr corrupted: 0x23728
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340582830                  60
+PASSCCC1 CCC1 100000 340446208                  61
+PASSCCC1 CCC1 100000 340444648                  62
+PASSCCC1 CCC1 100000 340461812                  63
+PASSCCC1 CCC1 100000 340454010                  64
+PASSCCC1 CCC1 100000 340450109                  65
+TCM addr corrupted: 0x23D50
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340576586                  66
+TCM addr corrupted: 0x23508
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340561457                  67
+PASSCCC1 CCC1 100000 340447379                  68
+PASSCCC1 CCC1 100000 340455961                  69
+2020-06-03 02:32:51 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340453013                  70
+PASSCCC1 CCC1 100000 340455570                  71
+TCM addr corrupted: 0x240B8
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340573943                  72
+PASSCCC1 CCC1 100000 340438190                  73
+TCM addr corrupted: 0x23598
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340562066                  74
+TCM addr corrupted: 0x232E8
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340557385                  75
+PASSCCC1 CCC1 100000 340452450                  76
+TCM addr corrupted: 0x22F28
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340585082                  77
+PASSCCC1 CCC1 100000 340448332                  78
+PASSCCC1 CCC1 100000 340455960                  79
+PASSCCC1 CCC1 100000 340451584                  80
+PASSCCC1 CCC1 100000 340447076                  81
+PASSCCC1 CCC1 100000 340441917                  82
+PASSCCC1 CCC1 100000 340443954                  83
+TCM addr corrupted: 0x24068
+, Bit Mask : 0x80020000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24068
+2020-06-03 02:33:41 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:33:41 [INFO] configuring board...
+2020-06-03 02:33:42 Current seed : 209
+2020-06-03 02:34:24 Increment seed to : 210
+2020-06-03 02:34:24 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+TCM addr corrupted: 0x24220
+, Bit Mask : 0x10000200 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24220
+Error: Timed Out polling for response
+2020-06-03 02:34:33 [INFO] configuring board...
+2020-06-03 02:34:34 Current seed : 210
+2020-06-03 02:35:17 Increment seed to : 211
+PASSCCC1 CCC1 100000 20989837                   0
+PASSCCC1 CCC1 100000 20988882                   1
+PASSCCC1 CCC1 100000 20988584                   2
+PASSCCC1 CCC1 100000 20988563                   3
+TCM addr corrupted: 0x239E0
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 239496277                   4
+TCM addr corrupted: 0x22E78
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+2020-06-03 02:35:24 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340619715                   5
+PASSCCC1 CCC1 100000 340459790                   6
+PASSCCC1 CCC1 100000 340459151                   7
+TCM addr corrupted: 0x230B0
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340586596                   8
+PASSCCC1 CCC1 100000 340454805                   9
+PASSCCC1 CCC1 100000 340461032                  10
+PASSCCC1 CCC1 100000 340454964                  11
+PASSCCC1 CCC1 100000 340453230                  12
+PASSCCC1 CCC1 100000 340464239                  13
+PASSCCC1 CCC1 100000 340453145                  14
+PASSCCC1 CCC1 100000 340454572                  15
+TCM addr corrupted: 0x23050
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23CD0
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340732712                  16
+PASSCCC1 CCC1 100000 340458301                  17
+PASSCCC1 CCC1 100000 340463543                  18
+TCM addr corrupted: 0x23038
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340589154                  19
+TCM addr corrupted: 0x23510
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340554264                  20
+TCM addr corrupted: 0x242F0
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340570173                  21
+PASSCCC1 CCC1 100000 340463028                  22
+2020-06-03 02:36:25 [INFO] Current Time  
+TCM addr corrupted: 0x23AB0
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340580572                  23
+TCM addr corrupted: 0x22F50
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340615597                  24
+TCM addr corrupted: 0x22F28
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340554264                  25
+PASSCCC1 CCC1 100000 340453548                  26
+PASSCCC1 CCC1 100000 340457131                  27
+TCM addr corrupted: 0x240D8
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23078
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340741293                  28
+PASSCCC1 CCC1 100000 340452841                  29
+PASSCCC1 CCC1 100000 340468054                  30
+PASSCCC1 CCC1 100000 340452449                  31
+PASSCCC1 CCC1 100000 340464846                  32
+PASSCCC1 CCC1 100000 340471737                  33
+TCM addr corrupted: 0x23DE0
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340559899                  34
+TCM addr corrupted: 0x24000
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340591245                  35
+PASSCCC1 CCC1 100000 340457045                  36
+TCM addr corrupted: 0x24130
+, Bit Mask : 0x80200 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24130
+Error: Timed Out polling for response
+2020-06-03 02:37:12 [INFO] configuring board...
+2020-06-03 02:37:13 Current seed : 211
+2020-06-03 02:37:56 Increment seed to : 212
+2020-06-03 02:37:56 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990372                   0
+PASSCCC1 CCC1 100000 20988876                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+PASSCCC1 CCC1 100000 20988555                  44
+PASSCCC1 CCC1 100000 20988555                  45
+PASSCCC1 CCC1 100000 20988555                  46
+PASSCCC1 CCC1 100000 20988555                  47
+PASSCCC1 CCC1 100000 20988555                  48
+PASSCCC1 CCC1 100000 20988555                  49
+TCM addr corrupted: 0x23EC8
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 177488015                  50
+PASSCCC1 CCC1 100000 340429434                  51
+PASSCCC1 CCC1 100000 340426484                  52
+TCM addr corrupted: 0x241F0
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340555090                  53
+PASSCCC1 CCC1 100000 340432945                  54
+PASSCCC1 CCC1 100000 340423206                  55
+PASSCCC1 CCC1 100000 340426532                  56
+TCM addr corrupted: 0x23BE8
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24448
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x243C8
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340842935                  57
+PASSCCC1 CCC1 100000 340428264                  58
+TCM addr corrupted: 0x24088
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340570041                  59
+PASSCCC1 CCC1 100000 340435459                  60
+PASSCCC1 CCC1 100000 340434017                  61
+TCM addr corrupted: 0x23B00
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340542562                  62
+PASSCCC1 CCC1 100000 340437626                  63
+PASSCCC1 CCC1 100000 340414525                  64
+2020-06-03 02:39:00 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340417124                  65
+TCM addr corrupted: 0x23828
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23448
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24530
+, Bit Mask : 0x10000410 ,Shift 16, bits corrupted: 3
+Address of the undefined instruction 24530
+2020-06-03 02:39:08 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:39:08 [INFO] configuring board...
+2020-06-03 02:39:09 Current seed : 212
+2020-06-03 02:39:51 Increment seed to : 213
+PASSCCC1 CCC1 100000 20990414                   0
+PASSCCC1 CCC1 100000 20988898                   1
+PASSCCC1 CCC1 100000 20988630                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+TCM addr corrupted: 0x23DD0
+, Bit Mask : 0x80010000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23dd0
+2020-06-03 02:39:59 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:39:59 [INFO] configuring board...
+2020-06-03 02:40:00 Current seed : 213
+2020-06-03 02:40:43 Increment seed to : 214
+2020-06-03 02:40:43 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990372                   0
+PASSCCC1 CCC1 100000 20988876                   1
+TCM addr corrupted: 0x244E8
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 52510050                   2
+PASSCCC1 CCC1 100000 340457045                   3
+PASSCCC1 CCC1 100000 340460556                   4
+PASSCCC1 CCC1 100000 340455658                   5
+PASSCCC1 CCC1 100000 340463153                   6
+PASSCCC1 CCC1 100000 340457998                   7
+TCM addr corrupted: 0x24680
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23450
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340699380                   8
+PASSCCC1 CCC1 100000 340465800                   9
+TCM addr corrupted: 0x244E0
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24190
+, Bit Mask : 0x82000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24190
+Error: Timed Out polling for response
+2020-06-03 02:41:15 [INFO] configuring board...
+2020-06-03 02:41:16 Current seed : 214
+2020-06-03 02:42:03 Increment seed to : 215
+2020-06-03 02:42:03 [INFO] Current Time  
+PASSCCC1 CCC1 100000 177983995                   0
+PASSCCC1 CCC1 100000 340448954                   1
+TCM addr corrupted: 0x23488
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340528433                   2
+TCM addr corrupted: 0x236E0
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340524532                   3
+PASSCCC1 CCC1 100000 340433336                   4
+PASSCCC1 CCC1 100000 340425447                   5
+PASSCCC1 CCC1 100000 340441614                   6
+PASSCCC1 CCC1 100000 340428192                   7
+PASSCCC1 CCC1 100000 340437626                   8
+PASSCCC1 CCC1 100000 340444428                   9
+PASSCCC1 CCC1 100000 340442088                  10
+TCM addr corrupted: 0x231E0
+, Bit Mask : 0x402000 ,Shift 0, bits corrupted: 2
+TCM addr corrupted: 0x24180
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340719665                  11
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 231e0
+2020-06-03 02:42:47 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:42:47 [INFO] configuring board...
+2020-06-03 02:42:48 Current seed : 215
+2020-06-03 02:43:33 Increment seed to : 216
+2020-06-03 02:43:33 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20989835                   0
+PASSCCC1 CCC1 100000 20988881                   1
+PASSCCC1 CCC1 100000 20988584                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+PASSCCC1 CCC1 100000 20988555                  44
+PASSCCC1 CCC1 100000 20988555                  45
+PASSCCC1 CCC1 100000 20988555                  46
+PASSCCC1 CCC1 100000 20988555                  47
+PASSCCC1 CCC1 100000 20988555                  48
+PASSCCC1 CCC1 100000 20988555                  49
+PASSCCC1 CCC1 100000 20988555                  50
+PASSCCC1 CCC1 100000 20988555                  51
+PASSCCC1 CCC1 100000 20988555                  52
+PASSCCC1 CCC1 100000 20988555                  53
+PASSCCC1 CCC1 100000 20988555                  54
+PASSCCC1 CCC1 100000 20988555                  55
+PASSCCC1 CCC1 100000 20988555                  56
+PASSCCC1 CCC1 100000 20988555                  57
+TCM addr corrupted: 0x23A10
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 293936206                  58
+TCM addr corrupted: 0x239C0
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340583866                  59
+TCM addr corrupted: 0x24520
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340540002                  60
+PASSCCC1 CCC1 100000 340440661                  61
+TCM addr corrupted: 0x23968
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x230F0
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340736743                  62
+PASSCCC1 CCC1 100000 340442087                  63
+PASSCCC1 CCC1 100000 340444648                  64
+PASSCCC1 CCC1 100000 340434419                  65
+TCM addr corrupted: 0x23330
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340554742                  66
+PASSCCC1 CCC1 100000 340442307                  67
+TCM addr corrupted: 0x238E0
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340556777                  68
+PASSCCC1 CCC1 100000 340426485                  69
+PASSCCC1 CCC1 100000 340441846                  70
+TCM addr corrupted: 0x24308
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340534541                  71
+2020-06-03 02:44:36 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340443477                  72
+PASSCCC1 CCC1 100000 340429824                  73
+TCM addr corrupted: 0x24090
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340557730                  74
+PASSCCC1 CCC1 100000 340441918                  75
+PASSCCC1 CCC1 100000 340436760                  76
+PASSCCC1 CCC1 100000 340441700                  77
+PASSCCC1 CCC1 100000 340439966                  78
+TCM addr corrupted: 0x23930
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x234D0
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340699294                  79
+PASSCCC1 CCC1 100000 340441051                  80
+TCM addr corrupted: 0x231F0
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340532028                  81
+PASSCCC1 CCC1 100000 340447942                  82
+TCM addr corrupted: 0x23670
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340539832                  83
+PASSCCC1 CCC1 100000 340446988                  84
+TCM addr corrupted: 0x24638
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340570822                  85
+PASSCCC1 CCC1 100000 340451063                  86
+TCM addr corrupted: 0x23960
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340572600                  87
+PASSCCC1 CCC1 100000 340443260                  88
+TCM addr corrupted: 0x24680
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340562067                  89
+2020-06-03 02:45:37 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340424840                  90
+TCM addr corrupted: 0x24218
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340543732                  91
+TCM addr corrupted: 0x24590
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340567323                  92
+TCM addr corrupted: 0x23538
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23168
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340675365                  93
+PASSCCC1 CCC1 100000 340438970                  94
+PASSCCC1 CCC1 100000 340433639                  95
+PASSCCC1 CCC1 100000 340436800                  96
+PASSCCC1 CCC1 100000 340439491                  97
+TCM addr corrupted: 0x23698
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340584729                  98
+PASSCCC1 CCC1 100000 340430301                  99
+TCM addr corrupted: 0x23030
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340544902                 100
+TCM addr corrupted: 0x23CE8
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340548023                 101
+PASSCCC1 CCC1 100000 340446013                 102
+PASSCCC1 CCC1 100000 340449720                 103
+PASSCCC1 CCC1 100000 340439490                 104
+PASSCCC1 CCC1 100000 340439664                 105
+PASSCCC1 CCC1 100000 340444258                 106
+PASSCCC1 CCC1 100000 340448548                 107
+2020-06-03 02:46:38 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340437150                 108
+TCM addr corrupted: 0x24380
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340548586                 109
+PASSCCC1 CCC1 100000 340435980                 110
+TCM addr corrupted: 0x23E70
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340583721                 111
+TCM addr corrupted: 0x232D8
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340581180                 112
+TCM addr corrupted: 0x23880
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340561201                 113
+PASSCCC1 CCC1 100000 340439577                 114
+PASSCCC1 CCC1 100000 340429216                 115
+PASSCCC1 CCC1 100000 340450196                 116
+PASSCCC1 CCC1 100000 340433639                 117
+PASSCCC1 CCC1 100000 340432078                 118
+PASSCCC1 CCC1 100000 340441917                 119
+PASSCCC1 CCC1 100000 340436080                 120
+TCM addr corrupted: 0x24598
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23038
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340642731                 121
+TCM addr corrupted: 0x23670
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340541173                 122
+PASSCCC1 CCC1 100000 340431165                 123
+TCM addr corrupted: 0x23508
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340558860                 124
+PASSCCC1 CCC1 100000 340434809                 125
+2020-06-03 02:47:40 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340430690                 126
+TCM addr corrupted: 0x235A8
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340542476                 127
+TCM addr corrupted: 0x22FC8
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340578061                 128
+TCM addr corrupted: 0x24318
+, Bit Mask : 0x1000002 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24318
+Error: Timed Out polling for response
+2020-06-03 02:47:54 [INFO] configuring board...
+2020-06-03 02:47:55 Current seed : 216
+2020-06-03 02:48:41 Increment seed to : 217
+2020-06-03 02:48:41 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990378                   0
+PASSCCC1 CCC1 100000 20988965                   1
+PASSCCC1 CCC1 100000 20988710                   2
+PASSCCC1 CCC1 100000 20988584                   3
+PASSCCC1 CCC1 100000 20988584                   4
+PASSCCC1 CCC1 100000 20988584                   5
+PASSCCC1 CCC1 100000 20988584                   6
+PASSCCC1 CCC1 100000 20988584                   7
+PASSCCC1 CCC1 100000 20988584                   8
+PASSCCC1 CCC1 100000 20988584                   9
+PASSCCC1 CCC1 100000 20988584                  10
+PASSCCC1 CCC1 100000 20988575                  11
+PASSCCC1 CCC1 100000 20988575                  12
+PASSCCC1 CCC1 100000 20988575                  13
+PASSCCC1 CCC1 100000 20988575                  14
+TCM addr corrupted: 0x23BB0
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 98348142                  15
+PASSCCC1 CCC1 100000 340429217                  16
+PASSCCC1 CCC1 100000 340410234                  17
+PASSCCC1 CCC1 100000 340417125                  18
+PASSCCC1 CCC1 100000 340413355                  19
+TCM addr corrupted: 0x24338
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340551316                  20
+PASSCCC1 CCC1 100000 340421034                  21
+TCM addr corrupted: 0x24300
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340565359                  22
+TCM addr corrupted: 0x22FE0
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340538675                  23
+TCM addr corrupted: 0x23B68
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340547157                  24
+PASSCCC1 CCC1 100000 340409711                  25
+PASSCCC1 CCC1 100000 340414393                  26
+PASSCCC1 CCC1 100000 340418294                  27
+PASSCCC1 CCC1 100000 340402691                  28
+TCM addr corrupted: 0x23D98
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340520716                  29
+TCM addr corrupted: 0x230D8
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340519242                  30
+PASSCCC1 CCC1 100000 340420632                  31
+2020-06-03 02:49:43 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340402861                  32
+TCM addr corrupted: 0x23E30
+, Bit Mask : 0x400001 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23e30
+2020-06-03 02:49:49 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:49:49 [INFO] configuring board...
+2020-06-03 02:49:50 Current seed : 217
+2020-06-03 02:50:35 Increment seed to : 218
+PASSCCC1 CCC1 100000 20988965                   1
+PASSCCC1 CCC1 100000 20988710                   2
+PASSCCC1 CCC1 100000 20988584                   3
+PASSCCC1 CCC1 100000 20988584                   4
+PASSCCC1 CCC1 100000 20988584                   5
+PASSCCC1 CCC1 100000 20988584                   6
+PASSCCC1 CCC1 100000 20988584                   7
+PASSCCC1 CCC1 100000 20988584                   8
+PASSCCC1 CCC1 100000 20988584                   9
+PASSCCC1 CCC1 100000 20988584                  10
+PASSCCC1 CCC1 100000 20988575                  11
+PASSCCC1 CCC1 100000 20988576                  12
+PASSCCC1 CCC1 100000 20988576                  13
+PASSCCC1 CCC1 100000 20988576                  14
+PASSCCC1 CCC1 100000 20988575                  15
+PASSCCC1 CCC1 100000 20988575                  16
+PASSCCC1 CCC1 100000 20988575                  17
+PASSCCC1 CCC1 100000 20988575                  18
+PASSCCC1 CCC1 100000 20988575                  19
+PASSCCC1 CCC1 100000 20988575                  20
+PASSCCC1 CCC1 100000 20988576                  21
+PASSCCC1 CCC1 100000 20988576                  22
+PASSCCC1 CCC1 100000 20988576                  23
+PASSCCC1 CCC1 100000 20988575                  24
+PASSCCC1 CCC1 100000 20988575                  25
+PASSCCC1 CCC1 100000 20988575                  26
+PASSCCC1 CCC1 100000 20988575                  27
+PASSCCC1 CCC1 100000 20988575                  28
+PASSCCC1 CCC1 100000 20988575                  29
+PASSCCC1 CCC1 100000 20988576                  30
+PASSCCC1 CCC1 100000 20988576                  31
+PASSCCC1 CCC1 100000 20988576                  32
+PASSCCC1 CCC1 100000 20988575                  33
+PASSCCC1 CCC1 100000 20988575                  34
+PASSCCC1 CCC1 100000 20988575                  35
+2020-06-03 02:50:43 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20988575                  36
+PASSCCC1 CCC1 100000 20988575                  37
+PASSCCC1 CCC1 100000 20988575                  38
+PASSCCC1 CCC1 100000 20988576                  39
+PASSCCC1 CCC1 100000 20988576                  40
+PASSCCC1 CCC1 100000 20988576                  41
+PASSCCC1 CCC1 100000 20988575                  42
+PASSCCC1 CCC1 100000 20988575                  43
+PASSCCC1 CCC1 100000 20988575                  44
+PASSCCC1 CCC1 100000 20988575                  45
+PASSCCC1 CCC1 100000 20988575                  46
+PASSCCC1 CCC1 100000 20988575                  47
+PASSCCC1 CCC1 100000 20988576                  48
+PASSCCC1 CCC1 100000 20988576                  49
+PASSCCC1 CCC1 100000 20988576                  50
+PASSCCC1 CCC1 100000 20988575                  51
+PASSCCC1 CCC1 100000 20988575                  52
+PASSCCC1 CCC1 100000 20988575                  53
+PASSCCC1 CCC1 100000 20988575                  54
+PASSCCC1 CCC1 100000 20988575                  55
+PASSCCC1 CCC1 100000 20988575                  56
+PASSCCC1 CCC1 100000 20988576                  57
+PASSCCC1 CCC1 100000 20988576                  58
+PASSCCC1 CCC1 100000 20988576                  59
+PASSCCC1 CCC1 100000 20988575                  60
+PASSCCC1 CCC1 100000 20988575                  61
+PASSCCC1 CCC1 100000 20988575                  62
+PASSCCC1 CCC1 100000 20988575                  63
+PASSCCC1 CCC1 100000 20988575                  64
+PASSCCC1 CCC1 100000 20988575                  65
+PASSCCC1 CCC1 100000 20988576                  66
+PASSCCC1 CCC1 100000 20988576                  67
+PASSCCC1 CCC1 100000 20988576                  68
+PASSCCC1 CCC1 100000 20988575                  69
+PASSCCC1 CCC1 100000 20988575                  70
+PASSCCC1 CCC1 100000 20988575                  71
+PASSCCC1 CCC1 100000 20988575                  72
+PASSCCC1 CCC1 100000 20988575                  73
+PASSCCC1 CCC1 100000 20988575                  74
+PASSCCC1 CCC1 100000 20988576                  75
+PASSCCC1 CCC1 100000 20988576                  76
+PASSCCC1 CCC1 100000 20988576                  77
+PASSCCC1 CCC1 100000 20988575                  78
+PASSCCC1 CCC1 100000 20988575                  79
+PASSCCC1 CCC1 100000 20988575                  80
+PASSCCC1 CCC1 100000 20988575                  81
+PASSCCC1 CCC1 100000 20988575                  82
+PASSCCC1 CCC1 100000 20988575                  83
+PASSCCC1 CCC1 100000 20988576                  84
+PASSCCC1 CCC1 100000 20988576                  85
+PASSCCC1 CCC1 100000 20988576                  86
+PASSCCC1 CCC1 100000 20988575                  87
+PASSCCC1 CCC1 100000 20988575                  88
+PASSCCC1 CCC1 100000 20988575                  89
+PASSCCC1 CCC1 100000 20988575                  90
+PASSCCC1 CCC1 100000 20988575                  91
+PASSCCC1 CCC1 100000 20988575                  92
+PASSCCC1 CCC1 100000 20988576                  93
+PASSCCC1 CCC1 100000 20988576                  94
+TCM addr corrupted: 0x23568
+, Bit Mask : 0x20001000 ,Shift 0, bits corrupted: 2
+TCM addr corrupted: 0x23C80
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23568
+Error: Timed Out polling for response
+2020-06-03 02:50:58 [INFO] configuring board...
+2020-06-03 02:50:59 Current seed : 218
+2020-06-03 02:51:42 Increment seed to : 219
+PASSCCC1 CCC1 100000 20990372                   0
+PASSCCC1 CCC1 100000 20988915                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+2020-06-03 02:51:43 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+TCM addr corrupted: 0x23DB8
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 279729593                  44
+PASSCCC1 CCC1 100000 340431165                  45
+TCM addr corrupted: 0x23E50
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340596177                  46
+TCM addr corrupted: 0x231C0
+, Bit Mask : 0x44000 ,Shift 0, bits corrupted: 2
+PASSCCC1 CCC1 100000 340559119                  47
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 231c0
+2020-06-03 02:52:09 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:52:09 [INFO] configuring board...
+2020-06-03 02:52:10 Current seed : 219
+2020-06-03 02:52:52 Increment seed to : 220
+2020-06-03 02:52:52 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990421                   0
+PASSCCC1 CCC1 100000 20988909                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+TCM addr corrupted: 0x23538
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 39360303                  10
+TCM addr corrupted: 0x23440
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340599993                  11
+TCM addr corrupted: 0x238B8
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340580791                  12
+TCM addr corrupted: 0x245F0
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340597611                  13
+TCM addr corrupted: 0x23110
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340557363                  14
+PASSCCC1 CCC1 100000 340453230                  15
+PASSCCC1 CCC1 100000 340456132                  16
+PASSCCC1 CCC1 100000 340445599                  17
+PASSCCC1 CCC1 100000 340449415                  18
+PASSCCC1 CCC1 100000 340450109                  19
+PASSCCC1 CCC1 100000 340446295                  20
+PASSCCC1 CCC1 100000 340449720                  21
+TCM addr corrupted: 0x23B98
+, Bit Mask : 0x42 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23b98
+2020-06-03 02:53:38 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:53:38 [INFO] configuring board...
+2020-06-03 02:53:39 Current seed : 220
+2020-06-03 02:54:23 Increment seed to : 221
+2020-06-03 02:54:23 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990372                   0
+PASSCCC1 CCC1 100000 20988876                   1
+PASSCCC1 CCC1 100000 20988625                   2
+PASSCCC1 CCC1 100000 20988563                   3
+PASSCCC1 CCC1 100000 20988563                   4
+PASSCCC1 CCC1 100000 20988563                   5
+PASSCCC1 CCC1 100000 20988563                   6
+PASSCCC1 CCC1 100000 20988563                   7
+PASSCCC1 CCC1 100000 20988563                   8
+PASSCCC1 CCC1 100000 20988563                   9
+PASSCCC1 CCC1 100000 20988563                  10
+PASSCCC1 CCC1 100000 20988555                  11
+PASSCCC1 CCC1 100000 20988555                  12
+PASSCCC1 CCC1 100000 20988555                  13
+PASSCCC1 CCC1 100000 20988555                  14
+PASSCCC1 CCC1 100000 20988555                  15
+PASSCCC1 CCC1 100000 20988555                  16
+PASSCCC1 CCC1 100000 20988555                  17
+PASSCCC1 CCC1 100000 20988555                  18
+PASSCCC1 CCC1 100000 20988555                  19
+PASSCCC1 CCC1 100000 20988555                  20
+PASSCCC1 CCC1 100000 20988555                  21
+PASSCCC1 CCC1 100000 20988555                  22
+PASSCCC1 CCC1 100000 20988555                  23
+PASSCCC1 CCC1 100000 20988555                  24
+PASSCCC1 CCC1 100000 20988555                  25
+PASSCCC1 CCC1 100000 20988555                  26
+PASSCCC1 CCC1 100000 20988555                  27
+PASSCCC1 CCC1 100000 20988555                  28
+PASSCCC1 CCC1 100000 20988555                  29
+PASSCCC1 CCC1 100000 20988555                  30
+PASSCCC1 CCC1 100000 20988555                  31
+PASSCCC1 CCC1 100000 20988555                  32
+PASSCCC1 CCC1 100000 20988555                  33
+PASSCCC1 CCC1 100000 20988555                  34
+PASSCCC1 CCC1 100000 20988555                  35
+PASSCCC1 CCC1 100000 20988555                  36
+PASSCCC1 CCC1 100000 20988555                  37
+PASSCCC1 CCC1 100000 20988555                  38
+PASSCCC1 CCC1 100000 20988555                  39
+PASSCCC1 CCC1 100000 20988555                  40
+PASSCCC1 CCC1 100000 20988555                  41
+PASSCCC1 CCC1 100000 20988555                  42
+PASSCCC1 CCC1 100000 20988555                  43
+TCM addr corrupted: 0x23670
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23B10
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 238220736                  44
+TCM addr corrupted: 0x24370
+, Bit Mask : 0x80000002 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24370
+2020-06-03 02:54:42 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:54:42 [INFO] configuring board...
+2020-06-03 02:54:43 Current seed : 221
+2020-06-03 02:55:24 Increment seed to : 222
+2020-06-03 02:55:24 [INFO] Current Time  
+PASSCCC1 CCC1 100000 20990377                   0
+PASSCCC1 CCC1 100000 20988966                   1
+PASSCCC1 CCC1 100000 20988710                   2
+PASSCCC1 CCC1 100000 20988584                   3
+PASSCCC1 CCC1 100000 20988584                   4
+PASSCCC1 CCC1 100000 20988584                   5
+PASSCCC1 CCC1 100000 20988584                   6
+PASSCCC1 CCC1 100000 20988584                   7
+PASSCCC1 CCC1 100000 20988584                   8
+PASSCCC1 CCC1 100000 20988584                   9
+PASSCCC1 CCC1 100000 20988584                  10
+PASSCCC1 CCC1 100000 20988575                  11
+PASSCCC1 CCC1 100000 20988576                  12
+PASSCCC1 CCC1 100000 20988576                  13
+PASSCCC1 CCC1 100000 20988576                  14
+PASSCCC1 CCC1 100000 20988575                  15
+PASSCCC1 CCC1 100000 20988575                  16
+PASSCCC1 CCC1 100000 20988575                  17
+PASSCCC1 CCC1 100000 20988575                  18
+PASSCCC1 CCC1 100000 20988575                  19
+PASSCCC1 CCC1 100000 20988575                  20
+PASSCCC1 CCC1 100000 20988576                  21
+PASSCCC1 CCC1 100000 20988576                  22
+PASSCCC1 CCC1 100000 20988576                  23
+PASSCCC1 CCC1 100000 20988575                  24
+PASSCCC1 CCC1 100000 20988575                  25
+PASSCCC1 CCC1 100000 20988575                  26
+PASSCCC1 CCC1 100000 20988575                  27
+PASSCCC1 CCC1 100000 20988575                  28
+PASSCCC1 CCC1 100000 20988575                  29
+PASSCCC1 CCC1 100000 20988576                  30
+PASSCCC1 CCC1 100000 20988576                  31
+PASSCCC1 CCC1 100000 20988576                  32
+PASSCCC1 CCC1 100000 20988575                  33
+TCM addr corrupted: 0x23CE0
+, Bit Mask : 0x420000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23ce0
+Error: Timed Out polling for response
+2020-06-03 02:55:32 [INFO] configuring board...
+2020-06-03 02:55:33 Current seed : 222
+2020-06-03 02:56:17 Increment seed to : 223
+PASSCCC1 CCC1 100000 20990426                   0
+PASSCCC1 CCC1 100000 20988909                   1
+TCM addr corrupted: 0x231A8
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23048
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 195961888                   2
+TCM addr corrupted: 0x23218
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23130
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340689018                   3
+2020-06-03 02:56:26 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340458645                   4
+PASSCCC1 CCC1 100000 340471783                   5
+TCM addr corrupted: 0x235C0
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x24058
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x244E8
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340832962                   6
+TCM addr corrupted: 0x233C8
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340580620                   7
+TCM addr corrupted: 0x242B0
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23F70
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x231F8
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340831671                   8
+PASSCCC1 CCC1 100000 340472344                   9
+TCM addr corrupted: 0x240C0
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340582696                  10
+TCM addr corrupted: 0x243A8
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x233A0
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCCC1 CCC1 100000 340670295                  11
+PASSCCC1 CCC1 100000 340468227                  12
+TCM addr corrupted: 0x23A08
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340581572                  13
+TCM addr corrupted: 0x235E8
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23198
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340677838                  14
+TCM addr corrupted: 0x234A8
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340622835                  15
+PASSCCC1 CCC1 100000 340472500                  16
+TCM addr corrupted: 0x23F20
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340629772                  17
+PASSCCC1 CCC1 100000 340461336                  18
+TCM addr corrupted: 0x237B8
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x240E0
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340771548                  19
+PASSCCC1 CCC1 100000 340479709                  20
+PASSCCC1 CCC1 100000 340477805                  21
+2020-06-03 02:57:27 [INFO] Current Time  
+PASSCCC1 CCC1 100000 340473125                  22
+TCM addr corrupted: 0x243C8
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23D20
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340723737                  23
+PASSCCC1 CCC1 100000 340477086                  24
+PASSCCC1 CCC1 100000 340471955                  25
+PASSCCC1 CCC1 100000 340484437                  26
+PASSCCC1 CCC1 100000 340481487                  27
+PASSCCC1 CCC1 100000 340480706                  28
+PASSCCC1 CCC1 100000 340470785                  29
+TCM addr corrupted: 0x23080
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCCC1 CCC1 100000 340603330                  30
+PASSCCC1 CCC1 100000 340484828                  31
+PASSCCC1 CCC1 100000 340488642                  32
+PASSCCC1 CCC1 100000 340468443                  33
+PASSCCC1 CCC1 100000 340468053                  34
+PASSCCC1 CCC1 100000 340477806                  35
+PASSCCC1 CCC1 100000 340476464                  36
+PASSCCC1 CCC1 100000 340471564                  37
+PASSCCC1 CCC1 100000 340473468                  38
+TCM addr corrupted: 0x23248
+, Bit Mask : 0x420000 ,Shift 0, bits corrupted: 2
+PASSCCC1 CCC1 100000 340628296                  39
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23248
+2020-06-03 02:58:30 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 02:58:30 [INFO] Current Time  
+2020-06-03 02:58:30 [INFO] configuring board...
+2020-06-03 02:58:31 Current seed : 223
+2020-06-03 02:59:16 Increment seed to : 224
+2020-06-03 02:59:16 [INFO] Change kernel 
+2020-06-03 02:59:17 [INFO] Kernel before change :puwmod01
+2020-06-03 02:59:17 [INFO] Increment Kernel pointer...

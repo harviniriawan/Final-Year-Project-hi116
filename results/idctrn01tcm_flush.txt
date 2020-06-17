@@ -1,0 +1,1911 @@
+2020-06-02 23:38:29 [INFO] starting radiation experiment...
+2020-06-02 23:38:29 [INFO] Current kernel  : idctrn01
+2020-06-02 23:38:34 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:38:34 [INFO] configuring board...
+2020-06-02 23:38:35 Current seed : 125
+2020-06-02 23:39:19 Increment seed to : 126
+2020-06-02 23:39:19 [INFO] Current Time  
+PPASS310E 310E 1500 100634559                   0
+PASS310E 310E 1500 100633302                   1
+PASS310E 310E 1500 100633134                   2
+PASS310E 310E 1500 100633300                   3
+PASS310E 310E 1500 100633134                   4
+PASS310E 310E 1500 100633028                   5
+PASS310E 310E 1500 100633064                   6
+PASS310E 310E 1500 100633036                   7
+PASS310E 310E 1500 100633326                   8
+PASS310E 310E 1500 100633097                   9
+PASS310E 310E 1500 100633045                  10
+PASS310E 310E 1500 100633149                  11
+PASS310E 310E 1500 100633204                  12
+PASS310E 310E 1500 100633203                  13
+TCM addr corrupted: 0x236D8
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 108139587                  14
+TCM addr corrupted: 0x24E70
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110069090                  15
+PASS310E 310E 1500 109952234                  16
+PASS310E 310E 1500 109955354                  17
+TCM addr corrupted: 0x24A10
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110094865                  18
+PASS310E 310E 1500 109956868                  19
+TCM addr corrupted: 0x249C0
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110102223                  20
+PASS310E 310E 1500 109952558                  21
+PASS310E 310E 1500 109955509                  22
+PASS310E 310E 1500 109956099                  23
+PASS310E 310E 1500 109954832                  24
+PASS310E 310E 1500 109955007                  25
+PASS310E 310E 1500 109953934                  26
+PASS310E 310E 1500 109959051                  27
+TCM addr corrupted: 0x23908
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x241D8
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110165948                  28
+PASS310E 310E 1500 109956947                  29
+PASS310E 310E 1500 109955901                  30
+PASS310E 310E 1500 109959810                  31
+PASS310E 310E 1500 109959328                  32
+PASS310E 310E 1500 109951823                  33
+PASS310E 310E 1500 109956615                  34
+PASS310E 310E 1500 109957287                  35
+PASS310E 310E 1500 109954154                  36
+PASS310E 310E 1500 109951427                  37
+TCM addr corrupted: 0x242C8
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110076686                  38
+PASS310E 310E 1500 109956099                  39
+PASS310E 310E 1500 109957658                  40
+PASS310E 310E 1500 109955346                  41
+PASS310E 310E 1500 109954664                  42
+PASS310E 310E 1500 109960997                  43
+PASS310E 310E 1500 109954155                  44
+PASS310E 310E 1500 109957390                  45
+PASS310E 310E 1500 109959235                  46
+PASS310E 310E 1500 109960234                  47
+PASS310E 310E 1500 109955907                  48
+PASS310E 310E 1500 109957950                  49
+PASS310E 310E 1500 109954159                  50
+PASS310E 310E 1500 109955538                  51
+PASS310E 310E 1500 109955438                  52
+PASS310E 310E 1500 109955910                  53
+PASS310E 310E 1500 109958374                  54
+2020-06-02 23:40:19 [INFO] Current Time  
+PASS310E 310E 1500 109956339                  55
+PASS310E 310E 1500 109958359                  56
+PASS310E 310E 1500 109955863                  57
+TCM addr corrupted: 0x23948
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110076760                  58
+PASS310E 310E 1500 109958980                  59
+TCM addr corrupted: 0x25940
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110103689                  60
+PASS310E 310E 1500 109957974                  61
+PASS310E 310E 1500 109951614                  62
+PASS310E 310E 1500 109955543                  63
+PASS310E 310E 1500 109958090                  64
+PASS310E 310E 1500 109955276                  65
+PASS310E 310E 1500 109953354                  66
+PASS310E 310E 1500 109956444                  67
+TCM addr corrupted: 0x24C10
+, Bit Mask : 0x48000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24c10
+Error: Timed Out polling for response
+2020-06-02 23:40:35 [INFO] configuring board...
+2020-06-02 23:40:36 Current seed : 126
+2020-06-02 23:41:20 Increment seed to : 127
+2020-06-02 23:41:20 [INFO] Current Time  
+PASS310E 310E 1500 100634543                   0
+PASS310E 310E 1500 100633380                   1
+PASS310E 310E 1500 100633225                   2
+PASS310E 310E 1500 100633104                   3
+PASS310E 310E 1500 100633229                   4
+TCM addr corrupted: 0x24670
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 109355002                   5
+PASS310E 310E 1500 109956554                   6
+PASS310E 310E 1500 109957279                   7
+TCM addr corrupted: 0x23F50
+, Bit Mask : 0x1004 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23f50
+2020-06-02 23:41:34 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:41:34 [INFO] configuring board...
+2020-06-02 23:41:35 Current seed : 127
+2020-06-02 23:42:24 Increment seed to : 128
+2020-06-02 23:42:24 [INFO] Current Time  
+TCM addr corrupted: 0x25210
+, Bit Mask : 0x900000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 25210
+2020-06-02 23:42:29 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:42:29 [INFO] configuring board...
+2020-06-02 23:42:30 Current seed : 128
+2020-06-02 23:43:12 Increment seed to : 129
+PASS310E 310E 1500 100633958                   0
+PASS310E 310E 1500 100633319                   1
+PASS310E 310E 1500 100633342                   2
+PASS310E 310E 1500 100633197                   3
+PASS310E 310E 1500 100632983                   4
+PASS310E 310E 1500 100633031                   5
+PASS310E 310E 1500 100633129                   6
+PASS310E 310E 1500 100633101                   7
+PASS310E 310E 1500 100633109                   8
+PASS310E 310E 1500 100633214                   9
+PASS310E 310E 1500 100633138                  10
+2020-06-02 23:43:24 [INFO] Current Time  
+PASS310E 310E 1500 100633129                  11
+PASS310E 310E 1500 100633205                  12
+PASS310E 310E 1500 100633248                  13
+PASS310E 310E 1500 100633045                  14
+PASS310E 310E 1500 100633129                  15
+PASS310E 310E 1500 100633122                  16
+PASS310E 310E 1500 100633015                  17
+PASS310E 310E 1500 100633049                  18
+PASS310E 310E 1500 100633178                  19
+PASS310E 310E 1500 100633097                  20
+PASS310E 310E 1500 100633004                  21
+PASS310E 310E 1500 100633115                  22
+PASS310E 310E 1500 100633071                  23
+PASS310E 310E 1500 100633019                  24
+PASS310E 310E 1500 100633118                  25
+PASS310E 310E 1500 100632989                  26
+PASS310E 310E 1500 100633249                  27
+PASS310E 310E 1500 100633285                  28
+PASS310E 310E 1500 100633067                  29
+PASS310E 310E 1500 100633140                  30
+TCM addr corrupted: 0x23E88
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 105632893                  31
+PASS310E 310E 1500 109954318                  32
+PASS310E 310E 1500 109956528                  33
+PASS310E 310E 1500 109956358                  34
+TCM addr corrupted: 0x247A0
+, Bit Mask : 0x8000010 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 247a0
+2020-06-02 23:43:53 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:43:53 [INFO] configuring board...
+2020-06-02 23:43:54 Current seed : 129
+2020-06-02 23:44:37 Increment seed to : 130
+2020-06-02 23:44:37 [INFO] Current Time  
+PASS310E 310E 1500 100634565                   0
+PASS310E 310E 1500 100633339                   1
+PASS310E 310E 1500 100633018                   2
+TCM addr corrupted: 0x25850
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 106528932                   3
+PASS310E 310E 1500 109951631                   4
+PASS310E 310E 1500 109958287                   5
+PASS310E 310E 1500 109957880                   6
+PASS310E 310E 1500 109955800                   7
+PASS310E 310E 1500 109956644                   8
+TCM addr corrupted: 0x24F40
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110107631                   9
+PASS310E 310E 1500 109956785                  10
+PASS310E 310E 1500 109953170                  11
+PASS310E 310E 1500 109956680                  12
+PASS310E 310E 1500 109954357                  13
+PASS310E 310E 1500 109953303                  14
+PASS310E 310E 1500 109959870                  15
+PASS310E 310E 1500 109954835                  16
+PASS310E 310E 1500 109955334                  17
+PASS310E 310E 1500 109957549                  18
+PASS310E 310E 1500 109955889                  19
+PASS310E 310E 1500 109957501                  20
+PASS310E 310E 1500 109955373                  21
+PASS310E 310E 1500 109955460                  22
+PASS310E 310E 1500 109954640                  23
+PASS310E 310E 1500 109956096                  24
+PASS310E 310E 1500 109959128                  25
+PASS310E 310E 1500 109954867                  26
+PASS310E 310E 1500 109955830                  27
+PASS310E 310E 1500 109955840                  28
+PASS310E 310E 1500 109956164                  29
+PASS310E 310E 1500 109953216                  30
+PASS310E 310E 1500 109958431                  31
+PASS310E 310E 1500 109957404                  32
+TCM addr corrupted: 0x247E0
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110123583                  33
+PASS310E 310E 1500 109951951                  34
+PASS310E 310E 1500 109954716                  35
+PASS310E 310E 1500 109953804                  36
+PASS310E 310E 1500 109957092                  37
+PASS310E 310E 1500 109959595                  38
+PASS310E 310E 1500 109953978                  39
+PASS310E 310E 1500 109959467                  40
+PASS310E 310E 1500 109955304                  41
+TCM addr corrupted: 0x243F8
+, Bit Mask : 0x104 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 243f8
+2020-06-02 23:45:29 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:45:29 [INFO] configuring board...
+2020-06-02 23:45:30 Current seed : 130
+2020-06-02 23:46:11 Increment seed to : 131
+2020-06-02 23:46:11 [INFO] Current Time  
+PASS310E 310E 1500 100634558                   0
+TCM addr corrupted: 0x23478
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 108241499                   1
+PASS310E 310E 1500 109957674                   2
+PASS310E 310E 1500 109957003                   3
+PASS310E 310E 1500 109954722                   4
+PASS310E 310E 1500 109955072                   5
+PASS310E 310E 1500 109955446                   6
+PASS310E 310E 1500 109952329                   7
+PASS310E 310E 1500 109955724                   8
+PASS310E 310E 1500 109956019                   9
+PASS310E 310E 1500 109952856                  10
+TCM addr corrupted: 0x23478
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110107952                  11
+PASS310E 310E 1500 109954836                  12
+PASS310E 310E 1500 109956304                  13
+PASS310E 310E 1500 109955288                  14
+TCM addr corrupted: 0x25688
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110093634                  15
+PASS310E 310E 1500 109959493                  16
+PASS310E 310E 1500 109959705                  17
+PASS310E 310E 1500 109956274                  18
+PASS310E 310E 1500 109954716                  19
+PASS310E 310E 1500 109956355                  20
+TCM addr corrupted: 0x252C0
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110101723                  21
+TCM addr corrupted: 0x22EE8
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110083862                  22
+PASS310E 310E 1500 109952309                  23
+PASS310E 310E 1500 109958144                  24
+PASS310E 310E 1500 109957062                  25
+PASS310E 310E 1500 109958585                  26
+PASS310E 310E 1500 109955456                  27
+PASS310E 310E 1500 109951225                  28
+PASS310E 310E 1500 109952767                  29
+PASS310E 310E 1500 109952276                  30
+PASS310E 310E 1500 109960012                  31
+PASS310E 310E 1500 109959062                  32
+PASS310E 310E 1500 109954581                  33
+TCM addr corrupted: 0x23B70
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110055243                  34
+PASS310E 310E 1500 109954058                  35
+PASS310E 310E 1500 109952869                  36
+PASS310E 310E 1500 109954192                  37
+PASS310E 310E 1500 109955453                  38
+PASS310E 310E 1500 109960370                  39
+TCM addr corrupted: 0x25880
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110120517                  40
+PASS310E 310E 1500 109958572                  41
+PASS310E 310E 1500 109954297                  42
+PASS310E 310E 1500 109957020                  43
+PASS310E 310E 1500 109956544                  44
+PASS310E 310E 1500 109956997                  45
+PASS310E 310E 1500 109957482                  46
+PASS310E 310E 1500 109956504                  47
+PASS310E 310E 1500 109954141                  48
+PASS310E 310E 1500 109953447                  49
+PASS310E 310E 1500 109956887                  50
+PASS310E 310E 1500 109954198                  51
+PASS310E 310E 1500 109956935                  52
+PASS310E 310E 1500 109956382                  53
+2020-06-02 23:47:12 [INFO] Current Time  
+PASS310E 310E 1500 109958457                  54
+TCM addr corrupted: 0x24ED0
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110099128                  55
+PASS310E 310E 1500 109955264                  56
+TCM addr corrupted: 0x241D0
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110073474                  57
+PASS310E 310E 1500 109956884                  58
+PASS310E 310E 1500 109956195                  59
+TCM addr corrupted: 0x24298
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110099281                  60
+PASS310E 310E 1500 109955975                  61
+PASS310E 310E 1500 109956647                  62
+PASS310E 310E 1500 109949280                  63
+PASS310E 310E 1500 109955614                  64
+PASS310E 310E 1500 109959254                  65
+PASS310E 310E 1500 109955263                  66
+PASS310E 310E 1500 109957075                  67
+PASS310E 310E 1500 109955079                  68
+PASS310E 310E 1500 109946845                  69
+PASS310E 310E 1500 109951725                  70
+PASS310E 310E 1500 109955444                  71
+PASS310E 310E 1500 109954302                  72
+PASS310E 310E 1500 109953217                  73
+PASS310E 310E 1500 109957444                  74
+PASS310E 310E 1500 109959295                  75
+PASS310E 310E 1500 109955326                  76
+PASS310E 310E 1500 109958702                  77
+PASS310E 310E 1500 109956819                  78
+PASS310E 310E 1500 109957072                  79
+PASS310E 310E 1500 109954852                  80
+PASS310E 310E 1500 109952022                  81
+PASS310E 310E 1500 109956700                  82
+PASS310E 310E 1500 109953600                  83
+PASS310E 310E 1500 109957685                  84
+PASS310E 310E 1500 109958838                  85
+TCM addr corrupted: 0x250C0
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110110383                  86
+PASS310E 310E 1500 109954684                  87
+PASS310E 310E 1500 109957313                  88
+PASS310E 310E 1500 109955314                  89
+PASS310E 310E 1500 109957535                  90
+PASS310E 310E 1500 109954039                  91
+PASS310E 310E 1500 109951555                  92
+PASS310E 310E 1500 109954252                  93
+PASS310E 310E 1500 109955780                  94
+TCM addr corrupted: 0x23098
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110071203                  95
+PASS310E 310E 1500 109957193                  96
+PASS310E 310E 1500 109956820                  97
+PASS310E 310E 1500 109959302                  98
+PASS310E 310E 1500 109958162                  99
+PASS310E 310E 1500 109960930                 100
+PASS310E 310E 1500 109958793                 101
+PASS310E 310E 1500 109952992                 102
+PASS310E 310E 1500 109954940                 103
+TCM addr corrupted: 0x25620
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110061446                 104
+PASS310E 310E 1500 109957092                 105
+PASS310E 310E 1500 109958913                 106
+PASS310E 310E 1500 109954150                 107
+PASS310E 310E 1500 109957707                 108
+2020-06-02 23:48:12 [INFO] Current Time  
+TCM addr corrupted: 0x24650
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x231C8
+, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110220448                 109
+PASS310E 310E 1500 109950458                 110
+PASS310E 310E 1500 109955633                 111
+PASS310E 310E 1500 109953625                 112
+TCM addr corrupted: 0x24D68
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110073698                 113
+PASS310E 310E 1500 109952678                 114
+PASS310E 310E 1500 109956475                 115
+PASS310E 310E 1500 109955048                 116
+PASS310E 310E 1500 109953576                 117
+PASS310E 310E 1500 109956960                 118
+TCM addr corrupted: 0x23988
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110086196                 119
+PASS310E 310E 1500 109961470                 120
+PASS310E 310E 1500 109955967                 121
+TCM addr corrupted: 0x23E58
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110109772                 122
+PASS310E 310E 1500 109956078                 123
+PASS310E 310E 1500 109960350                 124
+PASS310E 310E 1500 109956849                 125
+TCM addr corrupted: 0x23E28
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110120536                 126
+TCM addr corrupted: 0x24E90
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110070866                 127
+TCM addr corrupted: 0x25320
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110078335                 128
+PASS310E 310E 1500 109957134                 129
+PASS310E 310E 1500 109955436                 130
+TCM addr corrupted: 0x24980
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110063772                 131
+PASS310E 310E 1500 109958671                 132
+PASS310E 310E 1500 109953576                 133
+TCM addr corrupted: 0x237B0
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110064788                 134
+PASS310E 310E 1500 109963319                 135
+PASS310E 310E 1500 109958832                 136
+PASS310E 310E 1500 109951645                 137
+PASS310E 310E 1500 109956806                 138
+PASS310E 310E 1500 109955994                 139
+PASS310E 310E 1500 109954249                 140
+TCM addr corrupted: 0x25000
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110102865                 141
+PASS310E 310E 1500 109955981                 142
+PASS310E 310E 1500 109957218                 143
+PASS310E 310E 1500 109957266                 144
+PASS310E 310E 1500 109957401                 145
+PASS310E 310E 1500 109955824                 146
+TCM addr corrupted: 0x24550
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110110602                 147
+TCM addr corrupted: 0x24148
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110068837                 148
+PASS310E 310E 1500 109951814                 149
+PASS310E 310E 1500 109953774                 150
+PASS310E 310E 1500 109957898                 151
+PASS310E 310E 1500 109958367                 152
+PASS310E 310E 1500 109954529                 153
+PASS310E 310E 1500 109954982                 154
+PASS310E 310E 1500 109956100                 155
+PASS310E 310E 1500 109959312                 156
+PASS310E 310E 1500 109957736                 157
+PASS310E 310E 1500 109957615                 158
+PASS310E 310E 1500 109960303                 159
+TCM addr corrupted: 0x24E20
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23428
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110267094                 160
+TCM addr corrupted: 0x24DC0
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24538
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110225552                 161
+PASS310E 310E 1500 109958297                 162
+PASS310E 310E 1500 109954861                 163
+2020-06-02 23:49:13 [INFO] Current Time  
+PASS310E 310E 1500 109957199                 164
+PASS310E 310E 1500 109956674                 165
+PASS310E 310E 1500 109953671                 166
+PASS310E 310E 1500 109955472                 167
+PASS310E 310E 1500 109956331                 168
+TCM addr corrupted: 0x25428
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110085984                 169
+PASS310E 310E 1500 109951448                 170
+PASS310E 310E 1500 109955101                 171
+PASS310E 310E 1500 109950530                 172
+PASS310E 310E 1500 109956066                 173
+PASS310E 310E 1500 109954363                 174
+PASS310E 310E 1500 109952350                 175
+PASS310E 310E 1500 109953492                 176
+PASS310E 310E 1500 109957050                 177
+TCM addr corrupted: 0x23C40
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110099173                 178
+PASS310E 310E 1500 109955444                 179
+PASS310E 310E 1500 109956754                 180
+PASS310E 310E 1500 109956698                 181
+PASS310E 310E 1500 109955223                 182
+PASS310E 310E 1500 109955401                 183
+PASS310E 310E 1500 109955764                 184
+TCM addr corrupted: 0x257A8
+, Bit Mask : 0x1001 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 257a8
+Error: Timed Out polling for response
+2020-06-02 23:49:37 [INFO] configuring board...
+2020-06-02 23:49:38 Current seed : 131
+2020-06-02 23:50:23 Increment seed to : 132
+2020-06-02 23:50:23 [INFO] Current Time  
+PASS310E 310E 1500 100634480                   0
+PASS310E 310E 1500 100633290                   1
+PASS310E 310E 1500 100632991                   2
+PASS310E 310E 1500 100632992                   3
+PASS310E 310E 1500 100633040                   4
+PASS310E 310E 1500 100633224                   5
+PASS310E 310E 1500 100632950                   6
+PASS310E 310E 1500 100633267                   7
+PASS310E 310E 1500 100633055                   8
+TCM addr corrupted: 0x244C8
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 101277792                   9
+PASS310E 310E 1500 109960187                  10
+PASS310E 310E 1500 109954178                  11
+PASS310E 310E 1500 109958934                  12
+PASS310E 310E 1500 109953963                  13
+PASS310E 310E 1500 109956640                  14
+PASS310E 310E 1500 109956257                  15
+PASS310E 310E 1500 109956002                  16
+PASS310E 310E 1500 109952585                  17
+PASS310E 310E 1500 109959717                  18
+PASS310E 310E 1500 109956269                  19
+PASS310E 310E 1500 109952970                  20
+TCM addr corrupted: 0x241A8
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110121140                  21
+PASS310E 310E 1500 109952923                  22
+TCM addr corrupted: 0x24968
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110084790                  23
+PASS310E 310E 1500 109955824                  24
+PASS310E 310E 1500 109950692                  25
+PASS310E 310E 1500 109959683                  26
+PASS310E 310E 1500 109956688                  27
+PASS310E 310E 1500 109956512                  28
+PASS310E 310E 1500 109953378                  29
+PASS310E 310E 1500 109958785                  30
+PASS310E 310E 1500 109956941                  31
+PASS310E 310E 1500 109960149                  32
+PASS310E 310E 1500 109963013                  33
+PASS310E 310E 1500 109956419                  34
+PASS310E 310E 1500 109956064                  35
+PASS310E 310E 1500 109954125                  36
+PASS310E 310E 1500 109960255                  37
+PASS310E 310E 1500 109959215                  38
+PASS310E 310E 1500 109955364                  39
+PASS310E 310E 1500 109954707                  40
+PASS310E 310E 1500 109951454                  41
+TCM addr corrupted: 0x24AA8
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x25740
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110210712                  42
+PASS310E 310E 1500 109954384                  43
+PASS310E 310E 1500 109952980                  44
+PASS310E 310E 1500 109957834                  45
+TCM addr corrupted: 0x24B78
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110063775                  46
+TCM addr corrupted: 0x25528
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110107189                  47
+PASS310E 310E 1500 109959137                  48
+PASS310E 310E 1500 109951843                  49
+PASS310E 310E 1500 109953626                  50
+PASS310E 310E 1500 109958700                  51
+PASS310E 310E 1500 109952210                  52
+PASS310E 310E 1500 109952545                  53
+PASS310E 310E 1500 109955472                  54
+2020-06-02 23:51:23 [INFO] Current Time  
+PASS310E 310E 1500 109958328                  55
+PASS310E 310E 1500 109952656                  56
+TCM addr corrupted: 0x249C8
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110099190                  57
+PASS310E 310E 1500 109956703                  58
+PASS310E 310E 1500 109954500                  59
+PASS310E 310E 1500 109954926                  60
+PASS310E 310E 1500 109957639                  61
+PASS310E 310E 1500 109955246                  62
+PASS310E 310E 1500 109953759                  63
+PASS310E 310E 1500 109949132                  64
+PASS310E 310E 1500 109954125                  65
+TCM addr corrupted: 0x24B88
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110082697                  66
+PASS310E 310E 1500 109953693                  67
+PASS310E 310E 1500 109955400                  68
+PASS310E 310E 1500 109956202                  69
+PASS310E 310E 1500 109954124                  70
+PASS310E 310E 1500 109959872                  71
+PASS310E 310E 1500 109958359                  72
+PASS310E 310E 1500 109953913                  73
+TCM addr corrupted: 0x24C88
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110085193                  74
+PASS310E 310E 1500 109954342                  75
+PASS310E 310E 1500 109956879                  76
+PASS310E 310E 1500 109954806                  77
+PASS310E 310E 1500 109950486                  78
+PASS310E 310E 1500 109954520                  79
+PASS310E 310E 1500 109953414                  80
+PASS310E 310E 1500 109956516                  81
+PASS310E 310E 1500 109956005                  82
+PASS310E 310E 1500 109955788                  83
+PASS310E 310E 1500 109953327                  84
+PASS310E 310E 1500 109959281                  85
+PASS310E 310E 1500 109956264                  86
+PASS310E 310E 1500 109956200                  87
+PASS310E 310E 1500 109953138                  88
+PASS310E 310E 1500 109958389                  89
+PASS310E 310E 1500 109957021                  90
+PASS310E 310E 1500 109959372                  91
+PASS310E 310E 1500 109960941                  92
+PASS310E 310E 1500 109955248                  93
+PASS310E 310E 1500 109955400                  94
+PASS310E 310E 1500 109954368                  95
+TCM addr corrupted: 0x24820
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110087164                  96
+PASS310E 310E 1500 109957327                  97
+PASS310E 310E 1500 109959152                  98
+PASS310E 310E 1500 109955652                  99
+PASS310E 310E 1500 109954702                 100
+PASS310E 310E 1500 109952222                 101
+PASS310E 310E 1500 109957381                 102
+PASS310E 310E 1500 109959557                 103
+PASS310E 310E 1500 109956189                 104
+TCM addr corrupted: 0x24628
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110116708                 105
+PASS310E 310E 1500 109956927                 106
+PASS310E 310E 1500 109957315                 107
+PASS310E 310E 1500 109953539                 108
+PASS310E 310E 1500 109954882                 109
+2020-06-02 23:52:24 [INFO] Current Time  
+PASS310E 310E 1500 109956512                 110
+PASS310E 310E 1500 109957440                 111
+TCM addr corrupted: 0x24700
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110105385                 112
+PASS310E 310E 1500 109958462                 113
+PASS310E 310E 1500 109955087                 114
+PASS310E 310E 1500 109958193                 115
+PASS310E 310E 1500 109958972                 116
+PASS310E 310E 1500 109955140                 117
+PASS310E 310E 1500 109955203                 118
+PASS310E 310E 1500 109958010                 119
+PASS310E 310E 1500 109958162                 120
+PASS310E 310E 1500 109959154                 121
+PASS310E 310E 1500 109956569                 122
+PASS310E 310E 1500 109955614                 123
+PASS310E 310E 1500 109952134                 124
+PASS310E 310E 1500 109953914                 125
+PASS310E 310E 1500 109954593                 126
+TCM addr corrupted: 0x24F38
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110376662                 127
+PASS310E 310E 1500 109954226                 128
+PASS310E 310E 1500 109956016                 129
+PASS310E 310E 1500 109956433                 130
+PASS310E 310E 1500 109952570                 131
+PASS310E 310E 1500 109956219                 132
+PASS310E 310E 1500 109953468                 133
+PASS310E 310E 1500 109957091                 134
+PASS310E 310E 1500 109955652                 135
+PASS310E 310E 1500 109958016                 136
+PASS310E 310E 1500 109958380                 137
+PASS310E 310E 1500 109954586                 138
+PASS310E 310E 1500 109959834                 139
+PASS310E 310E 1500 109956060                 140
+PASS310E 310E 1500 109957115                 141
+PASS310E 310E 1500 109957053                 142
+PASS310E 310E 1500 109953445                 143
+PASS310E 310E 1500 109953530                 144
+PASS310E 310E 1500 109957256                 145
+PASS310E 310E 1500 109952667                 146
+PASS310E 310E 1500 109955653                 147
+PASS310E 310E 1500 109954996                 148
+PASS310E 310E 1500 109953453                 149
+PASS310E 310E 1500 109955378                 150
+PASS310E 310E 1500 109954430                 151
+TCM addr corrupted: 0x23FC0
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110104391                 152
+PASS310E 310E 1500 109961681                 153
+PASS310E 310E 1500 109958821                 154
+PASS310E 310E 1500 109953803                 155
+PASS310E 310E 1500 109954911                 156
+TCM addr corrupted: 0x24BA0
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23DF0
+, Bit Mask : 0x4100100 ,Shift 0, bits corrupted: 3
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23df0
+2020-06-02 23:53:21 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:53:21 [INFO] configuring board...
+2020-06-02 23:53:22 Current seed : 132
+2020-06-02 23:54:07 Increment seed to : 133
+2020-06-02 23:54:07 [INFO] Current Time  
+PASS310E 310E 1500 100634582                   0
+PASS310E 310E 1500 100633380                   1
+TCM addr corrupted: 0x24768
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 104554840                   2
+PASS310E 310E 1500 109954432                   3
+PASS310E 310E 1500 109955866                   4
+PASS310E 310E 1500 109957638                   5
+PASS310E 310E 1500 109956525                   6
+TCM addr corrupted: 0x241A8
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110093107                   7
+PASS310E 310E 1500 109953876                   8
+PASS310E 310E 1500 109955963                   9
+PASS310E 310E 1500 109956231                  10
+PASS310E 310E 1500 109956496                  11
+PASS310E 310E 1500 109957285                  12
+TCM addr corrupted: 0x23AA8
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x232A0
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110189478                  13
+PASS310E 310E 1500 109957354                  14
+PASS310E 310E 1500 109956362                  15
+PASS310E 310E 1500 109954859                  16
+PASS310E 310E 1500 109955109                  17
+PASS310E 310E 1500 109955308                  18
+PASS310E 310E 1500 109955617                  19
+TCM addr corrupted: 0x24888
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110081136                  20
+PASS310E 310E 1500 109952295                  21
+PASS310E 310E 1500 109954512                  22
+PASS310E 310E 1500 109956603                  23
+PASS310E 310E 1500 109955129                  24
+PASS310E 310E 1500 109954626                  25
+PASS310E 310E 1500 109958499                  26
+PASS310E 310E 1500 109957458                  27
+PASS310E 310E 1500 109955938                  28
+PASS310E 310E 1500 109960102                  29
+PASS310E 310E 1500 109954982                  30
+PASS310E 310E 1500 109959798                  31
+PASS310E 310E 1500 109958062                  32
+PASS310E 310E 1500 109954111                  33
+PASS310E 310E 1500 109960352                  34
+PASS310E 310E 1500 109955161                  35
+PASS310E 310E 1500 109953031                  36
+PASS310E 310E 1500 109955846                  37
+PASS310E 310E 1500 109956944                  38
+PASS310E 310E 1500 109955392                  39
+PASS310E 310E 1500 109952202                  40
+PASS310E 310E 1500 109956983                  41
+PASS310E 310E 1500 109955435                  42
+PASS310E 310E 1500 109956131                  43
+PASS310E 310E 1500 109955307                  44
+PASS310E 310E 1500 109956206                  45
+PASS310E 310E 1500 109954914                  46
+TCM addr corrupted: 0x24DF8
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110109557                  47
+PASS310E 310E 1500 109954814                  48
+PASS310E 310E 1500 109956168                  49
+PASS310E 310E 1500 109953151                  50
+PASS310E 310E 1500 109955543                  51
+TCM addr corrupted: 0x25030
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x233F8
+, Bit Mask : 0x20001000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 233f8
+2020-06-02 23:55:10 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:55:10 [INFO] Current Time  
+2020-06-02 23:55:10 [INFO] configuring board...
+2020-06-02 23:55:11 Current seed : 133
+2020-06-02 23:55:55 Increment seed to : 134
+PASS310E 310E 1500 100634518                   0
+PASS310E 310E 1500 100633339                   1
+TCM addr corrupted: 0x25820
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 107330155                   2
+PASS310E 310E 1500 109953227                   3
+PASS310E 310E 1500 109954413                   4
+PASS310E 310E 1500 109953104                   5
+PASS310E 310E 1500 109956937                   6
+PASS310E 310E 1500 109957533                   7
+PASS310E 310E 1500 109956589                   8
+PASS310E 310E 1500 109958635                   9
+PASS310E 310E 1500 109952158                  10
+PASS310E 310E 1500 109951904                  11
+PASS310E 310E 1500 109957063                  12
+PASS310E 310E 1500 109954503                  13
+2020-06-02 23:56:11 [INFO] Current Time  
+PASS310E 310E 1500 109955637                  14
+PASS310E 310E 1500 109957072                  15
+PASS310E 310E 1500 109961035                  16
+PASS310E 310E 1500 109955720                  17
+TCM addr corrupted: 0x23348
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110068407                  18
+PASS310E 310E 1500 109961657                  19
+PASS310E 310E 1500 109953502                  20
+TCM addr corrupted: 0x24220
+, Bit Mask : 0x800040 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24220
+Error: Timed Out polling for response
+2020-06-02 23:56:20 [INFO] configuring board...
+2020-06-02 23:56:21 Current seed : 134
+2020-06-02 23:57:08 Increment seed to : 135
+PASS310E 310E 1500 100634481                   0
+PASS310E 310E 1500 100633290                   1
+PASS310E 310E 1500 100632991                   2
+2020-06-02 23:57:12 [INFO] Current Time  
+PASS310E 310E 1500 100632992                   3
+PASS310E 310E 1500 100633041                   4
+PASS310E 310E 1500 100633225                   5
+PASS310E 310E 1500 100632950                   6
+PASS310E 310E 1500 100633265                   7
+PASS310E 310E 1500 100633055                   8
+PASS310E 310E 1500 100632950                   9
+PASS310E 310E 1500 100633059                  10
+TCM addr corrupted: 0x258B8
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 105164058                  11
+PASS310E 310E 1500 109956829                  12
+PASS310E 310E 1500 109949547                  13
+PASS310E 310E 1500 109957529                  14
+PASS310E 310E 1500 109959466                  15
+PASS310E 310E 1500 109953040                  16
+PASS310E 310E 1500 109958023                  17
+PASS310E 310E 1500 109951401                  18
+TCM addr corrupted: 0x23410
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110117654                  19
+PASS310E 310E 1500 109957954                  20
+PASS310E 310E 1500 109952151                  21
+PASS310E 310E 1500 109957690                  22
+PASS310E 310E 1500 109954535                  23
+PASS310E 310E 1500 109954780                  24
+PASS310E 310E 1500 109957340                  25
+PASS310E 310E 1500 109952250                  26
+TCM addr corrupted: 0x24548
+, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110060653                  27
+PASS310E 310E 1500 109954844                  28
+PASS310E 310E 1500 109956127                  29
+PASS310E 310E 1500 109958401                  30
+PASS310E 310E 1500 109956731                  31
+PASS310E 310E 1500 109956756                  32
+PASS310E 310E 1500 109955891                  33
+PASS310E 310E 1500 109952070                  34
+PASS310E 310E 1500 109953745                  35
+PASS310E 310E 1500 109957687                  36
+PASS310E 310E 1500 109956288                  37
+TCM addr corrupted: 0x23378
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110082518                  38
+PASS310E 310E 1500 109952456                  39
+PASS310E 310E 1500 109958048                  40
+PASS310E 310E 1500 109957181                  41
+PASS310E 310E 1500 109960577                  42
+PASS310E 310E 1500 109957487                  43
+PASS310E 310E 1500 109955083                  44
+PASS310E 310E 1500 109954535                  45
+TCM addr corrupted: 0x23640
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110084284                  46
+PASS310E 310E 1500 109960375                  47
+PASS310E 310E 1500 109961269                  48
+PASS310E 310E 1500 109953554                  49
+PASS310E 310E 1500 109954317                  50
+PASS310E 310E 1500 109956500                  51
+TCM addr corrupted: 0x257C0
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110104454                  52
+PASS310E 310E 1500 109953455                  53
+PASS310E 310E 1500 109956520                  54
+PASS310E 310E 1500 109955562                  55
+PASS310E 310E 1500 109953192                  56
+TCM addr corrupted: 0x25050
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110076644                  57
+PASS310E 310E 1500 109957932                  58
+2020-06-02 23:58:13 [INFO] Current Time  
+PASS310E 310E 1500 109952836                  59
+PASS310E 310E 1500 109960405                  60
+PASS310E 310E 1500 109953791                  61
+TCM addr corrupted: 0x242F0
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110100571                  62
+TCM addr corrupted: 0x23498
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110073207                  63
+TCM addr corrupted: 0x258B8
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110122555                  64
+TCM addr corrupted: 0x22ED0
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110101352                  65
+PASS310E 310E 1500 109959318                  66
+PASS310E 310E 1500 109955603                  67
+PASS310E 310E 1500 109955464                  68
+PASS310E 310E 1500 109958277                  69
+PASS310E 310E 1500 109959628                  70
+PASS310E 310E 1500 109957662                  71
+PASS310E 310E 1500 109956751                  72
+PASS310E 310E 1500 109957822                  73
+PASS310E 310E 1500 109955116                  74
+PASS310E 310E 1500 109955175                  75
+PASS310E 310E 1500 109956697                  76
+PASS310E 310E 1500 109953365                  77
+PASS310E 310E 1500 109951671                  78
+PASS310E 310E 1500 109961163                  79
+TCM addr corrupted: 0x24B88
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x24098
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110176990                  80
+PASS310E 310E 1500 109956681                  81
+PASS310E 310E 1500 109954705                  82
+TCM addr corrupted: 0x23B98
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110081507                  83
+PASS310E 310E 1500 109955255                  84
+PASS310E 310E 1500 109953924                  85
+PASS310E 310E 1500 109954785                  86
+PASS310E 310E 1500 109953284                  87
+PASS310E 310E 1500 109954588                  88
+TCM addr corrupted: 0x24B00
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110093863                  89
+PASS310E 310E 1500 109955778                  90
+PASS310E 310E 1500 109956573                  91
+PASS310E 310E 1500 109956168                  92
+PASS310E 310E 1500 109956058                  93
+PASS310E 310E 1500 109954657                  94
+PASS310E 310E 1500 109957445                  95
+PASS310E 310E 1500 109952412                  96
+PASS310E 310E 1500 109955609                  97
+PASS310E 310E 1500 109952423                  98
+PASS310E 310E 1500 109955719                  99
+PASS310E 310E 1500 109956503                 100
+PASS310E 310E 1500 109955386                 101
+PASS310E 310E 1500 109954192                 102
+PASS310E 310E 1500 109951868                 103
+PASS310E 310E 1500 109957770                 104
+PASS310E 310E 1500 109957255                 105
+PASS310E 310E 1500 109956687                 106
+PASS310E 310E 1500 109952540                 107
+PASS310E 310E 1500 109952480                 108
+PASS310E 310E 1500 109955212                 109
+PASS310E 310E 1500 109956284                 110
+PASS310E 310E 1500 109958636                 111
+PASS310E 310E 1500 109957446                 112
+PASS310E 310E 1500 109956153                 113
+2020-06-02 23:59:14 [INFO] Current Time  
+PASS310E 310E 1500 109957800                 114
+PASS310E 310E 1500 109953877                 115
+PASS310E 310E 1500 109955880                 116
+PASS310E 310E 1500 109957291                 117
+PASS310E 310E 1500 109956380                 118
+PASS310E 310E 1500 109958242                 119
+PASS310E 310E 1500 109956030                 120
+PASS310E 310E 1500 109955071                 121
+TCM addr corrupted: 0x25850
+, Bit Mask : 0x90000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 25850
+2020-06-02 23:59:27 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 23:59:27 [INFO] configuring board...
+2020-06-02 23:59:28 Current seed : 135
+2020-06-03 00:00:12 Increment seed to : 136
+PASS310E 310E 1500 100634543                   0
+2020-06-03 00:00:14 [INFO] Current Time  
+PASS310E 310E 1500 100633378                   1
+PASS310E 310E 1500 100633225                   2
+PASS310E 310E 1500 100633103                   3
+PASS310E 310E 1500 100633229                   4
+PASS310E 310E 1500 100633349                   5
+PASS310E 310E 1500 100633118                   6
+PASS310E 310E 1500 100633211                   7
+PASS310E 310E 1500 100633051                   8
+PASS310E 310E 1500 100633210                   9
+PASS310E 310E 1500 100633340                  10
+PASS310E 310E 1500 100633110                  11
+TCM addr corrupted: 0x249F0
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 108922526                  12
+PASS310E 310E 1500 109953724                  13
+PASS310E 310E 1500 109956291                  14
+PASS310E 310E 1500 109955412                  15
+PASS310E 310E 1500 109956396                  16
+PASS310E 310E 1500 109954534                  17
+TCM addr corrupted: 0x25458
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110121445                  18
+PASS310E 310E 1500 109955054                  19
+PASS310E 310E 1500 109952102                  20
+PASS310E 310E 1500 109956043                  21
+PASS310E 310E 1500 109957319                  22
+PASS310E 310E 1500 109954514                  23
+PASS310E 310E 1500 109956553                  24
+PASS310E 310E 1500 109955741                  25
+TCM addr corrupted: 0x22F50
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110103556                  26
+PASS310E 310E 1500 109954433                  27
+PASS310E 310E 1500 109960310                  28
+PASS310E 310E 1500 109956189                  29
+PASS310E 310E 1500 109955330                  30
+PASS310E 310E 1500 109956138                  31
+PASS310E 310E 1500 109954334                  32
+PASS310E 310E 1500 109955722                  33
+PASS310E 310E 1500 109955297                  34
+TCM addr corrupted: 0x24998
+, Bit Mask : 0x8080 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24998
+Error: Timed Out polling for response
+2020-06-03 00:00:54 [INFO] configuring board...
+2020-06-03 00:00:55 Current seed : 136
+2020-06-03 00:01:36 Increment seed to : 137
+2020-06-03 00:01:36 [INFO] Current Time  
+PASS310E 310E 1500 100633796                   0
+PASS310E 310E 1500 100633308                   1
+PASS310E 310E 1500 100633369                   2
+PASS310E 310E 1500 100633008                   3
+PASS310E 310E 1500 100633059                   4
+PASS310E 310E 1500 100633098                   5
+PASS310E 310E 1500 100634013                   6
+PASS310E 310E 1500 100633219                   7
+TCM addr corrupted: 0x24D08
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 108691083                   8
+PASS310E 310E 1500 109957332                   9
+PASS310E 310E 1500 109952399                  10
+PASS310E 310E 1500 109949864                  11
+PASS310E 310E 1500 109959808                  12
+PASS310E 310E 1500 109958256                  13
+PASS310E 310E 1500 109957053                  14
+TCM addr corrupted: 0x25960
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110112824                  15
+PASS310E 310E 1500 109954433                  16
+TCM addr corrupted: 0x24CB8
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110082548                  17
+TCM addr corrupted: 0x255A8
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110113327                  18
+PASS310E 310E 1500 109958486                  19
+TCM addr corrupted: 0x23680
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110082666                  20
+PASS310E 310E 1500 109960285                  21
+PASS310E 310E 1500 109960192                  22
+PASS310E 310E 1500 109956515                  23
+PASS310E 310E 1500 109955964                  24
+PASS310E 310E 1500 109954015                  25
+PASS310E 310E 1500 109957809                  26
+PASS310E 310E 1500 109956324                  27
+PASS310E 310E 1500 109953280                  28
+PASS310E 310E 1500 109959007                  29
+PASS310E 310E 1500 109955390                  30
+PASS310E 310E 1500 109955794                  31
+PASS310E 310E 1500 109956576                  32
+PASS310E 310E 1500 109953600                  33
+PASS310E 310E 1500 109953988                  34
+PASS310E 310E 1500 109956823                  35
+PASS310E 310E 1500 109954064                  36
+PASS310E 310E 1500 109959554                  37
+PASS310E 310E 1500 109954859                  38
+PASS310E 310E 1500 109959664                  39
+PASS310E 310E 1500 109962026                  40
+PASS310E 310E 1500 109952145                  41
+PASS310E 310E 1500 109961396                  42
+PASS310E 310E 1500 109953041                  43
+PASS310E 310E 1500 109954678                  44
+PASS310E 310E 1500 109953954                  45
+PASS310E 310E 1500 109955117                  46
+PASS310E 310E 1500 109957113                  47
+PASS310E 310E 1500 109956466                  48
+PASS310E 310E 1500 109958683                  49
+PASS310E 310E 1500 109955632                  50
+PASS310E 310E 1500 109955797                  51
+PASS310E 310E 1500 109957257                  52
+PASS310E 310E 1500 109957462                  53
+PASS310E 310E 1500 109960855                  54
+2020-06-03 00:02:37 [INFO] Current Time  
+PASS310E 310E 1500 109953529                  55
+PASS310E 310E 1500 109953916                  56
+PASS310E 310E 1500 109956054                  57
+PASS310E 310E 1500 109957331                  58
+PASS310E 310E 1500 109959878                  59
+PASS310E 310E 1500 109956521                  60
+PASS310E 310E 1500 109953754                  61
+PASS310E 310E 1500 109958020                  62
+PASS310E 310E 1500 109960521                  63
+PASS310E 310E 1500 109958594                  64
+PASS310E 310E 1500 109958692                  65
+PASS310E 310E 1500 109959157                  66
+PASS310E 310E 1500 109954919                  67
+PASS310E 310E 1500 109957248                  68
+PASS310E 310E 1500 109954746                  69
+PASS310E 310E 1500 109957067                  70
+PASS310E 310E 1500 109954690                  71
+PASS310E 310E 1500 109953460                  72
+PASS310E 310E 1500 109960241                  73
+PASS310E 310E 1500 109955546                  74
+PASS310E 310E 1500 109954796                  75
+PASS310E 310E 1500 109956296                  76
+PASS310E 310E 1500 109956820                  77
+TCM addr corrupted: 0x234C8
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110068653                  78
+PASS310E 310E 1500 109954714                  79
+PASS310E 310E 1500 109956866                  80
+PASS310E 310E 1500 109955857                  81
+PASS310E 310E 1500 109960216                  82
+TCM addr corrupted: 0x25328
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110111111                  83
+PASS310E 310E 1500 109955008                  84
+PASS310E 310E 1500 109954771                  85
+PASS310E 310E 1500 109955702                  86
+PASS310E 310E 1500 109956402                  87
+PASS310E 310E 1500 109956600                  88
+PASS310E 310E 1500 109958544                  89
+PASS310E 310E 1500 109951083                  90
+PASS310E 310E 1500 109961525                  91
+PASS310E 310E 1500 109954330                  92
+PASS310E 310E 1500 109954651                  93
+PASS310E 310E 1500 109957385                  94
+PASS310E 310E 1500 109955723                  95
+TCM addr corrupted: 0x23D40
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110093903                  96
+PASS310E 310E 1500 109959473                  97
+PASS310E 310E 1500 109955150                  98
+PASS310E 310E 1500 109955516                  99
+PASS310E 310E 1500 109951630                 100
+PASS310E 310E 1500 109957929                 101
+TCM addr corrupted: 0x25290
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23C30
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110234936                 102
+PASS310E 310E 1500 109953113                 103
+PASS310E 310E 1500 109956500                 104
+PASS310E 310E 1500 109951562                 105
+PASS310E 310E 1500 109956991                 106
+TCM addr corrupted: 0x23568
+, Bit Mask : 0x20040 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23568
+2020-06-03 00:03:37 [INFO] Current Time  
+Error: Timed Out polling for response
+2020-06-03 00:03:37 [INFO] configuring board...
+2020-06-03 00:03:38 Current seed : 137
+2020-06-03 00:04:21 Increment seed to : 138
+PASS310E 310E 1500 100634556                   0
+PASS310E 310E 1500 100633336                   1
+PASS310E 310E 1500 100633018                   2
+TCM addr corrupted: 0x249E8
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 102788202                   3
+PASS310E 310E 1500 109956913                   4
+PASS310E 310E 1500 109954602                   5
+PASS310E 310E 1500 109953444                   6
+PASS310E 310E 1500 109954452                   7
+TCM addr corrupted: 0x23500
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110072859                   8
+PASS310E 310E 1500 109959722                   9
+TCM addr corrupted: 0x23A70
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x25410
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110269361                  10
+PASS310E 310E 1500 109958923                  11
+PASS310E 310E 1500 109959632                  12
+PASS310E 310E 1500 109956140                  13
+2020-06-03 00:04:37 [INFO] Current Time  
+PASS310E 310E 1500 109957613                  14
+PASS310E 310E 1500 109953247                  15
+TCM addr corrupted: 0x23850
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110119223                  16
+PASS310E 310E 1500 109957813                  17
+PASS310E 310E 1500 109955954                  18
+PASS310E 310E 1500 109959446                  19
+TCM addr corrupted: 0x250E8
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110103261                  20
+PASS310E 310E 1500 109955817                  21
+PASS310E 310E 1500 109956905                  22
+PASS310E 310E 1500 109959199                  23
+PASS310E 310E 1500 109957213                  24
+PASS310E 310E 1500 109955326                  25
+PASS310E 310E 1500 109957563                  26
+PASS310E 310E 1500 109954980                  27
+PASS310E 310E 1500 109954491                  28
+PASS310E 310E 1500 109956333                  29
+PASS310E 310E 1500 109955903                  30
+PASS310E 310E 1500 109954129                  31
+PASS310E 310E 1500 109952725                  32
+PASS310E 310E 1500 109955366                  33
+PASS310E 310E 1500 109960477                  34
+PASS310E 310E 1500 109958019                  35
+PASS310E 310E 1500 109953257                  36
+PASS310E 310E 1500 109954590                  37
+PASS310E 310E 1500 109954545                  38
+TCM addr corrupted: 0x25568
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110075574                  39
+PASS310E 310E 1500 109958351                  40
+PASS310E 310E 1500 109954042                  41
+PASS310E 310E 1500 109957488                  42
+PASS310E 310E 1500 109958599                  43
+TCM addr corrupted: 0x22FE8
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110120106                  44
+PASS310E 310E 1500 109955981                  45
+PASS310E 310E 1500 109957792                  46
+PASS310E 310E 1500 109956558                  47
+PASS310E 310E 1500 109955389                  48
+PASS310E 310E 1500 109956462                  49
+PASS310E 310E 1500 109954713                  50
+PASS310E 310E 1500 109954723                  51
+TCM addr corrupted: 0x246C8
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23E98
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110212302                  52
+PASS310E 310E 1500 109954370                  53
+PASS310E 310E 1500 109952456                  54
+TCM addr corrupted: 0x231E0
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110068332                  55
+TCM addr corrupted: 0x24728
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110105831                  56
+PASS310E 310E 1500 109955933                  57
+PASS310E 310E 1500 109957844                  58
+PASS310E 310E 1500 109960251                  59
+PASS310E 310E 1500 109952586                  60
+PASS310E 310E 1500 109956142                  61
+TCM addr corrupted: 0x24928
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110100221                  62
+PASS310E 310E 1500 109953140                  63
+PASS310E 310E 1500 109956491                  64
+TCM addr corrupted: 0x24C30
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110100409                  65
+PASS310E 310E 1500 109954508                  66
+PASS310E 310E 1500 109953351                  67
+PASS310E 310E 1500 109956398                  68
+2020-06-03 00:05:38 [INFO] Current Time  
+PASS310E 310E 1500 109955383                  69
+PASS310E 310E 1500 109955760                  70
+PASS310E 310E 1500 109955507                  71
+PASS310E 310E 1500 109955392                  72
+TCM addr corrupted: 0x25348
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110120660                  73
+PASS310E 310E 1500 109960695                  74
+PASS310E 310E 1500 109950222                  75
+PASS310E 310E 1500 109952252                  76
+PASS310E 310E 1500 109956022                  77
+PASS310E 310E 1500 109954092                  78
+PASS310E 310E 1500 109955273                  79
+PASS310E 310E 1500 109956123                  80
+PASS310E 310E 1500 109954377                  81
+PASS310E 310E 1500 109956342                  82
+TCM addr corrupted: 0x25078
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110115996                  83
+TCM addr corrupted: 0x23270
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110090760                  84
+PASS310E 310E 1500 109953958                  85
+TCM addr corrupted: 0x23C28
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110101358                  86
+TCM addr corrupted: 0x23C10
+, Bit Mask : 0x10010 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23c10
+Error: Timed Out polling for response
+2020-06-03 00:06:02 [INFO] configuring board...
+2020-06-03 00:06:03 Current seed : 138
+2020-06-03 00:06:47 Increment seed to : 139
+2020-06-03 00:06:47 [INFO] Current Time  
+TCM addr corrupted: 0x23C20
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 101637296                   0
+PASS310E 310E 1500 109957924                   1
+PASS310E 310E 1500 109959036                   2
+PASS310E 310E 1500 109949731                   3
+PASS310E 310E 1500 109953314                   4
+PASS310E 310E 1500 109957378                   5
+PASS310E 310E 1500 109956200                   6
+PASS310E 310E 1500 109952791                   7
+TCM addr corrupted: 0x24A18
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110075960                   8
+PASS310E 310E 1500 109953817                   9
+PASS310E 310E 1500 109954153                  10
+PASS310E 310E 1500 109954247                  11
+PASS310E 310E 1500 109953437                  12
+TCM addr corrupted: 0x23DC8
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24438
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110249523                  13
+PASS310E 310E 1500 109956606                  14
+PASS310E 310E 1500 109955490                  15
+PASS310E 310E 1500 109955300                  16
+PASS310E 310E 1500 109956082                  17
+PASS310E 310E 1500 109957235                  18
+PASS310E 310E 1500 109954444                  19
+PASS310E 310E 1500 109956710                  20
+TCM addr corrupted: 0x25330
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110061176                  21
+TCM addr corrupted: 0x259B8
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110092476                  22
+TCM addr corrupted: 0x256E0
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110084118                  23
+PASS310E 310E 1500 109953888                  24
+TCM addr corrupted: 0x23A78
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110103036                  25
+PASS310E 310E 1500 109961046                  26
+TCM addr corrupted: 0x23848
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110077061                  27
+PASS310E 310E 1500 109955450                  28
+PASS310E 310E 1500 109961339                  29
+TCM addr corrupted: 0x22F68
+, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110073224                  30
+PASS310E 310E 1500 109955064                  31
+PASS310E 310E 1500 109954207                  32
+PASS310E 310E 1500 109954569                  33
+PASS310E 310E 1500 109960385                  34
+PASS310E 310E 1500 109957898                  35
+TCM addr corrupted: 0x24630
+, Bit Mask : 0x1000001 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24630
+Error: Timed Out polling for response
+2020-06-03 00:07:29 [INFO] configuring board...
+2020-06-03 00:07:30 Current seed : 139
+2020-06-03 00:08:12 Increment seed to : 140
+2020-06-03 00:08:12 [INFO] Current Time  
+PASS310E 310E 1500 100634359                   0
+PASS310E 310E 1500 100633286                   1
+PASS310E 310E 1500 100633522                   2
+PASS310E 310E 1500 100633134                   3
+PASS310E 310E 1500 100633045                   4
+PASS310E 310E 1500 100633195                   5
+PASS310E 310E 1500 100633006                   6
+PASS310E 310E 1500 100633111                   7
+PASS310E 310E 1500 100633046                   8
+PASS310E 310E 1500 100633127                   9
+PASS310E 310E 1500 100633136                  10
+PASS310E 310E 1500 100633383                  11
+PASS310E 310E 1500 100633150                  12
+PASS310E 310E 1500 100633071                  13
+TCM addr corrupted: 0x23E78
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 108240498                  14
+PASS310E 310E 1500 109955882                  15
+PASS310E 310E 1500 109955067                  16
+PASS310E 310E 1500 109955994                  17
+PASS310E 310E 1500 109952844                  18
+PASS310E 310E 1500 109953878                  19
+PASS310E 310E 1500 109955697                  20
+PASS310E 310E 1500 109952118                  21
+PASS310E 310E 1500 109953852                  22
+PASS310E 310E 1500 109953992                  23
+PASS310E 310E 1500 109955677                  24
+PASS310E 310E 1500 109958768                  25
+PASS310E 310E 1500 109952607                  26
+PASS310E 310E 1500 109958291                  27
+PASS310E 310E 1500 109963028                  28
+PASS310E 310E 1500 109954442                  29
+PASS310E 310E 1500 109958409                  30
+PASS310E 310E 1500 109958556                  31
+PASS310E 310E 1500 109952974                  32
+TCM addr corrupted: 0x24270
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110064433                  33
+PASS310E 310E 1500 109953840                  34
+PASS310E 310E 1500 109956036                  35
+PASS310E 310E 1500 109955118                  36
+PASS310E 310E 1500 109952612                  37
+PASS310E 310E 1500 109954489                  38
+PASS310E 310E 1500 109956274                  39
+PASS310E 310E 1500 109955846                  40
+PASS310E 310E 1500 109953628                  41
+TCM addr corrupted: 0x22E88
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110110175                  42
+PASS310E 310E 1500 109958864                  43
+PASS310E 310E 1500 109959996                  44
+PASS310E 310E 1500 109957323                  45
+PASS310E 310E 1500 109955298                  46
+TCM addr corrupted: 0x23C98
+, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110065347                  47
+PASS310E 310E 1500 109950716                  48
+PASS310E 310E 1500 109954735                  49
+PASS310E 310E 1500 109954922                  50
+PASS310E 310E 1500 109955618                  51
+PASS310E 310E 1500 109954897                  52
+PASS310E 310E 1500 109955999                  53
+PASS310E 310E 1500 109950072                  54
+TCM addr corrupted: 0x23430
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+2020-06-03 00:09:12 [INFO] Current Time  
+PASS310E 310E 1500 110379631                  55
+PASS310E 310E 1500 109954072                  56
+PASS310E 310E 1500 109958179                  57
+PASS310E 310E 1500 109953572                  58
+PASS310E 310E 1500 109951132                  59
+PASS310E 310E 1500 109952433                  60
+PASS310E 310E 1500 109954082                  61
+PASS310E 310E 1500 109957454                  62
+PASS310E 310E 1500 109953325                  63
+PASS310E 310E 1500 109954049                  64
+PASS310E 310E 1500 109953814                  65
+PASS310E 310E 1500 109954650                  66
+PASS310E 310E 1500 109957807                  67
+PASS310E 310E 1500 109961162                  68
+PASS310E 310E 1500 109950805                  69
+PASS310E 310E 1500 109955589                  70
+PASS310E 310E 1500 109958779                  71
+PASS310E 310E 1500 109953503                  72
+PASS310E 310E 1500 109962414                  73
+PASS310E 310E 1500 109957026                  74
+PASS310E 310E 1500 109956781                  75
+PASS310E 310E 1500 109957834                  76
+PASS310E 310E 1500 109953122                  77
+PASS310E 310E 1500 109957944                  78
+PASS310E 310E 1500 109959367                  79
+PASS310E 310E 1500 109951369                  80
+PASS310E 310E 1500 109954133                  81
+PASS310E 310E 1500 109951240                  82
+PASS310E 310E 1500 109957644                  83
+PASS310E 310E 1500 109956594                  84
+TCM addr corrupted: 0x23FF0
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110119144                  85
+PASS310E 310E 1500 109953945                  86
+PASS310E 310E 1500 109952762                  87
+PASS310E 310E 1500 109957631                  88
+TCM addr corrupted: 0x24E08
+, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110088970                  89
+PASS310E 310E 1500 109955828                  90
+PASS310E 310E 1500 109957109                  91
+PASS310E 310E 1500 109953360                  92
+PASS310E 310E 1500 109955930                  93
+PASS310E 310E 1500 109955297                  94
+PASS310E 310E 1500 109957063                  95
+PASS310E 310E 1500 109954374                  96
+PASS310E 310E 1500 109954552                  97
+PASS310E 310E 1500 109952174                  98
+PASS310E 310E 1500 109953264                  99
+PASS310E 310E 1500 109954327                 100
+TCM addr corrupted: 0x249A0
+, Bit Mask : 0x10020 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 249a0
+2020-06-03 00:10:07 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 00:10:08 [INFO] configuring board...
+2020-06-03 00:10:09 Current seed : 140
+2020-06-03 00:10:52 Increment seed to : 141
+2020-06-03 00:10:52 [INFO] Current Time  
+PASS310E 310E 1500 100634558                   0
+PASS310E 310E 1500 100633302                   1
+PASS310E 310E 1500 100633133                   2
+TCM addr corrupted: 0x23438
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 101874991                   3
+PASS310E 310E 1500 109950835                   4
+TCM addr corrupted: 0x244F8
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110073923                   5
+PASS310E 310E 1500 109952433                   6
+PASS310E 310E 1500 109960581                   7
+PASS310E 310E 1500 109953448                   8
+PASS310E 310E 1500 109954992                   9
+PASS310E 310E 1500 109956626                  10
+PASS310E 310E 1500 109955581                  11
+PASS310E 310E 1500 109957841                  12
+PASS310E 310E 1500 109957291                  13
+PASS310E 310E 1500 109955036                  14
+PASS310E 310E 1500 109955918                  15
+PASS310E 310E 1500 109955730                  16
+TCM addr corrupted: 0x251E8
+, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110060326                  17
+PASS310E 310E 1500 109959503                  18
+PASS310E 310E 1500 109954698                  19
+PASS310E 310E 1500 109956730                  20
+PASS310E 310E 1500 109956537                  21
+PASS310E 310E 1500 109955916                  22
+TCM addr corrupted: 0x243B8
+, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110085865                  23
+PASS310E 310E 1500 109953352                  24
+TCM addr corrupted: 0x23EB8
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110066109                  25
+PASS310E 310E 1500 109954792                  26
+PASS310E 310E 1500 109956139                  27
+PASS310E 310E 1500 109954068                  28
+PASS310E 310E 1500 109953844                  29
+PASS310E 310E 1500 109954580                  30
+PASS310E 310E 1500 109954546                  31
+PASS310E 310E 1500 109953408                  32
+PASS310E 310E 1500 109955239                  33
+PASS310E 310E 1500 109957745                  34
+PASS310E 310E 1500 109956791                  35
+PASS310E 310E 1500 109954226                  36
+PASS310E 310E 1500 109949921                  37
+TCM addr corrupted: 0x23778
+, Bit Mask : 0x50000000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23778
+Error: Timed Out polling for response
+2020-06-03 00:11:37 [INFO] configuring board...
+2020-06-03 00:11:38 Current seed : 141
+2020-06-03 00:12:23 Increment seed to : 142
+2020-06-03 00:12:23 [INFO] Current Time  
+PASS310E 310E 1500 100634571                   0
+PASS310E 310E 1500 100633380                   1
+PASS310E 310E 1500 100633225                   2
+PASS310E 310E 1500 100633103                   3
+PASS310E 310E 1500 100633229                   4
+PASS310E 310E 1500 100633351                   5
+PASS310E 310E 1500 100633115                   6
+TCM addr corrupted: 0x24BE8
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 106746268                   7
+PASS310E 310E 1500 109950736                   8
+PASS310E 310E 1500 109958478                   9
+PASS310E 310E 1500 109953364                  10
+PASS310E 310E 1500 109959593                  11
+PASS310E 310E 1500 109960248                  12
+TCM addr corrupted: 0x25708
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110093714                  13
+PASS310E 310E 1500 109957298                  14
+PASS310E 310E 1500 109952984                  15
+PASS310E 310E 1500 109955459                  16
+TCM addr corrupted: 0x23818
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110111032                  17
+PASS310E 310E 1500 109955837                  18
+TCM addr corrupted: 0x24AC8
+, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110055862                  19
+PASS310E 310E 1500 109957229                  20
+PASS310E 310E 1500 109954106                  21
+PASS310E 310E 1500 109955470                  22
+PASS310E 310E 1500 109958123                  23
+PASS310E 310E 1500 109954973                  24
+PASS310E 310E 1500 109958617                  25
+PASS310E 310E 1500 109954110                  26
+PASS310E 310E 1500 109956890                  27
+PASS310E 310E 1500 109955019                  28
+PASS310E 310E 1500 109954261                  29
+PASS310E 310E 1500 109959380                  30
+PASS310E 310E 1500 109957505                  31
+PASS310E 310E 1500 109956182                  32
+PASS310E 310E 1500 109957132                  33
+PASS310E 310E 1500 109955333                  34
+PASS310E 310E 1500 109957337                  35
+TCM addr corrupted: 0x25418
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110115975                  36
+PASS310E 310E 1500 109955189                  37
+PASS310E 310E 1500 109951636                  38
+PASS310E 310E 1500 109957782                  39
+PASS310E 310E 1500 109953902                  40
+PASS310E 310E 1500 109954569                  41
+TCM addr corrupted: 0x22EA8
+, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110100694                  42
+PASS310E 310E 1500 109951933                  43
+PASS310E 310E 1500 109952923                  44
+PASS310E 310E 1500 109959318                  45
+PASS310E 310E 1500 109954595                  46
+PASS310E 310E 1500 109958694                  47
+PASS310E 310E 1500 109956122                  48
+PASS310E 310E 1500 109953698                  49
+PASS310E 310E 1500 109955524                  50
+PASS310E 310E 1500 109953370                  51
+PASS310E 310E 1500 109955227                  52
+PASS310E 310E 1500 109956190                  53
+PASS310E 310E 1500 109958285                  54
+2020-06-03 00:13:24 [INFO] Current Time  
+TCM addr corrupted: 0x246F8
+, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110108744                  55
+PASS310E 310E 1500 109952763                  56
+PASS310E 310E 1500 109957011                  57
+PASS310E 310E 1500 109957278                  58
+PASS310E 310E 1500 109958490                  59
+PASS310E 310E 1500 109950845                  60
+PASS310E 310E 1500 109957673                  61
+PASS310E 310E 1500 109956518                  62
+PASS310E 310E 1500 109954988                  63
+PASS310E 310E 1500 109957634                  64
+PASS310E 310E 1500 109956847                  65
+PASS310E 310E 1500 109954185                  66
+PASS310E 310E 1500 109954135                  67
+PASS310E 310E 1500 109954509                  68
+PASS310E 310E 1500 109954789                  69
+PASS310E 310E 1500 109958357                  70
+PASS310E 310E 1500 109958826                  71
+PASS310E 310E 1500 109953611                  72
+PASS310E 310E 1500 109956138                  73
+PASS310E 310E 1500 109953901                  74
+PASS310E 310E 1500 109958091                  75
+PASS310E 310E 1500 109955972                  76
+PASS310E 310E 1500 109956800                  77
+PASS310E 310E 1500 109955831                  78
+PASS310E 310E 1500 109958169                  79
+PASS310E 310E 1500 109954588                  80
+TCM addr corrupted: 0x24588
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x25380
+, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110234362                  81
+PASS310E 310E 1500 109956885                  82
+PASS310E 310E 1500 109953106                  83
+PASS310E 310E 1500 109955893                  84
+PASS310E 310E 1500 109957255                  85
+PASS310E 310E 1500 109956544                  86
+PASS310E 310E 1500 109963452                  87
+PASS310E 310E 1500 109951874                  88
+PASS310E 310E 1500 109953052                  89
+PASS310E 310E 1500 109957001                  90
+PASS310E 310E 1500 109954491                  91
+PASS310E 310E 1500 109954148                  92
+PASS310E 310E 1500 109957513                  93
+PASS310E 310E 1500 109955896                  94
+PASS310E 310E 1500 109961775                  95
+PASS310E 310E 1500 109951834                  96
+PASS310E 310E 1500 109957852                  97
+TCM addr corrupted: 0x23D70
+, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110118997                  98
+PASS310E 310E 1500 109953255                  99
+PASS310E 310E 1500 109955315                 100
+TCM addr corrupted: 0x232F0
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110109999                 101
+PASS310E 310E 1500 109951092                 102
+PASS310E 310E 1500 109959222                 103
+PASS310E 310E 1500 109957796                 104
+PASS310E 310E 1500 109956388                 105
+TCM addr corrupted: 0x24BD8
+, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110119803                 106
+PASS310E 310E 1500 109953984                 107
+PASS310E 310E 1500 109953039                 108
+PASS310E 310E 1500 109957290                 109
+2020-06-03 00:14:25 [INFO] Current Time  
+PASS310E 310E 1500 109956116                 110
+PASS310E 310E 1500 109955902                 111
+PASS310E 310E 1500 109961076                 112
+PASS310E 310E 1500 109952542                 113
+TCM addr corrupted: 0x25788
+, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110081908                 114
+PASS310E 310E 1500 109957585                 115
+PASS310E 310E 1500 109955725                 116
+PASS310E 310E 1500 109954861                 117
+PASS310E 310E 1500 109953187                 118
+PASS310E 310E 1500 109959073                 119
+PASS310E 310E 1500 109955926                 120
+PASS310E 310E 1500 109957081                 121
+PASS310E 310E 1500 109951485                 122
+PASS310E 310E 1500 109959227                 123
+PASS310E 310E 1500 109959252                 124
+PASS310E 310E 1500 109955012                 125
+PASS310E 310E 1500 109954647                 126
+PASS310E 310E 1500 109952754                 127
+PASS310E 310E 1500 109959691                 128
+PASS310E 310E 1500 109951800                 129
+PASS310E 310E 1500 109953595                 130
+PASS310E 310E 1500 109956986                 131
+PASS310E 310E 1500 109960639                 132
+TCM addr corrupted: 0x25790
+, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110066881                 133
+PASS310E 310E 1500 109959171                 134
+PASS310E 310E 1500 109957633                 135
+PASS310E 310E 1500 109953194                 136
+PASS310E 310E 1500 109957376                 137
+PASS310E 310E 1500 109957970                 138
+PASS310E 310E 1500 109955517                 139
+PASS310E 310E 1500 109961106                 140
+PASS310E 310E 1500 109956284                 141
+PASS310E 310E 1500 109952820                 142
+PASS310E 310E 1500 109955931                 143
+PASS310E 310E 1500 109954497                 144
+PASS310E 310E 1500 109956763                 145
+PASS310E 310E 1500 109957789                 146
+PASS310E 310E 1500 109958931                 147
+TCM addr corrupted: 0x25130
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110096495                 148
+PASS310E 310E 1500 109960592                 149
+PASS310E 310E 1500 109955680                 150
+TCM addr corrupted: 0x24F28
+, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110108537                 151
+PASS310E 310E 1500 109956404                 152
+PASS310E 310E 1500 109954158                 153
+PASS310E 310E 1500 109953352                 154
+PASS310E 310E 1500 109951697                 155
+PASS310E 310E 1500 109952564                 156
+PASS310E 310E 1500 109957733                 157
+PASS310E 310E 1500 109955893                 158
+PASS310E 310E 1500 109952820                 159
+PASS310E 310E 1500 109955470                 160
+PASS310E 310E 1500 109952009                 161
+PASS310E 310E 1500 109954461                 162
+PASS310E 310E 1500 109957305                 163
+PASS310E 310E 1500 109957667                 164
+TCM addr corrupted: 0x25288
+, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+2020-06-03 00:15:25 [INFO] Current Time  
+PASS310E 310E 1500 110101154                 165
+PASS310E 310E 1500 109955033                 166
+PASS310E 310E 1500 109955300                 167
+PASS310E 310E 1500 109957315                 168
+PASS310E 310E 1500 109952249                 169
+PASS310E 310E 1500 109954695                 170
+PASS310E 310E 1500 109957026                 171
+PASS310E 310E 1500 109955589                 172
+TCM addr corrupted: 0x25340
+, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110089818                 173
+TCM addr corrupted: 0x248B8
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110109851                 174
+PASS310E 310E 1500 109957516                 175
+PASS310E 310E 1500 109957774                 176
+PASS310E 310E 1500 109953464                 177
+PASS310E 310E 1500 109957081                 178
+PASS310E 310E 1500 109958921                 179
+PASS310E 310E 1500 109957844                 180
+PASS310E 310E 1500 109952451                 181
+PASS310E 310E 1500 109957091                 182
+PASS310E 310E 1500 109957602                 183
+PASS310E 310E 1500 109958158                 184
+PASS310E 310E 1500 109954691                 185
+PASS310E 310E 1500 109956604                 186
+TCM addr corrupted: 0x249F8
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110086278                 187
+PASS310E 310E 1500 109959504                 188
+TCM addr corrupted: 0x23A30
+, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110082685                 189
+PASS310E 310E 1500 109954714                 190
+TCM addr corrupted: 0x24C58
+, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110076329                 191
+PASS310E 310E 1500 109957032                 192
+PASS310E 310E 1500 109955966                 193
+PASS310E 310E 1500 109958361                 194
+PASS310E 310E 1500 109958634                 195
+PASS310E 310E 1500 109957638                 196
+PASS310E 310E 1500 109954403                 197
+PASS310E 310E 1500 109951999                 198
+PASS310E 310E 1500 109951414                 199
+TCM addr corrupted: 0x25080
+, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110077319                 200
+PASS310E 310E 1500 109952736                 201
+PASS310E 310E 1500 109954378                 202
+PASS310E 310E 1500 109954435                 203
+PASS310E 310E 1500 109956066                 204
+PASS310E 310E 1500 109954955                 205
+PASS310E 310E 1500 109953463                 206
+PASS310E 310E 1500 109954537                 207
+TCM addr corrupted: 0x23170
+, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110058256                 208
+PASS310E 310E 1500 109957668                 209
+PASS310E 310E 1500 109958772                 210
+PASS310E 310E 1500 109955290                 211
+PASS310E 310E 1500 109957186                 212
+PASS310E 310E 1500 109955626                 213
+PASS310E 310E 1500 109957909                 214
+TCM addr corrupted: 0x23B90
+, Bit Mask : 0x102 ,Shift 16, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23b90
+2020-06-03 00:16:24 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-03 00:16:24 [INFO] configuring board...
+2020-06-03 00:16:25 Current seed : 142
+2020-06-03 00:17:08 Increment seed to : 143
+2020-06-03 00:17:08 [INFO] Current Time  
+TCM addr corrupted: 0x25388
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 105606486                   0
+PASS310E 310E 1500 109960980                   1
+TCM addr corrupted: 0x25228
+, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110116239                   2
+PASS310E 310E 1500 109955449                   3
+TCM addr corrupted: 0x24350
+, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110102686                   4
+PASS310E 310E 1500 109959203                   5
+PASS310E 310E 1500 109956205                   6
+TCM addr corrupted: 0x258E0
+, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110121396                   7
+PASS310E 310E 1500 109957696                   8
+PASS310E 310E 1500 109953639                   9
+PASS310E 310E 1500 109954098                  10
+PASS310E 310E 1500 109954931                  11
+PASS310E 310E 1500 109953248                  12
+PASS310E 310E 1500 109955173                  13
+PASS310E 310E 1500 109956575                  14
+PASS310E 310E 1500 109953509                  15
+PASS310E 310E 1500 109951910                  16
+PASS310E 310E 1500 109956839                  17
+TCM addr corrupted: 0x23D20
+, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110109016                  18
+PASS310E 310E 1500 109951037                  19
+PASS310E 310E 1500 109955447                  20
+PASS310E 310E 1500 109954918                  21
+PASS310E 310E 1500 109956317                  22
+PASS310E 310E 1500 109957370                  23
+PASS310E 310E 1500 109960419                  24
+PASS310E 310E 1500 109961354                  25
+PASS310E 310E 1500 109956761                  26
+PASS310E 310E 1500 109955750                  27
+PASS310E 310E 1500 109956017                  28
+PASS310E 310E 1500 109958354                  29
+PASS310E 310E 1500 109953617                  30
+PASS310E 310E 1500 109951969                  31
+TCM addr corrupted: 0x236A8
+, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110095097                  32
+PASS310E 310E 1500 109959444                  33
+PASS310E 310E 1500 109959428                  34
+PASS310E 310E 1500 109955121                  35
+TCM addr corrupted: 0x24150
+, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASS310E 310E 1500 110062684                  36
+PASS310E 310E 1500 109955640                  37
+PASS310E 310E 1500 109956877                  38
+PASS310E 310E 1500 109958120                  39
+PASS310E 310E 1500 109955750                  40
+PASS310E 310E 1500 109957050                  41
+PASS310E 310E 1500 109957895                  42
+PASS310E 310E 1500 109955412                  43
+TCM addr corrupted: 0x232D0
+, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110108405                  44
+PASS310E 310E 1500 109954409                  45
+PASS310E 310E 1500 109954210                  46
+PASS310E 310E 1500 109956698                  47
+PASS310E 310E 1500 109956594                  48
+PASS310E 310E 1500 109955472                  49
+PASS310E 310E 1500 109958637                  50
+TCM addr corrupted: 0x23AC0
+, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110102047                  51
+PASS310E 310E 1500 109957993                  52
+PASS310E 310E 1500 109957055                  53
+2020-06-03 00:18:08 [INFO] Current Time  
+PASS310E 310E 1500 109957835                  54
+PASS310E 310E 1500 109958255                  55
+PASS310E 310E 1500 109955347                  56
+PASS310E 310E 1500 109958117                  57
+PASS310E 310E 1500 109954788                  58
+PASS310E 310E 1500 109957234                  59
+TCM addr corrupted: 0x253E8
+, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110086661                  60
+PASS310E 310E 1500 109956303                  61
+PASS310E 310E 1500 109953950                  62
+PASS310E 310E 1500 109952906                  63
+PASS310E 310E 1500 109953995                  64
+PASS310E 310E 1500 109957195                  65
+PASS310E 310E 1500 109953152                  66
+PASS310E 310E 1500 109954563                  67
+TCM addr corrupted: 0x24508
+, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASS310E 310E 1500 110085775                  68
+PASS310E 310E 1500 109957861                  69
+PASS310E 310E 1500 109950783                  70
+PASS310E 310E 1500 109953175                  71
+PASS310E 310E 1500 109961708                  72
+PASS310E 310E 1500 109953121                  73
+2020-06-03 00:18:30 [INFO] Change kernel 
+2020-06-03 00:18:31 [INFO] Kernel before change :idctrn01
+2020-06-03 00:18:31 [INFO] Increment Kernel pointer...

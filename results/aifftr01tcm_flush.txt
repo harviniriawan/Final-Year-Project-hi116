@@ -1,0 +1,1713 @@
+2020-06-02 19:26:02 [INFO] starting radiation experiment...
+2020-06-02 19:26:02 [INFO] Current kernel  : aifftr01
+P       52
+2020-06-02 19:26:07 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:26:07 [INFO] configuring board...
+2020-06-02 19:26:08 Current seed : 32
+2020-06-02 19:27:00 Increment seed to : 33
+2020-06-02 19:27:00 [INFO] Current Time  
+PASSCDAC CDAC 200 136019822                   0
+PASSCDAC CDAC 200 136023026                   1
+PASSCDAC CDAC 200 136015593                   2
+PASSCDAC CDAC 200 136012736                   3
+PASSCDAC CDAC 200 136008161                   4
+TCM addr corrupted: 0x23810, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 140694017                   5
+PASSCDAC CDAC 200 144730683                   6
+PASSCDAC CDAC 200 144722411                   7
+TCM addr corrupted: 0x22EB8, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144806824                   8
+PASSCDAC CDAC 200 144721155                   9
+PASSCDAC CDAC 200 144690917                  10
+PASSCDAC CDAC 200 144724979                  11
+PASSCDAC CDAC 200 144712259                  12
+PASSCDAC CDAC 200 144715301                  13
+TCM addr corrupted: 0x22F38, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144863741                  14
+PASSCDAC CDAC 200 144723739                  15
+PASSCDAC CDAC 200 144709491                  16
+PASSCDAC CDAC 200 144708605                  17
+PASSCDAC CDAC 200 144684235                  18
+PASSCDAC CDAC 200 144700542                  19
+PASSCDAC CDAC 200 144718457                  20
+PASSCDAC CDAC 200 144699065                  21
+TCM addr corrupted: 0x23850, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24938, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144923908                  22
+PASSCDAC CDAC 200 144700432                  23
+PASSCDAC CDAC 200 144724296                  24
+PASSCDAC CDAC 200 144696230                  25
+PASSCDAC CDAC 200 144724451                  26
+PASSCDAC CDAC 200 144717600                  27
+PASSCDAC CDAC 200 144701763                  28
+PASSCDAC CDAC 200 144704977                  29
+PASSCDAC CDAC 200 144711567                  30
+PASSCDAC CDAC 200 144729109                  31
+PASSCDAC CDAC 200 144694350                  32
+PASSCDAC CDAC 200 144699313                  33
+TCM addr corrupted: 0x23230, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24D40, Bit Mask : 0x1400 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24d40
+2020-06-02 19:27:55 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:27:55 [INFO] configuring board...
+2020-06-02 19:27:56 Current seed : 33
+2020-06-02 19:28:39 Increment seed to : 34
+2020-06-02 19:28:39 [INFO] Current Time  
+PASSCDAC CDAC 200 136019071                   0
+PASSCDAC CDAC 200 136015965                   1
+PASSCDAC CDAC 200 136017316                   2
+TCM addr corrupted: 0x24440, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 139787743                   3
+PASSCDAC CDAC 200 144716565                   4
+PASSCDAC CDAC 200 144727409                   5
+PASSCDAC CDAC 200 144709727                   6
+PASSCDAC CDAC 200 144706262                   7
+PASSCDAC CDAC 200 144722343                   8
+PASSCDAC CDAC 200 144705426                   9
+PASSCDAC CDAC 200 144707698                  10
+PASSCDAC CDAC 200 144722123                  11
+TCM addr corrupted: 0x246F8, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144851316                  12
+PASSCDAC CDAC 200 144709100                  13
+PASSCDAC CDAC 200 144701892                  14
+PASSCDAC CDAC 200 144710752                  15
+PASSCDAC CDAC 200 144721388                  16
+PASSCDAC CDAC 200 144715588                  17
+TCM addr corrupted: 0x24130, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144845557                  18
+PASSCDAC CDAC 200 144694104                  19
+PASSCDAC CDAC 200 144708097                  20
+PASSCDAC CDAC 200 144729518                  21
+PASSCDAC CDAC 200 144721251                  22
+PASSCDAC CDAC 200 144713145                  23
+PASSCDAC CDAC 200 144715285                  24
+PASSCDAC CDAC 200 144712273                  25
+TCM addr corrupted: 0x24CA8, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144866510                  26
+PASSCDAC CDAC 200 144726346                  27
+PASSCDAC CDAC 200 144703729                  28
+PASSCDAC CDAC 200 144691368                  29
+PASSCDAC CDAC 200 144696653                  30
+TCM addr corrupted: 0x230D0, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144831393                  31
+PASSCDAC CDAC 200 144704942                  32
+PASSCDAC CDAC 200 144726613                  33
+PASSCDAC CDAC 200 144718009                  34
+PASSCDAC CDAC 200 144703126                  35
+PASSCDAC CDAC 200 144705444                  36
+PASSCDAC CDAC 200 144717847                  37
+PASSCDAC CDAC 200 144727929                  38
+TCM addr corrupted: 0x240B0, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144828913                  39
+PASSCDAC CDAC 200 144712541                  40
+2020-06-02 19:29:40 [INFO] Current Time  
+PASSCDAC CDAC 200 144700304                  41
+PASSCDAC CDAC 200 144722567                  42
+PASSCDAC CDAC 200 144714395                  43
+PASSCDAC CDAC 200 144724914                  44
+PASSCDAC CDAC 200 144705591                  45
+PASSCDAC CDAC 200 144686653                  46
+TCM addr corrupted: 0x248A8, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144797466                  47
+PASSCDAC CDAC 200 144713658                  48
+TCM addr corrupted: 0x250B0, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144850584                  49
+PASSCDAC CDAC 200 144713656                  50
+TCM addr corrupted: 0x23F20, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144862195                  51
+PASSCDAC CDAC 200 144708421                  52
+TCM addr corrupted: 0x24970, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144833947                  53
+PASSCDAC CDAC 200 144716637                  54
+PASSCDAC CDAC 200 144710860                  55
+PASSCDAC CDAC 200 144701173                  56
+PASSCDAC CDAC 200 144717018                  57
+PASSCDAC CDAC 200 144740957                  58
+PASSCDAC CDAC 200 144685912                  59
+TCM addr corrupted: 0x24B70, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144844269                  60
+PASSCDAC CDAC 200 144711915                  61
+TCM addr corrupted: 0x24850, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144823187                  62
+TCM addr corrupted: 0x234C8, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144841155                  63
+PASSCDAC CDAC 200 144705944                  64
+PASSCDAC CDAC 200 144695936                  65
+PASSCDAC CDAC 200 144705368                  66
+PASSCDAC CDAC 200 144701194                  67
+TCM addr corrupted: 0x22E80, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x241D8, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144916743                  68
+PASSCDAC CDAC 200 144693333                  69
+PASSCDAC CDAC 200 144711075                  70
+PASSCDAC CDAC 200 144730794                  71
+PASSCDAC CDAC 200 144712317                  72
+PASSCDAC CDAC 200 144716992                  73
+PASSCDAC CDAC 200 144724507                  74
+PASSCDAC CDAC 200 144694682                  75
+TCM addr corrupted: 0x23B78, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144834910                  76
+PASSCDAC CDAC 200 144730015                  77
+PASSCDAC CDAC 200 144716102                  78
+TCM addr corrupted: 0x230D8, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144833835                  79
+TCM addr corrupted: 0x23448, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144847194                  80
+TCM addr corrupted: 0x23FC0, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144848956                  81
+PASSCDAC CDAC 200 144719496                  82
+2020-06-02 19:30:41 [INFO] Current Time  
+TCM addr corrupted: 0x24ED8, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144837931                  83
+PASSCDAC CDAC 200 144694647                  84
+PASSCDAC CDAC 200 144710792                  85
+TCM addr corrupted: 0x24EA8, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144829616                  86
+PASSCDAC CDAC 200 144717798                  87
+PASSCDAC CDAC 200 144722939                  88
+PASSCDAC CDAC 200 144710405                  89
+TCM addr corrupted: 0x23450, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144826050                  90
+TCM addr corrupted: 0x230A0, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144852085                  91
+PASSCDAC CDAC 200 144713984                  92
+PASSCDAC CDAC 200 144703319                  93
+PASSCDAC CDAC 200 144703333                  94
+PASSCDAC CDAC 200 144714118                  95
+TCM addr corrupted: 0x233F0, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144825816                  96
+TCM addr corrupted: 0x23270, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144795078                  97
+TCM addr corrupted: 0x22F48, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144814985                  98
+PASSCDAC CDAC 200 144706732                  99
+PASSCDAC CDAC 200 144720703                 100
+PASSCDAC CDAC 200 144700064                 101
+PASSCDAC CDAC 200 144711011                 102
+PASSCDAC CDAC 200 144700524                 103
+PASSCDAC CDAC 200 144715893                 104
+PASSCDAC CDAC 200 144723743                 105
+TCM addr corrupted: 0x24F10, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144815548                 106
+PASSCDAC CDAC 200 144724107                 107
+TCM addr corrupted: 0x23800, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144816935                 108
+PASSCDAC CDAC 200 144703558                 109
+PASSCDAC CDAC 200 144708399                 110
+PASSCDAC CDAC 200 144715806                 111
+PASSCDAC CDAC 200 144716895                 112
+PASSCDAC CDAC 200 144709729                 113
+PASSCDAC CDAC 200 144708168                 114
+PASSCDAC CDAC 200 144691548                 115
+PASSCDAC CDAC 200 144716999                 116
+TCM addr corrupted: 0x23760, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144838791                 117
+PASSCDAC CDAC 200 144713079                 118
+PASSCDAC CDAC 200 144696589                 119
+PASSCDAC CDAC 200 144723089                 120
+PASSCDAC CDAC 200 144720072                 121
+TCM addr corrupted: 0x25058, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144870547                 122
+PASSCDAC CDAC 200 144727340                 123
+2020-06-02 19:31:42 [INFO] Current Time  
+PASSCDAC CDAC 200 144702725                 124
+PASSCDAC CDAC 200 144711585                 125
+TCM addr corrupted: 0x23090, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144848731                 126
+PASSCDAC CDAC 200 144708680                 127
+PASSCDAC CDAC 200 144720917                 128
+PASSCDAC CDAC 200 144712172                 129
+PASSCDAC CDAC 200 144704371                 130
+PASSCDAC CDAC 200 144723176                 131
+PASSCDAC CDAC 200 144706590                 132
+TCM addr corrupted: 0x236E8, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144862224                 133
+PASSCDAC CDAC 200 144707401                 134
+PASSCDAC CDAC 200 144717053                 135
+PASSCDAC CDAC 200 144701481                 136
+PASSCDAC CDAC 200 144715374                 137
+TCM addr corrupted: 0x22FF0, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144823642                 138
+PASSCDAC CDAC 200 144705864                 139
+PASSCDAC CDAC 200 144714159                 140
+PASSCDAC CDAC 200 144695245                 141
+PASSCDAC CDAC 200 144716109                 142
+PASSCDAC CDAC 200 144699775                 143
+PASSCDAC CDAC 200 144721154                 144
+PASSCDAC CDAC 200 144708506                 145
+PASSCDAC CDAC 200 144714367                 146
+PASSCDAC CDAC 200 144703365                 147
+PASSCDAC CDAC 200 144727117                 148
+PASSCDAC CDAC 200 144670997                 149
+PASSCDAC CDAC 200 144718205                 150
+TCM addr corrupted: 0x23E38, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24CF0, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x242C0, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 145067032                 151
+PASSCDAC CDAC 200 144717664                 152
+PASSCDAC CDAC 200 144722852                 153
+PASSCDAC CDAC 200 144702515                 154
+PASSCDAC CDAC 200 144713395                 155
+PASSCDAC CDAC 200 144704845                 156
+PASSCDAC CDAC 200 144720632                 157
+PASSCDAC CDAC 200 144703045                 158
+PASSCDAC CDAC 200 144721225                 159
+PASSCDAC CDAC 200 144718915                 160
+PASSCDAC CDAC 200 144709269                 161
+PASSCDAC CDAC 200 144719282                 162
+PASSCDAC CDAC 200 144688777                 163
+PASSCDAC CDAC 200 144713773                 164
+TCM addr corrupted: 0x24B10, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144847795                 165
+2020-06-02 19:32:43 [INFO] Current Time  
+PASSCDAC CDAC 200 144707655                 166
+PASSCDAC CDAC 200 144707845                 167
+PASSCDAC CDAC 200 144718718                 168
+PASSCDAC CDAC 200 144689737                 169
+PASSCDAC CDAC 200 144709438                 170
+PASSCDAC CDAC 200 144710169                 171
+PASSCDAC CDAC 200 144703331                 172
+PASSCDAC CDAC 200 144716115                 173
+TCM addr corrupted: 0x232C0, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144817471                 174
+PASSCDAC CDAC 200 144718952                 175
+PASSCDAC CDAC 200 144713863                 176
+PASSCDAC CDAC 200 144715066                 177
+PASSCDAC CDAC 200 144725441                 178
+PASSCDAC CDAC 200 144704361                 179
+PASSCDAC CDAC 200 144702852                 180
+TCM addr corrupted: 0x24830, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144793062                 181
+PASSCDAC CDAC 200 144699419                 182
+PASSCDAC CDAC 200 144710481                 183
+PASSCDAC CDAC 200 144702625                 184
+PASSCDAC CDAC 200 144708087                 185
+TCM addr corrupted: 0x24538, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144825881                 186
+PASSCDAC CDAC 200 144709332                 187
+TCM addr corrupted: 0x24460, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144818446                 188
+PASSCDAC CDAC 200 144697841                 189
+TCM addr corrupted: 0x24448, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144845823                 190
+PASSCDAC CDAC 200 144693468                 191
+PASSCDAC CDAC 200 144726957                 192
+PASSCDAC CDAC 200 144717008                 193
+TCM addr corrupted: 0x23338, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144840519                 194
+TCM addr corrupted: 0x23FA8, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144844354                 195
+PASSCDAC CDAC 200 144712615                 196
+PASSCDAC CDAC 200 144699931                 197
+PASSCDAC CDAC 200 144707322                 198
+PASSCDAC CDAC 200 144718715                 199
+TCM addr corrupted: 0x24BB0, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144838814                 200
+PASSCDAC CDAC 200 144718187                 201
+PASSCDAC CDAC 200 144701449                 202
+PASSCDAC CDAC 200 144730496                 203
+PASSCDAC CDAC 200 144716716                 204
+PASSCDAC CDAC 200 144707493                 205
+PASSCDAC CDAC 200 144731547                 206
+PASSCDAC CDAC 200 144701154                 207
+2020-06-02 19:33:45 [INFO] Current Time  
+PASSCDAC CDAC 200 144699339                 208
+PASSCDAC CDAC 200 144719418                 209
+PASSCDAC CDAC 200 144702045                 210
+PASSCDAC CDAC 200 144709418                 211
+PASSCDAC CDAC 200 144714004                 212
+PASSCDAC CDAC 200 144711262                 213
+PASSCDAC CDAC 200 144709352                 214
+PASSCDAC CDAC 200 144715659                 215
+PASSCDAC CDAC 200 144718489                 216
+PASSCDAC CDAC 200 144706968                 217
+PASSCDAC CDAC 200 144707926                 218
+PASSCDAC CDAC 200 144716330                 219
+PASSCDAC CDAC 200 144707995                 220
+PASSCDAC CDAC 200 144703211                 221
+PASSCDAC CDAC 200 144701136                 222
+PASSCDAC CDAC 200 144704979                 223
+PASSCDAC CDAC 200 144712336                 224
+PASSCDAC CDAC 200 144706711                 225
+PASSCDAC CDAC 200 144710423                 226
+PASSCDAC CDAC 200 144721560                 227
+PASSCDAC CDAC 200 144705545                 228
+TCM addr corrupted: 0x240D8, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144836934                 229
+PASSCDAC CDAC 200 144717773                 230
+PASSCDAC CDAC 200 144702405                 231
+PASSCDAC CDAC 200 144718703                 232
+PASSCDAC CDAC 200 144710434                 233
+PASSCDAC CDAC 200 144719160                 234
+PASSCDAC CDAC 200 144704077                 235
+TCM addr corrupted: 0x23178, Bit Mask : 0x20004000 ,Shift 0, bits corrupted: 2
+PASSCDAC CDAC 200 144857356                 236
+PASSCDAC CDAC 200 144715371                 237
+PASSCDAC CDAC 200 144706512                 238
+PASSCDAC CDAC 200 144724226                 239
+TCM addr corrupted: 0x24320, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144831155                 240
+PASSCDAC CDAC 200 144718465                 241
+PASSCDAC CDAC 200 144709756                 242
+PASSCDAC CDAC 200 144713689                 243
+PASSCDAC CDAC 200 144699155                 244
+PASSCDAC CDAC 200 144693737                 245
+PASSCDAC CDAC 200 144726368                 246
+PASSCDAC CDAC 200 144707209                 247
+PASSCDAC CDAC 200 144724135                 248
+TCM addr corrupted: 0x23760, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144804521                 249
+2020-06-02 19:34:46 [INFO] Current Time  
+PASSCDAC CDAC 200 144707564                 250
+PASSCDAC CDAC 200 144702400                 251
+PASSCDAC CDAC 200 144713380                 252
+PASSCDAC CDAC 200 144703294                 253
+PASSCDAC CDAC 200 144709887                 254
+PASSCDAC CDAC 200 144700021                 255
+PASSCDAC CDAC 200 144720984                 256
+TCM addr corrupted: 0x23258, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144840462                 257
+TCM addr corrupted: 0x23988, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x23E68, Bit Mask : 0x44000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23e68
+Error: Timed Out polling for response
+2020-06-02 19:35:01 [INFO] configuring board...
+2020-06-02 19:35:02 Current seed : 34
+2020-06-02 19:35:48 Increment seed to : 35
+2020-06-02 19:35:48 [INFO] Current Time  
+PASSCDAC CDAC 200 136021366                   0
+PASSCDAC CDAC 200 136007919                   1
+PASSCDAC CDAC 200 136020469                   2
+PASSCDAC CDAC 200 136009156                   3
+TCM addr corrupted: 0x235C8, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144165546                   4
+PASSCDAC CDAC 200 144697734                   5
+TCM addr corrupted: 0x231B8, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144842820                   6
+PASSCDAC CDAC 200 144721450                   7
+PASSCDAC CDAC 200 144699148                   8
+PASSCDAC CDAC 200 144708322                   9
+TCM addr corrupted: 0x23398, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144857144                  10
+PASSCDAC CDAC 200 144698586                  11
+PASSCDAC CDAC 200 144709877                  12
+PASSCDAC CDAC 200 144704018                  13
+PASSCDAC CDAC 200 144724335                  14
+PASSCDAC CDAC 200 144718519                  15
+PASSCDAC CDAC 200 144719954                  16
+PASSCDAC CDAC 200 144721196                  17
+PASSCDAC CDAC 200 144715201                  18
+PASSCDAC CDAC 200 144719965                  19
+PASSCDAC CDAC 200 144709730                  20
+PASSCDAC CDAC 200 144707364                  21
+PASSCDAC CDAC 200 144711919                  22
+PASSCDAC CDAC 200 144693528                  23
+PASSCDAC CDAC 200 144717030                  24
+PASSCDAC CDAC 200 144711160                  25
+PASSCDAC CDAC 200 144724269                  26
+PASSCDAC CDAC 200 144696123                  27
+PASSCDAC CDAC 200 144712744                  28
+TCM addr corrupted: 0x25050, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144861746                  29
+PASSCDAC CDAC 200 144726976                  30
+PASSCDAC CDAC 200 144690610                  31
+PASSCDAC CDAC 200 144707067                  32
+PASSCDAC CDAC 200 144713446                  33
+TCM addr corrupted: 0x24B28, Bit Mask : 0x8400 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24b28
+Error: Timed Out polling for response
+2020-06-02 19:36:41 [INFO] configuring board...
+2020-06-02 19:36:42 Current seed : 35
+2020-06-02 19:37:25 Increment seed to : 36
+2020-06-02 19:37:25 [INFO] Current Time  
+PASSCDAC CDAC 200 136009052                   0
+TCM addr corrupted: 0x24E48, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 136601281                   1
+PASSCDAC CDAC 200 144735143                   2
+PASSCDAC CDAC 200 144703874                   3
+PASSCDAC CDAC 200 144711529                   4
+PASSCDAC CDAC 200 144713616                   5
+PASSCDAC CDAC 200 144716179                   6
+PASSCDAC CDAC 200 144717399                   7
+PASSCDAC CDAC 200 144714685                   8
+PASSCDAC CDAC 200 144712321                   9
+PASSCDAC CDAC 200 144717781                  10
+PASSCDAC CDAC 200 144721880                  11
+PASSCDAC CDAC 200 144699973                  12
+PASSCDAC CDAC 200 144716494                  13
+PASSCDAC CDAC 200 144705730                  14
+TCM addr corrupted: 0x23E08, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144806440                  15
+PASSCDAC CDAC 200 144714196                  16
+PASSCDAC CDAC 200 144737516                  17
+PASSCDAC CDAC 200 144713706                  18
+PASSCDAC CDAC 200 144703389                  19
+PASSCDAC CDAC 200 144732621                  20
+PASSCDAC CDAC 200 144723987                  21
+PASSCDAC CDAC 200 144718626                  22
+PASSCDAC CDAC 200 144709117                  23
+PASSCDAC CDAC 200 144694267                  24
+PASSCDAC CDAC 200 144710568                  25
+PASSCDAC CDAC 200 144721816                  26
+PASSCDAC CDAC 200 144737114                  27
+PASSCDAC CDAC 200 144708315                  28
+PASSCDAC CDAC 200 144703820                  29
+PASSCDAC CDAC 200 144693165                  30
+PASSCDAC CDAC 200 144723213                  31
+PASSCDAC CDAC 200 144727054                  32
+TCM addr corrupted: 0x24B80, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144861773                  33
+PASSCDAC CDAC 200 144726333                  34
+PASSCDAC CDAC 200 144715447                  35
+PASSCDAC CDAC 200 144712656                  36
+PASSCDAC CDAC 200 144696201                  37
+PASSCDAC CDAC 200 144714258                  38
+PASSCDAC CDAC 200 144708589                  39
+PASSCDAC CDAC 200 144690470                  40
+2020-06-02 19:38:25 [INFO] Current Time  
+TCM addr corrupted: 0x24ED8, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144821042                  41
+TCM addr corrupted: 0x244E0, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144818333                  42
+PASSCDAC CDAC 200 144704456                  43
+PASSCDAC CDAC 200 144703740                  44
+PASSCDAC CDAC 200 144724184                  45
+PASSCDAC CDAC 200 144716575                  46
+PASSCDAC CDAC 200 144709179                  47
+PASSCDAC CDAC 200 144704569                  48
+PASSCDAC CDAC 200 144721406                  49
+PASSCDAC CDAC 200 144721366                  50
+PASSCDAC CDAC 200 144703936                  51
+PASSCDAC CDAC 200 144701171                  52
+PASSCDAC CDAC 200 144721769                  53
+PASSCDAC CDAC 200 144716148                  54
+PASSCDAC CDAC 200 144718923                  55
+TCM addr corrupted: 0x24A10, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144836119                  56
+PASSCDAC CDAC 200 144714508                  57
+TCM addr corrupted: 0x23D70, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144818654                  58
+PASSCDAC CDAC 200 144697715                  59
+PASSCDAC CDAC 200 144699195                  60
+PASSCDAC CDAC 200 144693982                  61
+TCM addr corrupted: 0x22F50, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144854724                  62
+TCM addr corrupted: 0x24730, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x240D0, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144909442                  63
+PASSCDAC CDAC 200 144714510                  64
+PASSCDAC CDAC 200 144713188                  65
+PASSCDAC CDAC 200 144707287                  66
+PASSCDAC CDAC 200 144709950                  67
+PASSCDAC CDAC 200 144711662                  68
+PASSCDAC CDAC 200 144716338                  69
+PASSCDAC CDAC 200 144696537                  70
+PASSCDAC CDAC 200 144705841                  71
+PASSCDAC CDAC 200 144712967                  72
+PASSCDAC CDAC 200 144714998                  73
+PASSCDAC CDAC 200 144703256                  74
+PASSCDAC CDAC 200 144722302                  75
+PASSCDAC CDAC 200 144699729                  76
+PASSCDAC CDAC 200 144707103                  77
+PASSCDAC CDAC 200 144724125                  78
+PASSCDAC CDAC 200 144693931                  79
+PASSCTCM addr corrupted: 0x23D38, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+AC CDAC 200 144707770                  80
+TCM addr corrupted: 0x242A0, Bit Mask : 0x500 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 242a0
+2020-06-02 19:39:29 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:39:29 [INFO] Current Time  
+2020-06-02 19:39:29 [INFO] configuring board...
+2020-06-02 19:39:30 Current seed : 36
+2020-06-02 19:40:17 Increment seed to : 37
+TCM addr corrupted: 0x24E80, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 138357194                   0
+PASSCDAC CDAC 200 144711820                   1
+PASSCDAC CDAC 200 144726831                   2
+TCM addr corrupted: 0x24D10, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24AF0, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144940881                   3
+TCM addr corrupted: 0x24938, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144845360                   4
+PASSCDAC CDAC 200 144713909                   5
+PASSCDAC CDAC 200 144717860                   6
+PASSCDAC CDAC 200 144739424                   7
+2020-06-02 19:40:30 [INFO] Current Time  
+PASSCDAC CDAC 200 144705223                   8
+PASSCDAC CDAC 200 144717945                   9
+PASSCDAC CDAC 200 144718480                  10
+PASSCDAC CDAC 200 144736097                  11
+PASSCDAC CDAC 200 144700767                  12
+PASSCDAC CDAC 200 144698635                  13
+PASSCDAC CDAC 200 144726377                  14
+PASSCDAC CDAC 200 144706220                  15
+PASSCDAC CDAC 200 144713572                  16
+PASSCDAC CDAC 200 144702472                  17
+PASSCDAC CDAC 200 144720609                  18
+PASSCDAC CDAC 200 144720018                  19
+PASSCDAC CDAC 200 144692033                  20
+PASSCDAC CDAC 200 144723452                  21
+PASSCDAC CDAC 200 144723340                  22
+PASSCDAC CDAC 200 144716609                  23
+PASSCDAC CDAC 200 144722088                  24
+TCM addr corrupted: 0x24310, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144841972                  25
+PASSCDAC CDAC 200 144695117                  26
+PASSCDAC CDAC 200 144705888                  27
+PASSCDAC CDAC 200 144702850                  28
+PASSCDAC CDAC 200 144697973                  29
+PASSCDAC CDAC 200 144721041                  30
+PASSCDAC CDAC 200 144717222                  31
+PASSCDAC CDAC 200 144723998                  32
+PASSCDAC CDAC 200 144687434                  33
+PASSCDAC CDAC 200 144712031                  34
+PASSCDAC CDAC 200 144717771                  35
+PASSCDAC CDAC 200 144701684                  36
+PASSCDAC CDAC 200 144705022                  37
+PASSCDAC CDAC 200 144703422                  38
+TCM addr corrupted: 0x24F20, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144819365                  39
+PASSCDAC CDAC 200 144692385                  40
+PASSCDAC CDAC 200 144696124                  41
+PASSCDAC CDAC 200 144712696                  42
+PASSCDAC CDAC 200 144692733                  43
+PASSCDAC CDAC 200 144724200                  44
+PASSCDAC CDAC 200 144736937                  45
+PASSCDAC CDAC 200 144710485                  46
+PASSCDAC CDAC 200 144714954                  47
+PASSCDAC CDAC 200 144687386                  48
+PASSCDAC CDAC 200 144691693                  49
+2020-06-02 19:41:31 [INFO] Current Time  
+PASSCDAC CDAC 200 144702800                  50
+PASSCDAC CDAC 200 144692657                  51
+PASSCDAC CDAC 200 144724856                  52
+PASSCDAC CDAC 200 144691212                  53
+PASSCDAC CDAC 200 144708018                  54
+PASSCDAC CDAC 200 144717279                  55
+TCM addr corrupted: 0x23208, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144823599                  56
+PASSCDAC CDAC 200 144711128                  57
+PASSCDAC CDAC 200 144710554                  58
+TCM addr corrupted: 0x24040, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144824513                  59
+PASSCDAC CDAC 200 144692003                  60
+PASSCDAC CDAC 200 144717211                  61
+PASSCDAC CDAC 200 144730182                  62
+PASSCDAC CDAC 200 144701789                  63
+PASSCDAC CDAC 200 144725504                  64
+TCM addr corrupted: 0x23BA8, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144810225                  65
+PASSCDAC CDAC 200 144718081                  66
+PASSCDAC CDAC 200 144680088                  67
+PASSCDAC CDAC 200 144687228                  68
+PASSCDAC CDAC 200 144729800                  69
+PASSCDAC CDAC 200 144726555                  70
+PASSCDAC CDAC 200 144712462                  71
+PASSCDAC CDAC 200 144716738                  72
+PASSCDAC CDAC 200 144720964                  73
+PASSCDAC CDAC 200 144725548                  74
+PASSCDAC CDAC 200 144714608                  75
+PASSCDAC CDAC 200 144706512                  76
+PASSCDAC CDAC 200 144703156                  77
+PASSCDAC CDAC 200 144704479                  78
+PASSCDAC CDAC 200 144719286                  79
+PASSCDAC CDAC 200 144709642                  80
+PASSCDAC CDAC 200 144714713                  81
+PASSCDAC CDAC 200 144712444                  82
+TCM addr corrupted: 0x24C60, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144871567                  83
+PASSCDAC CDAC 200 144708191                  84
+PASSCDAC CDAC 200 144693336                  85
+PASSCDAC CDAC 200 144717815                  86
+PASSCDAC CDAC 200 144716558                  87
+PASSCDAC CDAC 200 144723598                  88
+PASSCDAC CDAC 200 144726387                  89
+PASSCDAC CDAC 200 144715630                  90
+TCM addr corrupted: 0x23260, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144836314                  91
+2020-06-02 19:42:33 [INFO] Current Time  
+PASSCDAC CDAC 200 144692040                  92
+TCM addr corrupted: 0x24AC8, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144807371                  93
+PASSCDAC CDAC 200 144712282                  94
+PASSCDAC CDAC 200 144716726                  95
+PASSCDAC CDAC 200 144719501                  96
+PASSCDAC CDAC 200 144718214                  97
+PASSCDAC CDAC 200 144712624                  98
+PASSCDAC CDAC 200 144714937                  99
+PASSCDAC CDAC 200 144694988                 100
+PASSCDAC CDAC 200 144713517                 101
+PASSCDAC CDAC 200 144708814                 102
+TCM addr corrupted: 0x243C8, Bit Mask : 0xC0400 ,Shift 0, bits corrupted: 3
+FAILCRC7F0B CDAC>>     Dumping RAMfile information to the log...
+       0
+    3970
+       0
+    4229
+       0
+    3978
+       0
+    4241
+       0
+    3985
+       0
+    4121
+       0
+    4005
+       0
+    4274
+       0
+    4018
+       0
+    4306
+       0
+    4050
+       0
+    4196
+       0
+    4217
+       0
+    4240
+       0
+    4138
+       0
+    4394
+       0
+    4165
+       0
+    4321
+       0
+    4225
+       0
+    4481
+       0
+    4258
+       0
+    4420
+       0
+    4330
+       0
+    4625
+       0
+    4410
+       0
+    4666
+       0
+    4498
+       0
+    4754
+       0
+    4594
+       0
+    4721
+       0
+    4645
+       0
+    4954
+       0
+    4753
+       0
+    4880
+       0
+    4869
+       0
+    5125
+       0
+    4993
+       0
+    5249
+       0
+    5125
+       0
+    5252
+       0
+    5392
+       0
+    5521
+       0
+    5338
+       0
+    5669
+       0
+    5777
+       0
+    5825
+       0
+    5945
+       0
+    6161
+       0
+    5994
+       0
+    6250
+       0
+    6400
+       0
+    6305
+       0
+    6469
+       0
+    6626
+       0
+    6905
+       0
+    6905
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       1
+       0
+  262144
+       0
+     780
+       0
+       1
+  262144
+1073741824
+       0
+     779
+       0
+       1
+2147483648
+1073741824
+       0
+     768
+       0
+       1
+3221225472
+536870912
+       0
+     784
+       0
+       1
+3758096384
+268435456
+       0
+     784
+       0
+       1
+4160749568
+16777216
+       0
+     784
+       0
+       1
+4177526784
+ 1048576
+       0
+     784
+       0
+       1
+4244635648
+16777216
+       0
+     784
+       0
+       1
+4261412864
+16777216
+       0
+     784
+       0
+       1
+4278190080
+16777216
+       0
+     784
+       0
+       1
+4294705152
+  262144
+       0
+     780
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+3270211331
+     436
+4294967292
+       0
+       4
+ 5291572
+       0
+       0
+       0
+       4
+       0
+       0
+       0
+       0
+ 5291572
+  168325
+  168363
+  168419
+  168455
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+       0
+ 5291992
+       0
+       0
+   65673
+ 5291992
+    1024
+>>      FFT test is finished
+TCM addr corrupted: 0x24220, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+2020-06-02 19:42:56 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:42:56 [INFO] configuring board...
+2020-06-02 19:42:57 Current seed : 37
+2020-06-02 19:43:41 Increment seed to : 38
+2020-06-02 19:43:41 [INFO] Current Time  
+PASSCDAC CDAC 200 136003897                   0
+TCM addr corrupted: 0x24558, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 139473089                   1
+PASSCDAC CDAC 200 144729757                   2
+TCM addr corrupted: 0x23050, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144802310                   3
+PASSCDAC CDAC 200 144727734                   4
+TCM addr corrupted: 0x249E8, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144821833                   5
+PASSCDAC CDAC 200 144708324                   6
+PASSCDAC CDAC 200 144722163                   7
+PASSCDAC CDAC 200 144723728                   8
+TCM addr corrupted: 0x23848, Bit Mask : 0x10000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144827550                   9
+PASSCDAC CDAC 200 144711844                  10
+PASSCDAC CDAC 200 144709253                  11
+PASSCDAC CDAC 200 144706527                  12
+PASSCDAC CDAC 200 144706854                  13
+PASSCDAC CDAC 200 144700220                  14
+PASSCDAC CDAC 200 144723973                  15
+PASSCDAC CDAC 200 144719109                  16
+PASSCDAC CDAC 200 144700438                  17
+PASSCDAC CDAC 200 144713749                  18
+PASSCDAC CDAC 200 144701858                  19
+PASSCDAC CDAC 200 144727996                  20
+TCM addr corrupted: 0x23B08, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144860276                  21
+PASSCDAC CDAC 200 144710788                  22
+PASSCDAC CDAC 200 144703599                  23
+PASSCDAC CDAC 200 144717353                  24
+PASSCDAC CDAC 200 144718063                  25
+PASSCDAC CDAC 200 144704795                  26
+PASSCDAC CDAC 200 144717648                  27
+TCM addr corrupted: 0x24770, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144817714                  28
+PASSCDAC CDAC 200 144702267                  29
+PASSCDAC CDAC 200 144718605                  30
+PASSCDAC CDAC 200 144722484                  31
+PASSCDAC CDAC 200 144715737                  32
+PASSCDAC CDAC 200 144680851                  33
+PASSCDAC CDAC 200 144715460                  34
+PASSCDAC CDAC 200 144703446                  35
+TCM addr corrupted: 0x24C48, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144799710                  36
+PASSCDAC CDAC 200 144707614                  37
+PASSCDAC CDAC 200 144707689                  38
+PASSCDAC CDAC 200 144699031                  39
+PASSCDAC CDAC 200 144709982                  40
+2020-06-02 19:44:43 [INFO] Current Time  
+PASSCDAC CDAC 200 144694592                  41
+TCM addr corrupted: 0x24CA0, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144861360                  42
+PASSCDAC CDAC 200 144710456                  43
+TCM addr corrupted: 0x24328, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144835401                  44
+PASSCDAC CDAC 200 144728830                  45
+PASSCDAC CDAC 200 144711632                  46
+PASSCDAC CDAC 200 144718928                  47
+PASSCDAC CDAC 200 144706877                  48
+PASSCDAC CDAC 200 144709885                  49
+PASSCDAC CDAC 200 144709267                  50
+PASSCDAC CDAC 200 144696530                  51
+TCM addr corrupted: 0x23990, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144808048                  52
+PASSCDAC CDAC 200 144711082                  53
+PASSCDAC CDAC 200 144713357                  54
+PASSCDAC CDAC 200 144703148                  55
+PASSCDAC CDAC 200 144721386                  56
+PASSCDAC CDAC 200 144725483                  57
+TCM addr corrupted: 0x239A8, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144831993                  58
+TCM addr corrupted: 0x23AF8, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144854463                  59
+PASSCDAC CDAC 200 144713699                  60
+PASSCDAC CDAC 200 144706932                  61
+PASSCDAC CDAC 200 144712500                  62
+PASSCDAC CDAC 200 144718058                  63
+PASSCDAC CDAC 200 144726996                  64
+TCM addr corrupted: 0x25078, Bit Mask : 0x84 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 25078
+Error: Timed Out polling for response
+2020-06-02 19:45:21 [INFO] configuring board...
+2020-06-02 19:45:22 Current seed : 38
+2020-06-02 19:46:04 Increment seed to : 39
+2020-06-02 19:46:04 [INFO] Current Time  
+PASSCDAC CDAC 200 136011222                   0
+PASSCDAC CDAC 200 136008502                   1
+PASSCDAC CDAC 200 136012649                   2
+PASSCDAC CDAC 200 136017017                   3
+PASSCDAC CDAC 200 136017975                   4
+PASSCDAC CDAC 200 136006980                   5
+TCM addr corrupted: 0x242C8, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24038, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 141534668                   6
+TCM addr corrupted: 0x23828, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144882986                   7
+PASSCDAC CDAC 200 144716120                   8
+PASSCDAC CDAC 200 144702857                   9
+PASSCDAC CDAC 200 144719104                  10
+PASSCDAC CDAC 200 144719306                  11
+PASSCDAC CDAC 200 144702758                  12
+TCM addr corrupted: 0x24958, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144821022                  13
+PASSCDAC CDAC 200 144723098                  14
+PASSCDAC CDAC 200 144712886                  15
+PASSCDAC CDAC 200 144715194                  16
+PASSCDAC CDAC 200 144697927                  17
+PASSCDAC CDAC 200 144713139                  18
+PASSCDAC CDAC 200 144724282                  19
+PASSCDAC CDAC 200 144702436                  20
+PASSCDAC CDAC 200 144718394                  21
+PASSCDAC CDAC 200 144717722                  22
+TCM addr corrupted: 0x22FC0, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144851488                  23
+PASSCDAC CDAC 200 144715358                  24
+PASSCDAC CDAC 200 144715758                  25
+PASSCDAC CDAC 200 144710653                  26
+PASSCDAC CDAC 200 144712788                  27
+PASSCDAC CDAC 200 144704562                  28
+PASSCDAC CDAC 200 144711460                  29
+TCM addr corrupted: 0x23450, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144852443                  30
+TCM addr corrupted: 0x23C48, Bit Mask : 0x240000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23c48
+2020-06-02 19:46:55 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:46:55 [INFO] configuring board...
+2020-06-02 19:46:56 Current seed : 39
+2020-06-02 19:47:39 Increment seed to : 40
+2020-06-02 19:47:39 [INFO] Current Time  
+PASSCDAC CDAC 200 136008071                   0
+PASSCDAC CDAC 200 136011382                   1
+TCM addr corrupted: 0x23A40, Bit Mask : 0x40020000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23a40
+2020-06-02 19:47:47 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:47:47 [INFO] configuring board...
+2020-06-02 19:47:48 Current seed : 40
+2020-06-02 19:48:32 Increment seed to : 41
+PASSCDAC CDAC 200 136014174                   0
+TCM addr corrupted: 0x239F0, Bit Mask : 0x840000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 239f0
+2020-06-02 19:48:38 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:48:38 [INFO] configuring board...
+2020-06-02 19:48:39 Current seed : 41
+2020-06-02 19:49:21 Increment seed to : 42
+2020-06-02 19:49:21 [INFO] Current Time  
+PASSCDAC CDAC 200 136013437                   0
+PASSCDAC CDAC 200 136008266                   1
+TCM addr corrupted: 0x23778, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144691151                   2
+TCM addr corrupted: 0x24348, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144795745                   3
+TCM addr corrupted: 0x24BC8, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144819990                   4
+PASSCDAC CDAC 200 144716072                   5
+PASSCDAC CDAC 200 144710456                   6
+PASSCDAC CDAC 200 144717462                   7
+PASSCDAC CDAC 200 144705904                   8
+PASSCDAC CDAC 200 144695775                   9
+PASSCDAC CDAC 200 144698483                  10
+PASSCDAC CDAC 200 144695741                  11
+PASSCDAC CDAC 200 144710007                  12
+PASSCDAC CDAC 200 144707113                  13
+PASSCDAC CDAC 200 144695838                  14
+PASSCDAC CDAC 200 144705887                  15
+PASSCDAC CDAC 200 144703177                  16
+PASSCDAC CDAC 200 144712079                  17
+PASSCDAC CDAC 200 144724218                  18
+PASSCDAC CDAC 200 144696241                  19
+PASSCDAC CDAC 200 144705781                  20
+PASSCDAC CDAC 200 144701902                  21
+PASSCDAC CDAC 200 144732013                  22
+PASSCDAC CDAC 200 144715401                  23
+TCM addr corrupted: 0x24238, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144861689                  24
+PASSCDAC CDAC 200 144705423                  25
+TCM addr corrupted: 0x24338, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144808577                  26
+PASSCDAC CDAC 200 144719660                  27
+PASSCDAC CDAC 200 144715698                  28
+PASSCDAC CDAC 200 144709939                  29
+PASSCDAC CDAC 200 144724175                  30
+TCM addr corrupted: 0x24BC0, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144811276                  31
+PASSCDAC CDAC 200 144690808                  32
+PASSCDAC CDAC 200 144722027                  33
+PASSCDAC CDAC 200 144682263                  34
+PASSCDAC CDAC 200 144686016                  35
+TCM addr corrupted: 0x231E8, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144886115                  36
+PASSCDAC CDAC 200 144714323                  37
+PASSCDAC CDAC 200 144715940                  38
+PASSCDAC CDAC 200 144701403                  39
+PASSCDAC CDAC 200 144703951                  40
+2020-06-02 19:50:23 [INFO] Current Time  
+PASSCDAC CDAC 200 144729680                  41
+PASSCDAC CDAC 200 144718396                  42
+TCM addr corrupted: 0x24A08, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144819968                  43
+PASSCDAC CDAC 200 144694773                  44
+PASSCDAC CDAC 200 144699883                  45
+TCM addr corrupted: 0x23138, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144860691                  46
+PASSCDAC CDAC 200 144712877                  47
+PASSCDAC CDAC 200 144739324                  48
+PASSCDAC CDAC 200 144716123                  49
+PASSCDAC CDAC 200 144710445                  50
+TCM addr corrupted: 0x23A78, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24B10, Bit Mask : 0x1040000 ,Shift 0, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24b10
+2020-06-02 19:50:42 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:50:42 [INFO] configuring board...
+2020-06-02 19:50:43 Current seed : 42
+2020-06-02 19:51:27 Increment seed to : 43
+2020-06-02 19:51:27 [INFO] Current Time  
+PASSCDAC CDAC 200 136009967                   0
+PASSCDAC CDAC 200 136011350                   1
+TCM addr corrupted: 0x250F0, Bit Mask : 0x240000 ,Shift 0, bits corrupted: 2
+TCM addr corrupted: 0x23538, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 250f0
+2020-06-02 19:51:36 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 19:51:36 [INFO] configuring board...
+2020-06-02 19:51:37 Current seed : 43
+2020-06-02 19:52:21 Increment seed to : 44
+PASSCDAC CDAC 200 136014357                   0
+PASSCDAC CDAC 200 136010563                   1
+PASSCDAC CDAC 200 136005652                   2
+PASSCDAC CDAC 200 136020626                   3
+2020-06-02 19:52:27 [INFO] Current Time  
+PASSCDAC CDAC 200 136004983                   4
+PASSCDAC CDAC 200 136014869                   5
+PASSCDAC CDAC 200 136013672                   6
+TCM addr corrupted: 0x23B90, Bit Mask : 0x82 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23b90
+Error: Timed Out polling for response
+2020-06-02 19:52:34 [INFO] configuring board...
+2020-06-02 19:52:35 Current seed : 44
+2020-06-02 19:53:17 Increment seed to : 45
+PASSCDAC CDAC 200 136013609                   0
+PASSCDAC CDAC 200 136011441                   1
+PASSCDAC CDAC 200 136013605                   2
+PASSCDAC CDAC 200 136011318                   3
+PASSCDAC CDAC 200 136009288                   4
+PASSCDAC CDAC 200 136015869                   5
+TCM addr corrupted: 0x24478, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 139410155                   6
+2020-06-02 19:53:28 [INFO] Current Time  
+PASSCDAC CDAC 200 144710355                   7
+PASSCDAC CDAC 200 144704748                   8
+TCM addr corrupted: 0x24400, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144870744                   9
+PASSCDAC CDAC 200 144714373                  10
+PASSCDAC CDAC 200 144715452                  11
+PASSCDAC CDAC 200 144723854                  12
+PASSCDAC CDAC 200 144717585                  13
+PASSCDAC CDAC 200 144707294                  14
+TCM addr corrupted: 0x24030, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144812481                  15
+TCM addr corrupted: 0x24858, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144805447                  16
+PASSCDAC CDAC 200 144725936                  17
+PASSCDAC CDAC 200 144698253                  18
+PASSCDAC CDAC 200 144707537                  19
+PASSCDAC CDAC 200 144701944                  20
+PASSCDAC CDAC 200 144706981                  21
+PASSCDAC CDAC 200 144705200                  22
+PASSCDAC CDAC 200 144700199                  23
+PASSCDAC CDAC 200 144727001                  24
+PASSCDAC CDAC 200 144711360                  25
+PASSCDAC CDAC 200 144717899                  26
+PASSCDAC CDAC 200 144701104                  27
+PASSCDAC CDAC 200 144709632                  28
+PASSCDAC CDAC 200 144706764                  29
+PASSCDAC CDAC 200 144709286                  30
+PASSCDAC CDAC 200 144717102                  31
+TCM addr corrupted: 0x23C98, Bit Mask : 0x1 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144798004                  32
+PASSCDAC CDAC 200 144712293                  33
+PASSCDAC CDAC 200 144722114                  34
+PASSCDAC CDAC 200 144712950                  35
+PASSCDAC CDAC 200 144705142                  36
+PASSCDAC CDAC 200 144710631                  37
+PASSCDAC CDAC 200 144714394                  38
+PASSCDAC CDAC 200 144703857                  39
+PASSCDAC CDAC 200 144711222                  40
+TCM addr corrupted: 0x24308, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144841606                  41
+PASSCDAC CDAC 200 144724215                  42
+PASSCDAC CDAC 200 144702590                  43
+PASSCDAC CDAC 200 144720621                  44
+PASSCDAC CDAC 200 144709030                  45
+PASSCDAC CDAC 200 144698142                  46
+PASSCDAC CDAC 200 144705923                  47
+PASSCDAC CDAC 200 144707119                  48
+2020-06-02 19:54:30 [INFO] Current Time  
+PASSCDAC CDAC 200 144710179                  49
+PASSCDAC CDAC 200 144708504                  50
+TCM addr corrupted: 0x24918, Bit Mask : 0x10000020 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 24918
+Error: Timed Out polling for response
+2020-06-02 19:54:33 [INFO] configuring board...
+2020-06-02 19:54:34 Current seed : 45
+2020-06-02 19:55:16 Increment seed to : 46
+PASSCDAC CDAC 200 136000517                   0
+PASSCDAC CDAC 200 136022655                   1
+PASSCDAC CDAC 200 136001765                   2
+PASSCDAC CDAC 200 136015302                   3
+PASSCDAC CDAC 200 136016998                   4
+PASSCDAC CDAC 200 136018362                   5
+PASSCDAC CDAC 200 136011954                   6
+PASSCDAC CDAC 200 136007477                   7
+PASSCDAC CDAC 200 136019971                   8
+TCM addr corrupted: 0x24220, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 143244585                   9
+2020-06-02 19:55:31 [INFO] Current Time  
+PASSCDAC CDAC 200 144716254                  10
+TCM addr corrupted: 0x250F0, Bit Mask : 0x1000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144867760                  11
+PASSCDAC CDAC 200 144719486                  12
+PASSCDAC CDAC 200 144706331                  13
+PASSCDAC CDAC 200 144710604                  14
+PASSCDAC CDAC 200 144704835                  15
+PASSCDAC CDAC 200 144714552                  16
+PASSCDAC CDAC 200 144716188                  17
+PASSCDAC CDAC 200 144707320                  18
+PASSCDAC CDAC 200 144718772                  19
+PASSCDAC CDAC 200 144708250                  20
+PASSCDAC CDAC 200 144722288                  21
+PASSCDAC CDAC 200 144710759                  22
+PASSCDAC CDAC 200 144702920                  23
+PASSCDAC CDAC 200 144721442                  24
+PASSCDAC CDAC 200 144723570                  25
+PASSCDAC CDAC 200 144715062                  26
+PASSCDAC CDAC 200 144713960                  27
+TCM addr corrupted: 0x24D70, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144859351                  28
+PASSCDAC CDAC 200 144708577                  29
+PASSCDAC CDAC 200 144699008                  30
+PASSCDAC CDAC 200 144700375                  31
+TCM addr corrupted: 0x23C90, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144827401                  32
+PASSCDAC CDAC 200 144721118                  33
+PASSCDAC CDAC 200 144711186                  34
+PASSCDAC CDAC 200 144723039                  35
+PASSCDAC CDAC 200 144711640                  36
+PASSCDAC CDAC 200 144718586                  37
+PASSCDAC CDAC 200 144700430                  38
+PASSCDAC CDAC 200 144722370                  39
+PASSCDAC CDAC 200 144703827                  40
+TCM addr corrupted: 0x24B28, Bit Mask : 0x100 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144837361                  41
+PASSCDAC CDAC 200 144712594                  42
+PASSCDAC CDAC 200 144697141                  43
+PASSCDAC CDAC 200 144721342                  44
+PASSCDAC CDAC 200 144707613                  45
+PASSCDAC CDAC 200 144716867                  46
+PASSCDAC CDAC 200 144705024                  47
+PASSCDAC CDAC 200 144726613                  48
+PASSCDAC CDAC 200 144704850                  49
+PASSCDAC CDAC 200 144709731                  50
+TCM addr corrupted: 0x22F38, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144804816                  51
+2020-06-02 19:56:32 [INFO] Current Time  
+TCM addr corrupted: 0x230C8, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144842191                  52
+PASSCDAC CDAC 200 144716970                  53
+PASSCDAC CDAC 200 144708724                  54
+PASSCDAC CDAC 200 144711353                  55
+PASSCDAC CDAC 200 144709554                  56
+PASSCDAC CDAC 200 144723748                  57
+PASSCDAC CDAC 200 144704191                  58
+PASSCDAC CDAC 200 144700944                  59
+TCM addr corrupted: 0x24808, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144848531                  60
+TCM addr corrupted: 0x24C50, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144836050                  61
+PASSCDAC CDAC 200 144718634                  62
+TCM addr corrupted: 0x24EA8, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144802287                  63
+PASSCDAC CDAC 200 144730148                  64
+PASSCDAC CDAC 200 144707444                  65
+PASSCDAC CDAC 200 144688148                  66
+PASSCDAC CDAC 200 144722483                  67
+PASSCDAC CDAC 200 144720333                  68
+PASSCDAC CDAC 200 144705286                  69
+PASSCDAC CDAC 200 144700873                  70
+PASSCDAC CDAC 200 144706002                  71
+PASSCDAC CDAC 200 144707186                  72
+PASSCDAC CDAC 200 144719729                  73
+TCM addr corrupted: 0x239E0, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x23688, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 145008511                  74
+PASSCDAC CDAC 200 144709752                  75
+PASSCDAC CDAC 200 144724673                  76
+PASSCDAC CDAC 200 144719235                  77
+TCM addr corrupted: 0x23128, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144868125                  78
+TCM addr corrupted: 0x23FF8, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144841659                  79
+PASSCDAC CDAC 200 144704871                  80
+PASSCDAC CDAC 200 144697392                  81
+PASSCDAC CDAC 200 144724223                  82
+PASSCDAC CDAC 200 144699393                  83
+PASSCDAC CDAC 200 144706795                  84
+PASSCDAC CDAC 200 144709079                  85
+PASSCDAC CDAC 200 144717291                  86
+TCM addr corrupted: 0x24928, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144867985                  87
+PASSCDAC CDAC 200 144734421                  88
+PASSCDAC CDAC 200 144714982                  89
+PASSCDAC CDAC 200 144705508                  90
+PASSCDAC CDAC 200 144695593                  91
+PASSCDAC CDAC 200 144709987                  92
+2020-06-02 19:57:32 [INFO] Current Time  
+PASSCDAC CDAC 200 144707649                  93
+PASSCDAC CDAC 200 144711084                  94
+PASSCDAC CDAC 200 144709609                  95
+PASSCDAC CDAC 200 144704540                  96
+PASSCDAC CDAC 200 144693432                  97
+PASSCDAC CDAC 200 144708601                  98
+PASSCDAC CDAC 200 144698931                  99
+PASSCDAC CDAC 200 144711751                 100
+PASSCDAC CDAC 200 144703536                 101
+PASSCDAC CDAC 200 144705755                 102
+PASSCDAC CDAC 200 144706321                 103
+PASSCDAC CDAC 200 144715015                 104
+PASSCDAC CDAC 200 144717666                 105
+PASSCDAC CDAC 200 144709680                 106
+PASSCDAC CDAC 200 144728364                 107
+TCM addr corrupted: 0x24258, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144801606                 108
+PASSCDAC CDAC 200 144714821                 109
+PASSCDAC CDAC 200 144731488                 110
+PASSCDAC CDAC 200 144705152                 111
+PASSCDAC CDAC 200 144718894                 112
+PASSCDAC CDAC 200 144723162                 113
+PASSCDAC CDAC 200 144724278                 114
+PASSCDAC CDAC 200 144710558                 115
+PASSCDAC CDAC 200 144714301                 116
+PASSCDAC CDAC 200 144703850                 117
+PASSCDAC CDAC 200 144693935                 118
+PASSCDAC CDAC 200 144706576                 119
+PASSCDAC CDAC 200 144707335                 120
+PASSCDAC CDAC 200 144702690                 121
+TCM addr corrupted: 0x23018, Bit Mask : 0x200000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144862927                 122
+PASSCDAC CDAC 200 144707152                 123
+PASSCDAC CDAC 200 144701930                 124
+PASSCDAC CDAC 200 144716497                 125
+PASSCDAC CDAC 200 144719217                 126
+PASSCDAC CDAC 200 144734144                 127
+TCM addr corrupted: 0x250D8, Bit Mask : 0x400 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24E58, Bit Mask : 0x8 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144927497                 128
+PASSCDAC CDAC 200 144702812                 129
+PASSCDAC CDAC 200 144720306                 130
+PASSCDAC CDAC 200 144722438                 131
+PASSCDAC CDAC 200 144724067                 132
+PASSCDAC CDAC 200 144714963                 133
+PASSCDAC CDAC 200 144705982                 134
+2020-06-02 19:58:33 [INFO] Current Time  
+PASSCDAC CDAC 200 144688148                 135
+TCM addr corrupted: 0x24548, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144848259                 136
+PASSCDAC CDAC 200 144713444                 137
+PASSCDAC CDAC 200 144734563                 138
+PASSCDAC CDAC 200 144714319                 139
+PASSCDAC CDAC 200 144705593                 140
+PASSCDAC CDAC 200 144692004                 141
+PASSCDAC CDAC 200 144700475                 142
+PASSCDAC CDAC 200 144716598                 143
+PASSCDAC CDAC 200 144701388                 144
+PASSCDAC CDAC 200 144705138                 145
+PASSCDAC CDAC 200 144718370                 146
+PASSCDAC CDAC 200 144712646                 147
+TCM addr corrupted: 0x24658, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144792900                 148
+PASSCDAC CDAC 200 144704402                 149
+PASSCDAC CDAC 200 144725940                 150
+TCM addr corrupted: 0x24B58, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144821102                 151
+PASSCDAC CDAC 200 144709092                 152
+PASSCDAC CDAC 200 144702569                 153
+PASSCDAC CDAC 200 144725962                 154
+PASSCDAC CDAC 200 144718648                 155
+PASSCDAC CDAC 200 144701684                 156
+PASSCDAC CDAC 200 144695034                 157
+PASSCDAC CDAC 200 144703089                 158
+PASSCDAC CDAC 200 144729199                 159
+PASSCDAC CDAC 200 144716533                 160
+TCM addr corrupted: 0x250D8, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144869686                 161
+PASSCDAC CDAC 200 144725204                 162
+PASSCDAC CDAC 200 144704780                 163
+PASSCDAC CDAC 200 144721903                 164
+TCM addr corrupted: 0x23F00, Bit Mask : 0x40000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144832926                 165
+PASSCDAC CDAC 200 144711156                 166
+PASSCDAC CDAC 200 144723575                 167
+PASSCDAC CDAC 200 144720198                 168
+PASSCDAC CDAC 200 144710961                 169
+PASSCDAC CDAC 200 144714430                 170
+PASSCDAC CDAC 200 144695785                 171
+PASSCDAC CDAC 200 144716479                 172
+TCM addr corrupted: 0x24748, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144833195                 173
+TCM addr corrupted: 0x23DA8, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144855500                 174
+PASSCDAC CDAC 200 144699844                 175
+PASSCDAC CDAC 200 144707346                 176
+2020-06-02 19:59:35 [INFO] Current Time  
+PASSCDAC CDAC 200 144719123                 177
+PASSCDAC CDAC 200 144698498                 178
+PASSCDAC CDAC 200 144708932                 179
+PASSCDAC CDAC 200 144723465                 180
+PASSCDAC CDAC 200 144743607                 181
+PASSCDAC CDAC 200 144714033                 182
+PASSCDAC CDAC 200 144696182                 183
+TCM addr corrupted: 0x23610, Bit Mask : 0x20000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144860606                 184
+TCM addr corrupted: 0x24590, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144846750                 185
+PASSCDAC CDAC 200 144702278                 186
+PASSCDAC CDAC 200 144733210                 187
+PASSCDAC CDAC 200 144701047                 188
+TCM addr corrupted: 0x23D58, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144835519                 189
+PASSCDAC CDAC 200 144704230                 190
+PASSCDAC CDAC 200 144698000                 191
+PASSCDAC CDAC 200 144708955                 192
+PASSCDAC CDAC 200 144713065                 193
+TCM addr corrupted: 0x23988, Bit Mask : 0x4000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144852295                 194
+TCM addr corrupted: 0x24FC0, Bit Mask : 0x2000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144858522                 195
+PASSCDAC CDAC 200 144707240                 196
+PASSCDAC CDAC 200 144711181                 197
+PASSCDAC CDAC 200 144696900                 198
+TCM addr corrupted: 0x23E90, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144836538                 199
+PASSCDAC CDAC 200 144722940                 200
+PASSCDAC CDAC 200 144703429                 201
+PASSCDAC CDAC 200 144696712                 202
+PASSCDAC CDAC 200 144720116                 203
+PASSCDAC CDAC 200 144718976                 204
+PASSCDAC CDAC 200 144723754                 205
+TCM addr corrupted: 0x232B0, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144813733                 206
+PASSCDAC CDAC 200 144697837                 207
+PASSCDAC CDAC 200 144695875                 208
+PASSCDAC CDAC 200 144708516                 209
+PASSCDAC CDAC 200 144721674                 210
+PASSCDAC CDAC 200 144713473                 211
+PASSCDAC CDAC 200 144693441                 212
+PASSCDAC CDAC 200 144720307                 213
+PASSCDAC CDAC 200 144722652                 214
+PASSCDAC CDAC 200 144728458                 215
+PASSCDAC CDAC 200 144716958                 216
+PASSCDAC CDAC 200 144708162                 217
+PASSCDAC CDAC 200 144709250                 218
+2020-06-02 20:00:35 [INFO] Current Time  
+TCM addr corrupted: 0x237A8, Bit Mask : 0x8000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144827547                 219
+TCM addr corrupted: 0x23598, Bit Mask : 0x20000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144849350                 220
+PASSCDAC CDAC 200 144717725                 221
+PASSCDAC CDAC 200 144713486                 222
+PASSCDAC CDAC 200 144721206                 223
+PASSCDAC CDAC 200 144699325                 224
+PASSCDAC CDAC 200 144715427                 225
+PASSCDAC CDAC 200 144718361                 226
+PASSCDAC CDAC 200 144703559                 227
+PASSCDAC CDAC 200 144718394                 228
+PASSCDAC CDAC 200 144711728                 229
+PASSCDAC CDAC 200 144709758                 230
+PASSCDAC CDAC 200 144704063                 231
+PASSCDAC CDAC 200 144683918                 232
+PASSCDAC CDAC 200 144697305                 233
+PASSCDAC CDAC 200 144702970                 234
+PASSCDAC CDAC 200 144700522                 235
+PASSCDAC CDAC 200 144718600                 236
+PASSCDAC CDAC 200 144711870                 237
+PASSCDAC CDAC 200 144714775                 238
+PASSCDAC CDAC 200 144710056                 239
+PASSCDAC CDAC 200 144721153                 240
+PASSCDAC CDAC 200 144708703                 241
+TCM addr corrupted: 0x24450, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144869573                 242
+PASSCDAC CDAC 200 144712782                 243
+PASSCDAC CDAC 200 144712033                 244
+PASSCDAC CDAC 200 144742112                 245
+TCM addr corrupted: 0x23C50, Bit Mask : 0x82 ,Shift 8, bits corrupted: 2
+Prefetch abort with Instruction Fault Status Register  409
+Address of Instruction causing Prefetch abort 23c50
+2020-06-02 20:01:21 [INFO]: Serial port not receiving any data from host... Resetting the board
+2020-06-02 20:01:21 [INFO] configuring board...
+2020-06-02 20:01:22 Current seed : 46
+2020-06-02 20:02:06 Increment seed to : 47
+2020-06-02 20:02:06 [INFO] Current Time  
+PASSCDAC CDAC 200 136011019                   0
+PASSCDAC CDAC 200 136012784                   1
+TCM addr corrupted: 0x24F98, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 141862438                   2
+PASSCDAC CDAC 200 144702817                   3
+TCM addr corrupted: 0x23540, Bit Mask : 0x10 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144829091                   4
+TCM addr corrupted: 0x240F0, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144866277                   5
+PASSCDAC CDAC 200 144721314                   6
+PASSCDAC CDAC 200 144713923                   7
+PASSCDAC CDAC 200 144723315                   8
+PASSCDAC CDAC 200 144712335                   9
+TCM addr corrupted: 0x24D58, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144800039                  10
+PASSCDAC CDAC 200 144695594                  11
+TCM addr corrupted: 0x23B10, Bit Mask : 0x8000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144858198                  12
+PASSCDAC CDAC 200 144720044                  13
+TCM addr corrupted: 0x23110, Bit Mask : 0x100000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144852059                  14
+PASSCDAC CDAC 200 144701703                  15
+PASSCDAC CDAC 200 144705487                  16
+PASSCDAC CDAC 200 144705596                  17
+PASSCDAC CDAC 200 144727027                  18
+TCM addr corrupted: 0x23698, Bit Mask : 0x2 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144786969                  19
+PASSCDAC CDAC 200 144709809                  20
+PASSCDAC CDAC 200 144731522                  21
+PASSCDAC CDAC 200 144713235                  22
+PASSCDAC CDAC 200 144706301                  23
+PASSCDAC CDAC 200 144725716                  24
+PASSCDAC CDAC 200 144714740                  25
+PASSCDAC CDAC 200 144689821                  26
+TCM addr corrupted: 0x242F8, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144831335                  27
+PASSCDAC CDAC 200 144712941                  28
+PASSCDAC CDAC 200 144707231                  29
+PASSCDAC CDAC 200 144721679                  30
+PASSCDAC CDAC 200 144703487                  31
+PASSCDAC CDAC 200 144715910                  32
+TCM addr corrupted: 0x23DC0, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144831409                  33
+TCM addr corrupted: 0x24CD0, Bit Mask : 0x4000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144828432                  34
+PASSCDAC CDAC 200 144713775                  35
+PASSCDAC CDAC 200 144698111                  36
+PASSCDAC CDAC 200 144713505                  37
+PASSCDAC CDAC 200 144693758                  38
+PASSCDAC CDAC 200 144724222                  39
+PASSCDAC CDAC 200 144715023                  40
+2020-06-02 20:03:07 [INFO] Current Time  
+PASSCDAC CDAC 200 144689832                  41
+PASSCDAC CDAC 200 144697766                  42
+PASSCDAC CDAC 200 144710536                  43
+PASSCDAC CDAC 200 144730911                  44
+PASSCDAC CDAC 200 144718303                  45
+PASSCDAC CDAC 200 144704180                  46
+PASSCDAC CDAC 200 144692622                  47
+TCM addr corrupted: 0x236F0, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+TCM addr corrupted: 0x24EC0, Bit Mask : 0x40 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144947381                  48
+PASSCDAC CDAC 200 144705913                  49
+PASSCDAC CDAC 200 144703884                  50
+PASSCDAC CDAC 200 144709239                  51
+PASSCDAC CDAC 200 144705470                  52
+PASSCDAC CDAC 200 144725723                  53
+PASSCDAC CDAC 200 144703472                  54
+PASSCDAC CDAC 200 144706849                  55
+TCM addr corrupted: 0x242F8, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144845261                  56
+PASSCDAC CDAC 200 144707778                  57
+PASSCDAC CDAC 200 144711682                  58
+PASSCDAC CDAC 200 144704923                  59
+PASSCDAC CDAC 200 144709175                  60
+PASSCDAC CDAC 200 144706823                  61
+TCM addr corrupted: 0x235B0, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144839810                  62
+PASSCDAC CDAC 200 144713376                  63
+PASSCDAC CDAC 200 144704051                  64
+PASSCDAC CDAC 200 144723497                  65
+PASSCDAC CDAC 200 144712072                  66
+PASSCDAC CDAC 200 144703806                  67
+PASSCDAC CDAC 200 144712997                  68
+TCM addr corrupted: 0x23318, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144827432                  69
+PASSCDAC CDAC 200 144721657                  70
+PASSCDAC CDAC 200 144708353                  71
+PASSCDAC CDAC 200 144687089                  72
+PASSCDAC CDAC 200 144732923                  73
+PASSCDAC CDAC 200 144721205                  74
+PASSCDAC CDAC 200 144704780                  75
+PASSCDAC CDAC 200 144712801                  76
+PASSCDAC CDAC 200 144719343                  77
+TCM addr corrupted: 0x24260, Bit Mask : 0x800 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144838383                  78
+PASSCDAC CDAC 200 144729507                  79
+PASSCDAC CDAC 200 144726865                  80
+TCM addr corrupted: 0x24380, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144871349                  81
+PASSCDAC CDAC 200 144710250                  82
+2020-06-02 20:04:08 [INFO] Current Time  
+PASSCDAC CDAC 200 144714780                  83
+PASSCDAC CDAC 200 144718697                  84
+PASSCDAC CDAC 200 144701326                  85
+PASSCDAC CDAC 200 144705937                  86
+PASSCDAC CDAC 200 144723084                  87
+PASSCDAC CDAC 200 144721551                  88
+TCM addr corrupted: 0x243D8, Bit Mask : 0x1000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144837863                  89
+TCM addr corrupted: 0x244F0, Bit Mask : 0x40000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144875377                  90
+PASSCDAC CDAC 200 144711871                  91
+PASSCDAC CDAC 200 144724401                  92
+TCM addr corrupted: 0x24DE8, Bit Mask : 0x4 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144783369                  93
+PASSCDAC CDAC 200 144719763                  94
+PASSCDAC CDAC 200 144715156                  95
+PASSCDAC CDAC 200 144717135                  96
+PASSCDAC CDAC 200 144728647                  97
+PASSCDAC CDAC 200 144711025                  98
+PASSCDAC CDAC 200 144724302                  99
+PASSCDAC CDAC 200 144720482                 100
+TCM addr corrupted: 0x23BF8, Bit Mask : 0x20 ,Shift 8, bits corrupted: 1
+TCM addr corrupted: 0x22EC0, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144913503                 101
+PASSCDAC CDAC 200 144700929                 102
+TCM addr corrupted: 0x23818, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144838915                 103
+PASSCDAC CDAC 200 144720110                 104
+PASSCDAC CDAC 200 144700723                 105
+PASSCDAC CDAC 200 144708604                 106
+PASSCDAC CDAC 200 144704470                 107
+PASSCDAC CDAC 200 144707785                 108
+PASSCDAC CDAC 200 144725819                 109
+PASSCDAC CDAC 200 144702536                 110
+PASSCDAC CDAC 200 144712698                 111
+PASSCDAC CDAC 200 144716514                 112
+PASSCDAC CDAC 200 144710697                 113
+PASSCDAC CDAC 200 144700289                 114
+PASSCDAC CDAC 200 144684298                 115
+PASSCDAC CDAC 200 144708537                 116
+PASSCDAC CDAC 200 144707149                 117
+TCM addr corrupted: 0x24F88, Bit Mask : 0x80000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144836402                 118
+PASSCDAC CDAC 200 144712125                 119
+TCM addr corrupted: 0x23910, Bit Mask : 0x400000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144848438                 120
+PASSCDAC CDAC 200 144697374                 121
+PASSCDAC CDAC 200 144721533                 122
+PASSCDAC CDAC 200 144699240                 123
+PASSCDAC CDAC 200 144716226                 124
+2020-06-02 20:05:10 [INFO] Current Time  
+PASSCDAC CDAC 200 144718680                 125
+PASSCDAC CDAC 200 144703014                 126
+TCM addr corrupted: 0x23AB8, Bit Mask : 0x10000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144856151                 127
+PASSCDAC CDAC 200 144713995                 128
+PASSCDAC CDAC 200 144688713                 129
+PASSCDAC CDAC 200 144723136                 130
+PASSCDAC CDAC 200 144721514                 131
+PASSCDAC CDAC 200 144711586                 132
+PASSCDAC CDAC 200 144727175                 133
+PASSCDAC CDAC 200 144713628                 134
+TCM addr corrupted: 0x249F8, Bit Mask : 0x200 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144816744                 135
+PASSCDAC CDAC 200 144738131                 136
+PASSCDAC CDAC 200 144702269                 137
+TCM addr corrupted: 0x235D8, Bit Mask : 0x2000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144817588                 138
+PASSCDAC CDAC 200 144708464                 139
+PASSCDAC CDAC 200 144711937                 140
+PASSCDAC CDAC 200 144724380                 141
+PASSCDAC CDAC 200 144707806                 142
+PASSCDAC CDAC 200 144709813                 143
+PASSCDAC CDAC 200 144706083                 144
+TCM addr corrupted: 0x23238, Bit Mask : 0x800000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144862850                 145
+PASSCDAC CDAC 200 144707079                 146
+PASSCDAC CDAC 200 144715294                 147
+PASSCDAC CDAC 200 144737850                 148
+PASSCDAC CDAC 200 144697200                 149
+PASSCDAC CDAC 200 144724032                 150
+PASSCDAC CDAC 200 144718048                 151
+PASSCDAC CDAC 200 144719633                 152
+TCM addr corrupted: 0x23170, Bit Mask : 0x80000000 ,Shift 0, bits corrupted: 1
+PASSCDAC CDAC 200 144867483                 153
+TCM addr corrupted: 0x24C90, Bit Mask : 0x80 ,Shift 8, bits corrupted: 1
+PASSCDAC CDAC 200 144827370                 154
+PASSCDAC CDAC 200 144716824                 155
+PASSCDAC CDAC 200 144714437                 156
+PASSCDAC CDAC 200 144719825                 157
+PASSCDAC CDAC 200 144708094                 158
+PASSCDAC CDAC 200 144695904                 159
+PASSCDAC CDAC 200 144705050                 160
+2020-06-02 20:06:02 [INFO] Change kernel 
+2020-06-02 20:06:03 [INFO] Kernel before change :aifftr01
+2020-06-02 20:06:03 [INFO] Increment Kernel pointer...
