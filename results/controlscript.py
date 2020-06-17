@@ -37,7 +37,7 @@ name of kernel is out of the 16 kernels
 #########################################################################################
 # Global Variables
 #########################################################################################
-proj_p = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+proj_p      = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log_outf    = None      # log file instance
 ser         = None      # serial port instance
 msg         = ""        # string that buffers messages from 
