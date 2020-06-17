@@ -26,7 +26,7 @@ MEMORY
    psu_ocm_ram_0_MEM_0 : ORIGIN = 0xFFFC0000, LENGTH = 0x40000
    psu_r5_0_atcm_MEM_0 : ORIGIN = 0x0, LENGTH = 0x10000
    psu_r5_0_btcm_MEM_0 : ORIGIN = 0x20000, LENGTH = 0x10000
-   psu_r5_ddr_0_MEM_0 : ORIGIN = 0x100000, LENGTH = 0x7FE00000
+   psu_r5_ddr_0_MEM_0 : ORIGIN = 0x100000, LENGTH = 0xF00000
    psu_r5_tcm_ram_0_MEM_0 : ORIGIN = 0x0, LENGTH = 0x40000
 }
 
@@ -35,6 +35,7 @@ MEMORY
 ENTRY(_boot)
 
 /* Define the sections, and where they are mapped in memory */
+/* Adding OCM section for error injection */
 
 SECTIONS
 {
@@ -114,6 +115,13 @@ SECTIONS
    *(.got.plt)
    __data_end = .;
 } > psu_r5_ddr_0_MEM_0
+
+.ocm : {
+   __ocm_start = .;
+   *(.ocm)
+   *(.ocm.*)
+   __ocm_end = .;
+} > psu_ocm_ram_0_MEM_0
 
 .data1 : {
    __data1_start = .;
@@ -299,4 +307,3 @@ _end = .;
 __end__ = _end;
 end = _end;
 }
-

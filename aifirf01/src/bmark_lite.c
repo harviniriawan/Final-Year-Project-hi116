@@ -103,6 +103,7 @@
 #include "xscugic.h"
 #include "xipipsu.h"
 #include "xipipsu_hw.h"
+#include "xil_cache.h"
 
 #define ALGO_GLOBALS    1   /* Next time, we'll skip these */
 #include "algo.h"
@@ -119,7 +120,7 @@
 /* Time out parameter while polling for response */
 #define TIMEOUT_COUNT 10000
 /* Uncomment this define when running test with ECC */
-#define NO_ECC
+/*#define NO_ECC*/
 /* Uncomment this define to listen for injection from R5_1 */
 #define LISTEN_A53
 
@@ -127,7 +128,7 @@ XScuGic GicInst;
 XIpiPsu IpiInst;
 
 /* Buffers to store message from the other core */
-static u32 TmpBufPtr[TEST_MSG_LEN] = { 0 };
+static u32 __attribute__((section(".ocm"))) TmpBufPtr[TEST_MSG_LEN] = {0};
 
 /* ======================================================================== */
 /*         F U N C T I O N   P R O T O T Y P E S                            */
@@ -910,22 +911,7 @@ n_int benchIter;
 int main(int argc, const char* argv[] )
 {
     init_platform();
-#ifdef NO_ECC
-/*Turn off ECC Check and correction if NO_ECC*/
-    asm volatile("MRC p15,0,r0,c1,c0\n\t"
-    "BIC r0,r0,#0x0E000000\n\t"
-    "MCR p15,0,r0,c1,c0,1\n\t"
-    "DMB\n\t"
-    "DSB\n\t"
-    "ISB\n\t");
-
-    asm volatile("MRC p15,0,r0,c15,c0,0\n\t"
-    "ORR r0,r0,#0xC\n\t"
-    "MCR p15,0,r0,c15,c0,0\n\t"
-    "DMB\n\t"
-    "DSB\n\t"
-    "ISB\n\t");
-#endif
+/* */
     XIpiPsu_Config *CfgPtr;
 
     int Status = XST_FAILURE;
@@ -1052,7 +1038,7 @@ void IpiIntrHandler(void *XIpiPsuPtr)
             XIpiPsu_ReadMessage(InstancePtr,XPAR_XIPIPS_TARGET_PSU_CORTEXR5_1_CH0_MASK, TmpBufPtr,
                     TEST_MSG_LEN, XIPIPSU_BUF_TYPE_MSG);
 #endif
-
+            Xil_DCacheFlush();
             corrupt_tcm(TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2]);
             xil_printf("TCM addr corrupted: 0x%x\r\n, Bit Mask : 0x%x ,Shift %d, bits corrupted: %d\r\n",TmpBufPtr[0],TmpBufPtr[1],TmpBufPtr[2],TmpBufPtr[3]);
 

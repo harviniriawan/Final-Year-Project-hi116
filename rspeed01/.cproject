@@ -28,11 +28,11 @@
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1954508855" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
 									<listOptionValue builtIn="false" value="../../benchmark_bsp/psu_cortexr5_0/include"/>
 								</option>
-								<option id="xilinx.gnu.compiler.misc.other.1341226782" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16" valueType="string"/>
+								<option id="xilinx.gnu.compiler.misc.other.1341226782" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ffunction-sections" valueType="string"/>
 								<option id="xilinx.gnu.compiler.symbols.defined.1309650585" name="Defined symbols (-D)" superClass="xilinx.gnu.compiler.symbols.defined" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARMR5"/>
 								</option>
-								<option id="xilinx.gnu.compiler.dircategory.includes.34741009" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes" valueType="includePath"/>
+								<option id="xilinx.gnu.compiler.dircategory.includes.34741009" name="Include Paths" superClass="xilinx.gnu.compiler.dircategory.includes"/>
 								<inputType id="xilinx.gnu.arm.r5.c.compiler.input.72856982" name="C source files" superClass="xilinx.gnu.arm.r5.c.compiler.input"/>
 							</tool>
 							<tool id="xilinx.gnu.arm.r5.cxx.toolchain.compiler.debug.2012914036" name="ARM R5 g++ compiler" superClass="xilinx.gnu.arm.r5.cxx.toolchain.compiler.debug">
@@ -51,8 +51,8 @@
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--end-group"/>
 								</option>
 								<option id="xilinx.gnu.c.linker.option.lscript.731294545" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
-								<option id="xilinx.gnu.c.link.option.ldflags.1827415081" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 --specs=nano.specs" valueType="string"/>
-								<option id="xilinx.gnu.c.link.option.paths.1830090848" name="Library search path (-L)" superClass="xilinx.gnu.c.link.option.paths" valueType="libPaths"/>
+								<option id="xilinx.gnu.c.link.option.ldflags.1827415081" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 --specs=nano.specs -ffunction-sections" valueType="string"/>
+								<option id="xilinx.gnu.c.link.option.paths.1830090848" name="Library search path (-L)" superClass="xilinx.gnu.c.link.option.paths"/>
 								<inputType id="xilinx.gnu.linker.input.1393625821" superClass="xilinx.gnu.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>

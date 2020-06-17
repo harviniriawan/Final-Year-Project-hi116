@@ -10,8 +10,8 @@
 /*                                                                 */
 /*******************************************************************/
 
-_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x2000;
-_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x2000;
+_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x4000;
+_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x400000;
 
 _ABORT_STACK_SIZE = DEFINED(_ABORT_STACK_SIZE) ? _ABORT_STACK_SIZE : 1024;
 _SUPERVISOR_STACK_SIZE = DEFINED(_SUPERVISOR_STACK_SIZE) ? _SUPERVISOR_STACK_SIZE : 2048;
@@ -35,6 +35,7 @@ MEMORY
 ENTRY(_boot)
 
 /* Define the sections, and where they are mapped in memory */
+/* Adding OCM section for error injection */
 
 SECTIONS
 {
@@ -114,6 +115,12 @@ SECTIONS
    *(.got.plt)
    __data_end = .;
 } > psu_r5_ddr_0_MEM_0
+
+.ocm : {
+   __ocm_start = .;
+   *(.data)
+   __ocm_end = .;
+} > psu_ocm_ram_0_MEM_0
 
 .data1 : {
    __data1_start = .;
@@ -296,5 +303,6 @@ _SDA2_BASE_ = __sdata2_start + ((__sbss2_end - __sdata2_start) / 2 );
 } > psu_r5_ddr_0_MEM_0
 
 _end = .;
+__end__ = _end;
+end = _end;
 }
-

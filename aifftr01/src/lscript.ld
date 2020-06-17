@@ -35,6 +35,7 @@ MEMORY
 ENTRY(_boot)
 
 /* Define the sections, and where they are mapped in memory */
+/* Adding OCM section for error injection */
 
 SECTIONS
 {
@@ -114,6 +115,12 @@ SECTIONS
    *(.got.plt)
    __data_end = .;
 } > psu_r5_ddr_0_MEM_0
+
+.ocm : {
+   __ocm_start = .;
+   *(.data)
+   __ocm_end = .;
+} > psu_ocm_ram_0_MEM_0
 
 .data1 : {
    __data1_start = .;
@@ -296,5 +303,6 @@ _SDA2_BASE_ = __sdata2_start + ((__sbss2_end - __sdata2_start) / 2 );
 } > psu_r5_ddr_0_MEM_0
 
 _end = .;
+__end__ = _end;
+end = _end;
 }
-

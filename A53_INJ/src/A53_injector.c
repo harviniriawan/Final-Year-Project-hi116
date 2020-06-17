@@ -17,21 +17,23 @@
 /* Interrupt Controller device ID */
 #define INTC_DEVICE_ID	XPAR_SCUGIC_0_DEVICE_ID
 /* Time out parameter while polling for response */
-#define TIMEOUT_COUNT 500000
+#define TIMEOUT_COUNT 1000000
 #define BTCM_START 0x20000
 #define BTCM_LENGTH 0x10000
 /* Sampling period of error injection */
 /* Every SAMPLE_PERIOD, decide whether to do injection or not */
-#define SAMPLE_PERIOD 1000000
-#define UPPER_LIM 100000
+/*Default: Sample per 1 second*/
+#define SAMPLE_PERIOD 100000
+#define UPPER_LIM 1000000
 
-#define THREE_BITS_ERROR_TH 0.00001f
-#define TWO_BITS_ERROR_TH 0.001f
-#define ONE_BITS_ERROR_TH 0.1f
+/*Default number from FIT Dony's report*/
+#define THREE_BITS_ERROR_TH 0.00011f
+#define TWO_BITS_ERROR_TH 0.00125f
+#define ONE_BITS_ERROR_TH 0.0125f
 
 /* Change for every benchmark */
-#define BENCH_START 0x2b0
-#define BENCH_END 0xfac
+#define BENCH_START 0x2e40
+#define BENCH_END 0x4b74
 
 XScuGic GicInst;
 XIpiPsu IpiInst;
@@ -47,7 +49,7 @@ u32 get_number_of_ones(u32 num);
 u32 bits_to_shift(u32 mask);
 int uniform_distribution(int rangeLow, int rangeHigh);
 
-int main()
+int main(int argc, const char* argv[])
 {
     init_platform();
 
@@ -73,7 +75,7 @@ int main()
 
 	/* Call the test routine */
 	xil_printf("Seed is : %s\r\n",__TIME__);
-	srand(__TIME__);
+	srand(0);
 	u32 mask;
 	u32 tempMask;
 	u32 byteCorr;

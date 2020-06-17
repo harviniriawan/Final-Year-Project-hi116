@@ -28,7 +28,7 @@
 								<option id="xilinx.gnu.compiler.inferred.swplatform.includes.1441695375" name="Software Platform Include Path" superClass="xilinx.gnu.compiler.inferred.swplatform.includes" valueType="includePath">
 									<listOptionValue builtIn="false" value="../../benchmark_bsp/psu_cortexr5_0/include"/>
 								</option>
-								<option id="xilinx.gnu.compiler.misc.other.1392055017" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-x c -c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16" valueType="string"/>
+								<option id="xilinx.gnu.compiler.misc.other.1392055017" name="Other flags" superClass="xilinx.gnu.compiler.misc.other" value="-x c -c -fmessage-length=0 -MT&quot;$@&quot; -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -ffunction-sections" valueType="string"/>
 								<option id="xilinx.gnu.compiler.symbols.defined.1589739056" name="Defined symbols (-D)" superClass="xilinx.gnu.compiler.symbols.defined" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="ARMR5"/>
 								</option>
@@ -50,7 +50,7 @@
 									<listOptionValue builtIn="false" value="-Wl,--start-group,-lxil,-lgcc,-lc,--omagic,--end-group"/>
 								</option>
 								<option id="xilinx.gnu.c.linker.option.lscript.1450380042" name="Linker Script" superClass="xilinx.gnu.c.linker.option.lscript" value="../src/lscript.ld" valueType="string"/>
-								<option id="xilinx.gnu.c.link.option.ldflags.473995835" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16" valueType="string"/>
+								<option id="xilinx.gnu.c.link.option.ldflags.473995835" name="Linker Flags" superClass="xilinx.gnu.c.link.option.ldflags" value=" -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16 --specs=nano.specs -ffunction-sections" valueType="string"/>
 								<option id="xilinx.gnu.c.link.option.nodeflibs.411179124" name="Do not use default libraries (-nodefaultlibs)" superClass="xilinx.gnu.c.link.option.nodeflibs" value="true" valueType="boolean"/>
 								<inputType id="xilinx.gnu.linker.input.2003345589" superClass="xilinx.gnu.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
