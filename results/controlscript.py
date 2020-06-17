@@ -13,26 +13,6 @@ import win32com.client as win32
 from tempfile import mkstemp
 from shutil import move, copymode
 from os import fdopen, remove
-"""
-Script flow:
-Create a log textfile
-
-RUN XSCT with the appropriate init_script.tcl, run the device until breakpoint in main
-
-Open serial port, wait until init_script.tcl is finished, then send readFromSerial and
-RunProgram thread at the same time
-
-If exit_loop is reached, the task is therefore finished 
-
-python controlscript.py no_ecc_feb.txt split ecc_off pmu_off
-
-either ecc_on or ecc_off
-either split or lock
-either pmu_on or pmu_off
-name of kernel is out of the 16 kernels
-
-"""
-
 
 #########################################################################################
 # Global Variables
@@ -48,7 +28,7 @@ tcl_scr_p   = os.path.join(proj_p,tcl_script)
 A53_inj_p   = os.path.join(proj_p,'A53_INJ\\src\\A53_injector.c')
 build_k_p   = os.path.join(proj_p,build_scr)
 board       = None
-rseed       = 0         # initialise random seed
+rseed       = 0 # initialise random seed
 kernels     = ['a2time01','canrdr01','aifftr01','aiifft01',\
                'aifirf01', 'basefp01', 'bitmnp01',\
                'cacheb01', 'idctrn01','iirflt01', 'matrix01', 'pntrch01',\
@@ -57,7 +37,6 @@ kernels     = ['a2time01','canrdr01','aifftr01','aiifft01',\
 curr_kernel = 0
 
 num_reset = 0
-changeK = 40  # Set the time change between kernel
 mainLoop = True
 
 ########################################################################################
@@ -66,9 +45,10 @@ mainLoop = True
 xsct_p        = r'C:\Xilinx\SDK\2019.1\bin\xsct.bat'
 arduino_sport = 'COM7'
 u96_sport     = 'COM10'
-file_suffix   = 'ako'
+file_suffix   = 'TCM_ECC' # deterimne the log file suffix, change according to hardware configuration
 reset_pin     = 13
 power_pin     = 12
+changeK       = 40  # Set the time change between kernel (in minutes)
 
 # These are the end of t_run_test() function read from the .ELF files compiled
 kernels_end = ['0x4b74', '0x3dec', '0x5100', '0x4ca0',\
@@ -116,7 +96,6 @@ def buildKernel():
   global xsct_p
   global proj_p
   global build_k_p
-  print (proj_p)
   ret_value=subprocess.check_call([xsct_p, build_k_p, kernels[curr_kernel], proj_p])
 
 def resetAndRunDevice():
@@ -126,6 +105,7 @@ def resetAndRunDevice():
   global xsct_p
   global tcl_scr_p
   global proj_p
+  global num_reset
   writeLogs(getTime() + " [INFO] configuring board...\n")
   push_reset()
   writeLogs(getTime() + " Current seed : " + str(rseed) + "\n")
@@ -134,6 +114,7 @@ def resetAndRunDevice():
   print("Ret Value is: " +str(ret_value))
   rseed = rseed + 1
   writeLogs(getTime() + " Increment seed to : " + str(rseed) + "\n")
+  num_reset = num_reset + 1 # Find out roughly how many resets has occurred
   ser.flush() # Flush serial port before changing kernel
   ser.reset_input_buffer()
   ser.reset_output_buffer()
@@ -200,7 +181,6 @@ def readByteFromSerial():
 
 def readSerial():
   global ser_loop
-  global num_reset
   while (ser_loop == 1):
     try:
       schedule.run_pending()   # Check if kernel needs to be changed
@@ -210,7 +190,6 @@ def readSerial():
       ser.close()
 
   print(getTime() + " Out of readSerial while loop...")
-  num_reset = num_reset + 1 # Find out roughly how many resets has occurred
   writeLogs(getTime() + " [INFO]: Serial port not receiving any data from host... Resetting the board\n")
   return
 
@@ -308,7 +287,6 @@ def main():
 ##############################################################################################
 # Function Execution
 ##############################################################################################
-
 buildKernel()
 main()
 push_power(10)
