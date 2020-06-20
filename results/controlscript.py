@@ -43,6 +43,7 @@ mainLoop = True
 # User specific variable
 ########################################################################################
 xsct_p        = r'C:\Xilinx\SDK\2019.1\bin\xsct.bat'
+xilinx_p      = r'C:\Xilinx\SDK\2019.1'
 arduino_sport = 'COM7'
 u96_sport     = 'COM10'
 file_suffix   = 'TCM_ECC' # deterimne the log file suffix, change according to hardware configuration
@@ -106,11 +107,12 @@ def resetAndRunDevice():
   global tcl_scr_p
   global proj_p
   global num_reset
+  global xilinx_p
   writeLogs(getTime() + " [INFO] configuring board...\n")
   push_reset()
   writeLogs(getTime() + " Current seed : " + str(rseed) + "\n")
   replace(A53_inj_p,'srand(' + str(rseed),'srand('+ str(rseed+1))
-  ret_value=subprocess.check_call([xsct_p, tcl_scr_p, kernels[curr_kernel], proj_p])
+  ret_value=subprocess.check_call([xsct_p, tcl_scr_p, kernels[curr_kernel], proj_p, xilinx_p])
   print("Ret Value is: " +str(ret_value))
   rseed = rseed + 1
   writeLogs(getTime() + " Increment seed to : " + str(rseed) + "\n")
